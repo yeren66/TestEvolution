@@ -18,3 +18,5 @@ git show [commit hash]:[file_path]，获取当前版本修改前的该路径的�
 
 git show [commit hash] -- [file_path]，获取当前版本有关该路径文件内容的修改记录
 ```
+
+更新：目前解决了获取修改前后代码文件的问题，以Java为例，处理了出来了一部分的正负样本内容。

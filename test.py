@@ -48,7 +48,9 @@ def get_commit_changes(commit_hash, project_path):
 
 # 示例使用
 current_path = os.getcwd()
-project_path = '/home/yeren/java-project/Java'  # 替换为你的Java项目路径
+# project_path = '/home/yeren/java-project/Java'  # omen
+project_path = "/Users/mac/Desktop/Java"  # mac
+
 commit_hash = '05ca93eace893a75e886a19739778a67bd3a18bc'  # 替换为实际的commit哈希值
 changes = get_commit_changes(commit_hash, project_path)
 

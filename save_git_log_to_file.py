@@ -33,10 +33,11 @@ def save_git_log_to_file(repo_path, file_path):
 if __name__ == "__main__":
 
     # Java项目的路径
-    java_project_path = "/home/yeren/java-project/Java"  # 替换为你的Java项目路径
+    # java_project_path = "/home/yeren/java-project/Java"  # omen
+    java_project_path = "/Users/mac/Desktop/Java"  # mac
 
     # 输出文件的路径
-    output_file_path = "git_log.txt"
+    output_file_path = "git_log_mac.txt"
 
     # 调用函数
     log_text = save_git_log_to_file(java_project_path, output_file_path)

@@ -57,14 +57,14 @@ def parse_git_log(file_path):
     return commits
 
 # 解析日志文件
-log_file_path = 'git_log.txt'
+log_file_path = 'git_log_mac.txt'
 parsed_commits = parse_git_log(log_file_path)
 
 # 转换为JSON
 json_output = json.dumps(parsed_commits, indent=4)
 
 # 输出到JSON文件
-output_json_path = 'parsed_git_log.json'
+output_json_path = 'parsed_git_log_mac.json'
 with open(output_json_path, 'w') as json_file:
     json_file.write(json_output)
 
