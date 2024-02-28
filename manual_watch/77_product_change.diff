@@ -1,0 +1,8 @@
+--- 
++++ 
+@@ -125,5 +125,4 @@
+         return new ChromosomePair(first.newFixedLengthChromosome(child1Rep),
+                                   second.newFixedLengthChromosome(child2Rep));
+     }
+-
+ }

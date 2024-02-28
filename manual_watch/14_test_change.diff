@@ -1,0 +1,8 @@
+--- 
++++ 
+@@ -81,5 +81,4 @@
+     public void testStartFailure() {
+         doTestStartFailure(Decimal64Field.getInstance());
+     }
+-
+ }

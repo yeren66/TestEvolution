@@ -1,0 +1,10 @@
+--- 
++++ 
+@@ -96,7 +96,6 @@
+         Assert.assertTrue(integrator.getEvaluations() < 5000);
+         Assert.assertTrue(integrator.getIterations()  < 15);
+         Assert.assertEquals(expected, result, tolerance);
+-
+     }
+ 
+     /**

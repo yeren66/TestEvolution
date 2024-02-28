@@ -1,0 +1,18 @@
+--- 
++++ 
+@@ -294,7 +294,6 @@
+                     e[k] = 0;
+                     break;
+                 }
+-
+             }
+ 
+             if (k == p - 2) {
+@@ -489,7 +488,6 @@
+     public RealMatrix getU() {
+         // return the cached matrix
+         return cachedU;
+-
+     }
+ 
+     /**

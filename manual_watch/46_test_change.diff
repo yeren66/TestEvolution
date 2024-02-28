@@ -1,0 +1,24 @@
+--- 
++++ 
+@@ -441,7 +441,6 @@
+ 
+         Assert.assertEquals(0.0640394088, test.kolmogorovSmirnovStatistic(x, y), 1e-6);
+         Assert.assertEquals(0.9792777290, test.kolmogorovSmirnovTest(x, y), 1e-6);
+-
+     }
+ 
+     @Test
+@@ -894,7 +893,6 @@
+                                       || origCombined[i] == origCombined[j]);
+                 }
+             }
+-
+         }
+     }
+ 
+@@ -951,5 +949,4 @@
+         method.setAccessible(true);
+         return (boolean) method.invoke(KolmogorovSmirnovTest.class, x, y);
+     }
+-
+ }

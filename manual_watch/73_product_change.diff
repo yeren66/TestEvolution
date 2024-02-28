@@ -1,0 +1,8 @@
+--- 
++++ 
+@@ -114,5 +114,4 @@
+     public double getElitismRate() {
+         return this.elitismRate;
+     }
+-
+ }

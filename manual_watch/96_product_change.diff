@@ -1,0 +1,48 @@
+--- 
++++ 
+@@ -156,7 +156,6 @@
+         throw new MathIllegalArgumentException(LocalizedFormats.HOLE_BETWEEN_MODELS_TIME_RANGES,
+                                                JdkMath.abs(gap));
+       }
+-
+     }
+ 
+     for (StepInterpolator interpolator : model.steps) {
+@@ -165,7 +164,6 @@
+ 
+     index = steps.size() - 1;
+     finalTime = (steps.get(index)).getCurrentTime();
+-
+   }
+ 
+   /** {@inheritDoc} */
+@@ -201,7 +199,6 @@
+       finalTime = interpolator.getCurrentTime();
+       index     = steps.size() - 1;
+     }
+-
+   }
+ 
+   /**
+@@ -324,7 +321,6 @@
+         } else if (index > high) {
+           index = high;
+         }
+-
+       }
+ 
+       // now the table slice is very small, we perform an iterative search
+@@ -334,7 +330,6 @@
+       }
+ 
+       steps.get(index).setInterpolatedTime(time);
+-
+   }
+ 
+   /**
+@@ -441,5 +436,4 @@
+       return 0;
+     }
+   }
+-
+ }

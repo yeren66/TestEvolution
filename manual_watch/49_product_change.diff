@@ -1,0 +1,11 @@
+--- 
++++ 
+@@ -319,7 +319,7 @@
+ 
+         final T firstPoint = pointList.get(firstPointIndex);
+ 
+-        resultSet.add(new CentroidCluster<T>(firstPoint));
++        resultSet.add(new CentroidCluster<>(firstPoint));
+ 
+         // Must mark it as taken
+         taken[firstPointIndex] = true;

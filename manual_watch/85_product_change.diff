@@ -1,0 +1,10 @@
+--- 
++++ 
+@@ -473,7 +473,6 @@
+             }
+ 
+             return new Array2DRowRealMatrix(bp, false);
+-
+         }
+ 
+         /**

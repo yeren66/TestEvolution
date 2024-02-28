@@ -1,0 +1,8 @@
+--- 
++++ 
+@@ -82,5 +82,4 @@
+         // return the singleton instance
+         return LazyHolder.INSTANCE;
+     }
+-
+ }

@@ -1,0 +1,16 @@
+--- 
++++ 
+@@ -135,7 +135,6 @@
+         }
+ 
+         return new DfpDec(d);
+-
+     }
+ 
+     /** {@inheritDoc} */
+@@ -364,5 +363,4 @@
+ 
+         return result;
+     }
+-
+ }

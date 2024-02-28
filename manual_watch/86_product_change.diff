@@ -1,0 +1,18 @@
+--- 
++++ 
+@@ -160,7 +160,6 @@
+                 luRow[col] = luRow[col].divide(luDiag);
+             }
+         }
+-
+     }
+ 
+     /**
+@@ -430,7 +429,6 @@
+             }
+ 
+             return new Array2DRowFieldMatrix<>(field, bp, false);
+-
+         }
+ 
+         /** {@inheritDoc} */

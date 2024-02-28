@@ -1,0 +1,8 @@
+--- 
++++ 
+@@ -39,5 +39,4 @@
+         BigRealField field = BigRealField.getInstance();
+         Assert.assertSame(field, TestUtils.serializeAndRecover(field));
+     }
+-
+ }

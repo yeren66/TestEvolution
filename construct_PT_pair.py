@@ -2,8 +2,13 @@ import json
 import os
 import get_modified_files
 import find_commit_hash_in_range
+import save_git_log_to_file
+import parse_git_log
 import re
 from tqdm import tqdm
+import logging
+
+logging.basicConfig(filename="debug.log", level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 def read_json(file_path):
     with open(file_path, 'r') as file:
@@ -48,6 +53,8 @@ def construct_PT_pair(project_path, output_dir, commit_info_list):
     # 切换至对应的项目目录
     os.chdir(project_path)
     # 遍历从该项目下获取的每个commit
+    positive_total = 0
+    negative_total = 0
     for commit_info in tqdm(commit_info_list):
         # print(f"Processing commit {commit_hash}")
         commit_hash = commit_info['commit']
@@ -79,7 +86,8 @@ def construct_PT_pair(project_path, output_dir, commit_info_list):
                             filter_changed_files.append(related_changed_file)
                     related_changed_files = filter_changed_files
                     if len(related_changed_files) == 1:
-                        print("find a positive sample")
+                        # print("find a positive sample")
+                        positive_total += 1
                         product_old_content, product_new_content = get_modified_files.get_file_content(commit_hash, product_files_path)
                         test_old_content, test_new_content = get_modified_files.get_file_content(positive_related_commit, related_changed_files[0])
                         json_block = {
@@ -103,7 +111,8 @@ def construct_PT_pair(project_path, output_dir, commit_info_list):
                             filter_changed_files.append(related_changed_file)
                     related_changed_files = filter_changed_files
                     if len(related_changed_files) == 1:
-                        print("find a negative sample")
+                        # print("find a negative sample")
+                        negative_total += 1
                         product_old_content, product_new_content = get_modified_files.get_file_content(commit_hash, product_files_path)
                         test_old_content, test_new_content = get_modified_files.get_file_content(negative_related_commit, related_changed_files[0])
                         json_block = {
@@ -117,11 +126,23 @@ def construct_PT_pair(project_path, output_dir, commit_info_list):
                             "test_new_content": test_new_content
                         }
                         save_PT_pair(json_block, os.path.join(output_dir, "negative_samples.json"))
+                        
+    print(f"positive_total: {positive_total}")
+    print(f"negative_total: {negative_total}")
 
 
 
 if __name__ == "__main__":
-    commit_hash_list = read_json('parsed_git_log_mac.json')
-    project_path = "/Users/mac/Desktop/Java"
-    output_dir = "/Users/mac/Desktop/TestEvolution/output2"
+
+    # project_path = "/Users/mac/Desktop/Java"
+    project_path = "/Users/mac/Desktop/commons-math"
+    temp_file_path = "temp_git_log.txt"
+    save_git_log_to_file.save_git_log_to_file(project_path, temp_file_path)
+    commit_info = parse_git_log.parse_git_log(temp_file_path)
+    commit_hash_list = json.dumps(commit_info, indent=4)
+    output_json_path = 'temp_git_log.json'
+    with open(output_json_path, 'w') as json_file:
+        json_file.write(commit_hash_list)
+    commit_hash_list = read_json(output_json_path)
+    output_dir = "/Users/mac/Desktop/TestEvolution/common-math_output"
     construct_PT_pair(project_path, output_dir, commit_hash_list)

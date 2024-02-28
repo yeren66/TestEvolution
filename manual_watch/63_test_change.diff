@@ -1,0 +1,27 @@
+--- 
++++ 
+@@ -126,9 +126,7 @@
+                                         1.0e-8 * JdkMath.abs(p[k].value(x.getReal())));
+                 }
+             }
+-
+-        }
+-
++        }
+     }
+ 
+     @Test
+@@ -178,7 +176,6 @@
+                                         4.0e-8 * JdkMath.abs(p[k].value(x.getReal())));
+                 }
+             }
+-
+         }
+     }
+ 
+@@ -271,5 +268,4 @@
+         interpolator.addSamplePoint(Dfp25.of(1), new Dfp[] { Dfp25.of(0) });
+         interpolator.addSamplePoint(Dfp25.of(1), new Dfp[] { Dfp25.of(1) });
+     }
+-
+ }

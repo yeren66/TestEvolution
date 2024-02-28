@@ -1,0 +1,18 @@
+--- 
++++ 
+@@ -106,7 +106,6 @@
+     }
+ 
+     Assert.assertTrue(maxError < 5.0e-10);
+-
+   }
+ 
+   @Test
+@@ -151,7 +150,5 @@
+     integ.integrate(pb,
+             pb.getInitialTime(), pb.getInitialState(),
+             pb.getFinalTime(), new double[pb.getDimension()]);
+-
+   }
+-
+ }

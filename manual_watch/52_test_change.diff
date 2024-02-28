@@ -1,0 +1,8 @@
+--- 
++++ 
+@@ -562,5 +562,4 @@
+              pinf,
+              DfpField.FLAG_OVERFLOW | DfpField.FLAG_INEXACT, "Next After #14");
+     }
+-
+ }

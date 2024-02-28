@@ -1,0 +1,10 @@
+--- 
++++ 
+@@ -829,7 +829,6 @@
+                                      block, (i - firstRow) * jWidth + (jStart - firstColumn),
+                                      jLength);
+                 }
+-
+             }
+         }
+     }

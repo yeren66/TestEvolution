@@ -1,0 +1,10 @@
+--- 
++++ 
+@@ -56,7 +56,5 @@
+          * @return the number of iterations
+          */
+         int getIterations();
+-
+     }
+-
+ }

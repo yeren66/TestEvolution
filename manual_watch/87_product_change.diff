@@ -1,0 +1,78 @@
+--- 
++++ 
+@@ -195,7 +195,6 @@
+         }
+ 
+         return missingEntries;
+-
+     }
+ 
+     /**
+@@ -225,7 +224,6 @@
+         }
+ 
+         return false;
+-
+     }
+ 
+     /**
+@@ -309,9 +307,7 @@
+             }
+ 
+             perturb >>= PERTURB_SHIFT;
+-
+-        }
+-
++        }
+     }
+ 
+     /**
+@@ -369,7 +365,6 @@
+         }
+ 
+         return missingEntries;
+-
+     }
+ 
+     /**
+@@ -424,7 +419,6 @@
+             ++count;
+         }
+         return previous;
+-
+     }
+ 
+     /**
+@@ -456,7 +450,6 @@
+         keys   = newKeys;
+         values = newValues;
+         states = newStates;
+-
+     }
+ 
+     /**
+@@ -505,7 +498,6 @@
+             } catch (NoSuchElementException nsee) { // NOPMD
+                 // ignored
+             }
+-
+         }
+ 
+         /**
+@@ -576,9 +568,7 @@
+                     throw new NoSuchElementException();
+                 }
+             }
+-
+-        }
+-
++        }
+     }
+ 
+     /**
+@@ -594,5 +584,4 @@
+         count = 0;
+     }
+ 
+-
+ }

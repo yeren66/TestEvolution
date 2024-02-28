@@ -1,0 +1,83 @@
+--- 
++++ 
+@@ -148,7 +148,6 @@
+         for (int i = 0; i < stateDim; ++i) {
+             matricesData[i * (stateDim + 1)] = 1.0;
+         }
+-
+     }
+ 
+     /** Register the variational equations for the Jacobians matrices to the expandable set.
+@@ -173,7 +172,6 @@
+         efode = expandable;
+         index = efode.addSecondaryEquations(new JacobiansSecondaryEquations());
+         efode.setSecondaryState(index, matricesData);
+-
+     }
+ 
+     /** Add a parameter Jacobian provider.
+@@ -220,7 +218,6 @@
+         }
+ 
+         throw new UnknownParameterException(parameter);
+-
+     }
+ 
+     /** Set the initial value of the Jacobian matrix with respect to state.
+@@ -248,7 +245,6 @@
+         if (efode != null) {
+             efode.setSecondaryState(index, matricesData);
+         }
+-
+     }
+ 
+     /** Set the initial value of a column of the Jacobian matrix with respect to one parameter.
+@@ -281,7 +277,6 @@
+         }
+ 
+         throw new UnknownParameterException(pName);
+-
+     }
+ 
+     /** Get the current value of the Jacobian matrix with respect to state.
+@@ -297,7 +292,6 @@
+             System.arraycopy(p, j, dYdY0[i], 0, stateDim);
+             j += stateDim;
+         }
+-
+     }
+ 
+     /** Get the current value of the Jacobian matrix with respect to one parameter.
+@@ -317,7 +311,6 @@
+             }
+             i += stateDim;
+         }
+-
+     }
+ 
+     /** Check array dimensions.
+@@ -411,7 +404,6 @@
+                     startIndex += stateDim;
+                 }
+             }
+-
+         }
+     }
+ 
+@@ -473,7 +465,6 @@
+                 y[j] = savedYj;
+             }
+         }
+-
+     }
+ 
+     /**
+@@ -489,7 +480,5 @@
+         public MismatchedEquations() {
+             super(LocalizedFormats.UNMATCHED_ODE_IN_EXPANDED_SET);
+         }
+-
+-    }
+-
++    }
+ }

@@ -1,0 +1,59 @@
+--- 
++++ 
+@@ -91,7 +91,6 @@
+                 }
+                 return r;
+             }
+-
+         };
+     }
+ 
+@@ -147,7 +146,6 @@
+                 }
+                 return r;
+             }
+-
+         };
+     }
+ 
+@@ -200,7 +198,6 @@
+                 }
+                 return r;
+             }
+-
+         };
+     }
+ 
+@@ -350,9 +347,7 @@
+                 }
+                 return x.compose(packed);
+             }
+-
+-        };
+-
++        };
+     }
+ 
+     /** Convert regular functions to {@link MultivariateDifferentiableFunction}.
+@@ -457,7 +452,6 @@
+                 final DerivativeStructure dsX = new DerivativeStructure(1, order, 0, x);
+                 return f.value(dsX).getPartialDerivative(order);
+             }
+-
+         };
+     }
+ 
+@@ -494,10 +488,7 @@
+                 }
+ 
+                 return f.value(dsPoint).getPartialDerivative(orders);
+-
+-            }
+-
+-        };
+-    }
+-
++            }
++        };
++    }
+ }

@@ -1,0 +1,8 @@
+--- 
++++ 
+@@ -40,5 +40,4 @@
+             Assert.assertEquals(1,changes);
+         }
+     }
+-
+ }

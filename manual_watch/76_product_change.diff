@@ -1,0 +1,8 @@
+--- 
++++ 
+@@ -228,5 +228,4 @@
+     public int getGenerationsEvolved() {
+         return generationsEvolved;
+     }
+-
+ }

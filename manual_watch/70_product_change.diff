@@ -1,0 +1,8 @@
+--- 
++++ 
+@@ -72,5 +72,4 @@
+         return Precision.equals(prevRms, currRms, this.absTol) ||
+                 Precision.equalsWithRelativeTolerance(prevRms, currRms, this.relTol);
+     }
+-
+ }

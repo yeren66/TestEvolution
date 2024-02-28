@@ -1,61 +1,55 @@
-import subprocess
-import re
-import os
 import json
+import subprocess
+import os
+import difflib
 
-def get_commit_changes(commit_hash, project_path):
+output_path = "manual_watch"
+if not os.path.exists(output_path):
+    os.makedirs(output_path)
 
-    os.chdir(project_path)
+positive_sample_path = "common-math_output/positive_samples.json"
+negative_sample_path = "common-math_output/negative_samples.json"
+with open(positive_sample_path, "r") as file:
+    positive_samples = json.load(file)
 
-    # 执行 git show [commit-hash] 命令
-    process = subprocess.Popen(["git", "show", commit_hash], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    stdout, stderr = process.communicate()
+# project_path = "/Users/mac/Desktop/commons-math"
+# os.chdir(project_path)
 
-    if process.returncode != 0:
-        print(f"Error: {stderr.decode('utf-8')}")
-        return []
+index = 0
+for index in range(len(positive_samples)):
+    product_commit = positive_samples[index]["product_commit"]
+    test_commit = positive_samples[index]["test_commit"]
+    product_file_path = positive_samples[index]["product_file_path"]
+    test_file_path = positive_samples[index]["test_file_path"]
+    product_old_content = positive_samples[index]["product_old_content"]
+    product_new_content = positive_samples[index]["product_new_content"]
+    test_old_content = positive_samples[index]["test_old_content"]
+    test_new_content = positive_samples[index]["test_new_content"]
 
-    # 解析输出，获取每个文件的变更
-    commit_content = stdout.decode("utf-8")
-    diffs = re.split(r'diff --git', commit_content)[1:]  # 分割每个文件的更改
-    changes = []
+    def run_git_command(command):
+        """运行 Git 命令并返回输出"""
+        try:
+            result = subprocess.run(command, capture_output=True, text=True, check=True)
+            return result.stdout.strip()
+        except subprocess.CalledProcessError as e:
+            print(f"Error running command {' '.join(command)}: {e}")
+            return None
+        
+    # product_change = run_git_command(["git", "show", f"{product_commit}:{product_file_path}"])
+    # test_change = run_git_command(["git", "diff", f"{test_commit}^ {test_commit} -- {test_file_path}"])
+        
+    try:
+        diff = difflib.unified_diff(product_old_content.splitlines(), product_new_content.splitlines(), lineterm='')
+        product_change = '\n'.join(list(diff))
 
-    for diff in diffs:
-        # 解析每个文件的路径和更改内容
-        file_path_match = re.search(r'a/(.+?) b/.+?\n', diff)
-        if not file_path_match:
-            continue
-        file_path = file_path_match.group(1)
-        change_content = diff.split('\n')[1:]  # 更改内容从第二行开始
+        diff = difflib.unified_diff(test_old_content.splitlines(), test_new_content.splitlines(), lineterm='')
+        test_change = '\n'.join(list(diff))
 
-        # 获取修改前的文件内容
-        process = subprocess.Popen(["git", "show", f"{commit_hash}^:{file_path}"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        stdout, _ = process.communicate()
-        old_content = stdout.decode("utf-8")
-
-        # TODO: 应用更改到 old_content 上以获取新内容
-        # 这是一个复杂的任务，可能需要详细的文本处理逻辑
-        new_content = old_content  # 这里需要替换为正确的逻辑
-
-        changes.append({
-            'commit': commit_hash,
-            'file_path': file_path,
-            'old_content': old_content,
-            'new_content': new_content
-        })
-
-    return changes
-
-# 示例使用
-current_path = os.getcwd()
-# project_path = '/home/yeren/java-project/Java'  # omen
-project_path = "/Users/mac/Desktop/Java"  # mac
-
-commit_hash = '05ca93eace893a75e886a19739778a67bd3a18bc'  # 替换为实际的commit哈希值
-changes = get_commit_changes(commit_hash, project_path)
-
-os.chdir(current_path)
-with open('changes.json', 'w') as file:
-    file.write(json.dumps(changes, indent=4))
-
-print(changes)
+        with open(os.path.join(output_path, str(index) + "_product_change.diff"), "w") as file:
+            file.write(product_change)
+        with open(os.path.join(output_path, str(index) + "_test_change.diff"), "w") as file:
+            file.write(test_change)
+    except Exception as e:
+        print(e)
+        print(f"Error running command: {product_commit} {test_commit} {product_file_path} {test_file_path}")
+        continue

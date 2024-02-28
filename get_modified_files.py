@@ -1,6 +1,7 @@
 import subprocess
 import os
 import sys
+import logging
 
 def run_git_command(command):
     """运行 Git 命令并返回输出"""
@@ -8,7 +9,8 @@ def run_git_command(command):
         result = subprocess.run(command, capture_output=True, text=True, check=True)
         return result.stdout.strip()
     except subprocess.CalledProcessError as e:
-        print(f"Error running command {' '.join(command)}: {e}")
+        # print(f"Error running command {' '.join(command)}: {e}")
+        logging.error(f"Error running command {' '.join(command)}: {e}")
         return None
 
 def get_changed_files(commit_hash):

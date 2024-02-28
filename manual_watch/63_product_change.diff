@@ -1,0 +1,30 @@
+--- 
++++ 
+@@ -125,9 +125,7 @@
+ 
+             // update the abscissae array
+             abscissae.add(x);
+-
+-        }
+-
++        }
+     }
+ 
+     /** Interpolate value at a specified abscissa.
+@@ -156,7 +154,6 @@
+         }
+ 
+         return value;
+-
+     }
+ 
+     /** Interpolate value and first derivatives at a specified abscissa.
+@@ -203,7 +200,5 @@
+         }
+ 
+         return derivatives;
+-
+-    }
+-
++    }
+ }

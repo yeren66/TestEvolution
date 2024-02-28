@@ -1,0 +1,39 @@
+--- 
++++ 
+@@ -229,11 +229,9 @@
+ 
+             final T ratio  = predictedState[i].subtract(previousState[i]).add(variation).divide(tol);
+             error = error.add(ratio.multiply(ratio));
+-
+         }
+ 
+         return error.divide(mainSetDimension).sqrt();
+-
+     }
+ 
+     /** {@inheritDoc} */
+@@ -295,7 +293,6 @@
+                                                                 getStepSize(),
+                                                                 scaled,
+                                                                 nordsieck);
+-
+                 }
+             }
+ 
+@@ -338,16 +335,12 @@
+                 rescale(hNew);
+                 stepEnd = AdamsFieldStepInterpolator.taylor(getStepStart(), getStepStart().getTime().add(getStepSize()),
+                                                             getStepSize(), scaled, nordsieck);
+-
+             }
+-
+         } while (!isLastStep());
+ 
+         final FieldODEStateAndDerivative<T> finalState = getStepStart();
+         setStepStart(null);
+         setStepSize(null);
+         return finalState;
+-
+     }
+-
+ }
