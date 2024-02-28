@@ -1,11 +1,20 @@
 --- 
 +++ 
-@@ -319,7 +319,7 @@
+@@ -19,7 +19,7 @@
  
-         final T firstPoint = pointList.get(firstPointIndex);
+ import org.apache.commons.math4.legacy.analysis.differentiation.DerivativeStructure;
+ import org.apache.commons.math4.legacy.analysis.differentiation.UnivariateDifferentiableFunction;
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
  
--        resultSet.add(new CentroidCluster<T>(firstPoint));
-+        resultSet.add(new CentroidCluster<>(firstPoint));
+ /**
+  * Sine function.
+@@ -30,7 +30,7 @@
+     /** {@inheritDoc} */
+     @Override
+     public double value(double x) {
+-        return AccurateMath.sin(x);
++        return JdkMath.sin(x);
+     }
  
-         // Must mark it as taken
-         taken[firstPointIndex] = true;
+     /** {@inheritDoc}

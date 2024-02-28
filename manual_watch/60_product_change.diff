@@ -1,66 +1,38 @@
 --- 
 +++ 
-@@ -316,7 +316,6 @@
-             public Class<? extends FieldElement<SparseGradient>> getRuntimeClass() {
-                 return SparseGradient.class;
+@@ -23,7 +23,7 @@
+ 
+ import org.apache.commons.numbers.fraction.BigFraction;
+ import org.apache.commons.numbers.combinatorics.BinomialCoefficient;
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
+ 
+ /**
+  * A collection of static methods that operate on or return polynomials.
+@@ -341,7 +341,7 @@
+ 
+         // First polynomial coefficient.
+         for (int i = 0; i < dp1; i++){
+-            newCoefficients[0] += coefficients[i] * AccurateMath.pow(shift, i);
++            newCoefficients[0] += coefficients[i] * JdkMath.pow(shift, i);
+         }
+ 
+         // Superior order.
+@@ -349,7 +349,7 @@
+         for (int i = 0; i < d; i++) {
+             for (int j = i; j < d; j++){
+                 newCoefficients[i + 1] += coeff[j + 1][j - i] *
+-                    coefficients[j + 1] * AccurateMath.pow(shift, j - i);
++                    coefficients[j + 1] * JdkMath.pow(shift, j - i);
              }
--
-         };
-     }
- 
-@@ -335,7 +334,6 @@
-         final double k   = JdkMath.rint((value - rem) / a.value);
- 
-         return subtract(a.multiply(k));
--
-     }
- 
-     /** {@inheritDoc} */
-@@ -443,9 +441,7 @@
- 
-                 // remove scaling
-                 return scaledH.scalb(middleExp);
--
--            }
--
-+            }
-         }
-     }
- 
-@@ -625,20 +621,17 @@
- 
-             // compute atan2(y, x) = 2 atan(y / (r + x))
-             a = divide(r.add(x)).atan().multiply(2);
--
-         } else {
- 
-             // compute atan2(y, x) = +/- pi - 2 atan(y / (r - x))
-             final SparseGradient tmp = divide(r.subtract(x)).atan().multiply(-2);
-             a = tmp.add(tmp.value <= 0 ? -JdkMath.PI : JdkMath.PI);
--
          }
  
-         // fix value to take special cases (+0/+0, +0/-0, -0/+0, -0/-0, +/-infinity) correctly
-         a.value = JdkMath.atan2(value, x.value);
- 
-         return a;
--
-     }
- 
-     /** Two arguments arc tangent operation.
-@@ -833,7 +826,6 @@
-             .addProduct(a3, b3.value).getAsDouble();
- 
-         return out;
--
-     }
- 
-     /** {@inheritDoc} */
-@@ -912,7 +904,6 @@
-         }
- 
-         return false;
--
-     }
- 
-     /**
+@@ -370,7 +370,7 @@
+         // case, the lock object is an immutable field that belongs to this
+         // class.
+         synchronized (coefficients) {
+-            final int maxDegree = (int) AccurateMath.floor(AccurateMath.sqrt(2.0 * coefficients.size())) - 1;
++            final int maxDegree = (int) JdkMath.floor(JdkMath.sqrt(2.0 * coefficients.size())) - 1;
+             if (degree > maxDegree) {
+                 computeUpToDegree(degree, maxDegree, generator, coefficients);
+             }

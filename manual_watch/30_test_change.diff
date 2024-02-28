@@ -1,26 +1,31 @@
 --- 
 +++ 
-@@ -86,7 +86,6 @@
+@@ -256,28 +256,6 @@
+     }
  
-     Assert.assertEquals(0.0, maxError,    1.0e-9);
-     Assert.assertEquals(0.0, maxErrorDot, 4.0e-7);
+     @Test
+-    public void testSerialization() {
+-        MultivariateSummaryStatistics u = createMultivariateSummaryStatistics(2, true);
+-        // Empty test
+-        TestUtils.checkSerializedEquality(u);
+-        MultivariateSummaryStatistics s = (MultivariateSummaryStatistics) TestUtils.serializeAndRecover(u);
+-        Assert.assertEquals(u, s);
 -
-   }
- 
-   @Test
-@@ -138,7 +137,6 @@
-           Assert.assertEquals(JdkMath.cos(t), y[0], 1.0e-7);
-           Assert.assertEquals(JdkMath.sin(t), y[1], 1.0e-7);
-       }
+-        // Add some data
+-        u.addValue(new double[] { 2d, 1d });
+-        u.addValue(new double[] { 1d, 1d });
+-        u.addValue(new double[] { 3d, 1d });
+-        u.addValue(new double[] { 4d, 1d });
+-        u.addValue(new double[] { 5d, 1d });
 -
-   }
- 
-   @Test
-@@ -158,7 +156,6 @@
- 
-       // no errors
-       Assert.assertFalse(checkAppendError(cm, 1.0, new double[] { 0.0, 1.0, -2.0 }, 2.0));
+-        // Test again
+-        TestUtils.checkSerializedEquality(u);
+-        s = (MultivariateSummaryStatistics) TestUtils.serializeAndRecover(u);
+-        Assert.assertEquals(u, s);
 -
-   }
- 
-   private boolean checkAppendError(ContinuousOutputModel cm,
+-    }
+-
+-    @Test
+     public void testEqualsAndHashCode() {
+         MultivariateSummaryStatistics u = createMultivariateSummaryStatistics(2, true);
+         MultivariateSummaryStatistics t = null;

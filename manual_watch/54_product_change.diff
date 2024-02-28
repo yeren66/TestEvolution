@@ -1,59 +1,22 @@
 --- 
 +++ 
-@@ -91,7 +91,6 @@
-                 }
-                 return r;
+@@ -17,7 +17,7 @@
+ package org.apache.commons.math4.legacy.analysis.integration;
+ 
+ import org.apache.commons.math4.legacy.exception.NumberIsTooLargeException;
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
+ 
+ /**
+  * Implements the <a href="http://mathworld.wolfram.com/RombergIntegration.html">
+@@ -120,8 +120,8 @@
              }
--
-         };
-     }
- 
-@@ -147,7 +146,6 @@
+             final double s = currentRow[i];
+             if (i >= getMinimalIterationCount()) {
+-                final double delta  = AccurateMath.abs(s - olds);
+-                final double rLimit = getRelativeAccuracy() * (AccurateMath.abs(olds) + AccurateMath.abs(s)) * 0.5;
++                final double delta  = JdkMath.abs(s - olds);
++                final double rLimit = getRelativeAccuracy() * (JdkMath.abs(olds) + JdkMath.abs(s)) * 0.5;
+                 if ((delta <= rLimit) || (delta <= getAbsoluteAccuracy())) {
+                     return s;
                  }
-                 return r;
-             }
--
-         };
-     }
- 
-@@ -200,7 +198,6 @@
-                 }
-                 return r;
-             }
--
-         };
-     }
- 
-@@ -350,9 +347,7 @@
-                 }
-                 return x.compose(packed);
-             }
--
--        };
--
-+        };
-     }
- 
-     /** Convert regular functions to {@link MultivariateDifferentiableFunction}.
-@@ -457,7 +452,6 @@
-                 final DerivativeStructure dsX = new DerivativeStructure(1, order, 0, x);
-                 return f.value(dsX).getPartialDerivative(order);
-             }
--
-         };
-     }
- 
-@@ -494,10 +488,7 @@
-                 }
- 
-                 return f.value(dsPoint).getPartialDerivative(orders);
--
--            }
--
--        };
--    }
--
-+            }
-+        };
-+    }
- }

@@ -1,26 +1,85 @@
 --- 
 +++ 
-@@ -484,12 +484,12 @@
-                 if (ratio <= 0.25) {
-                     double tmp =
-                         (actRed < 0) ? (0.5 * dirDer / (dirDer + 0.5 * actRed)) : 0.5;
--                        if ((0.1 * currentCost >= previousCost) || (tmp < 0.1)) {
-+                        if (0.1 * currentCost >= previousCost || tmp < 0.1) {
-                             tmp = 0.1;
-                         }
-                         delta = tmp * JdkMath.min(delta, 10.0 * lmNorm);
-                         lmPar /= tmp;
--                } else if ((lmPar == 0) || (ratio >= 0.75)) {
-+                } else if (lmPar == 0 || ratio >= 0.75) {
-                     delta = 2 * lmNorm;
-                     lmPar *= 0.5;
-                 }
-@@ -885,7 +885,7 @@
-         // singular, then obtain a least squares solution
-         int nSing = solvedCols;
-         for (int j = 0; j < solvedCols; ++j) {
--            if ((lmDiag[j] == 0) && (nSing == solvedCols)) {
-+            if (lmDiag[j] == 0 && nSing == solvedCols) {
-                 nSing = j;
-             }
-             if (nSing < solvedCols) {
+@@ -17,9 +17,6 @@
+ 
+ package org.apache.commons.math4.neuralnet.oned;
+ 
+-import java.io.Serializable;
+-import java.io.ObjectInputStream;
+-
+ import org.apache.commons.math4.neuralnet.internal.NeuralNetException;
+ import org.apache.commons.math4.neuralnet.FeatureInitializer;
+ import org.apache.commons.math4.neuralnet.Network;
+@@ -30,9 +27,7 @@
+  *
+  * @since 3.3
+  */
+-public class NeuronString implements Serializable {
+-    /** Serial version ID. */
+-    private static final long serialVersionUID = 1L;
++public class NeuronString {
+     /** Minimal number of neurons. */
+     private static final int MIN_NEURONS = 2;
+     /** Underlying network. */
+@@ -180,61 +175,4 @@
+             network.addLink(network.getNeuron(size - 1), network.getNeuron(0));
+         }
+     }
+-
+-    /**
+-     * Prevents proxy bypass.
+-     *
+-     * @param in Input stream.
+-     */
+-    private void readObject(ObjectInputStream in) {
+-        throw new IllegalStateException();
+-    }
+-
+-    /**
+-     * Custom serialization.
+-     *
+-     * @return the proxy instance that will be actually serialized.
+-     */
+-    private Object writeReplace() {
+-        final double[][] featuresList = new double[size][];
+-        for (int i = 0; i < size; i++) {
+-            featuresList[i] = getFeatures(i);
+-        }
+-
+-        return new SerializationProxy(wrap,
+-                                      featuresList);
+-    }
+-
+-    /**
+-     * Serialization.
+-     */
+-    private static class SerializationProxy implements Serializable {
+-        /** Serializable. */
+-        private static final long serialVersionUID = 20130226L;
+-        /** Wrap. */
+-        private final boolean wrap;
+-        /** Neurons' features. */
+-        private final double[][] featuresList;
+-
+-        /**
+-         * @param wrap Whether the dimension is wrapped.
+-         * @param featuresList List of neurons features.
+-         * {@code neuronList}.
+-         */
+-        SerializationProxy(boolean wrap,
+-                           double[][] featuresList) {
+-            this.wrap = wrap;
+-            this.featuresList = featuresList;
+-        }
+-
+-        /**
+-         * Custom serialization.
+-         *
+-         * @return the {@link NeuronString} for which this instance is the proxy.
+-         */
+-        private Object readResolve() {
+-            return new NeuronString(wrap,
+-                                    featuresList);
+-        }
+-    }
+ }

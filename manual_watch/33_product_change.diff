@@ -1,11 +1,23 @@
 --- 
 +++ 
-@@ -98,7 +98,7 @@
-         final double coeffDot1     = oneMinusTheta * oneMinus2Theta;
-         final double coeffDot23    = 2 * theta * oneMinusTheta;
-         final double coeffDot4     = -theta * oneMinus2Theta;
--        if ((previousState != null) && (theta <= 0.5)) {
-+        if (previousState != null && theta <= 0.5) {
-             final double fourTheta2     = 4 * theta * theta;
-             final double s             = theta * h / 6.0;
-             final double coeff1        = s * ( 6 - 9 * theta + fourTheta2);
+@@ -16,7 +16,6 @@
+  */
+ package org.apache.commons.math4.legacy.stat.descriptive.moment;
+ 
+-import java.io.Serializable;
+ import java.util.Arrays;
+ 
+ import org.apache.commons.math4.legacy.exception.DimensionMismatchException;
+@@ -27,11 +26,7 @@
+  * Returns the covariance matrix of the available vectors.
+  * @since 1.2
+  */
+-public class VectorialCovariance implements Serializable {
+-
+-    /** Serializable version identifier. */
+-    private static final long serialVersionUID = 4118372414238930270L;
+-
++public class VectorialCovariance {
+     /** Sums for each component. */
+     private final double[] sums;
+ 

@@ -1,26 +1,26 @@
 --- 
 +++ 
-@@ -71,7 +71,6 @@
-         Assert.assertTrue(integrator.getIterations() < NUM_ITER);
-         Assert.assertEquals(expectedEvaluations(integrator.getIterations()), integrator.getEvaluations());
-         Assert.assertEquals(expected, result, tolerance);
--
-     }
+@@ -47,8 +47,10 @@
+     @Test
+     public void testSegmentNetwork() {
+         final FeatureInitializer[] initArray = {init};
+-        final Network net = new NeuronString(4, false, initArray).getNetwork();
++        final NeuronString line = new NeuronString(4, false, initArray);
++        Assert.assertFalse(line.isWrapped());
  
-     /**
-@@ -101,7 +100,6 @@
-         Assert.assertTrue(integrator.getIterations() < NUM_ITER);
-         Assert.assertEquals(expectedEvaluations(integrator.getIterations()), integrator.getEvaluations());
-         Assert.assertEquals(expected, result, tolerance);
--
-     }
++        final Network net = line.getNetwork();
+         Collection<Neuron> neighbours;
  
-     /**
-@@ -140,7 +138,6 @@
-         Assert.assertTrue(integrator.getIterations() < NUM_ITER);
-         Assert.assertEquals(expectedEvaluations(integrator.getIterations()), integrator.getEvaluations());
-         Assert.assertEquals(expected, result, tolerance);
--
-     }
+         // Neuron 0.
+@@ -92,8 +94,10 @@
+     @Test
+     public void testCircleNetwork() {
+         final FeatureInitializer[] initArray = {init};
+-        final Network net = new NeuronString(4, true, initArray).getNetwork();
++        final NeuronString line = new NeuronString(4, true, initArray);
++        Assert.assertTrue(line.isWrapped());
  
-     /**
++        final Network net = line.getNetwork();
+         Collection<Neuron> neighbours;
+ 
+         // Neuron 0.

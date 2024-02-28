@@ -1,0 +1,11 @@
+--- 
++++ 
+@@ -323,7 +323,7 @@
+     /** {@inheritDoc} */
+     @Override
+     public int hashCode() {
+-        return d.hashCode();
++        return Double.hashCode(d.doubleValue());
+     }
+ 
+     /** {@inheritDoc} */

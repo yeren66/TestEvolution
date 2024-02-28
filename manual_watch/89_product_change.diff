@@ -1,18 +1,29 @@
 --- 
 +++ 
-@@ -294,7 +294,6 @@
-                     e[k] = 0;
-                     break;
-                 }
--
-             }
+@@ -18,7 +18,7 @@
+ package org.apache.commons.math4.legacy.ode.sampling;
  
-             if (k == p - 2) {
-@@ -489,7 +488,6 @@
-     public RealMatrix getU() {
-         // return the cached matrix
-         return cachedU;
--
-     }
+ import org.apache.commons.math4.legacy.exception.MaxCountExceededException;
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
+ import org.apache.commons.numbers.core.Precision;
  
-     /**
+ /**
+@@ -159,7 +159,7 @@
+     public StepNormalizer(final double h, final FixedStepHandler handler,
+                           final StepNormalizerMode mode,
+                           final StepNormalizerBounds bounds) {
+-        this.h          = AccurateMath.abs(h);
++        this.h          = JdkMath.abs(h);
+         this.handler    = handler;
+         this.mode       = mode;
+         this.bounds     = bounds;
+@@ -219,7 +219,7 @@
+         // Calculate next normalized step time.
+         double nextTime = (mode == StepNormalizerMode.INCREMENT) ?
+                           lastTime + h :
+-                          (AccurateMath.floor(lastTime / h) + 1) * h;
++                          (JdkMath.floor(lastTime / h) + 1) * h;
+         if (mode == StepNormalizerMode.MULTIPLES &&
+             Precision.equals(nextTime, lastTime, 1)) {
+             nextTime += h;

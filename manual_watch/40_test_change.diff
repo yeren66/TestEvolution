@@ -1,18 +1,17 @@
 --- 
 +++ 
-@@ -104,7 +104,6 @@
+@@ -160,14 +160,6 @@
+     @Test
+     public void testGetSupportUpperBound() {
+         Assert.assertEquals(7, testDistribution.getSupportUpperBound(), 0);
+-    }
+-
+-    /**
+-     * Tests if the distribution returns properly that the support is connected.
+-     */
+-    @Test
+-    public void testIsSupportConnected() {
+-        Assert.assertTrue(testDistribution.isSupportConnected());
      }
  
-     Assert.assertTrue(maxError < 1.6e-10);
--
-   }
- 
-   @Test
-@@ -149,7 +148,5 @@
-     integ.integrate(pb,
-             pb.getInitialTime(), pb.getInitialState(),
-             pb.getFinalTime(), new double[pb.getDimension()]);
--
-   }
--
- }
+     /**

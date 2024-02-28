@@ -1,11 +1,10 @@
 --- 
 +++ 
-@@ -301,7 +301,7 @@
-             }
- 
-             final JacobiKey otherK = (JacobiKey) key;
--            return (v == otherK.v) && (w == otherK.w);
-+            return v == otherK.v && w == otherK.w;
-         }
-     }
- 
+@@ -92,6 +92,7 @@
+      * @param neighbourIdList Links associated to each of the neurons in
+      * {@code idList}.
+      * @throws IllegalArgumentException if an inconsistency is detected.
++     * @return a new instance.
+      */
+     public static Network from(int featureSize,
+                                long[] idList,

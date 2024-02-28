@@ -1,11 +1,47 @@
 --- 
 +++ 
-@@ -102,7 +102,7 @@
-       final double coeffDot2  = coeffDot3 * (5 - 6 * theta);
-       final double coeffDot4  = coeffDot3 * (2 * theta - 1);
+@@ -25,7 +25,7 @@
+ import org.apache.commons.math4.legacy.exception.NotPositiveException;
+ import org.apache.commons.math4.legacy.exception.NumberIsTooLargeException;
+ import org.apache.commons.math4.legacy.exception.NumberIsTooSmallException;
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
  
--      if ((previousState != null) && (theta <= 0.5)) {
-+      if (previousState != null && theta <= 0.5) {
-           final double s          = theta * h / 8.0;
-           final double fourTheta2 = 4 * theta * theta;
-           final double coeff1     = s * (8 - 15 * theta + 2 * fourTheta2);
+ /** Univariate functions differentiator using finite differences.
+  * <p>
+@@ -156,7 +156,7 @@
+         if (2 * halfSampleSpan >= tUpper - tLower) {
+             throw new NumberIsTooLargeException(2 * halfSampleSpan, tUpper - tLower, false);
+         }
+-        final double safety = AccurateMath.ulp(halfSampleSpan);
++        final double safety = JdkMath.ulp(halfSampleSpan);
+         this.tMin = tLower + halfSampleSpan + safety;
+         this.tMax = tUpper - halfSampleSpan - safety;
+ 
+@@ -262,7 +262,7 @@
+                 }
+ 
+                 // compute sample position, trying to be centered if possible
+-                final double t0 = AccurateMath.max(AccurateMath.min(t.getValue(), tMax), tMin) - halfSampleSpan;
++                final double t0 = JdkMath.max(JdkMath.min(t.getValue(), tMax), tMin) - halfSampleSpan;
+ 
+                 // compute sample points
+                 final double[] y = new double[nbPoints];
+@@ -305,7 +305,7 @@
+                 }
+ 
+                 // compute sample position, trying to be centered if possible
+-                final double t0 = AccurateMath.max(AccurateMath.min(t.getValue(), tMax), tMin) - halfSampleSpan;
++                final double t0 = JdkMath.max(JdkMath.min(t.getValue(), tMax), tMin) - halfSampleSpan;
+ 
+                 // compute sample points
+                 double[][] y = null;
+@@ -359,7 +359,7 @@
+                 }
+ 
+                 // compute sample position, trying to be centered if possible
+-                final double t0 = AccurateMath.max(AccurateMath.min(t.getValue(), tMax), tMin) - halfSampleSpan;
++                final double t0 = JdkMath.max(JdkMath.min(t.getValue(), tMax), tMin) - halfSampleSpan;
+ 
+                 // compute sample points
+                 double[][][] y = null;

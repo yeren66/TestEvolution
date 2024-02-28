@@ -1,88 +1,32 @@
 --- 
 +++ 
-@@ -189,7 +189,6 @@
+@@ -17,7 +17,7 @@
+ package org.apache.commons.math4.legacy.analysis.integration;
  
-             a -= trial;
-             result = splitMult(result, r);
--
-         } while (a >= 1);
+ import org.apache.commons.math4.legacy.exception.NumberIsTooLargeException;
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
  
-         result[0] = result[0].add(result[1]);
-@@ -240,7 +239,6 @@
+ /**
+  * Implements the <a href="https://en.wikipedia.org/wiki/Riemann_sum#Midpoint_rule">
+@@ -113,7 +113,7 @@
+                          double diffMaxMin) {
+         // number of points in the previous stage. This stage will contribute
+         // 2*3^{n-1} more points.
+-        final long np = (long) AccurateMath.pow(3, n - 1);
++        final long np = (long) JdkMath.pow(3, n - 1);
+         double sum = 0;
  
-             a -= trial;
-             result = result.multiply(r);
--
-         } while (a >= 1);
- 
-         if (invert) {
-@@ -457,7 +455,6 @@
-         y = y.multiply(a[0].getTwo());
- 
-         return split(y);
--
-     }
- 
-     /** Computes x to the y power.<p>
-@@ -657,7 +654,6 @@
-         }
- 
-         return x.newInstance(r);
--
-     }
- 
-     /** Computes sin(a)  Used when {@code {@code 0 < a < pi/4}}.
-@@ -687,7 +683,6 @@
-         }
- 
-         return y;
--
-     }
- 
-     /** Computes cos(a)  Used when {@code 0 < a < pi/4}.
-@@ -721,7 +716,6 @@
-         }
- 
-         return y;
--
-     }
- 
-     /** computes the sine of the argument.
-@@ -767,7 +761,6 @@
-         }
- 
-         return a.newInstance(y);
--
-     }
- 
-     /** computes the cosine of the argument.
-@@ -817,7 +810,6 @@
-         }
- 
-         return a.newInstance(y);
--
-     }
- 
-     /** computes the tangent of the argument.
-@@ -850,7 +842,6 @@
-         }
- 
-         return y;
--
-     }
- 
-     /** Computes the arc tangent of the argument.
-@@ -924,7 +915,6 @@
-         }
- 
-         return a.newInstance(y);
--
-     }
- 
-     /** computes the arc-sine of the argument.
-@@ -953,5 +943,4 @@
- 
-         return a.newInstance(result);
-     }
--
- }
+         // spacing between adjacent new points
+@@ -151,9 +151,9 @@
+             final int i = iterations.getCount();
+             final double t = stage(i, oldt, min, diff);
+             if (i >= getMinimalIterationCount()) {
+-                final double delta = AccurateMath.abs(t - oldt);
++                final double delta = JdkMath.abs(t - oldt);
+                 final double rLimit =
+-                        getRelativeAccuracy() * (AccurateMath.abs(oldt) + AccurateMath.abs(t)) * 0.5;
++                        getRelativeAccuracy() * (JdkMath.abs(oldt) + JdkMath.abs(t)) * 0.5;
+                 if ((delta <= rLimit) || (delta <= getAbsoluteAccuracy())) {
+                     return t;
+                 }

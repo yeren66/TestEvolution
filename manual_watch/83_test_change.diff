@@ -1,74 +1,45 @@
 --- 
 +++ 
-@@ -326,7 +326,6 @@
-                 Assert.assertEquals(Dfp25.of((i + 30) * 11 + (j + 32), 11), sub4.getEntry(i, j));
-             }
+@@ -35,7 +35,7 @@
+ import org.apache.commons.math4.legacy.ode.events.EventHandler;
+ import org.apache.commons.math4.legacy.ode.sampling.StepHandler;
+ import org.apache.commons.math4.legacy.ode.sampling.StepInterpolator;
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
+ import org.junit.Assert;
+ import org.junit.Test;
+ 
+@@ -66,7 +66,7 @@
+       double previousTimeError = Double.NaN;
+       for (int i = 5; i < 10; ++i) {
+ 
+-        double step = (pb.getFinalTime() - pb.getInitialTime()) * AccurateMath.pow(2.0, -i);
++        double step = (pb.getFinalTime() - pb.getInitialTime()) * JdkMath.pow(2.0, -i);
+ 
+         FirstOrderIntegrator integ = new GillIntegrator(step);
+         TestProblemHandler handler = new TestProblemHandler(pb, integ);
+@@ -84,13 +84,13 @@
+ 
+         double valueError = handler.getMaximalValueError();
+         if (i > 5) {
+-          Assert.assertTrue(valueError < 1.01 * AccurateMath.abs(previousValueError));
++          Assert.assertTrue(valueError < 1.01 * JdkMath.abs(previousValueError));
          }
--
-     }
+         previousValueError = valueError;
  
-     //Additional Test for BlockFieldMatrix<Dfp>Test.testMultiply
-@@ -566,7 +565,6 @@
-                             subtract(Dfp25.of(5).multiply(solution[2])).toDouble(),
-                             constants[2].toDouble(),
-                             0d);
--
-     }
- 
-     // test submatrix accessors
-@@ -804,7 +802,6 @@
-             }
+         double timeError = handler.getMaximalTimeError();
+         if (i > 5) {
+-          Assert.assertTrue(timeError <= AccurateMath.abs(previousTimeError));
++          Assert.assertTrue(timeError <= JdkMath.abs(previousTimeError));
          }
-         Assert.assertEquals(sub, m.getRowMatrix(2));
--
-     }
+         previousTimeError = timeError;
  
-     @Test
-@@ -868,7 +865,6 @@
-             }
-         }
-         Assert.assertEquals(sub, m.getColumnMatrix(2));
--
-     }
+@@ -147,7 +147,7 @@
+              MaxCountExceededException, NoBracketingException {
  
-     @Test
-@@ -930,7 +926,6 @@
-             }
-         }
-         Assert.assertEquals(sub, m.getRowVector(2));
--
-     }
+       TestProblem5 pb = new TestProblem5();
+-      double step = AccurateMath.abs(pb.getFinalTime() - pb.getInitialTime()) * 0.001;
++      double step = JdkMath.abs(pb.getFinalTime() - pb.getInitialTime()) * 0.001;
  
-     @Test
-@@ -992,7 +987,6 @@
-             }
-         }
-         Assert.assertEquals(sub, m.getColumnVector(2));
--
-     }
- 
-     private FieldVector<Dfp> columnToVector(Dfp[][] column) {
-@@ -1060,7 +1054,6 @@
-             }
-         }
-         checkArrays(sub, m.getRow(2));
--
-     }
- 
-     @Test
-@@ -1123,7 +1116,6 @@
-             }
-         }
-         checkArrays(sub, m.getColumn(2));
--
-     }
- 
-     private Dfp[] columnToArray(Dfp[][] column) {
-@@ -1328,7 +1320,6 @@
-             Assert.assertEquals(Dfp25.of(0), m.getEntry(0, j));
-             Assert.assertEquals(Dfp25.of(0), m.getEntry(rows - 1, j));
-         }
--
-     }
- 
-     @Test
+       FirstOrderIntegrator integ = new GillIntegrator(step);
+       TestProblemHandler handler = new TestProblemHandler(pb, integ);

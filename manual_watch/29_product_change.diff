@@ -1,16 +1,35 @@
 --- 
 +++ 
-@@ -540,11 +540,11 @@
-     private void checkIndices(final int start, final int end)
-         throws NumberIsTooSmallException, OutOfRangeException {
-         final int dim = getDimension();
--        if ((start < 0) || (start >= dim)) {
-+        if (start < 0 || start >= dim) {
-             throw new OutOfRangeException(LocalizedFormats.INDEX, start, 0,
-                                           dim - 1);
-         }
--        if ((end < 0) || (end >= dim)) {
-+        if (end < 0 || end >= dim) {
-             throw new OutOfRangeException(LocalizedFormats.INDEX, end, 0,
-                                           dim - 1);
-         }
+@@ -16,7 +16,6 @@
+  */
+ package org.apache.commons.math4.legacy.stat;
+ 
+-import java.io.Serializable;
+ import java.text.NumberFormat;
+ import java.util.ArrayList;
+ import java.util.Collection;
+@@ -39,10 +38,7 @@
+  *
+  * @param <T> a comparable type used in the frequency distribution
+  */
+-public class Frequency<T extends Comparable<T>> implements Serializable {
+-
+-    /** Serializable version identifier. */
+-    private static final long serialVersionUID = 605878194679954450L;
++public class Frequency<T extends Comparable<T>> {
+     /** underlying collection. */
+     private final SortedMap<T, Long> freqTable;
+ 
+@@ -334,11 +330,7 @@
+      *
+      * @param <U> the type of the objects compared
+      */
+-    private static class NaturalComparator<U extends Comparable<U>> implements Comparator<U>, Serializable {
+-
+-        /** Serializable version identifier. */
+-        private static final long serialVersionUID = -3852193713161395148L;
+-
++    private static class NaturalComparator<U extends Comparable<U>> implements Comparator<U> {
+         /**
+          * Compare the two {@link Comparable Comparable} arguments.
+          * This method is equivalent to:

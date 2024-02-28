@@ -1,68 +1,23 @@
 --- 
 +++ 
-@@ -117,7 +117,6 @@
-             // the derivative of the variable with respect to itself is 1.
-             data[DSCompiler.getCompiler(index, order).getSize()] = 1.0;
-         }
--
-     }
+@@ -17,7 +17,7 @@
+ package org.apache.commons.math4.legacy.analysis.integration;
  
-     /** Linear combination constructor.
-@@ -551,9 +550,7 @@
+ import org.apache.commons.math4.legacy.exception.NumberIsTooLargeException;
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
  
-                 // remove scaling
-                 return scaledH.scalb(middleExp);
--
-             }
--
-         }
-     }
- 
-@@ -651,7 +648,6 @@
-             public Class<? extends FieldElement<DerivativeStructure>> getRuntimeClass() {
-                 return DerivativeStructure.class;
-             }
--
-         };
-     }
- 
-@@ -953,7 +949,6 @@
-         final double[] all = simpleValue.getAllDerivatives();
-         all[0] = accurateValue;
-         return new DerivativeStructure(simpleValue.getFreeParameters(), simpleValue.getOrder(), all);
--
-     }
- 
-     /** {@inheritDoc}
-@@ -980,7 +975,6 @@
-         final double[] all = simpleValue.getAllDerivatives();
-         all[0] = accurateValue;
-         return new DerivativeStructure(simpleValue.getFreeParameters(), simpleValue.getOrder(), all);
--
-     }
- 
-     /** {@inheritDoc}
-@@ -1025,7 +1019,6 @@
-         final double[] all = simpleValue.getAllDerivatives();
-         all[0] = accurateValue;
-         return new DerivativeStructure(getFreeParameters(), getOrder(), all);
--
-     }
- 
-     /** {@inheritDoc}
-@@ -1050,7 +1043,6 @@
-         final double[] all = simpleValue.getAllDerivatives();
-         all[0] = accurateValue;
-         return new DerivativeStructure(getFreeParameters(), getOrder(), all);
--
-     }
- 
-     /** {@inheritDoc}
-@@ -1154,7 +1146,6 @@
-         }
- 
-         return false;
--
-     }
- 
-     /**
+ /**
+  * Implements the <a href="http://mathworld.wolfram.com/TrapezoidalRule.html">
+@@ -146,9 +146,9 @@
+             final int i = iterations.getCount();
+             final double t = stage(this, i);
+             if (i >= getMinimalIterationCount()) {
+-                final double delta = AccurateMath.abs(t - oldt);
++                final double delta = JdkMath.abs(t - oldt);
+                 final double rLimit =
+-                    getRelativeAccuracy() * (AccurateMath.abs(oldt) + AccurateMath.abs(t)) * 0.5;
++                    getRelativeAccuracy() * (JdkMath.abs(oldt) + JdkMath.abs(t)) * 0.5;
+                 if ((delta <= rLimit) || (delta <= getAbsoluteAccuracy())) {
+                     return t;
+                 }

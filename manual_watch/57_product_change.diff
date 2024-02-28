@@ -1,60 +1,25 @@
 --- 
 +++ 
-@@ -154,7 +154,6 @@
-         final double safety = JdkMath.ulp(halfSampleSpan);
-         this.tMin = tLower + halfSampleSpan + safety;
-         this.tMax = tUpper - halfSampleSpan - safety;
--
-     }
+@@ -23,7 +23,7 @@
+ import org.apache.commons.math4.legacy.exception.NullArgumentException;
+ import org.apache.commons.math4.legacy.exception.NumberIsTooSmallException;
+ import org.apache.commons.math4.legacy.exception.util.LocalizedFormats;
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
+ import org.apache.commons.math4.legacy.core.MathArrays;
+ import org.apache.commons.numbers.core.Precision;
  
-     /**
-@@ -203,7 +202,6 @@
- 
-             // update the top diagonal of the divided differences array
-             top[i] = bottom[0];
--
+@@ -123,11 +123,11 @@
+             for (int i = 1; i < weights.length; i++) {
+                 final double a = differences[i];
+                 final double b = differences[i - 1];
+-                weights[i] = AccurateMath.abs(a - b) + 0.5 * AccurateMath.abs(a + b);
++                weights[i] = JdkMath.abs(a - b) + 0.5 * JdkMath.abs(a + b);
+             }
+         } else {
+             for (int i = 1; i < weights.length; i++) {
+-                weights[i] = AccurateMath.abs(differences[i] - differences[i - 1]);
++                weights[i] = JdkMath.abs(differences[i] - differences[i - 1]);
+             }
          }
  
-         // evaluate interpolation polynomial (represented by top diagonal) at t
-@@ -227,7 +225,6 @@
-         }
- 
-         return interpolation;
--
-     }
- 
-     /** {@inheritDoc}
-@@ -267,9 +264,7 @@
- 
-                 // evaluate derivatives
-                 return evaluate(t, t0, y);
--
--            }
--
-+            }
-         };
-     }
- 
-@@ -321,9 +316,7 @@
-                 }
- 
-                 return value;
--
--            }
--
-+            }
-         };
-     }
- 
-@@ -379,10 +372,7 @@
-                 }
- 
-                 return value;
--
--            }
--
-+            }
-         };
-     }
--
- }

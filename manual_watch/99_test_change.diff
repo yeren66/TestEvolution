@@ -1,35 +1,20 @@
 --- 
 +++ 
-@@ -361,7 +361,6 @@
-         public double dYdP1() {
-             return 1502.824469929139 + (-1438.6974831849952 + (460.959476642384 - 49.43847385647082 * b) * b) * b;
-         }
--
-     }
- 
-     private static class ParamBrusselator extends AbstractParameterizable
-@@ -411,7 +410,6 @@
-         public double dYdP1() {
-             return 1502.824469929139 + (-1438.6974831849952 + (460.959476642384 - 49.43847385647082 * b) * b) * b;
-         }
--
-     }
- 
-     /** ODE representing a point moving on a circle with provided center and angular rate. */
-@@ -511,7 +509,6 @@
-             double dy0 = y0[1] - cy;
-             return new double[] { -t * (sin * dx0 + cos * dy0) , t * (cos * dx0 - sin * dy0) };
-         }
--
-     }
- 
-     /** ODE representing a point moving on a circle with provided center and angular rate. */
-@@ -613,7 +610,5 @@
-             double dy0 = y0[1] - cy;
-             return new double[] { -t * (sin * dx0 + cos * dy0) , t * (cos * dx0 - sin * dy0) };
-         }
--
--    }
--
-+    }
- }
+@@ -26,7 +26,7 @@
+ import org.apache.commons.rng.simple.RandomSource;
+ import org.apache.commons.rng.UniformRandomProvider;
+ import org.apache.commons.numbers.combinatorics.BinomialCoefficient;
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
+ import org.apache.commons.math4.legacy.core.MathArrays;
+ import org.apache.commons.math4.legacy.exception.NotANumberException;
+ import org.apache.commons.math4.legacy.exception.InsufficientDataException;
+@@ -261,7 +261,7 @@
+                 n = k[i];
+                 m = k[j];
+                 for (int l = 0; l < alpha.length; l++) {
+-                    final double dCrit = c[l] * AccurateMath.sqrt((n + m) / (n * m));
++                    final double dCrit = c[l] * JdkMath.sqrt((n + m) / (n * m));
+                     checkApproximateTable(k[i], k[j], dCrit, alpha[l], tol);
+                 }
+             }

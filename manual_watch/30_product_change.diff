@@ -1,20 +1,23 @@
 --- 
 +++ 
-@@ -293,7 +293,7 @@
-         final StepInterpolator sMed = steps.get(iMed);
-         final double tMed = 0.5 * (sMed.getPreviousTime() + sMed.getCurrentTime());
+@@ -16,7 +16,6 @@
+  */
+ package org.apache.commons.math4.legacy.stat.descriptive;
  
--        if ((JdkMath.abs(tMed - tMin) < 1e-6) || (JdkMath.abs(tMax - tMed) < 1e-6)) {
-+        if (JdkMath.abs(tMed - tMin) < 1e-6 || JdkMath.abs(tMax - tMed) < 1e-6) {
-           // too close to the bounds, we estimate using a simple dichotomy
-           index = iMed;
-         } else {
-@@ -325,7 +325,7 @@
+-import java.io.Serializable;
+ import java.util.Arrays;
  
-       // now the table slice is very small, we perform an iterative search
-       index = iMin;
--      while ((index <= iMax) && (locatePoint(time, steps.get(index)) > 0)) {
-+      while (index <= iMax && locatePoint(time, steps.get(index)) > 0) {
-         ++index;
-       }
+ import org.apache.commons.math4.legacy.exception.DimensionMismatchException;
+@@ -68,11 +67,7 @@
+  * @since 1.2
+  */
+ public class MultivariateSummaryStatistics
+-    implements StatisticalMultivariateSummary, Serializable {
+-
+-    /** Serialization UID. */
+-    private static final long serialVersionUID = 2271900808994826718L;
+-
++    implements StatisticalMultivariateSummary {
+     /** Dimension of the data. */
+     private final int k;
  

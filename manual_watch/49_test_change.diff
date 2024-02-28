@@ -1,11 +1,20 @@
 --- 
 +++ 
-@@ -30,7 +30,7 @@
-     public void dimension2() {
-         MultiKMeansPlusPlusClusterer<DoublePoint> transformer =
-             new MultiKMeansPlusPlusClusterer<>(
--                    new KMeansPlusPlusClusterer<DoublePoint>(3, 10), 5);
-+                    new KMeansPlusPlusClusterer<>(3, 10), 5);
+@@ -21,7 +21,7 @@
+ import org.apache.commons.math4.legacy.core.dfp.Dfp;
+ import org.apache.commons.math4.legacy.core.dfp.DfpField;
+ import org.apache.commons.math4.legacy.core.dfp.DfpMath;
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
+ import org.junit.Assert;
+ import org.junit.Test;
  
-         DoublePoint[] points = new DoublePoint[] {
- 
+@@ -68,7 +68,7 @@
+        double prod = 1;
+        double xOverPow2 = x / 2;
+        while (xOverPow2 > 0) {
+-           prod *= AccurateMath.cos(xOverPow2);
++           prod *= JdkMath.cos(xOverPow2);
+            xOverPow2 /= 2;
+        }
+        Assert.assertEquals(prod, s.value(x), 1e-13);

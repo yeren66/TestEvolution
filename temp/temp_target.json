@@ -1,0 +1,1946 @@
+{
+  "matches": [
+    {
+      "src": "MethodInvocation [4492,4516]",
+      "dest": "MethodInvocation [4563,4587]"
+    },
+    {
+      "src": "NullLiteral [3458,3462]",
+      "dest": "NullLiteral [3529,3533]"
+    },
+    {
+      "src": "SimpleName: Assert [3689,3695]",
+      "dest": "SimpleName: Assert [3760,3766]"
+    },
+    {
+      "src": "ArrayInitializer [3908,3913]",
+      "dest": "ArrayInitializer [3979,3984]"
+    },
+    {
+      "src": "TypeDeclaration [1145,4537]",
+      "dest": "TypeDeclaration [1216,4856]"
+    },
+    {
+      "src": "SimpleName: assertArrayEquals [2721,2738]",
+      "dest": "SimpleName: assertArrayEquals [2792,2809]"
+    },
+    {
+      "src": "Block [2189,2450]",
+      "dest": "Block [2260,2521]"
+    },
+    {
+      "src": "SingleVariableDeclaration [3759,3782]",
+      "dest": "SingleVariableDeclaration [3830,3853]"
+    },
+    {
+      "src": "SimpleName: result [4355,4361]",
+      "dest": "SimpleName: result [4426,4432]"
+    },
+    {
+      "src": "MethodInvocation [3477,3528]",
+      "dest": "MethodInvocation [3548,3599]"
+    },
+    {
+      "src": "PrimitiveType: void [2071,2075]",
+      "dest": "PrimitiveType: void [2142,2146]"
+    },
+    {
+      "src": "MethodInvocation [4465,4517]",
+      "dest": "MethodInvocation [4536,4588]"
+    },
+    {
+      "src": "ClassInstanceCreation [2106,2136]",
+      "dest": "ClassInstanceCreation [2177,2207]"
+    },
+    {
+      "src": "NumberLiteral: 0.0740 [1596,1602]",
+      "dest": "NumberLiteral: 0.0740 [1667,1673]"
+    },
+    {
+      "src": "SimpleName: i [2602,2603]",
+      "dest": "SimpleName: i [2673,2674]"
+    },
+    {
+      "src": "Block [3278,3313]",
+      "dest": "Block [3349,3384]"
+    },
+    {
+      "src": "NumberLiteral: 0.8888 [1406,1412]",
+      "dest": "NumberLiteral: 0.8888 [1477,1483]"
+    },
+    {
+      "src": "NumberLiteral: 1 [3893,3894]",
+      "dest": "NumberLiteral: 1 [3964,3965]"
+    },
+    {
+      "src": "InfixExpression [4308,4334]",
+      "dest": "InfixExpression [4379,4405]"
+    },
+    {
+      "src": "ArrayInitializer [1781,1799]",
+      "dest": "ArrayInitializer [1852,1870]"
+    },
+    {
+      "src": "SimpleName: generator [2824,2833]",
+      "dest": "SimpleName: generator [2895,2904]"
+    },
+    {
+      "src": "ArrayType [4118,4126]",
+      "dest": "ArrayType [4189,4197]"
+    },
+    {
+      "src": "NumberLiteral: 1 [4489,4490]",
+      "dest": "NumberLiteral: 1 [4560,4561]"
+    },
+    {
+      "src": "ArrayInitializer [1845,1863]",
+      "dest": "ArrayInitializer [1916,1934]"
+    },
+    {
+      "src": "SimpleName: referenceValues [4190,4205]",
+      "dest": "SimpleName: referenceValues [4261,4276]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.math4.legacy.exception.DimensionMismatchException [884,952]",
+      "dest": "QualifiedName: org.apache.commons.math4.legacy.exception.DimensionMismatchException [884,952]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [2739,2782]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2810,2853]"
+    },
+    {
+      "src": "VariableDeclarationStatement [2262,2296]",
+      "dest": "VariableDeclarationStatement [2333,2367]"
+    },
+    {
+      "src": "NullLiteral [3664,3668]",
+      "dest": "NullLiteral [3735,3739]"
+    },
+    {
+      "src": "Block [2084,2143]",
+      "dest": "Block [2155,2214]"
+    },
+    {
+      "src": "SimpleName: Assert [4465,4471]",
+      "dest": "SimpleName: Assert [4536,4542]"
+    },
+    {
+      "src": "ArrayInitializer [1472,1496]",
+      "dest": "ArrayInitializer [1543,1567]"
+    },
+    {
+      "src": "ArrayInitializer [1282,1306]",
+      "dest": "ArrayInitializer [1353,1377]"
+    },
+    {
+      "src": "QualifiedName: referenceValues.length [2219,2241]",
+      "dest": "QualifiedName: referenceValues.length [2290,2312]"
+    },
+    {
+      "src": "Modifier: public [3335,3341]",
+      "dest": "Modifier: public [3406,3412]"
+    },
+    {
+      "src": "NumberLiteral: 3 [2134,2135]",
+      "dest": "NumberLiteral: 3 [2205,2206]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [4153,4154]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [4224,4225]"
+    },
+    {
+      "src": "SimpleName: Before [2053,2059]",
+      "dest": "SimpleName: Before [2124,2130]"
+    },
+    {
+      "src": "TryStatement [3615,3819]",
+      "dest": "TryStatement [3686,3890]"
+    },
+    {
+      "src": "NumberLiteral: 2 [2557,2558]",
+      "dest": "NumberLiteral: 2 [2628,2629]"
+    },
+    {
+      "src": "NumberLiteral: 0.4 [1414,1417]",
+      "dest": "NumberLiteral: 0.4 [1485,1488]"
+    },
+    {
+      "src": "MethodInvocation [2714,2783]",
+      "dest": "MethodInvocation [2785,2854]"
+    },
+    {
+      "src": "Block [2926,3046]",
+      "dest": "Block [2997,3117]"
+    },
+    {
+      "src": "ClassInstanceCreation [3410,3463]",
+      "dest": "ClassInstanceCreation [3481,3534]"
+    },
+    {
+      "src": "Dimension [1209,1211]",
+      "dest": "Dimension [1280,1282]"
+    },
+    {
+      "src": "ForStatement [2593,2860]",
+      "dest": "ForStatement [2664,2931]"
+    },
+    {
+      "src": "SimpleName: generator [4136,4145]",
+      "dest": "SimpleName: generator [4207,4216]"
+    },
+    {
+      "src": "SimpleName: e [3781,3782]",
+      "dest": "SimpleName: e [3852,3853]"
+    },
+    {
+      "src": "SimpleName: referenceValues [2334,2349]",
+      "dest": "SimpleName: referenceValues [2405,2420]"
+    },
+    {
+      "src": "Dimension [1637,1639]",
+      "dest": "Dimension [1708,1710]"
+    },
+    {
+      "src": "SimpleName: assertArrayEquals [2316,2333]",
+      "dest": "SimpleName: assertArrayEquals [2387,2404]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [3940,3978]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [4011,4049]"
+    },
+    {
+      "src": "ExpressionStatement [2940,2971]",
+      "dest": "ExpressionStatement [3011,3042]"
+    },
+    {
+      "src": "ArrayInitializer [1510,1534]",
+      "dest": "ArrayInitializer [1581,1605]"
+    },
+    {
+      "src": "NullLiteral [2578,2582]",
+      "dest": "NullLiteral [2649,2653]"
+    },
+    {
+      "src": "SimpleName: assertArrayEquals [4172,4189]",
+      "dest": "SimpleName: assertArrayEquals [4243,4260]"
+    },
+    {
+      "src": "MarkerAnnotation [3325,3330]",
+      "dest": "MarkerAnnotation [3396,3401]"
+    },
+    {
+      "src": "NumberLiteral: 0.125 [1398,1403]",
+      "dest": "NumberLiteral: 0.125 [1469,1474]"
+    },
+    {
+      "src": "SingleVariableDeclaration [3255,3276]",
+      "dest": "SingleVariableDeclaration [3326,3347]"
+    },
+    {
+      "src": "SimpleName: HaltonSequenceGenerator [3414,3437]",
+      "dest": "SimpleName: HaltonSequenceGenerator [3485,3508]"
+    },
+    {
+      "src": "NumberLiteral: 0.875 [1911,1916]",
+      "dest": "NumberLiteral: 0.875 [1982,1987]"
+    },
+    {
+      "src": "SimpleName: HaltonSequenceGenerator [3851,3874]",
+      "dest": "SimpleName: HaltonSequenceGenerator [3922,3945]"
+    },
+    {
+      "src": "SimpleName: testSkip [4097,4105]",
+      "dest": "SimpleName: testSkip [4168,4176]"
+    },
+    {
+      "src": "SimpleName: assertEquals [4472,4484]",
+      "dest": "SimpleName: assertEquals [4543,4555]"
+    },
+    {
+      "src": "NumberLiteral: 0.5 [1284,1287]",
+      "dest": "NumberLiteral: 0.5 [1355,1358]"
+    },
+    {
+      "src": "ASSIGNMENT_OPERATOR: = [2104,2105]",
+      "dest": "ASSIGNMENT_OPERATOR: = [2175,2176]"
+    },
+    {
+      "src": "SimpleName: i [2215,2216]",
+      "dest": "SimpleName: i [2286,2287]"
+    },
+    {
+      "src": "ArrayInitializer [1396,1420]",
+      "dest": "ArrayInitializer [1467,1491]"
+    },
+    {
+      "src": "SimpleName: HaltonSequenceGenerator [2012,2035]",
+      "dest": "SimpleName: HaltonSequenceGenerator [2083,2106]"
+    },
+    {
+      "src": "SimpleName: getNextIndex [4502,4514]",
+      "dest": "SimpleName: getNextIndex [4573,4585]"
+    },
+    {
+      "src": "SimpleType [3054,3073]",
+      "dest": "SimpleType [3125,3144]"
+    },
+    {
+      "src": "PrimitiveType: double [4118,4124]",
+      "dest": "PrimitiveType: double [4189,4195]"
+    },
+    {
+      "src": "ForStatement [2199,2444]",
+      "dest": "ForStatement [2270,2515]"
+    },
+    {
+      "src": "SimpleName: generator [2036,2045]",
+      "dest": "SimpleName: generator [2107,2116]"
+    },
+    {
+      "src": "MethodInvocation [2685,2700]",
+      "dest": "MethodInvocation [2756,2771]"
+    },
+    {
+      "src": "ExpressionStatement [2517,2584]",
+      "dest": "ExpressionStatement [2588,2655]"
+    },
+    {
+      "src": "ExpressionStatement [2381,2434]",
+      "dest": "ExpressionStatement [2452,2505]"
+    },
+    {
+      "src": "SimpleName: Exception [3373,3382]",
+      "dest": "SimpleName: Exception [3444,3453]"
+    },
+    {
+      "src": "NumberLiteral: 1 [3453,3454]",
+      "dest": "NumberLiteral: 1 [3524,3525]"
+    },
+    {
+      "src": "SimpleName: Assert [4165,4171]",
+      "dest": "SimpleName: Assert [4236,4242]"
+    },
+    {
+      "src": "SimpleName: i [4308,4309]",
+      "dest": "SimpleName: i [4379,4380]"
+    },
+    {
+      "src": "QualifiedName: org.junit.Assert [859,875]",
+      "dest": "QualifiedName: org.junit.Assert [859,875]"
+    },
+    {
+      "src": "ArrayCreation [2560,2576]",
+      "dest": "ArrayCreation [2631,2647]"
+    },
+    {
+      "src": "VariableDeclarationFragment [2602,2607]",
+      "dest": "VariableDeclarationFragment [2673,2678]"
+    },
+    {
+      "src": "NumberLiteral: 0 [2606,2607]",
+      "dest": "NumberLiteral: 0 [2677,2678]"
+    },
+    {
+      "src": "ArrayType [3902,3907]",
+      "dest": "ArrayType [3973,3978]"
+    },
+    {
+      "src": "SimpleName: i [2766,2767]",
+      "dest": "SimpleName: i [2837,2838]"
+    },
+    {
+      "src": "Block [3077,3112]",
+      "dest": "Block [3148,3183]"
+    },
+    {
+      "src": "MethodInvocation [3185,3236]",
+      "dest": "MethodInvocation [3256,3307]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: < [2611,2612]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: < [2682,2683]"
+    },
+    {
+      "src": "Dimension [2673,2675]",
+      "dest": "Dimension [2744,2746]"
+    },
+    {
+      "src": "SimpleName: get [2290,2293]",
+      "dest": "SimpleName: get [2361,2364]"
+    },
+    {
+      "src": "SimpleName: referenceValues [1212,1227]",
+      "dest": "SimpleName: referenceValues [1283,1298]"
+    },
+    {
+      "src": "SimpleName: generator [4492,4501]",
+      "dest": "SimpleName: generator [4563,4572]"
+    },
+    {
+      "src": "MethodInvocation [4136,4155]",
+      "dest": "MethodInvocation [4207,4226]"
+    },
+    {
+      "src": "SimpleName: Assert [4393,4399]",
+      "dest": "SimpleName: Assert [4464,4470]"
+    },
+    {
+      "src": "SimpleType [2944,2967]",
+      "dest": "SimpleType [3015,3038]"
+    },
+    {
+      "src": "StringLiteral: \"an exception should have been thrown\" [3197,3235]",
+      "dest": "StringLiteral: \"an exception should have been thrown\" [3268,3306]"
+    },
+    {
+      "src": "SimpleName: assertEquals [2388,2400]",
+      "dest": "SimpleName: assertEquals [2459,2471]"
+    },
+    {
+      "src": "SimpleName: NullArgumentException [3759,3780]",
+      "dest": "SimpleName: NullArgumentException [3830,3851]"
+    },
+    {
+      "src": "ExpressionStatement [2984,3036]",
+      "dest": "ExpressionStatement [3055,3107]"
+    },
+    {
+      "src": "ExpressionStatement [3847,3915]",
+      "dest": "ExpressionStatement [3918,3986]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [3701,3739]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3772,3810]"
+    },
+    {
+      "src": "StringLiteral: \"an exception should have been thrown\" [3940,3978]",
+      "dest": "StringLiteral: \"an exception should have been thrown\" [4011,4049]"
+    },
+    {
+      "src": "ExpressionStatement [2094,2137]",
+      "dest": "ExpressionStatement [2165,2208]"
+    },
+    {
+      "src": "Dimension [1639,1641]",
+      "dest": "Dimension [1710,1712]"
+    },
+    {
+      "src": "SimpleName: i [2609,2610]",
+      "dest": "SimpleName: i [2680,2681]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [1262,1265]",
+      "dest": "NumberLiteral: 0.0 [1333,1336]"
+    },
+    {
+      "src": "ExpressionStatement [3689,3741]",
+      "dest": "ExpressionStatement [3760,3812]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [1695,1698]",
+      "dest": "NumberLiteral: 0.0 [1766,1769]"
+    },
+    {
+      "src": "NumberLiteral: 0.6666 [1759,1765]",
+      "dest": "NumberLiteral: 0.6666 [1830,1836]"
+    },
+    {
+      "src": "SimpleName: generator [2094,2103]",
+      "dest": "SimpleName: generator [2165,2174]"
+    },
+    {
+      "src": "InfixExpression [2817,2822]",
+      "dest": "InfixExpression [2888,2893]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [3489,3527]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3560,3598]"
+    },
+    {
+      "src": "SimpleName: e [3275,3276]",
+      "dest": "SimpleName: e [3346,3347]"
+    },
+    {
+      "src": "SimpleName: DimensionMismatchException [3998,4024]",
+      "dest": "SimpleName: DimensionMismatchException [4069,4095]"
+    },
+    {
+      "src": "NumberLiteral: 0.0625 [1550,1556]",
+      "dest": "NumberLiteral: 0.0625 [1621,1627]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [2797,2803]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2868,2874]"
+    },
+    {
+      "src": "ExpressionStatement [4465,4518]",
+      "dest": "ExpressionStatement [4536,4589]"
+    },
+    {
+      "src": "SimpleName: fail [3192,3196]",
+      "dest": "SimpleName: fail [3263,3267]"
+    },
+    {
+      "src": "QualifiedName: org.junit.Test [1128,1142]",
+      "dest": "QualifiedName: org.junit.Test [1199,1213]"
+    },
+    {
+      "src": "SimpleName: fail [2991,2995]",
+      "dest": "SimpleName: fail [3062,3066]"
+    },
+    {
+      "src": "NumberLiteral: 0.4444 [1558,1564]",
+      "dest": "NumberLiteral: 0.4444 [1629,1635]"
+    },
+    {
+      "src": "ExpressionStatement [3477,3529]",
+      "dest": "ExpressionStatement [3548,3600]"
+    },
+    {
+      "src": "TryStatement [3829,4063]",
+      "dest": "TryStatement [3900,4134]"
+    },
+    {
+      "src": "SimpleName: Test [2150,2154]",
+      "dest": "SimpleName: Test [2221,2225]"
+    },
+    {
+      "src": "MarkerAnnotation [4075,4080]",
+      "dest": "MarkerAnnotation [4146,4151]"
+    },
+    {
+      "src": "NumberLiteral: 0.625 [1847,1852]",
+      "dest": "NumberLiteral: 0.625 [1918,1923]"
+    },
+    {
+      "src": "VariableDeclarationStatement [4118,4156]",
+      "dest": "VariableDeclarationStatement [4189,4227]"
+    },
+    {
+      "src": "SimpleName: i [2350,2351]",
+      "dest": "SimpleName: i [2421,2422]"
+    },
+    {
+      "src": "MarkerAnnotation [2456,2461]",
+      "dest": "MarkerAnnotation [2527,2532]"
+    },
+    {
+      "src": "PrimitiveType: int [4297,4300]",
+      "dest": "PrimitiveType: int [4368,4371]"
+    },
+    {
+      "src": "PrimitiveType: int [2564,2567]",
+      "dest": "PrimitiveType: int [2635,2638]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [2714,2720]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2785,2791]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [4485,4516]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [4556,4587]"
+    },
+    {
+      "src": "NumberLiteral: 2 [3438,3439]",
+      "dest": "NumberLiteral: 2 [3509,3510]"
+    },
+    {
+      "src": "ArrayCreation [3441,3456]",
+      "dest": "ArrayCreation [3512,3527]"
+    },
+    {
+      "src": "SimpleName: referenceValuesUnscrambled [1642,1668]",
+      "dest": "SimpleName: referenceValuesUnscrambled [1713,1739]"
+    },
+    {
+      "src": "VariableDeclarationFragment [4301,4306]",
+      "dest": "VariableDeclarationFragment [4372,4377]"
+    },
+    {
+      "src": "SimpleName: Assert [3477,3483]",
+      "dest": "SimpleName: Assert [3548,3554]"
+    },
+    {
+      "src": "NumberLiteral: 0.2223 [1368,1374]",
+      "dest": "NumberLiteral: 0.2223 [1439,1445]"
+    },
+    {
+      "src": "SimpleType [3144,3167]",
+      "dest": "SimpleType [3215,3238]"
+    },
+    {
+      "src": "Block [3570,3605]",
+      "dest": "Block [3641,3676]"
+    },
+    {
+      "src": "ArrayInitializer [1813,1831]",
+      "dest": "ArrayInitializer [1884,1902]"
+    },
+    {
+      "src": "NumberLiteral: 0 [2968,2969]",
+      "dest": "NumberLiteral: 0 [3039,3040]"
+    },
+    {
+      "src": "SimpleName: HaltonSequenceGenerator [2110,2133]",
+      "dest": "SimpleName: HaltonSequenceGenerator [2181,2204]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [4136,4145]",
+      "dest": "METHOD_INVOCATION_RECEIVER [4207,4216]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: < [2217,2218]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: < [2288,2289]"
+    },
+    {
+      "src": "NumberLiteral: 0.32 [1528,1532]",
+      "dest": "NumberLiteral: 0.32 [1599,1603]"
+    },
+    {
+      "src": "ExpressionStatement [3928,3980]",
+      "dest": "ExpressionStatement [3999,4051]"
+    },
+    {
+      "src": "StringLiteral: \"an exception should have been thrown\" [3489,3527]",
+      "dest": "StringLiteral: \"an exception should have been thrown\" [3560,3598]"
+    },
+    {
+      "src": "ExpressionStatement [4355,4380]",
+      "dest": "ExpressionStatement [4426,4451]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [4492,4501]",
+      "dest": "METHOD_INVOCATION_RECEIVER [4563,4572]"
+    },
+    {
+      "src": "ArrayAccess [2739,2768]",
+      "dest": "ArrayAccess [2810,2839]"
+    },
+    {
+      "src": "ArrayCreation [3878,3896]",
+      "dest": "ArrayCreation [3949,3967]"
+    },
+    {
+      "src": "SimpleName: e [3567,3568]",
+      "dest": "SimpleName: e [3638,3639]"
+    },
+    {
+      "src": "SimpleName: Assert [4233,4239]",
+      "dest": "SimpleName: Assert [4304,4310]"
+    },
+    {
+      "src": "VariableDeclarationFragment [1642,1997]",
+      "dest": "VariableDeclarationFragment [1713,2068]"
+    },
+    {
+      "src": "FieldDeclaration [2004,2046]",
+      "dest": "FieldDeclaration [2075,2117]"
+    },
+    {
+      "src": "ImportDeclaration [877,953]",
+      "dest": "ImportDeclaration [877,953]"
+    },
+    {
+      "src": "MarkerAnnotation [2872,2877]",
+      "dest": "MarkerAnnotation [2943,2948]"
+    },
+    {
+      "src": "ArrayType [2667,2675]",
+      "dest": "ArrayType [2738,2746]"
+    },
+    {
+      "src": "SimpleType [3759,3780]",
+      "dest": "SimpleType [3830,3851]"
+    },
+    {
+      "src": "CatchClause [3047,3112]",
+      "dest": "CatchClause [3118,3183]"
+    },
+    {
+      "src": "PostfixExpression [2648,2651]",
+      "dest": "PostfixExpression [2719,2722]"
+    },
+    {
+      "src": "SimpleName: getNextIndex [4266,4278]",
+      "dest": "SimpleName: getNextIndex [4337,4349]"
+    },
+    {
+      "src": "NumberLiteral: 0.5625 [1975,1981]",
+      "dest": "NumberLiteral: 0.5625 [2046,2052]"
+    },
+    {
+      "src": "NumberLiteral: 5 [4153,4154]",
+      "dest": "NumberLiteral: 5 [4224,4225]"
+    },
+    {
+      "src": "ArrayAccess [4418,4436]",
+      "dest": "ArrayAccess [4489,4507]"
+    },
+    {
+      "src": "SimpleName: Test [2873,2877]",
+      "dest": "SimpleName: Test [2944,2948]"
+    },
+    {
+      "src": "QualifiedName: referenceValuesUnscrambled.length [2613,2646]",
+      "dest": "QualifiedName: referenceValuesUnscrambled.length [2684,2717]"
+    },
+    {
+      "src": "Dimension [3885,3887]",
+      "dest": "Dimension [3956,3958]"
+    },
+    {
+      "src": "MethodInvocation [2824,2848]",
+      "dest": "MethodInvocation [2895,2919]"
+    },
+    {
+      "src": "Block [2507,2866]",
+      "dest": "Block [2578,2937]"
+    },
+    {
+      "src": "NumberLiteral: 0.72 [1490,1494]",
+      "dest": "NumberLiteral: 0.72 [1561,1565]"
+    },
+    {
+      "src": "SimpleName: i [2401,2402]",
+      "dest": "SimpleName: i [2472,2473]"
+    },
+    {
+      "src": "CatchClause [3991,4063]",
+      "dest": "CatchClause [4062,4134]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [2685,2694]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2756,2765]"
+    },
+    {
+      "src": "NumberLiteral: 0.4444 [1823,1829]",
+      "dest": "NumberLiteral: 0.4444 [1894,1900]"
+    },
+    {
+      "src": "SimpleType [3998,4024]",
+      "dest": "SimpleType [4069,4095]"
+    },
+    {
+      "src": "Block [4028,4063]",
+      "dest": "Block [4099,4134]"
+    },
+    {
+      "src": "NumberLiteral: 0.6 [1300,1303]",
+      "dest": "NumberLiteral: 0.6 [1371,1374]"
+    },
+    {
+      "src": "NumberLiteral: 41 [3168,3170]",
+      "dest": "NumberLiteral: 41 [3239,3241]"
+    },
+    {
+      "src": "VariableDeclarationExpression [2598,2607]",
+      "dest": "VariableDeclarationExpression [2669,2678]"
+    },
+    {
+      "src": "ExpressionStatement [3185,3237]",
+      "dest": "ExpressionStatement [3256,3308]"
+    },
+    {
+      "src": "SimpleName: Assert [2714,2720]",
+      "dest": "SimpleName: Assert [2785,2791]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.math4.legacy.exception.NullArgumentException [961,1024]",
+      "dest": "QualifiedName: org.apache.commons.math4.legacy.exception.NullArgumentException [1032,1095]"
+    },
+    {
+      "src": "MethodDeclaration [2052,2143]",
+      "dest": "MethodDeclaration [2123,2214]"
+    },
+    {
+      "src": "ASSIGNMENT_OPERATOR: = [4362,4363]",
+      "dest": "ASSIGNMENT_OPERATOR: = [4433,4434]"
+    },
+    {
+      "src": "ClassInstanceCreation [3633,3675]",
+      "dest": "ClassInstanceCreation [3704,3746]"
+    },
+    {
+      "src": "NumberLiteral: 1 [2821,2822]",
+      "dest": "NumberLiteral: 1 [2892,2893]"
+    },
+    {
+      "src": "Block [3396,3539]",
+      "dest": "Block [3467,3610]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.math4.legacy.exception.OutOfRangeException [1033,1094]",
+      "dest": "QualifiedName: org.apache.commons.math4.legacy.exception.OutOfRangeException [1104,1165]"
+    },
+    {
+      "src": "NumberLiteral: 2 [2571,2572]",
+      "dest": "NumberLiteral: 2 [2642,2643]"
+    },
+    {
+      "src": "MarkerAnnotation [2149,2154]",
+      "dest": "MarkerAnnotation [2220,2225]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [3928,3934]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3999,4005]"
+    },
+    {
+      "src": "ArrayType [3445,3450]",
+      "dest": "ArrayType [3516,3521]"
+    },
+    {
+      "src": "VariableDeclarationStatement [2667,2701]",
+      "dest": "VariableDeclarationStatement [2738,2772]"
+    },
+    {
+      "src": "SimpleName: OutOfRangeException [3547,3566]",
+      "dest": "SimpleName: OutOfRangeException [3618,3637]"
+    },
+    {
+      "src": "SimpleName: Test [2457,2461]",
+      "dest": "SimpleName: Test [2528,2532]"
+    },
+    {
+      "src": "NumberLiteral: 5 [4206,4207]",
+      "dest": "NumberLiteral: 5 [4277,4278]"
+    },
+    {
+      "src": "SimpleName: testConstructor2 [3347,3363]",
+      "dest": "SimpleName: testConstructor2 [3418,3434]"
+    },
+    {
+      "src": "ArrayInitializer [1230,1616]",
+      "dest": "ArrayInitializer [1301,1687]"
+    },
+    {
+      "src": "MethodInvocation [4165,4223]",
+      "dest": "MethodInvocation [4236,4294]"
+    },
+    {
+      "src": "PrimitiveType: int [3445,3448]",
+      "dest": "PrimitiveType: int [3516,3519]"
+    },
+    {
+      "src": "POSTFIX_EXPRESSION_OPERATOR: ++ [2649,2651]",
+      "dest": "POSTFIX_EXPRESSION_OPERATOR: ++ [2720,2722]"
+    },
+    {
+      "src": "NumberLiteral: 0.8888 [1951,1957]",
+      "dest": "NumberLiteral: 0.8888 [2022,2028]"
+    },
+    {
+      "src": "Block [2653,2860]",
+      "dest": "Block [2724,2931]"
+    },
+    {
+      "src": "NumberLiteral: 0.7777 [1520,1526]",
+      "dest": "NumberLiteral: 0.7777 [1591,1597]"
+    },
+    {
+      "src": "SingleVariableDeclaration [3547,3568]",
+      "dest": "SingleVariableDeclaration [3618,3639]"
+    },
+    {
+      "src": "NumberLiteral: 1e-3 [4218,4222]",
+      "dest": "NumberLiteral: 1e-3 [4289,4293]"
+    },
+    {
+      "src": "ArrayInitializer [1358,1382]",
+      "dest": "ArrayInitializer [1429,1453]"
+    },
+    {
+      "src": "Modifier: public [2882,2888]",
+      "dest": "Modifier: public [2953,2959]"
+    },
+    {
+      "src": "ArrayInitializer [3451,3456]",
+      "dest": "ArrayInitializer [3522,3527]"
+    },
+    {
+      "src": "SingleVariableDeclaration [3054,3075]",
+      "dest": "SingleVariableDeclaration [3125,3146]"
+    },
+    {
+      "src": "ExpressionStatement [2309,2368]",
+      "dest": "ExpressionStatement [2380,2439]"
+    },
+    {
+      "src": "SimpleName: referenceValuesUnscrambled [2739,2765]",
+      "dest": "SimpleName: referenceValuesUnscrambled [2810,2836]"
+    },
+    {
+      "src": "CatchClause [3540,3605]",
+      "dest": "CatchClause [3611,3676]"
+    },
+    {
+      "src": "SimpleName: Assert [2381,2387]",
+      "dest": "SimpleName: Assert [2452,2458]"
+    },
+    {
+      "src": "Dimension [2567,2569]",
+      "dest": "Dimension [2638,2640]"
+    },
+    {
+      "src": "NumberLiteral: 0.75 [1360,1364]",
+      "dest": "NumberLiteral: 0.75 [1431,1435]"
+    },
+    {
+      "src": "ClassInstanceCreation [3140,3171]",
+      "dest": "ClassInstanceCreation [3211,3242]"
+    },
+    {
+      "src": "SimpleName: HaltonSequenceGenerator [3637,3660]",
+      "dest": "SimpleName: HaltonSequenceGenerator [3708,3731]"
+    },
+    {
+      "src": "MethodInvocation [2309,2367]",
+      "dest": "MethodInvocation [2380,2438]"
+    },
+    {
+      "src": "PrimitiveType: void [3342,3346]",
+      "dest": "PrimitiveType: void [3413,3417]"
+    },
+    {
+      "src": "PrimitiveType: double [2262,2268]",
+      "dest": "PrimitiveType: double [2333,2339]"
+    },
+    {
+      "src": "ArrayInitializer [1909,1927]",
+      "dest": "ArrayInitializer [1980,1998]"
+    },
+    {
+      "src": "NumberLiteral: 1 [3890,3891]",
+      "dest": "NumberLiteral: 1 [3961,3962]"
+    },
+    {
+      "src": "InfixExpression [2401,2406]",
+      "dest": "InfixExpression [2472,2477]"
+    },
+    {
+      "src": "SimpleName: e [4025,4026]",
+      "dest": "SimpleName: e [4096,4097]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [2408,2417]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2479,2488]"
+    },
+    {
+      "src": "SimpleName: generator [4364,4373]",
+      "dest": "SimpleName: generator [4435,4444]"
+    },
+    {
+      "src": "MethodDeclaration [4075,4534]",
+      "dest": "MethodDeclaration [4146,4605]"
+    },
+    {
+      "src": "NumberLiteral: 3 [2574,2575]",
+      "dest": "NumberLiteral: 3 [2645,2646]"
+    },
+    {
+      "src": "SimpleName: i [4336,4337]",
+      "dest": "SimpleName: i [4407,4408]"
+    },
+    {
+      "src": "NumberLiteral: 6 [4305,4306]",
+      "dest": "NumberLiteral: 6 [4376,4377]"
+    },
+    {
+      "src": "SimpleName: fail [3484,3488]",
+      "dest": "SimpleName: fail [3555,3559]"
+    },
+    {
+      "src": "SimpleName: generator [4256,4265]",
+      "dest": "SimpleName: generator [4327,4336]"
+    },
+    {
+      "src": "PrimitiveType: double [1631,1637]",
+      "dest": "PrimitiveType: double [1702,1708]"
+    },
+    {
+      "src": "ImportDeclaration [852,876]",
+      "dest": "ImportDeclaration [852,876]"
+    },
+    {
+      "src": "InfixExpression [2609,2646]",
+      "dest": "InfixExpression [2680,2717]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [2824,2833]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2895,2904]"
+    },
+    {
+      "src": "SimpleName: i [2208,2209]",
+      "dest": "SimpleName: i [2279,2280]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [3197,3235]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3268,3306]"
+    },
+    {
+      "src": "PrimitiveType: int [3902,3905]",
+      "dest": "PrimitiveType: int [3973,3976]"
+    },
+    {
+      "src": "TryStatement [3122,3313]",
+      "dest": "TryStatement [3193,3384]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: + [2819,2820]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: + [2890,2891]"
+    },
+    {
+      "src": "Assignment [2094,2136]",
+      "dest": "Assignment [2165,2207]"
+    },
+    {
+      "src": "ArrayType [1631,1641]",
+      "dest": "ArrayType [1702,1712]"
+    },
+    {
+      "src": "Block [3784,3819]",
+      "dest": "Block [3855,3890]"
+    },
+    {
+      "src": "FieldDeclaration [1193,1617]",
+      "dest": "FieldDeclaration [1264,1688]"
+    },
+    {
+      "src": "ImportDeclaration [1026,1095]",
+      "dest": "ImportDeclaration [1097,1166]"
+    },
+    {
+      "src": "NumberLiteral: 1e-3 [2778,2782]",
+      "dest": "NumberLiteral: 1e-3 [2849,2853]"
+    },
+    {
+      "src": "SimpleName: generator [2685,2694]",
+      "dest": "SimpleName: generator [2756,2765]"
+    },
+    {
+      "src": "PrimitiveType: void [2473,2477]",
+      "dest": "PrimitiveType: void [2544,2548]"
+    },
+    {
+      "src": "SimpleName: result [2676,2682]",
+      "dest": "SimpleName: result [2747,2753]"
+    },
+    {
+      "src": "ImportDeclaration [1121,1143]",
+      "dest": "ImportDeclaration [1192,1214]"
+    },
+    {
+      "src": "Modifier: private [2004,2011]",
+      "dest": "Modifier: private [2075,2082]"
+    },
+    {
+      "src": "Block [2248,2444]",
+      "dest": "Block [2319,2515]"
+    },
+    {
+      "src": "NumberLiteral: 0.2 [1338,1341]",
+      "dest": "NumberLiteral: 0.2 [1409,1412]"
+    },
+    {
+      "src": "Block [4108,4534]",
+      "dest": "Block [4179,4605]"
+    },
+    {
+      "src": "ArrayInitializer [1877,1895]",
+      "dest": "ArrayInitializer [1948,1966]"
+    },
+    {
+      "src": "ImportDeclaration [954,1025]",
+      "dest": "ImportDeclaration [1025,1096]"
+    },
+    {
+      "src": "Dimension [1207,1209]",
+      "dest": "Dimension [1278,1280]"
+    },
+    {
+      "src": "SimpleName: Test [4076,4080]",
+      "dest": "SimpleName: Test [4147,4151]"
+    },
+    {
+      "src": "NumberLiteral: 0.7777 [1855,1861]",
+      "dest": "NumberLiteral: 0.7777 [1926,1932]"
+    },
+    {
+      "src": "SimpleName: result [4210,4216]",
+      "dest": "SimpleName: result [4281,4287]"
+    },
+    {
+      "src": "Modifier: public [2466,2472]",
+      "dest": "Modifier: public [2537,2543]"
+    },
+    {
+      "src": "Modifier: public [4085,4091]",
+      "dest": "Modifier: public [4156,4162]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [2381,2387]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2452,2458]"
+    },
+    {
+      "src": "MethodDeclaration [2872,3319]",
+      "dest": "MethodDeclaration [2943,3390]"
+    },
+    {
+      "src": "NumberLiteral: 6 [4253,4254]",
+      "dest": "NumberLiteral: 6 [4324,4325]"
+    },
+    {
+      "src": "NumberLiteral: 0.375 [1879,1884]",
+      "dest": "NumberLiteral: 0.375 [1950,1955]"
+    },
+    {
+      "src": "PrimitiveType: void [2166,2170]",
+      "dest": "PrimitiveType: void [2237,2241]"
+    },
+    {
+      "src": "SimpleName: getNextIndex [2834,2846]",
+      "dest": "SimpleName: getNextIndex [2905,2917]"
+    },
+    {
+      "src": "SimpleName: Assert [2309,2315]",
+      "dest": "SimpleName: Assert [2380,2386]"
+    },
+    {
+      "src": "SimpleName: HaltonSequenceGenerator [2533,2556]",
+      "dest": "SimpleName: HaltonSequenceGenerator [2604,2627]"
+    },
+    {
+      "src": "PrimitiveType: void [4092,4096]",
+      "dest": "PrimitiveType: void [4163,4167]"
+    },
+    {
+      "src": "ExpressionStatement [2714,2784]",
+      "dest": "ExpressionStatement [2785,2855]"
+    },
+    {
+      "src": "NumberLiteral: 1e-3 [4446,4450]",
+      "dest": "NumberLiteral: 1e-3 [4517,4521]"
+    },
+    {
+      "src": "VariableDeclarationFragment [2036,2045]",
+      "dest": "VariableDeclarationFragment [2107,2116]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: + [2403,2404]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: + [2474,2475]"
+    },
+    {
+      "src": "ArrayInitializer [1973,1991]",
+      "dest": "ArrayInitializer [2044,2062]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [3477,3483]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3548,3554]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [1254,1257]",
+      "dest": "NumberLiteral: 0.0 [1325,1328]"
+    },
+    {
+      "src": "NumberLiteral: 0 [2212,2213]",
+      "dest": "NumberLiteral: 0 [2283,2284]"
+    },
+    {
+      "src": "SimpleName: OutOfRangeException [3054,3073]",
+      "dest": "SimpleName: OutOfRangeException [3125,3144]"
+    },
+    {
+      "src": "SimpleName: generator [2280,2289]",
+      "dest": "SimpleName: generator [2351,2360]"
+    },
+    {
+      "src": "StringLiteral: \"an exception should have been thrown\" [2996,3034]",
+      "dest": "StringLiteral: \"an exception should have been thrown\" [3067,3105]"
+    },
+    {
+      "src": "SimpleType [2110,2133]",
+      "dest": "SimpleType [2181,2204]"
+    },
+    {
+      "src": "ClassInstanceCreation [2529,2583]",
+      "dest": "ClassInstanceCreation [2600,2654]"
+    },
+    {
+      "src": "VariableDeclarationFragment [2676,2700]",
+      "dest": "VariableDeclarationFragment [2747,2771]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [2817,2848]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2888,2919]"
+    },
+    {
+      "src": "VariableDeclarationExpression [2204,2213]",
+      "dest": "VariableDeclarationExpression [2275,2284]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [4393,4399]",
+      "dest": "METHOD_INVOCATION_RECEIVER [4464,4470]"
+    },
+    {
+      "src": "SimpleName: HaltonSequenceGenerator [3144,3167]",
+      "dest": "SimpleName: HaltonSequenceGenerator [3215,3238]"
+    },
+    {
+      "src": "Dimension [3448,3450]",
+      "dest": "Dimension [3519,3521]"
+    },
+    {
+      "src": "NumberLiteral: 0.12 [1452,1456]",
+      "dest": "NumberLiteral: 0.12 [1523,1527]"
+    },
+    {
+      "src": "MethodInvocation [2280,2295]",
+      "dest": "MethodInvocation [2351,2366]"
+    },
+    {
+      "src": "NumberLiteral: 1 [2405,2406]",
+      "dest": "NumberLiteral: 1 [2476,2477]"
+    },
+    {
+      "src": "VariableDeclarationExpression [4297,4306]",
+      "dest": "VariableDeclarationExpression [4368,4377]"
+    },
+    {
+      "src": "SimpleType [3547,3566]",
+      "dest": "SimpleType [3618,3637]"
+    },
+    {
+      "src": "ArrayInitializer [1941,1959]",
+      "dest": "ArrayInitializer [2012,2030]"
+    },
+    {
+      "src": "NumberLiteral: 0.5625 [1588,1594]",
+      "dest": "NumberLiteral: 0.5625 [1659,1665]"
+    },
+    {
+      "src": "Block [3833,3990]",
+      "dest": "Block [3904,4061]"
+    },
+    {
+      "src": "SimpleName: result [2770,2776]",
+      "dest": "SimpleName: result [2841,2847]"
+    },
+    {
+      "src": "Modifier: public [2159,2165]",
+      "dest": "Modifier: public [2230,2236]"
+    },
+    {
+      "src": "PrimitiveType: double [1201,1207]",
+      "dest": "PrimitiveType: double [1272,1278]"
+    },
+    {
+      "src": "Assignment [4355,4379]",
+      "dest": "Assignment [4426,4450]"
+    },
+    {
+      "src": "Modifier: private [1623,1630]",
+      "dest": "Modifier: private [1694,1701]"
+    },
+    {
+      "src": "SimpleName: OutOfRangeException [3255,3274]",
+      "dest": "SimpleName: OutOfRangeException [3326,3345]"
+    },
+    {
+      "src": "NumberLiteral: 0.8 [1376,1379]",
+      "dest": "NumberLiteral: 0.8 [1447,1450]"
+    },
+    {
+      "src": "SimpleName: get [4374,4377]",
+      "dest": "SimpleName: get [4445,4448]"
+    },
+    {
+      "src": "MethodDeclaration [3325,4069]",
+      "dest": "MethodDeclaration [3396,4140]"
+    },
+    {
+      "src": "ArrayType [2262,2270]",
+      "dest": "ArrayType [2333,2341]"
+    },
+    {
+      "src": "ArrayType [3882,3887]",
+      "dest": "ArrayType [3953,3958]"
+    },
+    {
+      "src": "SimpleName: assertArrayEquals [4400,4417]",
+      "dest": "SimpleName: assertArrayEquals [4471,4488]"
+    },
+    {
+      "src": "NumberLiteral: 0.5555 [1444,1450]",
+      "dest": "NumberLiteral: 0.5555 [1515,1521]"
+    },
+    {
+      "src": "InfixExpression [2215,2241]",
+      "dest": "InfixExpression [2286,2312]"
+    },
+    {
+      "src": "ArrayInitializer [1671,1997]",
+      "dest": "ArrayInitializer [1742,2068]"
+    },
+    {
+      "src": "ArrayType [1201,1211]",
+      "dest": "ArrayType [1272,1282]"
+    },
+    {
+      "src": "ArrayInitializer [3888,3896]",
+      "dest": "ArrayInitializer [3959,3967]"
+    },
+    {
+      "src": "ClassInstanceCreation [3847,3914]",
+      "dest": "ClassInstanceCreation [3918,3985]"
+    },
+    {
+      "src": "TYPE_DECLARATION_KIND: class [1152,1157]",
+      "dest": "TYPE_DECLARATION_KIND: class [1223,1228]"
+    },
+    {
+      "src": "ArrayInitializer [1548,1572]",
+      "dest": "ArrayInitializer [1619,1643]"
+    },
+    {
+      "src": "Modifier: public [2064,2070]",
+      "dest": "Modifier: public [2135,2141]"
+    },
+    {
+      "src": "SimpleName: assertEquals [2804,2816]",
+      "dest": "SimpleName: assertEquals [2875,2887]"
+    },
+    {
+      "src": "SimpleName: HaltonSequenceGenerator [2944,2967]",
+      "dest": "SimpleName: HaltonSequenceGenerator [3015,3038]"
+    },
+    {
+      "src": "SimpleName: i [2648,2649]",
+      "dest": "SimpleName: i [2719,2720]"
+    },
+    {
+      "src": "NumberLiteral: 0.1111 [1791,1797]",
+      "dest": "NumberLiteral: 0.1111 [1862,1868]"
+    },
+    {
+      "src": "NumberLiteral: 1 [3910,3911]",
+      "dest": "NumberLiteral: 1 [3981,3982]"
+    },
+    {
+      "src": "VariableDeclarationFragment [2271,2295]",
+      "dest": "VariableDeclarationFragment [2342,2366]"
+    },
+    {
+      "src": "SimpleType [3255,3274]",
+      "dest": "SimpleType [3326,3345]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [4256,4265]",
+      "dest": "METHOD_INVOCATION_RECEIVER [4327,4336]"
+    },
+    {
+      "src": "NumberLiteral: 0.1111 [1482,1488]",
+      "dest": "NumberLiteral: 0.1111 [1553,1559]"
+    },
+    {
+      "src": "NumberLiteral: 0.875 [1512,1517]",
+      "dest": "NumberLiteral: 0.875 [1583,1588]"
+    },
+    {
+      "src": "MethodInvocation [4393,4451]",
+      "dest": "MethodInvocation [4464,4522]"
+    },
+    {
+      "src": "SimpleName: setUp [2076,2081]",
+      "dest": "SimpleName: setUp [2147,2152]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [2996,3034]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3067,3105]"
+    },
+    {
+      "src": "NumberLiteral: 0.3333 [1727,1733]",
+      "dest": "NumberLiteral: 0.3333 [1798,1804]"
+    },
+    {
+      "src": "PrimitiveType: int [2598,2601]",
+      "dest": "PrimitiveType: int [2669,2672]"
+    },
+    {
+      "src": "ExpressionStatement [3410,3464]",
+      "dest": "ExpressionStatement [3481,3535]"
+    },
+    {
+      "src": "SimpleName: fail [3696,3700]",
+      "dest": "SimpleName: fail [3767,3771]"
+    },
+    {
+      "src": "PrimitiveType: void [2889,2893]",
+      "dest": "PrimitiveType: void [2960,2964]"
+    },
+    {
+      "src": "QualifiedName: referenceValues.length [4312,4334]",
+      "dest": "QualifiedName: referenceValues.length [4383,4405]"
+    },
+    {
+      "src": "SimpleType [3414,3437]",
+      "dest": "SimpleType [3485,3508]"
+    },
+    {
+      "src": "Block [3619,3751]",
+      "dest": "Block [3690,3822]"
+    },
+    {
+      "src": "ArrayType [2564,2569]",
+      "dest": "ArrayType [2635,2640]"
+    },
+    {
+      "src": "CatchClause [3752,3819]",
+      "dest": "CatchClause [3823,3890]"
+    },
+    {
+      "src": "MethodInvocation [4256,4280]",
+      "dest": "MethodInvocation [4327,4351]"
+    },
+    {
+      "src": "SimpleName: fail [3935,3939]",
+      "dest": "SimpleName: fail [4006,4010]"
+    },
+    {
+      "src": "MethodInvocation [3928,3979]",
+      "dest": "MethodInvocation [3999,4050]"
+    },
+    {
+      "src": "SimpleName: Assert [3928,3934]",
+      "dest": "SimpleName: Assert [3999,4005]"
+    },
+    {
+      "src": "SimpleName: e [3074,3075]",
+      "dest": "SimpleName: e [3145,3146]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [2280,2289]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2351,2360]"
+    },
+    {
+      "src": "NumberLiteral: 0.25 [1322,1326]",
+      "dest": "NumberLiteral: 0.25 [1393,1397]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.math4.legacy.random [811,849]",
+      "dest": "QualifiedName: org.apache.commons.math4.legacy.random [811,849]"
+    },
+    {
+      "src": "InfixExpression [4485,4490]",
+      "dest": "InfixExpression [4556,4561]"
+    },
+    {
+      "src": "ArrayCreation [3898,3913]",
+      "dest": "ArrayCreation [3969,3984]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: < [4310,4311]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: < [4381,4382]"
+    },
+    {
+      "src": "NumberLiteral: 2 [3661,3662]",
+      "dest": "NumberLiteral: 2 [3732,3733]"
+    },
+    {
+      "src": "MethodInvocation [4233,4281]",
+      "dest": "MethodInvocation [4304,4352]"
+    },
+    {
+      "src": "Modifier: private [1193,1200]",
+      "dest": "Modifier: private [1264,1271]"
+    },
+    {
+      "src": "ArrayInitializer [2570,2576]",
+      "dest": "ArrayInitializer [2641,2647]"
+    },
+    {
+      "src": "MethodInvocation [3689,3740]",
+      "dest": "MethodInvocation [3760,3811]"
+    },
+    {
+      "src": "Block [3126,3247]",
+      "dest": "Block [3197,3318]"
+    },
+    {
+      "src": "MethodInvocation [2797,2849]",
+      "dest": "MethodInvocation [2868,2920]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [2401,2432]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2472,2503]"
+    },
+    {
+      "src": "MethodDeclaration [2456,2866]",
+      "dest": "MethodDeclaration [2527,2937]"
+    },
+    {
+      "src": "SimpleName: referenceValues [4418,4433]",
+      "dest": "SimpleName: referenceValues [4489,4504]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [1687,1690]",
+      "dest": "NumberLiteral: 0.0 [1758,1761]"
+    },
+    {
+      "src": "SimpleName: generator [2408,2417]",
+      "dest": "SimpleName: generator [2479,2488]"
+    },
+    {
+      "src": "NumberLiteral: 0.2222 [1887,1893]",
+      "dest": "NumberLiteral: 0.2222 [1958,1964]"
+    },
+    {
+      "src": "SimpleName: result [4438,4444]",
+      "dest": "SimpleName: result [4509,4515]"
+    },
+    {
+      "src": "ArrayInitializer [1685,1703]",
+      "dest": "ArrayInitializer [1756,1774]"
+    },
+    {
+      "src": "SimpleType [2012,2035]",
+      "dest": "SimpleType [2083,2106]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [4253,4280]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [4324,4351]"
+    },
+    {
+      "src": "QualifiedName: org.junit.Before [1103,1119]",
+      "dest": "QualifiedName: org.junit.Before [1174,1190]"
+    },
+    {
+      "src": "ArrayInitializer [1717,1735]",
+      "dest": "ArrayInitializer [1788,1806]"
+    },
+    {
+      "src": "NumberLiteral: 0.125 [1815,1820]",
+      "dest": "NumberLiteral: 0.125 [1886,1891]"
+    },
+    {
+      "src": "VariableDeclarationFragment [4127,4155]",
+      "dest": "VariableDeclarationFragment [4198,4226]"
+    },
+    {
+      "src": "ExpressionStatement [3140,3172]",
+      "dest": "ExpressionStatement [3211,3243]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [2309,2315]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2380,2386]"
+    },
+    {
+      "src": "SimpleName: Assert [3185,3191]",
+      "dest": "SimpleName: Assert [3256,3262]"
+    },
+    {
+      "src": "SimpleName: result [4127,4133]",
+      "dest": "SimpleName: result [4198,4204]"
+    },
+    {
+      "src": "NumberLiteral: 0.625 [1436,1441]",
+      "dest": "NumberLiteral: 0.625 [1507,1512]"
+    },
+    {
+      "src": "CatchClause [3248,3313]",
+      "dest": "CatchClause [3319,3384]"
+    },
+    {
+      "src": "Block [4341,4528]",
+      "dest": "Block [4412,4599]"
+    },
+    {
+      "src": "PackageDeclaration [803,850]",
+      "dest": "PackageDeclaration [803,850]"
+    },
+    {
+      "src": "Dimension [4124,4126]",
+      "dest": "Dimension [4195,4197]"
+    },
+    {
+      "src": "NumberLiteral: 0.25 [1751,1755]",
+      "dest": "NumberLiteral: 0.25 [1822,1826]"
+    },
+    {
+      "src": "NullLiteral [3670,3674]",
+      "dest": "NullLiteral [3741,3745]"
+    },
+    {
+      "src": "ArrayAccess [2334,2352]",
+      "dest": "ArrayAccess [2405,2423]"
+    },
+    {
+      "src": "TryStatement [2922,3112]",
+      "dest": "TryStatement [2993,3183]"
+    },
+    {
+      "src": "SimpleName: HaltonSequenceGeneratorTest [1158,1185]",
+      "dest": "SimpleName: HaltonSequenceGeneratorTest [1229,1256]"
+    },
+    {
+      "src": "MethodInvocation [2408,2432]",
+      "dest": "MethodInvocation [2479,2503]"
+    },
+    {
+      "src": "ArrayInitializer [1244,1268]",
+      "dest": "ArrayInitializer [1315,1339]"
+    },
+    {
+      "src": "NumberLiteral: 1e-3 [2362,2366]",
+      "dest": "NumberLiteral: 1e-3 [2433,2437]"
+    },
+    {
+      "src": "SimpleName: i [4485,4486]",
+      "dest": "SimpleName: i [4556,4557]"
+    },
+    {
+      "src": "VariableDeclarationFragment [1212,1616]",
+      "dest": "VariableDeclarationFragment [1283,1687]"
+    },
+    {
+      "src": "SimpleType [3637,3660]",
+      "dest": "SimpleType [3708,3731]"
+    },
+    {
+      "src": "SimpleName: Assert [2797,2803]",
+      "dest": "SimpleName: Assert [2868,2874]"
+    },
+    {
+      "src": "SimpleName: get [2695,2698]",
+      "dest": "SimpleName: get [2766,2769]"
+    },
+    {
+      "src": "PostfixExpression [4336,4339]",
+      "dest": "PostfixExpression [4407,4410]"
+    },
+    {
+      "src": "NumberLiteral: 0.0625 [1943,1949]",
+      "dest": "NumberLiteral: 0.0625 [2014,2020]"
+    },
+    {
+      "src": "FieldDeclaration [1623,1998]",
+      "dest": "FieldDeclaration [1694,2069]"
+    },
+    {
+      "src": "NumberLiteral: 0.0370 [1983,1989]",
+      "dest": "NumberLiteral: 0.0370 [2054,2060]"
+    },
+    {
+      "src": "NumberLiteral: 0.52 [1604,1608]",
+      "dest": "NumberLiteral: 0.52 [1675,1679]"
+    },
+    {
+      "src": "SimpleName: i [2817,2818]",
+      "dest": "SimpleName: i [2888,2889]"
+    },
+    {
+      "src": "NumberLiteral: 2 [3875,3876]",
+      "dest": "NumberLiteral: 2 [3946,3947]"
+    },
+    {
+      "src": "POSTFIX_EXPRESSION_OPERATOR: ++ [4337,4339]",
+      "dest": "POSTFIX_EXPRESSION_OPERATOR: ++ [4408,4410]"
+    },
+    {
+      "src": "ForStatement [4292,4528]",
+      "dest": "ForStatement [4363,4599]"
+    },
+    {
+      "src": "PrimitiveType: int [3882,3885]",
+      "dest": "PrimitiveType: int [3953,3956]"
+    },
+    {
+      "src": "SimpleName: generator [2517,2526]",
+      "dest": "SimpleName: generator [2588,2597]"
+    },
+    {
+      "src": "PostfixExpression [2243,2246]",
+      "dest": "PostfixExpression [2314,2317]"
+    },
+    {
+      "src": "SimpleName: result [2354,2360]",
+      "dest": "SimpleName: result [2425,2431]"
+    },
+    {
+      "src": "SimpleName: Assert [2984,2990]",
+      "dest": "SimpleName: Assert [3055,3061]"
+    },
+    {
+      "src": "MethodInvocation [2381,2433]",
+      "dest": "MethodInvocation [2452,2504]"
+    },
+    {
+      "src": "NumberLiteral: 0.5555 [1919,1925]",
+      "dest": "NumberLiteral: 0.5555 [1990,1996]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [3185,3191]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3256,3262]"
+    },
+    {
+      "src": "ArrayInitializer [1749,1767]",
+      "dest": "ArrayInitializer [1820,1838]"
+    },
+    {
+      "src": "Assignment [2517,2583]",
+      "dest": "Assignment [2588,2654]"
+    },
+    {
+      "src": "SimpleName: test3DReference [2171,2186]",
+      "dest": "SimpleName: test3DReference [2242,2257]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: + [4487,4488]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: + [4558,4559]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [1246,1249]",
+      "dest": "NumberLiteral: 0.0 [1317,1320]"
+    },
+    {
+      "src": "MethodDeclaration [2149,2450]",
+      "dest": "MethodDeclaration [2220,2521]"
+    },
+    {
+      "src": "Block [3382,4069]",
+      "dest": "Block [3453,4140]"
+    },
+    {
+      "src": "PrimitiveType: int [2204,2207]",
+      "dest": "PrimitiveType: int [2275,2278]"
+    },
+    {
+      "src": "ASSIGNMENT_OPERATOR: = [2527,2528]",
+      "dest": "ASSIGNMENT_OPERATOR: = [2598,2599]"
+    },
+    {
+      "src": "POSTFIX_EXPRESSION_OPERATOR: ++ [2244,2246]",
+      "dest": "POSTFIX_EXPRESSION_OPERATOR: ++ [2315,2317]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [4165,4171]",
+      "dest": "METHOD_INVOCATION_RECEIVER [4236,4242]"
+    },
+    {
+      "src": "Block [2912,3319]",
+      "dest": "Block [2983,3390]"
+    },
+    {
+      "src": "ArrayInitializer [1434,1458]",
+      "dest": "ArrayInitializer [1505,1529]"
+    },
+    {
+      "src": "SimpleName: test2DUnscrambledReference [2478,2504]",
+      "dest": "SimpleName: test2DUnscrambledReference [2549,2575]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [4364,4373]",
+      "dest": "METHOD_INVOCATION_RECEIVER [4435,4444]"
+    },
+    {
+      "src": "SimpleName: Test [3326,3330]",
+      "dest": "SimpleName: Test [3397,3401]"
+    },
+    {
+      "src": "NumberLiteral: 0.92 [1566,1570]",
+      "dest": "NumberLiteral: 0.92 [1637,1641]"
+    },
+    {
+      "src": "SimpleName: result [2271,2277]",
+      "dest": "SimpleName: result [2342,2348]"
+    },
+    {
+      "src": "ExpressionStatement [4393,4452]",
+      "dest": "ExpressionStatement [4464,4523]"
+    },
+    {
+      "src": "SimpleName: i [2243,2244]",
+      "dest": "SimpleName: i [2314,2315]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [4465,4471]",
+      "dest": "METHOD_INVOCATION_RECEIVER [4536,4542]"
+    },
+    {
+      "src": "SimpleName: skipTo [4146,4152]",
+      "dest": "SimpleName: skipTo [4217,4223]"
+    },
+    {
+      "src": "Modifier: public [1145,1151]",
+      "dest": "Modifier: public [1216,1222]"
+    },
+    {
+      "src": "PrimitiveType: double [2667,2673]",
+      "dest": "PrimitiveType: double [2738,2744]"
+    },
+    {
+      "src": "VariableDeclarationFragment [2208,2213]",
+      "dest": "VariableDeclarationFragment [2279,2284]"
+    },
+    {
+      "src": "ArrayInitializer [1320,1344]",
+      "dest": "ArrayInitializer [1391,1415]"
+    },
+    {
+      "src": "Dimension [2268,2270]",
+      "dest": "Dimension [2339,2341]"
+    },
+    {
+      "src": "CompilationUnit [0,4537]",
+      "dest": "CompilationUnit [0,4856]"
+    },
+    {
+      "src": "NumberLiteral: 0.5 [1719,1722]",
+      "dest": "NumberLiteral: 0.5 [1790,1793]"
+    },
+    {
+      "src": "NumberLiteral: 0.3333 [1330,1336]",
+      "dest": "NumberLiteral: 0.3333 [1401,1407]"
+    },
+    {
+      "src": "SimpleType [2533,2556]",
+      "dest": "SimpleType [2604,2627]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [4418,4450]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [4489,4521]"
+    },
+    {
+      "src": "SimpleName: testConstructor [2894,2909]",
+      "dest": "SimpleName: testConstructor [2965,2980]"
+    },
+    {
+      "src": "ImportDeclaration [1096,1120]",
+      "dest": "ImportDeclaration [1167,1191]"
+    },
+    {
+      "src": "NumberLiteral: 0.75 [1783,1787]",
+      "dest": "NumberLiteral: 0.75 [1854,1858]"
+    },
+    {
+      "src": "MethodInvocation [4364,4379]",
+      "dest": "MethodInvocation [4435,4450]"
+    },
+    {
+      "src": "SingleVariableDeclaration [3998,4026]",
+      "dest": "SingleVariableDeclaration [4069,4097]"
+    },
+    {
+      "src": "StringLiteral: \"an exception should have been thrown\" [3701,3739]",
+      "dest": "StringLiteral: \"an exception should have been thrown\" [3772,3810]"
+    },
+    {
+      "src": "TryStatement [3392,3605]",
+      "dest": "TryStatement [3463,3676]"
+    },
+    {
+      "src": "ExpressionStatement [3633,3676]",
+      "dest": "ExpressionStatement [3704,3747]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [4190,4222]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [4261,4293]"
+    },
+    {
+      "src": "ArrayAccess [4190,4208]",
+      "dest": "ArrayAccess [4261,4279]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [3689,3695]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3760,3766]"
+    },
+    {
+      "src": "ExpressionStatement [4233,4282]",
+      "dest": "ExpressionStatement [4304,4353]"
+    },
+    {
+      "src": "SimpleName: i [4434,4435]",
+      "dest": "SimpleName: i [4505,4506]"
+    },
+    {
+      "src": "SimpleType [3373,3382]",
+      "dest": "SimpleType [3444,3453]"
+    },
+    {
+      "src": "NumberLiteral: 0.375 [1474,1479]",
+      "dest": "NumberLiteral: 0.375 [1545,1550]"
+    },
+    {
+      "src": "NumberLiteral: 0.6667 [1292,1298]",
+      "dest": "NumberLiteral: 0.6667 [1363,1369]"
+    },
+    {
+      "src": "ArrayInitializer [1586,1610]",
+      "dest": "ArrayInitializer [1657,1681]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [4233,4239]",
+      "dest": "METHOD_INVOCATION_RECEIVER [4304,4310]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [2984,2990]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3055,3061]"
+    },
+    {
+      "src": "ClassInstanceCreation [2940,2970]",
+      "dest": "ClassInstanceCreation [3011,3041]"
+    },
+    {
+      "src": "MarkerAnnotation [2052,2059]",
+      "dest": "MarkerAnnotation [2123,2130]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [2334,2366]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2405,2437]"
+    },
+    {
+      "src": "ExpressionStatement [2797,2850]",
+      "dest": "ExpressionStatement [2868,2921]"
+    },
+    {
+      "src": "SimpleType [3851,3874]",
+      "dest": "SimpleType [3922,3945]"
+    },
+    {
+      "src": "SimpleName: assertEquals [4240,4252]",
+      "dest": "SimpleName: assertEquals [4311,4323]"
+    },
+    {
+      "src": "Dimension [3905,3907]",
+      "dest": "Dimension [3976,3978]"
+    },
+    {
+      "src": "MethodInvocation [2984,3035]",
+      "dest": "MethodInvocation [3055,3106]"
+    },
+    {
+      "src": "ExpressionStatement [4165,4224]",
+      "dest": "ExpressionStatement [4236,4295]"
+    },
+    {
+      "src": "SimpleName: i [4301,4302]",
+      "dest": "SimpleName: i [4372,4373]"
+    },
+    {
+      "src": "SimpleName: getNextIndex [2418,2430]",
+      "dest": "SimpleName: getNextIndex [2489,2501]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "ImportDeclaration [954,1024]",
+      "parent": "CompilationUnit [0,4856]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "MethodDeclaration [4611,4854]",
+      "parent": "TypeDeclaration [1216,4856]",
+      "at": 12
+    }
+  ]
+}

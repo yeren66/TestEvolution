@@ -1,47 +1,20 @@
 --- 
 +++ 
-@@ -151,14 +151,12 @@
-                 throw new MathIllegalArgumentException(LocalizedFormats.HOLE_BETWEEN_MODELS_TIME_RANGES,
-                                                        gap.abs().getReal());
+@@ -31,7 +31,7 @@
+ import org.apache.commons.math4.legacy.stat.descriptive.summary.Sum;
+ import org.apache.commons.math4.legacy.stat.descriptive.summary.SumOfLogs;
+ import org.apache.commons.math4.legacy.stat.descriptive.summary.SumOfSquares;
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
+ import org.apache.commons.math4.legacy.core.MathArrays;
+ import org.apache.commons.numbers.core.Precision;
+ 
+@@ -255,7 +255,7 @@
+         } else {
+             RealMatrix matrix = covarianceImpl.getResult();
+             for (int i = 0; i < k; ++i) {
+-                stdDev[i] = AccurateMath.sqrt(matrix.getEntry(i, i));
++                stdDev[i] = JdkMath.sqrt(matrix.getEntry(i, i));
              }
--
          }
- 
-         steps.addAll(model.steps);
- 
-         index = steps.size() - 1;
-         finalTime = (steps.get(index)).getCurrentState().getTime();
--
-     }
- 
-     /** Check dimensions equality.
-@@ -206,7 +204,6 @@
-             finalTime = interpolator.getCurrentState().getTime();
-             index     = steps.size() - 1;
-         }
--
-     }
- 
-     /**
-@@ -303,7 +300,6 @@
-             } else if (index > high) {
-                 index = high;
-             }
--
-         }
- 
-         // now the table slice is very small, we perform an iterative search
-@@ -313,7 +309,6 @@
-         }
- 
-         return steps.get(index).getInterpolatedState(time);
--
-     }
- 
-     /** Compare a step interval and a double.
-@@ -341,5 +336,4 @@
-             return 0;
-         }
-     }
--
- }
+         return stdDev;

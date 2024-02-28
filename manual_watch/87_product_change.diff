@@ -1,78 +1,20 @@
 --- 
 +++ 
-@@ -195,7 +195,6 @@
-         }
+@@ -17,7 +17,7 @@
  
-         return missingEntries;
--
-     }
+ package org.apache.commons.math4.legacy.ode.nonstiff;
  
-     /**
-@@ -225,7 +224,6 @@
-         }
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
  
-         return false;
--
-     }
  
-     /**
-@@ -309,9 +307,7 @@
-             }
+ /**
+@@ -56,7 +56,7 @@
+ public class LutherIntegrator extends RungeKuttaIntegrator {
  
-             perturb >>= PERTURB_SHIFT;
--
--        }
--
-+        }
-     }
+     /** Square root. */
+-    private static final double Q = AccurateMath.sqrt(21);
++    private static final double Q = JdkMath.sqrt(21);
  
-     /**
-@@ -369,7 +365,6 @@
-         }
- 
-         return missingEntries;
--
-     }
- 
-     /**
-@@ -424,7 +419,6 @@
-             ++count;
-         }
-         return previous;
--
-     }
- 
-     /**
-@@ -456,7 +450,6 @@
-         keys   = newKeys;
-         values = newValues;
-         states = newStates;
--
-     }
- 
-     /**
-@@ -505,7 +498,6 @@
-             } catch (NoSuchElementException nsee) { // NOPMD
-                 // ignored
-             }
--
-         }
- 
-         /**
-@@ -576,9 +568,7 @@
-                     throw new NoSuchElementException();
-                 }
-             }
--
--        }
--
-+        }
-     }
- 
-     /**
-@@ -594,5 +584,4 @@
-         count = 0;
-     }
- 
--
- }
+     /** Time steps Butcher array. */
+     private static final double[] STATIC_C = {

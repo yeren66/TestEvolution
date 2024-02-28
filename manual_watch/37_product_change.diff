@@ -1,11 +1,23 @@
 --- 
 +++ 
-@@ -109,7 +109,7 @@
-     final double coeffDot3  = cDot23  * ONE_PLUS_INV_SQRT_2;
-     final double coeffDot4  = theta * (twoTheta - 1);
+@@ -16,7 +16,6 @@
+  */
+ package org.apache.commons.math4.legacy.analysis.differentiation;
  
--    if ((previousState != null) && (theta <= 0.5)) {
-+    if (previousState != null && theta <= 0.5) {
-         final double s         = theta * h / 6.0;
-         final double c23       = s * (6 * theta - fourTheta2);
-         final double coeff1    = s * (6 - 9 * theta + fourTheta2);
+-import java.io.Serializable;
+ import java.util.Collections;
+ import java.util.HashMap;
+ import java.util.Map;
+@@ -40,11 +39,7 @@
+  *
+  * @since 3.3
+  */
+-public final class SparseGradient implements RealFieldElement<SparseGradient>, Serializable {
+-
+-    /** Serializable UID. */
+-    private static final long serialVersionUID = 20131025L;
+-
++public final class SparseGradient implements RealFieldElement<SparseGradient> {
+     /** Value of the calculation. */
+     private double value;
+ 

@@ -1,40 +1,11 @@
 --- 
 +++ 
-@@ -224,11 +224,9 @@
+@@ -181,7 +181,7 @@
+     public MultivariateRealDistribution.Sampler createSampler(final UniformRandomProvider rng) {
+         return new MultivariateRealDistribution.Sampler() {
+             /** Normal distribution. */
+-            private final ContinuousDistribution.Sampler gauss = new NormalDistribution(0, 1).createSampler(rng);
++            private final ContinuousDistribution.Sampler gauss = NormalDistribution.of(0, 1).createSampler(rng);
  
-             final double ratio  = (predictedState[i] - previousState[i] + variation) / tol;
-             error              += ratio * ratio;
--
-         }
- 
-         return JdkMath.sqrt(error / mainSetDimension);
--
-     }
- 
-     /** {@inheritDoc} */
-@@ -303,7 +301,6 @@
-                     final double factor = computeStepGrowShrinkFactor(error);
-                     hNew = filterStep(hNew * factor, forward, false);
-                     interpolator.rescale(hNew);
--
-                 }
-             }
- 
-@@ -345,9 +342,7 @@
-                 }
- 
-                 interpolator.rescale(hNew);
--
-             }
--
-         } while (!isLastStep);
- 
-         // dispatch results
-@@ -355,7 +350,5 @@
-         equations.setCompleteState(y);
- 
-         resetInternalState();
--
-     }
--
- }
+             /** {@inheritDoc} */
+             @Override

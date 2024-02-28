@@ -1,11 +1,21 @@
 --- 
 +++ 
-@@ -239,7 +239,7 @@
-    */
-   public void computeCoefficients(final int mu, final double h) {
- 
--    if ((polynomials == null) || (polynomials.length <= (mu + 4))) {
-+    if (polynomials == null || polynomials.length <= (mu + 4)) {
-       resetTables(mu + 4);
-     }
- 
+@@ -218,18 +218,6 @@
+     /**
+      * {@inheritDoc}
+      *
+-     * The support of this distribution is connected.
+-     *
+-     * @return {@code true}
+-     */
+-    @Override
+-    public boolean isSupportConnected() {
+-        return true;
+-    }
+-
+-    /**
+-     * {@inheritDoc}
+-     *
+      * Refer to {@link EnumeratedDistribution.Sampler} for implementation details.
+      */
+     @Override

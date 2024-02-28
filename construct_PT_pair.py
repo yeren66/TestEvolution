@@ -7,8 +7,13 @@ import parse_git_log
 import re
 from tqdm import tqdm
 import logging
+import subprocess
 
 logging.basicConfig(filename="debug.log", level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+temp_folder = "temp"
+current_path = "/Users/mac/Desktop/TestEvolution"
+if not os.path.exists(temp_folder):
+    os.makedirs(temp_folder)
 
 def read_json(file_path):
     with open(file_path, 'r') as file:
@@ -34,6 +39,40 @@ def test_product_code_filter(change_file_path, related_product_file_path):
         if key_word not in change_file_path:
             return False
     return True
+
+def gumtree_filter(old_content, new_content):
+    if old_content == None or new_content == None:
+        return False
+    # 获取当前工作路径
+    now_path = os.getcwd()
+    # 切换至对应的项目目录
+    os.chdir(current_path)
+    old_path = os.path.join(temp_folder, "temp_old.java")
+    new_path = os.path.join(temp_folder, "temp_new.java")
+    target_path = os.path.join(temp_folder, "temp_target.json")
+    with open(old_path, "w") as file:
+        file.write(old_content)
+    with open(new_path, "w") as file:
+        file.write(new_content)
+    command = f"java -jar gumtree.jar textdiff {old_path} {new_path} -f JSON -o {target_path}"
+    try:
+        result = subprocess.run(command, capture_output=True, text=True, check=True, shell=True)
+        # return result.stdout.strip()
+    except subprocess.CalledProcessError as e:
+        # print(f"Error running command {' '.join(command)}: {e}")
+        logging.error(f"Error running command {' '.join(command)}: {e}")
+        return False
+    ret = read_json(target_path)
+    actions =  ret["actions"]
+    os.chdir(now_path)
+    if len(actions) == 0:
+        return False
+    for action in actions:
+        change_type = action['tree'].split(":")[0]
+        if change_type != "TextElement":
+            return True
+    return False
+
 
 def save_PT_pair(json_block, output_file_path):
     if os.path.exists(output_file_path):
@@ -90,17 +129,18 @@ def construct_PT_pair(project_path, output_dir, commit_info_list):
                         positive_total += 1
                         product_old_content, product_new_content = get_modified_files.get_file_content(commit_hash, product_files_path)
                         test_old_content, test_new_content = get_modified_files.get_file_content(positive_related_commit, related_changed_files[0])
-                        json_block = {
-                            "product_commit": commit_hash,
-                            "test_commit": positive_related_commit,
-                            "product_file_path": product_files_path,
-                            "test_file_path": related_changed_files[0],
-                            "product_old_content": product_old_content,
-                            "product_new_content": product_new_content,
-                            "test_old_content": test_old_content,
-                            "test_new_content": test_new_content
-                        }
-                        save_PT_pair(json_block, os.path.join(output_dir, "positive_samples.json"))
+                        if gumtree_filter(product_old_content, product_new_content) and gumtree_filter(test_old_content, test_new_content):
+                            json_block = {
+                                "product_commit": commit_hash,
+                                "test_commit": positive_related_commit,
+                                "product_file_path": product_files_path,
+                                "test_file_path": related_changed_files[0],
+                                "product_old_content": product_old_content,
+                                "product_new_content": product_new_content,
+                                "test_old_content": test_old_content,
+                                "test_new_content": test_new_content
+                            }
+                            save_PT_pair(json_block, os.path.join(output_dir, "positive_samples.json"))
                         break
 
                 for negative_related_commit in negative_related_commits:
@@ -135,14 +175,20 @@ def construct_PT_pair(project_path, output_dir, commit_info_list):
 if __name__ == "__main__":
 
     # project_path = "/Users/mac/Desktop/Java"
-    project_path = "/Users/mac/Desktop/commons-math"
-    temp_file_path = "temp_git_log.txt"
-    save_git_log_to_file.save_git_log_to_file(project_path, temp_file_path)
-    commit_info = parse_git_log.parse_git_log(temp_file_path)
-    commit_hash_list = json.dumps(commit_info, indent=4)
-    output_json_path = 'temp_git_log.json'
-    with open(output_json_path, 'w') as json_file:
-        json_file.write(commit_hash_list)
-    commit_hash_list = read_json(output_json_path)
-    output_dir = "/Users/mac/Desktop/TestEvolution/common-math_output"
-    construct_PT_pair(project_path, output_dir, commit_hash_list)
+    # project_path = "/Users/mac/Desktop/commons-math"
+    # temp_file_path = "temp_git_log.txt"
+    # save_git_log_to_file.save_git_log_to_file(project_path, temp_file_path)
+    # commit_info = parse_git_log.parse_git_log(temp_file_path)
+    # commit_hash_list = json.dumps(commit_info, indent=4)
+    # output_json_path = 'temp_git_log.json'
+    # with open(output_json_path, 'w') as json_file:
+    #     json_file.write(commit_hash_list)
+    # commit_hash_list = read_json(output_json_path)
+    # output_dir = "/Users/mac/Desktop/TestEvolution/common-math_output2"
+    # construct_PT_pair(project_path, output_dir, commit_hash_list)
+    a = "/*\n * Licensed to the Apache Software Foundation (ASF) under one or more\n * contributor license agreements.  See the NOTICE file distributed with\n * this work for additional information regarding copyright ownership.\n * The ASF licenses this file to You under the Apache License, Version 2.0\n * (the \"License\"); you may not use this file except in compliance with\n * the License.  You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\npackage org.apache.commons.math4.legacy.random;\n\nimport org.junit.Assert;\nimport org.apache.commons.math4.legacy.exception.DimensionMismatchException;\nimport org.apache.commons.math4.legacy.exception.NullArgumentException;\nimport org.apache.commons.math4.legacy.exception.OutOfRangeException;\nimport org.junit.Before;\nimport org.junit.Test;\n\npublic class HaltonSequenceGeneratorTest {\n\n    private double[][] referenceValues = {\n            { 0.0,    0.0,    0.0  },\n            { 0.5,    0.6667, 0.6  },\n            { 0.25,   0.3333, 0.2  },\n            { 0.75,   0.2223, 0.8  },\n            { 0.125,  0.8888, 0.4  },\n            { 0.625,  0.5555, 0.12 },\n            { 0.375,  0.1111, 0.72 },\n            { 0.875,  0.7777, 0.32 },\n            { 0.0625, 0.4444, 0.92 },\n            { 0.5625, 0.0740, 0.52 }\n    };\n\n    private double[][] referenceValuesUnscrambled = {\n            { 0.0,    0.0    },\n            { 0.5,    0.3333 },\n            { 0.25,   0.6666 },\n            { 0.75,   0.1111 },\n            { 0.125,  0.4444 },\n            { 0.625,  0.7777 },\n            { 0.375,  0.2222 },\n            { 0.875,  0.5555 },\n            { 0.0625, 0.8888 },\n            { 0.5625, 0.0370 }\n    };\n\n    private HaltonSequenceGenerator generator;\n\n    @Before\n    public void setUp() {\n        generator = new HaltonSequenceGenerator(3);\n    }\n\n    @Test\n    public void test3DReference() {\n        for (int i = 0; i < referenceValues.length; i++) {\n            double[] result = generator.get();\n            Assert.assertArrayEquals(referenceValues[i], result, 1e-3);\n            Assert.assertEquals(i + 1, generator.getNextIndex());\n        }\n    }\n\n    @Test\n    public void test2DUnscrambledReference() {\n        generator = new HaltonSequenceGenerator(2, new int[] {2, 3}, null);\n        for (int i = 0; i < referenceValuesUnscrambled.length; i++) {\n            double[] result = generator.get();\n            Assert.assertArrayEquals(referenceValuesUnscrambled[i], result, 1e-3);\n            Assert.assertEquals(i + 1, generator.getNextIndex());\n        }\n    }\n\n    @Test\n    public void testConstructor() {\n        try {\n            new HaltonSequenceGenerator(0);\n            Assert.fail(\"an exception should have been thrown\");\n        } catch (OutOfRangeException e) {\n            // expected\n        }\n\n        try {\n            new HaltonSequenceGenerator(41);\n            Assert.fail(\"an exception should have been thrown\");\n        } catch (OutOfRangeException e) {\n            // expected\n        }\n    }\n\n    @Test\n    public void testConstructor2() throws Exception{\n        try {\n            new HaltonSequenceGenerator(2, new int[] { 1 }, null);\n            Assert.fail(\"an exception should have been thrown\");\n        } catch (OutOfRangeException e) {\n            // expected\n        }\n\n        try {\n            new HaltonSequenceGenerator(2, null, null);\n            Assert.fail(\"an exception should have been thrown\");\n        } catch (NullArgumentException e) {\n            // expected\n        }\n\n        try {\n            new HaltonSequenceGenerator(2, new int[] { 1, 1 }, new int[] { 1 });\n            Assert.fail(\"an exception should have been thrown\");\n        } catch (DimensionMismatchException e) {\n            // expected\n        }\n    }\n\n    @Test\n    public void testSkip() {\n        double[] result = generator.skipTo(5);\n        Assert.assertArrayEquals(referenceValues[5], result, 1e-3);\n        Assert.assertEquals(6, generator.getNextIndex());\n\n        for (int i = 6; i < referenceValues.length; i++) {\n            result = generator.get();\n            Assert.assertArrayEquals(referenceValues[i], result, 1e-3);\n            Assert.assertEquals(i + 1, generator.getNextIndex());\n        }\n    }\n\n}"
+
+    b = "/*\n * Licensed to the Apache Software Foundation (ASF) under one or more\n * contributor license agreements.  See the NOTICE file distributed with\n * this work for additional information regarding copyright ownership.\n * The ASF licenses this file to You under the Apache License, Version 2.0\n * (the \"License\"); you may not use this file except in compliance with\n * the License.  You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\npackage org.apache.commons.math4.legacy.random;\n\nimport org.junit.Assert;\nimport org.apache.commons.math4.legacy.exception.DimensionMismatchException;\nimport org.apache.commons.math4.legacy.exception.NotPositiveException;\nimport org.apache.commons.math4.legacy.exception.NullArgumentException;\nimport org.apache.commons.math4.legacy.exception.OutOfRangeException;\nimport org.junit.Before;\nimport org.junit.Test;\n\npublic class HaltonSequenceGeneratorTest {\n\n    private double[][] referenceValues = {\n            { 0.0,    0.0,    0.0  },\n            { 0.5,    0.6667, 0.6  },\n            { 0.25,   0.3333, 0.2  },\n            { 0.75,   0.2223, 0.8  },\n            { 0.125,  0.8888, 0.4  },\n            { 0.625,  0.5555, 0.12 },\n            { 0.375,  0.1111, 0.72 },\n            { 0.875,  0.7777, 0.32 },\n            { 0.0625, 0.4444, 0.92 },\n            { 0.5625, 0.0740, 0.52 }\n    };\n\n    private double[][] referenceValuesUnscrambled = {\n            { 0.0,    0.0    },\n            { 0.5,    0.3333 },\n            { 0.25,   0.6666 },\n            { 0.75,   0.1111 },\n            { 0.125,  0.4444 },\n            { 0.625,  0.7777 },\n            { 0.375,  0.2222 },\n            { 0.875,  0.5555 },\n            { 0.0625, 0.8888 },\n            { 0.5625, 0.0370 }\n    };\n\n    private HaltonSequenceGenerator generator;\n\n    @Before\n    public void setUp() {\n        generator = new HaltonSequenceGenerator(3);\n    }\n\n    @Test\n    public void test3DReference() {\n        for (int i = 0; i < referenceValues.length; i++) {\n            double[] result = generator.get();\n            Assert.assertArrayEquals(referenceValues[i], result, 1e-3);\n            Assert.assertEquals(i + 1, generator.getNextIndex());\n        }\n    }\n\n    @Test\n    public void test2DUnscrambledReference() {\n        generator = new HaltonSequenceGenerator(2, new int[] {2, 3}, null);\n        for (int i = 0; i < referenceValuesUnscrambled.length; i++) {\n            double[] result = generator.get();\n            Assert.assertArrayEquals(referenceValuesUnscrambled[i], result, 1e-3);\n            Assert.assertEquals(i + 1, generator.getNextIndex());\n        }\n    }\n\n    @Test\n    public void testConstructor() {\n        try {\n            new HaltonSequenceGenerator(0);\n            Assert.fail(\"an exception should have been thrown\");\n        } catch (OutOfRangeException e) {\n            // expected\n        }\n\n        try {\n            new HaltonSequenceGenerator(41);\n            Assert.fail(\"an exception should have been thrown\");\n        } catch (OutOfRangeException e) {\n            // expected\n        }\n    }\n\n    @Test\n    public void testConstructor2() throws Exception{\n        try {\n            new HaltonSequenceGenerator(2, new int[] { 1 }, null);\n            Assert.fail(\"an exception should have been thrown\");\n        } catch (OutOfRangeException e) {\n            // expected\n        }\n\n        try {\n            new HaltonSequenceGenerator(2, null, null);\n            Assert.fail(\"an exception should have been thrown\");\n        } catch (NullArgumentException e) {\n            // expected\n        }\n\n        try {\n            new HaltonSequenceGenerator(2, new int[] { 1, 1 }, new int[] { 1 });\n            Assert.fail(\"an exception should have been thrown\");\n        } catch (DimensionMismatchException e) {\n            // expected\n        }\n    }\n\n    @Test\n    public void testSkip() {\n        double[] result = generator.skipTo(5);\n        Assert.assertArrayEquals(referenceValues[5], result, 1e-3);\n        Assert.assertEquals(6, generator.getNextIndex());\n\n        for (int i = 6; i < referenceValues.length; i++) {\n            result = generator.get();\n            Assert.assertArrayEquals(referenceValues[i], result, 1e-3);\n            Assert.assertEquals(i + 1, generator.getNextIndex());\n        }\n    }\n\n    @Test\n    public void testSkipToNegative() {\n        try {\n            generator.skipTo(-4584);\n            Assert.fail(\"an exception should have been thrown\");\n        } catch (NotPositiveException e) {\n            // expected\n        }\n    }\n}"
+
+
+    print(gumtree_filter(a, b))

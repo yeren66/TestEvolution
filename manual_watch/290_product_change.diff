@@ -1,0 +1,53 @@
+--- 
++++ 
+@@ -15,6 +15,8 @@
+  * limitations under the License.
+  */
+ package org.apache.commons.math4.legacy.random;
++
++import java.util.function.Supplier;
+ 
+ import org.apache.commons.math4.legacy.exception.DimensionMismatchException;
+ import org.apache.commons.math4.legacy.exception.NotPositiveException;
+@@ -41,7 +43,7 @@
+  * <p>
+  * The generator supports two modes:
+  * <ul>
+- *   <li>sequential generation of points: {@link #nextVector()}</li>
++ *   <li>sequential generation of points: {@link #get()}</li>
+  *   <li>random access to the i-th point in the sequence: {@link #skipTo(int)}</li>
+  * </ul>
+  *
+@@ -50,7 +52,7 @@
+  * On the Halton sequence and its scramblings</a>
+  * @since 3.3
+  */
+-public class HaltonSequenceGenerator implements RandomVectorGenerator {
++public class HaltonSequenceGenerator implements Supplier<double[]> {
+ 
+     /** The first 40 primes. */
+     private static final int[] PRIMES = new int[] {
+@@ -119,7 +121,7 @@
+ 
+     /** {@inheritDoc} */
+     @Override
+-    public double[] nextVector() {
++    public double[] get() {
+         final double[] v = new double[dimension];
+         for (int i = 0; i < dimension; i++) {
+             int index = count;
+@@ -165,12 +167,12 @@
+      */
+     public double[] skipTo(final int index) {
+         count = index;
+-        return nextVector();
++        return get();
+     }
+ 
+     /**
+      * Returns the index i of the next point in the Halton sequence that will be returned
+-     * by calling {@link #nextVector()}.
++     * by calling {@link #get()}.
+      *
+      * @return the index of the next point
+      */

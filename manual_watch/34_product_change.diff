@@ -1,11 +1,23 @@
 --- 
 +++ 
-@@ -202,7 +202,7 @@
-     final double dot2 = 1 - twoTheta;
-     final double dot3 = theta * (2 - 3 * theta);
-     final double dot4 = twoTheta * (1 + theta * (twoTheta - 3));
--    if ((previousState != null) && (theta <= 0.5)) {
-+    if (previousState != null && theta <= 0.5) {
-         for (int i = 0; i < interpolatedState.length; ++i) {
-             interpolatedState[i] =
-                     previousState[i] + theta * h * (v1[i] + eta * (v2[i] + theta * (v3[i] + eta * v4[i])));
+@@ -16,7 +16,6 @@
+  */
+ package org.apache.commons.math4.legacy.stat.descriptive.moment;
+ 
+-import java.io.Serializable;
+ import java.util.Arrays;
+ 
+ import org.apache.commons.math4.legacy.exception.DimensionMismatchException;
+@@ -25,11 +24,7 @@
+  * Returns the arithmetic mean of the available vectors.
+  * @since 1.2
+  */
+-public class VectorialMean implements Serializable {
+-
+-    /** Serializable version identifier. */
+-    private static final long serialVersionUID = 8223009086481006892L;
+-
++public class VectorialMean {
+     /** Means for each component. */
+     private final Mean[] means;
+ 

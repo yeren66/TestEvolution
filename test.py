@@ -7,8 +7,8 @@ output_path = "manual_watch"
 if not os.path.exists(output_path):
     os.makedirs(output_path)
 
-positive_sample_path = "common-math_output/positive_samples.json"
-negative_sample_path = "common-math_output/negative_samples.json"
+positive_sample_path = "common-math_output2/positive_samples.json"
+negative_sample_path = "common-math_output2/negative_samples.json"
 with open(positive_sample_path, "r") as file:
     positive_samples = json.load(file)
 

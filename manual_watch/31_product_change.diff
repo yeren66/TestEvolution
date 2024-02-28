@@ -1,20 +1,32 @@
 --- 
 +++ 
-@@ -347,7 +347,7 @@
-             throws MaxCountExceededException, DimensionMismatchException {
+@@ -16,8 +16,6 @@
+  */
+ package org.apache.commons.math4.legacy.stat.descriptive;
  
-             // Lazy initialization
--            if (dirtyParameter && (paramDim != 0)) {
-+            if (dirtyParameter && paramDim != 0) {
-                 jacobianProviders.add(new ParameterJacobianWrapper(jode, pode, selectedParameters));
-                 dirtyParameter = false;
-             }
-@@ -380,7 +380,7 @@
-                 int startIndex = stateDim * stateDim;
-                 for (ParameterConfiguration param: selectedParameters) {
-                     boolean found = false;
--                    for (int k = 0 ; (!found) && (k < jacobianProviders.size()); ++k) {
-+                    for (int k = 0 ; !found && k < jacobianProviders.size(); ++k) {
-                         final ParameterJacobianProvider provider = jacobianProviders.get(k);
-                         if (provider.isSupported(param.getParameterName())) {
-                             provider.computeParameterJacobian(t, y, yDot,
+-import java.io.Serializable;
+-
+ import org.apache.commons.math4.core.jdkmath.JdkMath;
+ import org.apache.commons.numbers.core.Precision;
+ 
+@@ -25,12 +23,8 @@
+  *  Value object representing the results of a univariate statistical summary.
+  *
+  */
+-public class StatisticalSummaryValues implements Serializable,
+-    StatisticalSummary {
+-
+-    /** Serialization id. */
+-    private static final long serialVersionUID = -5108854841843722536L;
+-
++public class StatisticalSummaryValues
++    implements StatisticalSummary {
+     /** The sample mean. */
+     private final double mean;
+ 
+@@ -188,5 +182,4 @@
+         outBuffer.append("sum: ").append(getSum()).append(endl);
+         return outBuffer.toString();
+     }
+-
+ }

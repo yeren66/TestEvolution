@@ -1,59 +1,20 @@
 --- 
 +++ 
-@@ -83,7 +83,6 @@
+@@ -20,7 +20,7 @@
+ import org.apache.commons.math4.legacy.analysis.differentiation.DerivativeStructure;
+ import org.apache.commons.math4.legacy.analysis.differentiation.UnivariateDifferentiableFunction;
+ import org.apache.commons.math4.legacy.exception.TooManyEvaluationsException;
+-import org.apache.commons.math4.legacy.core.jdkmath.AccurateMath;
++import org.apache.commons.math4.core.jdkmath.JdkMath;
  
-         // initialize map for Jacobi polynomials
-         JACOBI_COEFFICIENTS = new HashMap<>();
--
-     }
- 
-     /**
-@@ -241,7 +240,6 @@
-             // P1(x) = (v - w) / 2 + (2 + v + w) * X / 2
-             list.add(BigFraction.of(v - w, 2));
-             list.add(BigFraction.of(2 + v + w, 2));
--
-         }
- 
-         return buildPolynomial(degree, JACOBI_COEFFICIENTS.get(key),
-@@ -263,7 +261,6 @@
-                 };
+ /**
+  * Implements <a href="http://mathworld.wolfram.com/NewtonsMethod.html">
+@@ -82,7 +82,7 @@
+         while (true) {
+             final DerivativeStructure y0 = computeObjectiveValueAndDerivative(x0);
+             x1 = x0 - (y0.getValue() / y0.getPartialDerivative(1));
+-            if (AccurateMath.abs(x1 - x0) <= absoluteAccuracy) {
++            if (JdkMath.abs(x1 - x0) <= absoluteAccuracy) {
+                 return x1;
              }
-         });
--
-     }
  
-     /** Inner class for Jacobi polynomials keys. */
-@@ -305,7 +302,6 @@
- 
-             final JacobiKey otherK = (JacobiKey) key;
-             return (v == otherK.v) && (w == otherK.w);
--
-         }
-     }
- 
-@@ -393,7 +389,6 @@
- 
-         // build the polynomial
-         return new PolynomialFunction(a);
--
-     }
- 
-     /** Compute polynomial coefficients up to a given degree.
-@@ -437,9 +432,7 @@
- 
-             // degree k+1 coefficient
-             coefficients.add(ck.multiply(ai[1]));
--
--        }
--
-+        }
-     }
- 
-     /** Interface for recurrence coefficients generation. */
-@@ -452,5 +445,4 @@
-          */
-         BigFraction[] generate(int k);
-     }
--
- }

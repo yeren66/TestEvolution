@@ -1,13 +1,21 @@
 --- 
 +++ 
-@@ -155,8 +155,8 @@
-                 idx = parent1Rep.indexOf(item);
-             }
+@@ -19,6 +19,7 @@
+ import java.util.function.Supplier;
  
--            // for even cycles: swap the child elements on the indices found in this cycle
--            if (cycle++ % 2 != 0) {
-+            // for odd cycles: swap the child elements on the indices found in this cycle
-+            if ((cycle++ & 1) != 0) {
-                 for (int i : indices) {
-                     T tmp = child1Rep.get(i);
-                     child1Rep.set(i, child2Rep.get(i));
+ import org.apache.commons.math4.legacy.exception.DimensionMismatchException;
++import org.apache.commons.math4.legacy.exception.NotPositiveException;
+ import org.apache.commons.math4.legacy.exception.NullArgumentException;
+ import org.apache.commons.math4.legacy.exception.OutOfRangeException;
+ 
+@@ -165,6 +166,10 @@
+      * @throws org.apache.commons.math4.legacy.exception.NotPositiveException NotPositiveException if index &lt; 0
+      */
+     public double[] skipTo(final int index) {
++        if (index < 0) {
++            throw new NotPositiveException(index);
++        }
++
+         count = index;
+         return get();
+     }
