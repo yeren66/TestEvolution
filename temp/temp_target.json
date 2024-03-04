@@ -1,74 +1,4705 @@
 {
   "matches": [
     {
-      "src": "SimpleName: IntegerDistribution [1182,1201]",
-      "dest": "SimpleName: IntegerDistribution [997,1016]"
+      "src": "MethodDeclaration [6062,6271]",
+      "dest": "MethodDeclaration [6118,6327]"
     },
     {
-      "src": "TypeDeclaration [1109,1233]",
-      "dest": "TypeDeclaration [924,1048]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [2955,2986]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3029,3060]"
+    },
+    {
+      "src": "TypeDeclaration [1666,10351]",
+      "dest": "TypeDeclaration [1740,10395]"
+    },
+    {
+      "src": "SimpleType [3315,3341]",
+      "dest": "SimpleType [3389,3415]"
+    },
+    {
+      "src": "Block [3495,3506]",
+      "dest": "Block [3569,3580]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [7448,7504]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [7492,7548]"
+    },
+    {
+      "src": "SimpleName: results [5118,5125]",
+      "dest": "SimpleName: results [5192,5199]"
+    },
+    {
+      "src": "MethodInvocation [10301,10338]",
+      "dest": "MethodInvocation [10345,10382]"
+    },
+    {
+      "src": "NumberLiteral: 31.0 [9128,9132]",
+      "dest": "NumberLiteral: 31.0 [9172,9176]"
+    },
+    {
+      "src": "PrefixExpression [4523,4527]",
+      "dest": "PrefixExpression [4597,4601]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: < [4687,4688]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: < [4761,4762]"
+    },
+    {
+      "src": "SimpleName: assertEquals [4305,4317]",
+      "dest": "SimpleName: assertEquals [4379,4391]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [2918,2921]",
+      "dest": "NumberLiteral: 0.0 [2992,2995]"
+    },
+    {
+      "src": "PrimitiveType: double [3602,3608]",
+      "dest": "PrimitiveType: double [3676,3682]"
+    },
+    {
+      "src": "SimpleName: results [4318,4325]",
+      "dest": "SimpleName: results [4392,4399]"
+    },
+    {
+      "src": "MethodInvocation [9594,9668]",
+      "dest": "MethodInvocation [9638,9712]"
+    },
+    {
+      "src": "PrimitiveType: void [6156,6160]",
+      "dest": "PrimitiveType: void [6212,6216]"
+    },
+    {
+      "src": "SimpleName: AbstractRealDistribution [6792,6816]",
+      "dest": "SimpleName: AbstractRealDistribution [6854,6878]"
+    },
+    {
+      "src": "StringLiteral: \"Expected DimensionMismatchException\" [2720,2757]",
+      "dest": "StringLiteral: \"Expected DimensionMismatchException\" [2794,2831]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [6002,6048]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [6058,6104]"
+    },
+    {
+      "src": "ImportDeclaration [1566,1616]",
+      "dest": "ImportDeclaration [1640,1690]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [7515,7519]",
+      "dest": "METHOD_INVOCATION_RECEIVER [7559,7563]"
+    },
+    {
+      "src": "SimpleName: assertEquals [10283,10295]",
+      "dest": "SimpleName: assertEquals [10327,10339]"
+    },
+    {
+      "src": "SimpleType [2625,2651]",
+      "dest": "SimpleType [2699,2725]"
+    },
+    {
+      "src": "ClassInstanceCreation [7448,7504]",
+      "dest": "ClassInstanceCreation [7492,7548]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4151,4152]",
+      "dest": "NumberLiteral: 0 [4225,4226]"
+    },
+    {
+      "src": "ExpressionStatement [3301,3397]",
+      "dest": "ExpressionStatement [3375,3471]"
+    },
+    {
+      "src": "NumberLiteral: 0 [10109,10110]",
+      "dest": "NumberLiteral: 0 [10153,10154]"
+    },
+    {
+      "src": "NumberLiteral: 0.7 [5164,5167]",
+      "dest": "NumberLiteral: 0.7 [5238,5241]"
+    },
+    {
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [6745,6746]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [6807,6808]"
+    },
+    {
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [2923,2924]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [2997,2998]"
+    },
+    {
+      "src": "MethodInvocation [4298,4343]",
+      "dest": "MethodInvocation [4372,4417]"
+    },
+    {
+      "src": "ExpressionStatement [3656,3705]",
+      "dest": "ExpressionStatement [3730,3779]"
+    },
+    {
+      "src": "NumberLiteral: 1e-10 [5827,5832]",
+      "dest": "NumberLiteral: 1e-10 [5883,5888]"
+    },
+    {
+      "src": "SimpleName: inverseCumulativeProbability [9457,9485]",
+      "dest": "SimpleName: inverseCumulativeProbability [9501,9529]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9607,9667]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9651,9711]"
+    },
+    {
+      "src": "SimpleType [1861,1887]",
+      "dest": "SimpleType [1935,1961]"
+    },
+    {
+      "src": "NumberLiteral: 5.0 [9185,9188]",
+      "dest": "NumberLiteral: 5.0 [9229,9232]"
+    },
+    {
+      "src": "Dimension [4520,4522]",
+      "dest": "Dimension [4594,4596]"
+    },
+    {
+      "src": "SingleVariableDeclaration [3236,3261]",
+      "dest": "SingleVariableDeclaration [3310,3335]"
+    },
+    {
+      "src": "ArrayAccess [5317,5326]",
+      "dest": "ArrayAccess [5391,5400]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [4274,4283]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [4348,4357]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [7439,7443]",
+      "dest": "METHOD_INVOCATION_RECEIVER [7483,7487]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [9444,9456]",
+      "dest": "METHOD_INVOCATION_RECEIVER [9488,9500]"
+    },
+    {
+      "src": "NumberLiteral: 2.0 [3360,3363]",
+      "dest": "NumberLiteral: 2.0 [3434,3437]"
+    },
+    {
+      "src": "SimpleName: testGetSupportLowerBound [5945,5969]",
+      "dest": "SimpleName: testGetSupportLowerBound [6001,6025]"
+    },
+    {
+      "src": "FieldAccess [7702,7772]",
+      "dest": "FieldAccess [7746,7816]"
+    },
+    {
+      "src": "VariableDeclarationStatement [4589,4660]",
+      "dest": "VariableDeclarationStatement [4663,4734]"
+    },
+    {
+      "src": "SimpleName: testDistribution [6006,6022]",
+      "dest": "SimpleName: testDistribution [6062,6078]"
+    },
+    {
+      "src": "SimpleName: assertEquals [7686,7698]",
+      "dest": "SimpleName: assertEquals [7730,7742]"
+    },
+    {
+      "src": "ClassInstanceCreation [3543,3642]",
+      "dest": "ClassInstanceCreation [3617,3716]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [9949,9961]",
+      "dest": "METHOD_INVOCATION_RECEIVER [9993,10005]"
+    },
+    {
+      "src": "Modifier: final [10073,10078]",
+      "dest": "Modifier: final [10117,10122]"
+    },
+    {
+      "src": "Javadoc [5415,5486]",
+      "dest": "Javadoc [5489,5560]"
+    },
+    {
+      "src": "ClassInstanceCreation [10178,10214]",
+      "dest": "ClassInstanceCreation [10222,10258]"
+    },
+    {
+      "src": "VariableDeclarationStatement [4723,4776]",
+      "dest": "VariableDeclarationStatement [4797,4850]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: / [9237,9238]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: / [9281,9282]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [4298,4304]",
+      "dest": "METHOD_INVOCATION_RECEIVER [4372,4378]"
+    },
+    {
+      "src": "TextElement:  constructor throws [2425,2444]",
+      "dest": "TextElement:  constructor throws [2499,2518]"
+    },
+    {
+      "src": "InfixExpression [9209,9219]",
+      "dest": "InfixExpression [9253,9263]"
+    },
+    {
+      "src": "PrimitiveType: double [4019,4025]",
+      "dest": "PrimitiveType: double [4093,4099]"
+    },
+    {
+      "src": "SimpleName: testGetNumericalMean [5513,5533]",
+      "dest": "SimpleName: testGetNumericalMean [5587,5607]"
+    },
+    {
+      "src": "SimpleName: inverseCumulativeProbability [9626,9654]",
+      "dest": "SimpleName: inverseCumulativeProbability [9670,9698]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [7115,7131]",
+      "dest": "METHOD_INVOCATION_RECEIVER [7177,7193]"
+    },
+    {
+      "src": "VariableDeclarationFragment [5264,5327]",
+      "dest": "VariableDeclarationFragment [5338,5401]"
+    },
+    {
+      "src": "MethodInvocation [9781,9830]",
+      "dest": "MethodInvocation [9825,9874]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [6699,6756]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [6761,6818]"
+    },
+    {
+      "src": "SimpleName: probability [5264,5275]",
+      "dest": "SimpleName: probability [5338,5349]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [9832,9835]",
+      "dest": "NumberLiteral: 0.0 [9876,9879]"
+    },
+    {
+      "src": "ArrayType [10079,10087]",
+      "dest": "ArrayType [10123,10131]"
+    },
+    {
+      "src": "MethodInvocation [9529,9578]",
+      "dest": "MethodInvocation [9573,9622]"
+    },
+    {
+      "src": "Modifier: public [6149,6155]",
+      "dest": "Modifier: public [6205,6211]"
+    },
+    {
+      "src": "VariableDeclarationStatement [10073,10127]",
+      "dest": "VariableDeclarationStatement [10117,10171]"
+    },
+    {
+      "src": "NumberLiteral: 1.0000 [9486,9492]",
+      "dest": "NumberLiteral: 1.0000 [9530,9536]"
+    },
+    {
+      "src": "Dimension [9168,9170]",
+      "dest": "Dimension [9212,9214]"
+    },
+    {
+      "src": "Modifier: public [2503,2509]",
+      "dest": "Modifier: public [2577,2583]"
+    },
+    {
+      "src": "NumberLiteral: 21.0 [9116,9120]",
+      "dest": "NumberLiteral: 21.0 [9160,9164]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [10267,10268]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [10311,10312]"
+    },
+    {
+      "src": "PostfixExpression [5238,5241]",
+      "dest": "PostfixExpression [5312,5315]"
+    },
+    {
+      "src": "NumberLiteral: 1 [10112,10113]",
+      "dest": "NumberLiteral: 1 [10156,10157]"
+    },
+    {
+      "src": "SimpleName: p [4281,4282]",
+      "dest": "SimpleName: p [4355,4356]"
+    },
+    {
+      "src": "Block [7824,10011]",
+      "dest": "Block [7868,10055]"
+    },
+    {
+      "src": "ParameterizedType [7416,7427]",
+      "dest": "ParameterizedType [7460,7471]"
+    },
+    {
+      "src": "SimpleName: results [4103,4110]",
+      "dest": "SimpleName: results [4177,4184]"
+    },
+    {
+      "src": "SimpleName: Assert [6198,6204]",
+      "dest": "SimpleName: Assert [6254,6260]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [5341,5347]",
+      "dest": "METHOD_INVOCATION_RECEIVER [5415,5421]"
+    },
+    {
+      "src": "ArrayCreation [3133,3155]",
+      "dest": "ArrayCreation [3207,3229]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [6218,6263]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [6274,6319]"
+    },
+    {
+      "src": "Assignment [2611,2694]",
+      "dest": "Assignment [2685,2768]"
+    },
+    {
+      "src": "CatchClause [2770,2818]",
+      "dest": "CatchClause [2844,2892]"
+    },
+    {
+      "src": "Block [6421,6494]",
+      "dest": "Block [6477,6550]"
+    },
+    {
+      "src": "ArrayCreation [9089,9140]",
+      "dest": "ArrayCreation [9133,9184]"
+    },
+    {
+      "src": "VariableDeclarationFragment [9026,9246]",
+      "dest": "VariableDeclarationFragment [9070,9290]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4187,4188]",
+      "dest": "NumberLiteral: 0 [4261,4262]"
+    },
+    {
+      "src": "SimpleName: e [3748,3749]",
+      "dest": "SimpleName: e [3822,3823]"
+    },
+    {
+      "src": "PrimitiveType: void [7349,7353]",
+      "dest": "PrimitiveType: void [7393,7397]"
+    },
+    {
+      "src": "Block [7369,7780]",
+      "dest": "Block [7413,7824]"
+    },
+    {
+      "src": "NumberLiteral: 16.0 [9227,9231]",
+      "dest": "NumberLiteral: 16.0 [9271,9275]"
+    },
+    {
+      "src": "NumberLiteral: 16.0 [9239,9243]",
+      "dest": "NumberLiteral: 16.0 [9283,9287]"
     },
     {
       "src": "QualifiedName: org.apache.commons.math4.distribution [811,848]",
       "dest": "QualifiedName: org.apache.commons.math4.distribution [811,848]"
     },
     {
-      "src": "ImportDeclaration [851,922]",
-      "dest": "ImportDeclaration [851,922]"
+      "src": "SimpleType [3472,3491]",
+      "dest": "SimpleType [3546,3565]"
     },
     {
-      "src": "TYPE_DECLARATION_KIND: interface [1172,1181]",
-      "dest": "TYPE_DECLARATION_KIND: interface [987,996]"
+      "src": "SimpleName: EnumeratedRealDistribution [1861,1887]",
+      "dest": "SimpleName: EnumeratedRealDistribution [1935,1961]"
     },
     {
-      "src": "SimpleName: DiscreteDistribution [1210,1230]",
-      "dest": "SimpleName: DiscreteDistribution [1025,1045]"
+      "src": "PrimitiveType: double [4612,4618]",
+      "dest": "PrimitiveType: double [4686,4692]"
     },
     {
-      "src": "TextElement: Interface for distributions on the integers. [1116,1160]",
-      "dest": "TextElement: Interface for distributions on the integers. [931,975]"
+      "src": "SimpleName: distribution [10301,10313]",
+      "dest": "SimpleName: distribution [10345,10357]"
     },
     {
-      "src": "QualifiedName: org.apache.commons.statistics.distribution.DiscreteDistribution [858,921]",
-      "dest": "QualifiedName: org.apache.commons.statistics.distribution.DiscreteDistribution [858,921]"
+      "src": "SimpleName: n [6594,6595]",
+      "dest": "SimpleName: n [6650,6651]"
     },
     {
-      "src": "Modifier: public [1165,1171]",
-      "dest": "Modifier: public [980,986]"
+      "src": "TagElement [5857,5910]",
+      "dest": "TagElement [5913,5966]"
     },
     {
-      "src": "SimpleType [1210,1230]",
-      "dest": "SimpleType [1025,1045]"
+      "src": "SimpleName: p [4817,4818]",
+      "dest": "SimpleName: p [4891,4892]"
     },
     {
-      "src": "Javadoc [1109,1164]",
-      "dest": "Javadoc [924,979]"
+      "src": "Dimension [5138,5140]",
+      "dest": "Dimension [5212,5214]"
+    },
+    {
+      "src": "TYPE_DECLARATION_KIND: class [1738,1743]",
+      "dest": "TYPE_DECLARATION_KIND: class [1812,1817]"
+    },
+    {
+      "src": "PrimitiveType: double [2253,2259]",
+      "dest": "PrimitiveType: double [2327,2333]"
+    },
+    {
+      "src": "ExpressionStatement [6198,6265]",
+      "dest": "ExpressionStatement [6254,6321]"
+    },
+    {
+      "src": "ImportDeclaration [1291,1358]",
+      "dest": "ImportDeclaration [1365,1432]"
+    },
+    {
+      "src": "ArrayCreation [3342,3364]",
+      "dest": "ArrayCreation [3416,3438]"
+    },
+    {
+      "src": "SimpleType [3547,3573]",
+      "dest": "SimpleType [3621,3647]"
+    },
+    {
+      "src": "NumberLiteral: 7.0 [2278,2281]",
+      "dest": "NumberLiteral: 7.0 [2352,2355]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: / [7282,7283]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: / [7326,7327]"
+    },
+    {
+      "src": "PrefixExpression [2283,2287]",
+      "dest": "PrefixExpression [2357,2361]"
+    },
+    {
+      "src": "ArrayType [5012,5020]",
+      "dest": "ArrayType [5086,5094]"
+    },
+    {
+      "src": "Dimension [5040,5042]",
+      "dest": "Dimension [5114,5116]"
+    },
+    {
+      "src": "MethodInvocation [6431,6487]",
+      "dest": "MethodInvocation [6487,6543]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9739,9745]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9783,9789]"
+    },
+    {
+      "src": "SimpleName: invalid [3301,3308]",
+      "dest": "SimpleName: invalid [3375,3382]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [7115,7181]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [7177,7234]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9943,10003]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9987,10047]"
+    },
+    {
+      "src": "NumberLiteral: 1e-10 [5386,5391]",
+      "dest": "NumberLiteral: 1e-10 [5460,5465]"
+    },
+    {
+      "src": "SimpleName: testGetSupportUpperBound [6161,6185]",
+      "dest": "SimpleName: testGetSupportUpperBound [6217,6241]"
+    },
+    {
+      "src": "NumberLiteral: 0.2500 [9402,9408]",
+      "dest": "NumberLiteral: 0.2500 [9446,9452]"
+    },
+    {
+      "src": "ClassInstanceCreation [7490,7503]",
+      "dest": "ClassInstanceCreation [7534,7547]"
+    },
+    {
+      "src": "ExpressionStatement [3170,3218]",
+      "dest": "ExpressionStatement [3244,3292]"
+    },
+    {
+      "src": "Modifier: public [5933,5939]",
+      "dest": "Modifier: public [5989,5995]"
+    },
+    {
+      "src": "SimpleName: fail [3663,3667]",
+      "dest": "SimpleName: fail [3737,3741]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [7288,7296]",
+      "dest": "METHOD_INVOCATION_RECEIVER [7332,7340]"
+    },
+    {
+      "src": "ClassInstanceCreation [7473,7488]",
+      "dest": "ClassInstanceCreation [7517,7532]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9823,9829]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9867,9873]"
+    },
+    {
+      "src": "QualifiedName: java.util.ArrayList [904,923]",
+      "dest": "QualifiedName: java.util.ArrayList [904,923]"
+    },
+    {
+      "src": "ArrayInitializer [2917,2928]",
+      "dest": "ArrayInitializer [2991,3002]"
+    },
+    {
+      "src": "ExpressionStatement [5982,6050]",
+      "dest": "ExpressionStatement [6038,6106]"
+    },
+    {
+      "src": "MethodDeclaration [7332,7780]",
+      "dest": "MethodDeclaration [7376,7824]"
+    },
+    {
+      "src": "PrefixExpression [6002,6004]",
+      "dest": "PrefixExpression [6058,6060]"
+    },
+    {
+      "src": "ImportDeclaration [1423,1469]",
+      "dest": "ImportDeclaration [1497,1543]"
+    },
+    {
+      "src": "InfixExpression [7269,7312]",
+      "dest": "InfixExpression [7313,7356]"
+    },
+    {
+      "src": "InfixExpression [4190,4207]",
+      "dest": "InfixExpression [4264,4281]"
+    },
+    {
+      "src": "SimpleName: assertEquals [7102,7114]",
+      "dest": "SimpleName: assertEquals [7164,7176]"
+    },
+    {
+      "src": "MethodInvocation [7702,7765]",
+      "dest": "MethodInvocation [7746,7809]"
+    },
+    {
+      "src": "ExpressionStatement [4789,4835]",
+      "dest": "ExpressionStatement [4863,4909]"
+    },
+    {
+      "src": "VariableDeclarationStatement [6893,6908]",
+      "dest": "VariableDeclarationStatement [6955,6970]"
+    },
+    {
+      "src": "SimpleName: points [4765,4771]",
+      "dest": "SimpleName: points [4839,4845]"
+    },
+    {
+      "src": "ArrayType [4514,4522]",
+      "dest": "ArrayType [4588,4596]"
+    },
+    {
+      "src": "SimpleName: p [4209,4210]",
+      "dest": "SimpleName: p [4283,4284]"
+    },
+    {
+      "src": "NumberLiteral: 18.0 [9110,9114]",
+      "dest": "NumberLiteral: 18.0 [9154,9158]"
+    },
+    {
+      "src": "SimpleName: list [7439,7443]",
+      "dest": "SimpleName: list [7483,7487]"
+    },
+    {
+      "src": "Modifier: public [10027,10033]",
+      "dest": "Modifier: public [10071,10077]"
+    },
+    {
+      "src": "Block [4482,4851]",
+      "dest": "Block [4556,4925]"
+    },
+    {
+      "src": "ExpressionStatement [2943,2988]",
+      "dest": "ExpressionStatement [3017,3062]"
+    },
+    {
+      "src": "SimpleName: samples [7065,7072]",
+      "dest": "SimpleName: samples [7127,7134]"
+    },
+    {
+      "src": "Dimension [2321,2323]",
+      "dest": "Dimension [2395,2397]"
+    },
+    {
+      "src": "PrimitiveType: double [3113,3119]",
+      "dest": "PrimitiveType: double [3187,3193]"
+    },
+    {
+      "src": "SimpleName: Assert [2708,2714]",
+      "dest": "SimpleName: Assert [2782,2788]"
+    },
+    {
+      "src": "CatchClause [3229,3274]",
+      "dest": "CatchClause [3303,3348]"
+    },
+    {
+      "src": "NumberLiteral: 0.5 [10296,10299]",
+      "dest": "NumberLiteral: 0.5 [10340,10343]"
+    },
+    {
+      "src": "SimpleName: distribution [9026,9038]",
+      "dest": "SimpleName: distribution [9070,9082]"
+    },
+    {
+      "src": "InfixExpression [9197,9207]",
+      "dest": "InfixExpression [9241,9251]"
+    },
+    {
+      "src": "SimpleName: Test [3948,3952]",
+      "dest": "SimpleName: Test [4022,4026]"
+    },
+    {
+      "src": "NumberLiteral: 33.0 [9438,9442]",
+      "dest": "NumberLiteral: 33.0 [9482,9486]"
+    },
+    {
+      "src": "SimpleType [2542,2568]",
+      "dest": "SimpleType [2616,2642]"
+    },
+    {
+      "src": "MethodInvocation [6792,6835]",
+      "dest": "MethodInvocation [6854,6897]"
+    },
+    {
+      "src": "POSTFIX_EXPRESSION_OPERATOR: ++ [5239,5241]",
+      "dest": "POSTFIX_EXPRESSION_OPERATOR: ++ [5313,5315]"
+    },
+    {
+      "src": "ClassInstanceCreation [7566,7579]",
+      "dest": "ClassInstanceCreation [7610,7623]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [7212,7318]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [7265,7362]"
+    },
+    {
+      "src": "TagElement [4868,4939]",
+      "dest": "TagElement [4942,5013]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [9221,9224]",
+      "dest": "NumberLiteral: 1.0 [9265,9268]"
+    },
+    {
+      "src": "SimpleName: Test [6540,6544]",
+      "dest": "SimpleName: Test [6596,6600]"
+    },
+    {
+      "src": "StringLiteral: \"Expected NotPositiveException\" [2955,2986]",
+      "dest": "StringLiteral: \"Expected NotPositiveException\" [3029,3060]"
+    },
+    {
+      "src": "Modifier: public [4962,4968]",
+      "dest": "Modifier: public [5036,5042]"
+    },
+    {
+      "src": "ArrayCreation [5030,5099]",
+      "dest": "ArrayCreation [5104,5173]"
+    },
+    {
+      "src": "Modifier: public [1992,1998]",
+      "dest": "Modifier: public [2066,2072]"
+    },
+    {
+      "src": "PrimitiveType: double [6773,6779]",
+      "dest": "PrimitiveType: double [6835,6841]"
+    },
+    {
+      "src": "SimpleName: probability [5373,5384]",
+      "dest": "SimpleName: probability [5447,5458]"
+    },
+    {
+      "src": "PrimitiveType: double [10099,10105]",
+      "dest": "PrimitiveType: double [10143,10149]"
+    },
+    {
+      "src": "MethodInvocation [3410,3453]",
+      "dest": "MethodInvocation [3484,3527]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [2665,2668]",
+      "dest": "NumberLiteral: 1.0 [2739,2742]"
+    },
+    {
+      "src": "NumberLiteral: 0.2 [4624,4627]",
+      "dest": "NumberLiteral: 0.2 [4698,4701]"
+    },
+    {
+      "src": "ForStatement [4174,4354]",
+      "dest": "ForStatement [4248,4428]"
+    },
+    {
+      "src": "VariableDeclarationFragment [5021,5099]",
+      "dest": "VariableDeclarationFragment [5095,5173]"
+    },
+    {
+      "src": "NumberLiteral: 0 [6963,6964]",
+      "dest": "NumberLiteral: 0 [7025,7026]"
+    },
+    {
+      "src": "SimpleName: samples [6782,6789]",
+      "dest": "SimpleName: samples [6844,6851]"
+    },
+    {
+      "src": "TextElement: Tests sampling. [6511,6526]",
+      "dest": "TextElement: Tests sampling. [6567,6582]"
+    },
+    {
+      "src": "Dimension [4618,4620]",
+      "dest": "Dimension [4692,4694]"
+    },
+    {
+      "src": "PrimitiveType: void [10034,10038]",
+      "dest": "PrimitiveType: void [10078,10082]"
+    },
+    {
+      "src": "ParameterizedType [7384,7403]",
+      "dest": "ParameterizedType [7428,7447]"
+    },
+    {
+      "src": "ExpressionStatement [7095,7183]",
+      "dest": "ExpressionStatement [7157,7236]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9775,9835]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9819,9879]"
+    },
+    {
+      "src": "NumberLiteral: 7.0 [4075,4078]",
+      "dest": "NumberLiteral: 7.0 [4149,4152]"
+    },
+    {
+      "src": "NullLiteral [2579,2583]",
+      "dest": "NullLiteral [2653,2657]"
+    },
+    {
+      "src": "NumberLiteral: 2.0 [2899,2902]",
+      "dest": "NumberLiteral: 2.0 [2973,2976]"
+    },
+    {
+      "src": "NumberLiteral: 18.0 [9859,9863]",
+      "dest": "NumberLiteral: 18.0 [9903,9907]"
+    },
+    {
+      "src": "SimpleName: List [7379,7383]",
+      "dest": "SimpleName: List [7423,7427]"
+    },
+    {
+      "src": "SimpleName: points [5317,5323]",
+      "dest": "SimpleName: points [5391,5397]"
+    },
+    {
+      "src": "VariableDeclarationStatement [6917,6941]",
+      "dest": "VariableDeclarationStatement [6979,7003]"
+    },
+    {
+      "src": "NumberLiteral: 4.0 [4060,4063]",
+      "dest": "NumberLiteral: 4.0 [4134,4137]"
+    },
+    {
+      "src": "ExpressionStatement [7515,7582]",
+      "dest": "ExpressionStatement [7559,7626]"
+    },
+    {
+      "src": "ArrayType [4612,4620]",
+      "dest": "ArrayType [4686,4694]"
+    },
+    {
+      "src": "SimpleName: p [4685,4686]",
+      "dest": "SimpleName: p [4759,4760]"
+    },
+    {
+      "src": "NumberLiteral: 2 [10121,10122]",
+      "dest": "NumberLiteral: 2 [10165,10166]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9354,9414]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9398,9458]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistribution [3547,3573]",
+      "dest": "SimpleName: EnumeratedRealDistribution [3621,3647]"
+    },
+    {
+      "src": "SimpleType [7416,7425]",
+      "dest": "SimpleType [7460,7469]"
+    },
+    {
+      "src": "MarkerAnnotation [10017,10022]",
+      "dest": "MarkerAnnotation [10061,10066]"
+    },
+    {
+      "src": "SimpleName: inverseCumulativeProbability [9794,9822]",
+      "dest": "SimpleName: inverseCumulativeProbability [9838,9866]"
+    },
+    {
+      "src": "Modifier: final [1855,1860]",
+      "dest": "Modifier: final [1929,1934]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistributionTest [1999,2029]",
+      "dest": "SimpleName: EnumeratedRealDistributionTest [2073,2103]"
+    },
+    {
+      "src": "NumberLiteral: 14.0 [9104,9108]",
+      "dest": "NumberLiteral: 14.0 [9148,9152]"
+    },
+    {
+      "src": "SimpleName: distribution [9949,9961]",
+      "dest": "SimpleName: distribution [9993,10005]"
+    },
+    {
+      "src": "SimpleName: Test [7333,7337]",
+      "dest": "SimpleName: Test [7377,7381]"
+    },
+    {
+      "src": "PrimitiveType: double [3997,4003]",
+      "dest": "PrimitiveType: double [4071,4077]"
+    },
+    {
+      "src": "ArrayCreation [2249,2293]",
+      "dest": "ArrayCreation [2323,2367]"
+    },
+    {
+      "src": "NumberLiteral: 0 [5216,5217]",
+      "dest": "NumberLiteral: 0 [5290,5291]"
+    },
+    {
+      "src": "SimpleName: p [5324,5325]",
+      "dest": "SimpleName: p [5398,5399]"
+    },
+    {
+      "src": "SimpleName: e [3260,3261]",
+      "dest": "SimpleName: e [3334,3335]"
+    },
+    {
+      "src": "ASSIGNMENT_OPERATOR: = [3076,3077]",
+      "dest": "ASSIGNMENT_OPERATOR: = [3150,3151]"
+    },
+    {
+      "src": "QualifiedName: org.junit.Assert [1624,1640]",
+      "dest": "QualifiedName: org.junit.Assert [1698,1714]"
+    },
+    {
+      "src": "VariableDeclarationFragment [4235,4284]",
+      "dest": "VariableDeclarationFragment [4309,4358]"
+    },
+    {
+      "src": "SimpleName: add [7520,7523]",
+      "dest": "SimpleName: add [7564,7567]"
+    },
+    {
+      "src": "Assignment [3533,3642]",
+      "dest": "Assignment [3607,3716]"
+    },
+    {
+      "src": "ArrayCreation [3598,3641]",
+      "dest": "ArrayCreation [3672,3715]"
+    },
+    {
+      "src": "Dimension [3119,3121]",
+      "dest": "Dimension [3193,3195]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [9197,9200]",
+      "dest": "NumberLiteral: 0.0 [9241,9244]"
+    },
+    {
+      "src": "NumberLiteral: 2 [10124,10125]",
+      "dest": "NumberLiteral: 2 [10168,10169]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistribution [2625,2651]",
+      "dest": "SimpleName: EnumeratedRealDistribution [2699,2725]"
+    },
+    {
+      "src": "Javadoc [4857,4947]",
+      "dest": "Javadoc [4931,5021]"
+    },
+    {
+      "src": "QualifiedName: samples.length [6970,6984]",
+      "dest": "QualifiedName: samples.length [7032,7046]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: / [7305,7306]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: / [7349,7350]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [4339,4342]",
+      "dest": "NumberLiteral: 0.0 [4413,4416]"
+    },
+    {
+      "src": "VariableDeclarationStatement [5257,5328]",
+      "dest": "VariableDeclarationStatement [5331,5402]"
+    },
+    {
+      "src": "ImportDeclaration [1513,1565]",
+      "dest": "ImportDeclaration [1587,1639]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.math4.exception.MathArithmeticException [1168,1226]",
+      "dest": "QualifiedName: org.apache.commons.math4.exception.MathArithmeticException [1242,1300]"
+    },
+    {
+      "src": "SimpleName: distribution [9613,9625]",
+      "dest": "SimpleName: distribution [9657,9669]"
+    },
+    {
+      "src": "Block [2597,2769]",
+      "dest": "Block [2671,2843]"
+    },
+    {
+      "src": "ArrayInitializer [3121,3131]",
+      "dest": "ArrayInitializer [3195,3205]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistribution [10136,10162]",
+      "dest": "SimpleName: EnumeratedRealDistribution [10180,10206]"
+    },
+    {
+      "src": "SimpleType [7389,7395]",
+      "dest": "SimpleType [7433,7439]"
+    },
+    {
+      "src": "SimpleName: testCumulativeProbability [4974,4999]",
+      "dest": "SimpleName: testCumulativeProbability [5048,5073]"
+    },
+    {
+      "src": "NumberLiteral: 0.7 [5169,5172]",
+      "dest": "NumberLiteral: 0.7 [5243,5246]"
+    },
+    {
+      "src": "SimpleName: create [6712,6718]",
+      "dest": "SimpleName: create [6774,6780]"
+    },
+    {
+      "src": "SimpleName: Assert [3170,3176]",
+      "dest": "SimpleName: Assert [3244,3250]"
+    },
+    {
+      "src": "QualifiedName: points.length [5223,5236]",
+      "dest": "QualifiedName: points.length [5297,5310]"
+    },
+    {
+      "src": "SimpleName: data [10088,10092]",
+      "dest": "SimpleName: data [10132,10136]"
+    },
+    {
+      "src": "Javadoc [1911,1987]",
+      "dest": "Javadoc [1985,2061]"
+    },
+    {
+      "src": "Assignment [2182,2354]",
+      "dest": "Assignment [2256,2428]"
+    },
+    {
+      "src": "SimpleName: assertEquals [4796,4808]",
+      "dest": "SimpleName: assertEquals [4870,4882]"
+    },
+    {
+      "src": "SimpleName: inverseCumulativeProbability [9289,9317]",
+      "dest": "SimpleName: inverseCumulativeProbability [9333,9361]"
+    },
+    {
+      "src": "ExpressionStatement [7679,7774]",
+      "dest": "ExpressionStatement [7723,7818]"
+    },
+    {
+      "src": "InfixExpression [6966,6984]",
+      "dest": "InfixExpression [7028,7046]"
+    },
+    {
+      "src": "SimpleType [7452,7456]",
+      "dest": "SimpleType [7496,7500]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [3170,3176]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3244,3250]"
+    },
+    {
+      "src": "SimpleType [7706,7728]",
+      "dest": "SimpleType [7750,7772]"
+    },
+    {
+      "src": "ArrayCreation [5128,5193]",
+      "dest": "ArrayCreation [5202,5267]"
+    },
+    {
+      "src": "MethodInvocation [5546,5614]",
+      "dest": "MethodInvocation [5620,5679]"
+    },
+    {
+      "src": "PrimitiveType: void [6556,6560]",
+      "dest": "PrimitiveType: void [6612,6616]"
+    },
+    {
+      "src": "NumberLiteral: 8.0 [2289,2292]",
+      "dest": "NumberLiteral: 8.0 [2363,2366]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [6824,6834]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [6886,6896]"
+    },
+    {
+      "src": "Block [3030,3041]",
+      "dest": "Block [3104,3115]"
+    },
+    {
+      "src": "VariableDeclarationFragment [7619,7669]",
+      "dest": "VariableDeclarationFragment [7663,7713]"
+    },
+    {
+      "src": "SimpleName: testIsSupportConnected [6396,6418]",
+      "dest": "SimpleName: testIsSupportConnected [6452,6474]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [4789,4795]",
+      "dest": "METHOD_INVOCATION_RECEIVER [4863,4869]"
+    },
+    {
+      "src": "SimpleName: cumulativeProbability [10314,10335]",
+      "dest": "SimpleName: cumulativeProbability [10358,10379]"
+    },
+    {
+      "src": "ArrayAccess [4809,4819]",
+      "dest": "ArrayAccess [4883,4893]"
+    },
+    {
+      "src": "Dimension [3584,3586]",
+      "dest": "Dimension [3658,3660]"
+    },
+    {
+      "src": "ArrayType [9093,9101]",
+      "dest": "ArrayType [9137,9145]"
+    },
+    {
+      "src": "NumberLiteral: 1 [7763,7764]",
+      "dest": "NumberLiteral: 1 [7807,7808]"
+    },
+    {
+      "src": "SimpleType [2854,2880]",
+      "dest": "SimpleType [2928,2954]"
+    },
+    {
+      "src": "SimpleName: Test [4953,4957]",
+      "dest": "SimpleName: Test [5027,5031]"
+    },
+    {
+      "src": "VariableDeclarationStatement [4228,4285]",
+      "dest": "VariableDeclarationStatement [4302,4359]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9402,9408]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9446,9452]"
+    },
+    {
+      "src": "Modifier: public [4456,4462]",
+      "dest": "Modifier: public [4530,4536]"
+    },
+    {
+      "src": "NumberLiteral: 0 [6262,6263]",
+      "dest": "NumberLiteral: 0 [6318,6319]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4657,4658]",
+      "dest": "NumberLiteral: 0 [4731,4732]"
+    },
+    {
+      "src": "Dimension [4595,4597]",
+      "dest": "Dimension [4669,4671]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [2720,2757]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2794,2831]"
+    },
+    {
+      "src": "ImportDeclaration [925,947]",
+      "dest": "ImportDeclaration [925,947]"
+    },
+    {
+      "src": "ArrayInitializer [2688,2693]",
+      "dest": "ArrayInitializer [2762,2767]"
+    },
+    {
+      "src": "PrimitiveType: int [5208,5211]",
+      "dest": "PrimitiveType: int [5282,5285]"
+    },
+    {
+      "src": "ArrayType [4019,4027]",
+      "dest": "ArrayType [4093,4101]"
+    },
+    {
+      "src": "Modifier: final [6615,6620]",
+      "dest": "Modifier: final [6671,6676]"
+    },
+    {
+      "src": "ImportDeclaration [1642,1664]",
+      "dest": "ImportDeclaration [1716,1738]"
+    },
+    {
+      "src": "SimpleName: assertEquals [9678,9690]",
+      "dest": "SimpleName: assertEquals [9722,9734]"
+    },
+    {
+      "src": "TextElement: Tests if the distribution returns proper mean value. [5426,5478]",
+      "dest": "TextElement: Tests if the distribution returns proper mean value. [5500,5552]"
+    },
+    {
+      "src": "ExpressionStatement [10283,10343]",
+      "dest": "ExpressionStatement [10327,10387]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [5780,5832]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [5845,5888]"
+    },
+    {
+      "src": "SimpleName: distribution [10163,10175]",
+      "dest": "SimpleName: distribution [10207,10219]"
+    },
+    {
+      "src": "SimpleName: testIssue1065 [7808,7821]",
+      "dest": "SimpleName: testIssue1065 [7852,7865]"
+    },
+    {
+      "src": "SimpleName: Double [7494,7500]",
+      "dest": "SimpleName: Double [7538,7544]"
+    },
+    {
+      "src": "PrimitiveType: void [4463,4467]",
+      "dest": "PrimitiveType: void [4537,4541]"
+    },
+    {
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [4529,4530]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [4603,4604]"
+    },
+    {
+      "src": "ArrayCreation [3366,3395]",
+      "dest": "ArrayCreation [3440,3469]"
+    },
+    {
+      "src": "CompilationUnit [0,10351]",
+      "dest": "CompilationUnit [0,10395]"
+    },
+    {
+      "src": "PrimitiveType: int [4674,4677]",
+      "dest": "PrimitiveType: int [4748,4751]"
+    },
+    {
+      "src": "SimpleName: Object [7457,7463]",
+      "dest": "SimpleName: Object [7501,7507]"
+    },
+    {
+      "src": "SimpleName: ArrayList [7416,7425]",
+      "dest": "SimpleName: ArrayList [7460,7469]"
+    },
+    {
+      "src": "ClassInstanceCreation [7412,7429]",
+      "dest": "ClassInstanceCreation [7456,7473]"
+    },
+    {
+      "src": "StringLiteral: \"Expected NotFiniteNumberException\" [3668,3703]",
+      "dest": "StringLiteral: \"Expected NotFiniteNumberException\" [3742,3777]"
+    },
+    {
+      "src": "NumberLiteral: 7.0 [5090,5093]",
+      "dest": "NumberLiteral: 7.0 [5164,5167]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [5050,5053]",
+      "dest": "NumberLiteral: 1.0 [5124,5127]"
+    },
+    {
+      "src": "NumberLiteral: 2 [10118,10119]",
+      "dest": "NumberLiteral: 2 [10162,10163]"
+    },
+    {
+      "src": "NumberLiteral: 0.5 [10237,10240]",
+      "dest": "NumberLiteral: 0.5 [10281,10284]"
+    },
+    {
+      "src": "Dimension [4003,4005]",
+      "dest": "Dimension [4077,4079]"
+    },
+    {
+      "src": "PrimitiveType: void [3964,3968]",
+      "dest": "PrimitiveType: void [4038,4042]"
+    },
+    {
+      "src": "VariableDeclarationFragment [4103,4164]",
+      "dest": "VariableDeclarationFragment [4177,4238]"
+    },
+    {
+      "src": "VariableDeclarationStatement [6584,6606]",
+      "dest": "VariableDeclarationStatement [6640,6662]"
+    },
+    {
+      "src": "TextElement: Tests if the  [2378,2391]",
+      "dest": "TextElement: Tests if the  [2452,2465]"
+    },
+    {
+      "src": "ParameterizedType [7706,7730]",
+      "dest": "ParameterizedType [7750,7774]"
+    },
+    {
+      "src": "VariableDeclarationFragment [5118,5193]",
+      "dest": "VariableDeclarationFragment [5192,5267]"
+    },
+    {
+      "src": "SimpleName: Assert [6845,6851]",
+      "dest": "SimpleName: Assert [6907,6913]"
+    },
+    {
+      "src": "ArrayType [2680,2688]",
+      "dest": "ArrayType [2754,2762]"
+    },
+    {
+      "src": "SimpleName: assertEquals [9341,9353]",
+      "dest": "SimpleName: assertEquals [9385,9397]"
+    },
+    {
+      "src": "MarkerAnnotation [7786,7791]",
+      "dest": "MarkerAnnotation [7830,7835]"
+    },
+    {
+      "src": "NumberLiteral: 6.0 [4070,4073]",
+      "dest": "NumberLiteral: 6.0 [4144,4147]"
+    },
+    {
+      "src": "TagElement [4377,4433]",
+      "dest": "TagElement [4451,4507]"
+    },
+    {
+      "src": "ParameterizedType [7528,7548]",
+      "dest": "ParameterizedType [7572,7592]"
+    },
+    {
+      "src": "SimpleName: list [7515,7519]",
+      "dest": "SimpleName: list [7559,7563]"
+    },
+    {
+      "src": "QualifiedName: points.length [4194,4207]",
+      "dest": "QualifiedName: points.length [4268,4281]"
+    },
+    {
+      "src": "ExpressionStatement [9678,9753]",
+      "dest": "ExpressionStatement [9722,9797]"
+    },
+    {
+      "src": "SimpleName: sumOfSquares [7269,7281]",
+      "dest": "SimpleName: sumOfSquares [7313,7325]"
+    },
+    {
+      "src": "POSTFIX_EXPRESSION_OPERATOR: ++ [4210,4212]",
+      "dest": "POSTFIX_EXPRESSION_OPERATOR: ++ [4284,4286]"
+    },
+    {
+      "src": "ArrayAccess [5361,5371]",
+      "dest": "ArrayAccess [5435,5445]"
+    },
+    {
+      "src": "MethodInvocation [10224,10273]",
+      "dest": "MethodInvocation [10268,10317]"
+    },
+    {
+      "src": "TagElement [6511,6526]",
+      "dest": "TagElement [6567,6582]"
+    },
+    {
+      "src": "MethodInvocation [5982,6049]",
+      "dest": "MethodInvocation [6038,6105]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistribution [2398,2424]",
+      "dest": "SimpleName: EnumeratedRealDistribution [2472,2498]"
+    },
+    {
+      "src": "Dimension [2915,2917]",
+      "dest": "Dimension [2989,2991]"
+    },
+    {
+      "src": "VariableDeclarationFragment [4501,4579]",
+      "dest": "VariableDeclarationFragment [4575,4653]"
+    },
+    {
+      "src": "ArrayInitializer [3145,3155]",
+      "dest": "ArrayInitializer [3219,3229]"
+    },
+    {
+      "src": "MethodInvocation [7095,7182]",
+      "dest": "MethodInvocation [7157,7235]"
+    },
+    {
+      "src": "POSTFIX_EXPRESSION_OPERATOR: ++ [4705,4707]",
+      "dest": "POSTFIX_EXPRESSION_OPERATOR: ++ [4779,4781]"
+    },
+    {
+      "src": "NumberLiteral: 2.0 [3592,3595]",
+      "dest": "NumberLiteral: 2.0 [3666,3669]"
+    },
+    {
+      "src": "SimpleName: assertEquals [5989,6001]",
+      "dest": "SimpleName: assertEquals [6045,6057]"
+    },
+    {
+      "src": "NumberLiteral: 2.0 [2284,2287]",
+      "dest": "NumberLiteral: 2.0 [2358,2361]"
+    },
+    {
+      "src": "SimpleName: testDistribution [1888,1904]",
+      "dest": "SimpleName: testDistribution [1962,1978]"
+    },
+    {
+      "src": "SimpleName: list [7405,7409]",
+      "dest": "SimpleName: list [7449,7453]"
+    },
+    {
+      "src": "AnonymousClassDeclaration [7486,7488]",
+      "dest": "AnonymousClassDeclaration [7530,7532]"
+    },
+    {
+      "src": "SimpleName: Object [7533,7539]",
+      "dest": "SimpleName: Object [7577,7583]"
+    },
+    {
+      "src": "SimpleName: testCreateFromDoubles [10039,10060]",
+      "dest": "SimpleName: testCreateFromDoubles [10083,10104]"
+    },
+    {
+      "src": "PrimitiveType: double [2885,2891]",
+      "dest": "PrimitiveType: double [2959,2965]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9571,9577]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9615,9621]"
+    },
+    {
+      "src": "VariableDeclarationFragment [10163,10214]",
+      "dest": "VariableDeclarationFragment [10207,10258]"
+    },
+    {
+      "src": "NumberLiteral: 0 [5141,5142]",
+      "dest": "NumberLiteral: 0 [5215,5216]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [3122,3125]",
+      "dest": "NumberLiteral: 1.0 [3196,3199]"
+    },
+    {
+      "src": "MethodInvocation [5760,5833]",
+      "dest": "MethodInvocation [5825,5889]"
+    },
+    {
+      "src": "NumberLiteral: 1e-2 [7177,7181]",
+      "dest": "NumberLiteral: 1e-2 [7230,7234]"
+    },
+    {
+      "src": "InfixExpression [9173,9183]",
+      "dest": "InfixExpression [9217,9227]"
+    },
+    {
+      "src": "MethodInvocation [3656,3704]",
+      "dest": "MethodInvocation [3730,3778]"
+    },
+    {
+      "src": "ArrayAccess [7052,7062]",
+      "dest": "ArrayAccess [7114,7124]"
+    },
+    {
+      "src": "VariableDeclarationFragment [1888,1904]",
+      "dest": "VariableDeclarationFragment [1962,1978]"
+    },
+    {
+      "src": "SimpleName: RandomSource [7625,7637]",
+      "dest": "SimpleName: RandomSource [7669,7681]"
+    },
+    {
+      "src": "MethodDeclaration [6500,7326]",
+      "dest": "MethodDeclaration [6556,7370]"
+    },
+    {
+      "src": "ArrayType [2315,2323]",
+      "dest": "ArrayType [2389,2397]"
+    },
+    {
+      "src": "PrimitiveType: double [3370,3376]",
+      "dest": "PrimitiveType: double [3444,3450]"
+    },
+    {
+      "src": "SimpleType [7457,7463]",
+      "dest": "SimpleType [7501,7507]"
+    },
+    {
+      "src": "ClassInstanceCreation [7524,7580]",
+      "dest": "ClassInstanceCreation [7568,7624]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistribution [8999,9025]",
+      "dest": "SimpleName: EnumeratedRealDistribution [9043,9069]"
+    },
+    {
+      "src": "SimpleName: testDistribution [4740,4756]",
+      "dest": "SimpleName: testDistribution [4814,4830]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.math4.distribution.EnumeratedRealDistribution [1025,1089]",
+      "dest": "QualifiedName: org.apache.commons.math4.distribution.EnumeratedRealDistribution [1099,1163]"
+    },
+    {
+      "src": "ExpressionStatement [2840,2930]",
+      "dest": "ExpressionStatement [2914,3004]"
+    },
+    {
+      "src": "ArrayType [5034,5042]",
+      "dest": "ArrayType [5108,5116]"
+    },
+    {
+      "src": "MethodInvocation [9257,9331]",
+      "dest": "MethodInvocation [9301,9375]"
+    },
+    {
+      "src": "MethodInvocation [9678,9752]",
+      "dest": "MethodInvocation [9722,9796]"
+    },
+    {
+      "src": "SimpleName: UniformRandomProvider [7597,7618]",
+      "dest": "SimpleName: UniformRandomProvider [7641,7662]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [3789,3849]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3863,3923]"
+    },
+    {
+      "src": "SimpleName: p [4772,4773]",
+      "dest": "SimpleName: p [4846,4847]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [3410,3416]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3484,3490]"
+    },
+    {
+      "src": "ExpressionStatement [4298,4344]",
+      "dest": "ExpressionStatement [4372,4418]"
+    },
+    {
+      "src": "SimpleName: assertEquals [6852,6864]",
+      "dest": "SimpleName: assertEquals [6914,6926]"
+    },
+    {
+      "src": "SimpleName: Assert [4298,4304]",
+      "dest": "SimpleName: Assert [4372,4378]"
+    },
+    {
+      "src": "NumberLiteral: 33.0 [9134,9138]",
+      "dest": "NumberLiteral: 33.0 [9178,9182]"
+    },
+    {
+      "src": "VariableDeclarationFragment [10088,10126]",
+      "dest": "VariableDeclarationFragment [10132,10170]"
+    },
+    {
+      "src": "MethodDeclaration [4366,4851]",
+      "dest": "MethodDeclaration [4440,4925]"
+    },
+    {
+      "src": "Dimension [10085,10087]",
+      "dest": "Dimension [10129,10131]"
+    },
+    {
+      "src": "Block [6188,6271]",
+      "dest": "Block [6244,6327]"
+    },
+    {
+      "src": "NumberLiteral: 0.2 [4129,4132]",
+      "dest": "NumberLiteral: 0.2 [4203,4206]"
+    },
+    {
+      "src": "SimpleName: sumOfSquares [6924,6936]",
+      "dest": "SimpleName: sumOfSquares [6986,6998]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [4809,4833]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [4883,4907]"
+    },
+    {
+      "src": "SimpleName: sum [7005,7008]",
+      "dest": "SimpleName: sum [7067,7070]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [3422,3452]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3496,3526]"
+    },
+    {
+      "src": "ArrayInitializer [3378,3395]",
+      "dest": "ArrayInitializer [3452,3469]"
+    },
+    {
+      "src": "ExpressionStatement [10224,10274]",
+      "dest": "ExpressionStatement [10268,10318]"
+    },
+    {
+      "src": "NumberLiteral: 1e-2 [7314,7318]",
+      "dest": "NumberLiteral: 1e-2 [7358,7362]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9859,9919]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9903,9963]"
+    },
+    {
+      "src": "SimpleType [10182,10208]",
+      "dest": "SimpleType [10226,10252]"
+    },
+    {
+      "src": "InfixExpression [7301,7308]",
+      "dest": "InfixExpression [7345,7352]"
+    },
+    {
+      "src": "SimpleName: testDistribution [4245,4261]",
+      "dest": "SimpleName: testDistribution [4319,4335]"
+    },
+    {
+      "src": "Assignment [7005,7022]",
+      "dest": "Assignment [7067,7084]"
+    },
+    {
+      "src": "NumberLiteral: 6.0 [4565,4568]",
+      "dest": "NumberLiteral: 6.0 [4639,4642]"
+    },
+    {
+      "src": "SimpleName: createSampler [6685,6698]",
+      "dest": "SimpleName: createSampler [6747,6760]"
+    },
+    {
+      "src": "SimpleName: FastMath [7288,7296]",
+      "dest": "SimpleName: FastMath [7332,7340]"
+    },
+    {
+      "src": "SimpleName: Object [7477,7483]",
+      "dest": "SimpleName: Object [7521,7527]"
+    },
+    {
+      "src": "SimpleType [7384,7388]",
+      "dest": "SimpleType [7428,7432]"
+    },
+    {
+      "src": "TagElement [5638,5688]",
+      "dest": "TagElement [5703,5753]"
+    },
+    {
+      "src": "SimpleName: Assert [5546,5552]",
+      "dest": "SimpleName: Assert [5620,5626]"
+    },
+    {
+      "src": "Assignment [7036,7075]",
+      "dest": "Assignment [7098,7137]"
+    },
+    {
+      "src": "InfixExpression [7052,7075]",
+      "dest": "InfixExpression [7114,7137]"
+    },
+    {
+      "src": "PostfixExpression [4209,4212]",
+      "dest": "PostfixExpression [4283,4286]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [5786,5802]",
+      "dest": "METHOD_INVOCATION_RECEIVER [5851,5867]"
+    },
+    {
+      "src": "MethodInvocation [9425,9499]",
+      "dest": "MethodInvocation [9469,9543]"
+    },
+    {
+      "src": "ExpressionStatement [5760,5834]",
+      "dest": "ExpressionStatement [5825,5890]"
+    },
+    {
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [4028,4029]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [4102,4103]"
+    },
+    {
+      "src": "Dimension [2686,2688]",
+      "dest": "Dimension [2760,2762]"
+    },
+    {
+      "src": "VariableDeclarationExpression [4179,4188]",
+      "dest": "VariableDeclarationExpression [4253,4262]"
+    },
+    {
+      "src": "NumberLiteral: 0.5624 [9655,9661]",
+      "dest": "NumberLiteral: 0.5624 [9699,9705]"
+    },
+    {
+      "src": "NumberLiteral: 28.0 [9943,9947]",
+      "dest": "NumberLiteral: 28.0 [9987,9991]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.math4.exception.NotANumberException [1235,1289]",
+      "dest": "QualifiedName: org.apache.commons.math4.exception.NotANumberException [1309,1363]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [6668,6684]",
+      "dest": "METHOD_INVOCATION_RECEIVER [6730,6746]"
+    },
+    {
+      "src": "ImportDeclaration [897,924]",
+      "dest": "ImportDeclaration [897,924]"
+    },
+    {
+      "src": "ArrayInitializer [5042,5099]",
+      "dest": "ArrayInitializer [5116,5173]"
+    },
+    {
+      "src": "ArrayInitializer [3610,3641]",
+      "dest": "ArrayInitializer [3684,3715]"
+    },
+    {
+      "src": "Modifier: public [7342,7348]",
+      "dest": "Modifier: public [7386,7392]"
+    },
+    {
+      "src": "MethodDeclaration [6277,6494]",
+      "dest": "MethodDeclaration [6333,6550]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [5278,5294]",
+      "dest": "METHOD_INVOCATION_RECEIVER [5352,5368]"
+    },
+    {
+      "src": "NumberLiteral: 1 [6003,6004]",
+      "dest": "NumberLiteral: 1 [6059,6060]"
+    },
+    {
+      "src": "ClassInstanceCreation [3078,3156]",
+      "dest": "ClassInstanceCreation [3152,3230]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistribution [3082,3108]",
+      "dest": "SimpleName: EnumeratedRealDistribution [3156,3182]"
+    },
+    {
+      "src": "NumberLiteral: 16.0 [9215,9219]",
+      "dest": "NumberLiteral: 16.0 [9259,9263]"
+    },
+    {
+      "src": "Dimension [5115,5117]",
+      "dest": "Dimension [5189,5191]"
+    },
+    {
+      "src": "SimpleType [3236,3259]",
+      "dest": "SimpleType [3310,3333]"
+    },
+    {
+      "src": "SimpleName: inverseCumulativeProbability [9710,9738]",
+      "dest": "SimpleName: inverseCumulativeProbability [9754,9782]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: / [9213,9214]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: / [9257,9258]"
+    },
+    {
+      "src": "NumberLiteral: 3.4 [5566,5569]",
+      "dest": "NumberLiteral: 3.4 [5640,5643]"
+    },
+    {
+      "src": "SimpleName: Test [6140,6144]",
+      "dest": "SimpleName: Test [6196,6200]"
+    },
+    {
+      "src": "MethodDeclaration [5415,5621]",
+      "dest": "MethodDeclaration [5489,5686]"
+    },
+    {
+      "src": "MethodInvocation [9846,9920]",
+      "dest": "MethodInvocation [9890,9964]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4148,4149]",
+      "dest": "NumberLiteral: 0 [4222,4223]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [5361,5391]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [5435,5465]"
+    },
+    {
+      "src": "SimpleName: pow [7297,7300]",
+      "dest": "SimpleName: pow [7341,7344]"
+    },
+    {
+      "src": "ExpressionStatement [3533,3643]",
+      "dest": "ExpressionStatement [3607,3717]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [3611,3614]",
+      "dest": "NumberLiteral: 0.0 [3685,3688]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [5317,5326]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [5391,5400]"
+    },
+    {
+      "src": "Modifier: public [6549,6555]",
+      "dest": "Modifier: public [6605,6611]"
+    },
+    {
+      "src": "SimpleName: i [6986,6987]",
+      "dest": "SimpleName: i [7048,7049]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.math4.distribution.EnumeratedDistribution [956,1016]",
+      "dest": "QualifiedName: org.apache.commons.math4.distribution.EnumeratedDistribution [1030,1090]"
+    },
+    {
+      "src": "FieldDeclaration [1782,1905]",
+      "dest": "FieldDeclaration [1856,1979]"
+    },
+    {
+      "src": "MethodInvocation [2943,2987]",
+      "dest": "MethodInvocation [3017,3061]"
+    },
+    {
+      "src": "SingleVariableDeclaration [3472,3493]",
+      "dest": "SingleVariableDeclaration [3546,3567]"
+    },
+    {
+      "src": "NumberLiteral: 3.0 [4055,4058]",
+      "dest": "NumberLiteral: 3.0 [4129,4132]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: / [9201,9202]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: / [9245,9246]"
+    },
+    {
+      "src": "SingleVariableDeclaration [2777,2805]",
+      "dest": "SingleVariableDeclaration [2851,2879]"
+    },
+    {
+      "src": "Block [3287,3464]",
+      "dest": "Block [3361,3538]"
+    },
+    {
+      "src": "Dimension [2662,2664]",
+      "dest": "Dimension [2736,2738]"
+    },
+    {
+      "src": "MarkerAnnotation [6374,6379]",
+      "dest": "MarkerAnnotation [6430,6435]"
+    },
+    {
+      "src": "ASSIGNMENT_OPERATOR: = [3309,3310]",
+      "dest": "ASSIGNMENT_OPERATOR: = [3383,3384]"
+    },
+    {
+      "src": "SimpleName: Double [7465,7471]",
+      "dest": "SimpleName: Double [7509,7515]"
+    },
+    {
+      "src": "NumberLiteral: 2.0 [5044,5047]",
+      "dest": "NumberLiteral: 2.0 [5118,5121]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [10301,10313]",
+      "dest": "METHOD_INVOCATION_RECEIVER [10345,10357]"
+    },
+    {
+      "src": "PrimitiveType: void [5508,5512]",
+      "dest": "PrimitiveType: void [5582,5586]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9691,9751]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9735,9795]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.math4.exception.NotPositiveException [1366,1421]",
+      "dest": "QualifiedName: org.apache.commons.math4.exception.NotPositiveException [1440,1495]"
+    },
+    {
+      "src": "SimpleName: data [10209,10213]",
+      "dest": "SimpleName: data [10253,10257]"
+    },
+    {
+      "src": "Block [5750,5840]",
+      "dest": "Block [5815,5896]"
+    },
+    {
+      "src": "ArrayCreation [2905,2928]",
+      "dest": "ArrayCreation [2979,3002]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.math4.exception.DimensionMismatchException [1098,1159]",
+      "dest": "QualifiedName: org.apache.commons.math4.exception.DimensionMismatchException [1172,1233]"
+    },
+    {
+      "src": "NumberLiteral: 0.7500 [9991,9997]",
+      "dest": "NumberLiteral: 0.7500 [10035,10041]"
+    },
+    {
+      "src": "SimpleName: length [7766,7772]",
+      "dest": "SimpleName: length [7810,7816]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [6198,6204]",
+      "dest": "METHOD_INVOCATION_RECEIVER [6254,6260]"
+    },
+    {
+      "src": "PrimitiveType: int [6955,6958]",
+      "dest": "PrimitiveType: int [7017,7020]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [5055,5058]",
+      "dest": "NumberLiteral: 0.0 [5129,5132]"
+    },
+    {
+      "src": "ArrayCreation [2676,2693]",
+      "dest": "ArrayCreation [2750,2767]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9991,9997]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [10035,10041]"
+    },
+    {
+      "src": "SimpleName: testExceptions [2515,2529]",
+      "dest": "SimpleName: testExceptions [2589,2603]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: / [7172,7173]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: / [7225,7226]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [7212,7228]",
+      "dest": "METHOD_INVOCATION_RECEIVER [7265,7281]"
+    },
+    {
+      "src": "ImportDeclaration [1470,1512]",
+      "dest": "ImportDeclaration [1544,1586]"
     },
     {
       "src": "PackageDeclaration [803,849]",
       "dest": "PackageDeclaration [803,849]"
     },
     {
-      "src": "CompilationUnit [0,1233]",
-      "dest": "CompilationUnit [0,1048]"
+      "src": "ASSIGNMENT_OPERATOR: += [7049,7051]",
+      "dest": "ASSIGNMENT_OPERATOR: += [7111,7113]"
     },
     {
-      "src": "TagElement [1116,1160]",
-      "dest": "TagElement [931,975]"
+      "src": "Block [2532,3857]",
+      "dest": "Block [2606,3931]"
+    },
+    {
+      "src": "SimpleName: Test [10018,10022]",
+      "dest": "SimpleName: Test [10062,10066]"
+    },
+    {
+      "src": "Dimension [6779,6781]",
+      "dest": "Dimension [6841,6843]"
+    },
+    {
+      "src": "ArrayCreation [4015,4084]",
+      "dest": "ArrayCreation [4089,4158]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [9327,9330]",
+      "dest": "NumberLiteral: 0.0 [9371,9374]"
+    },
+    {
+      "src": "MethodInvocation [7192,7319]",
+      "dest": "MethodInvocation [7245,7363]"
+    },
+    {
+      "src": "NumberLiteral: 4.0 [5075,5078]",
+      "dest": "NumberLiteral: 4.0 [5149,5152]"
+    },
+    {
+      "src": "SimpleName: samples [7052,7059]",
+      "dest": "SimpleName: samples [7114,7121]"
+    },
+    {
+      "src": "VariableDeclarationStatement [6615,6758]",
+      "dest": "VariableDeclarationStatement [6671,6820]"
+    },
+    {
+      "src": "NumberLiteral: 1 [7699,7700]",
+      "dest": "NumberLiteral: 1 [7743,7744]"
+    },
+    {
+      "src": "ExpressionStatement [5341,5393]",
+      "dest": "ExpressionStatement [5415,5467]"
+    },
+    {
+      "src": "SimpleName: assertEquals [9425,9437]",
+      "dest": "SimpleName: assertEquals [9469,9481]"
+    },
+    {
+      "src": "SimpleName: assertEquals [9594,9606]",
+      "dest": "SimpleName: assertEquals [9638,9650]"
+    },
+    {
+      "src": "SimpleName: results [4598,4605]",
+      "dest": "SimpleName: results [4672,4679]"
+    },
+    {
+      "src": "MethodInvocation [7702,7755]",
+      "dest": "MethodInvocation [7746,7799]"
+    },
+    {
+      "src": "SimpleName: n [6865,6866]",
+      "dest": "SimpleName: n [6927,6928]"
+    },
+    {
+      "src": "ExpressionStatement [7005,7023]",
+      "dest": "ExpressionStatement [7067,7085]"
+    },
+    {
+      "src": "Block [3263,3274]",
+      "dest": "Block [3337,3348]"
+    },
+    {
+      "src": "SimpleType [7477,7483]",
+      "dest": "SimpleType [7521,7527]"
+    },
+    {
+      "src": "ExpressionStatement [7439,7506]",
+      "dest": "ExpressionStatement [7483,7550]"
+    },
+    {
+      "src": "VariableDeclarationStatement [5109,5194]",
+      "dest": "VariableDeclarationStatement [5183,5268]"
+    },
+    {
+      "src": "SimpleName: DimensionMismatchException [2777,2803]",
+      "dest": "SimpleName: DimensionMismatchException [2851,2877]"
+    },
+    {
+      "src": "SimpleName: distribution [9360,9372]",
+      "dest": "SimpleName: distribution [9404,9416]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [10336,10337]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [10380,10381]"
+    },
+    {
+      "src": "MethodInvocation [9697,9746]",
+      "dest": "MethodInvocation [9741,9790]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4162,4163]",
+      "dest": "NumberLiteral: 0 [4236,4237]"
+    },
+    {
+      "src": "NumberLiteral: 0.3 [2339,2342]",
+      "dest": "NumberLiteral: 0.3 [2413,2416]"
+    },
+    {
+      "src": "TextElement: The distribution object used for testing. [1793,1834]",
+      "dest": "TextElement: The distribution object used for testing. [1867,1908]"
+    },
+    {
+      "src": "ArrayType [10099,10107]",
+      "dest": "ArrayType [10143,10151]"
+    },
+    {
+      "src": "SimpleName: n [7174,7175]",
+      "dest": "SimpleName: n [7227,7228]"
+    },
+    {
+      "src": "PrimitiveType: double [6917,6923]",
+      "dest": "PrimitiveType: double [6979,6985]"
+    },
+    {
+      "src": "ExpressionStatement [3410,3454]",
+      "dest": "ExpressionStatement [3484,3528]"
+    },
+    {
+      "src": "SimpleName: n [6824,6825]",
+      "dest": "SimpleName: n [6886,6887]"
+    },
+    {
+      "src": "Block [2807,2818]",
+      "dest": "Block [2881,2892]"
+    },
+    {
+      "src": "ArrayCreation [4608,4659]",
+      "dest": "ArrayCreation [4682,4733]"
+    },
+    {
+      "src": "ArrayType [4117,4125]",
+      "dest": "ArrayType [4191,4199]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [5982,5988]",
+      "dest": "METHOD_INVOCATION_RECEIVER [6038,6044]"
+    },
+    {
+      "src": "SimpleName: Double [7570,7576]",
+      "dest": "SimpleName: Double [7614,7620]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [7095,7101]",
+      "dest": "METHOD_INVOCATION_RECEIVER [7157,7163]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [7702,7755]",
+      "dest": "METHOD_INVOCATION_RECEIVER [7746,7799]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4134,4135]",
+      "dest": "NumberLiteral: 0 [4208,4209]"
+    },
+    {
+      "src": "NumberLiteral: 0.7600 [9823,9829]",
+      "dest": "NumberLiteral: 0.7600 [9867,9873]"
+    },
+    {
+      "src": "Block [5972,6056]",
+      "dest": "Block [6028,6112]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [5546,5552]",
+      "dest": "METHOD_INVOCATION_RECEIVER [5620,5626]"
+    },
+    {
+      "src": "ExpressionStatement [9510,9585]",
+      "dest": "ExpressionStatement [9554,9629]"
+    },
+    {
+      "src": "SimpleName: sum [6900,6903]",
+      "dest": "SimpleName: sum [6962,6965]"
+    },
+    {
+      "src": "SimpleName: distribution [9697,9709]",
+      "dest": "SimpleName: distribution [9741,9753]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [10237,10272]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [10281,10316]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [3656,3662]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3730,3736]"
+    },
+    {
+      "src": "SimpleName: sampler [6646,6653]",
+      "dest": "SimpleName: sampler [6708,6715]"
+    },
+    {
+      "src": "ExpressionStatement [2182,2355]",
+      "dest": "ExpressionStatement [2256,2429]"
+    },
+    {
+      "src": "Block [6574,7326]",
+      "dest": "Block [6630,7370]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistribution [9045,9071]",
+      "dest": "SimpleName: EnumeratedRealDistribution [9089,9115]"
+    },
+    {
+      "src": "SimpleType [7528,7532]",
+      "dest": "SimpleType [7572,7576]"
+    },
+    {
+      "src": "SimpleName: p [4326,4327]",
+      "dest": "SimpleName: p [4400,4401]"
+    },
+    {
+      "src": "VariableDeclarationStatement [10136,10215]",
+      "dest": "VariableDeclarationStatement [10180,10259]"
+    },
+    {
+      "src": "MethodInvocation [4740,4775]",
+      "dest": "MethodInvocation [4814,4849]"
+    },
+    {
+      "src": "SimpleName: assertEquals [5553,5565]",
+      "dest": "SimpleName: assertEquals [5627,5639]"
+    },
+    {
+      "src": "SimpleName: assertEquals [9510,9522]",
+      "dest": "SimpleName: assertEquals [9554,9566]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4635,4636]",
+      "dest": "NumberLiteral: 0 [4709,4710]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: - [7286,7287]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: - [7330,7331]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [5760,5766]",
+      "dest": "METHOD_INVOCATION_RECEIVER [5825,5831]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9438,9498]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9482,9542]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [6845,6851]",
+      "dest": "METHOD_INVOCATION_RECEIVER [6907,6913]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [9781,9793]",
+      "dest": "METHOD_INVOCATION_RECEIVER [9825,9837]"
+    },
+    {
+      "src": "ArrayInitializer [10108,10126]",
+      "dest": "ArrayInitializer [10152,10170]"
+    },
+    {
+      "src": "Block [6991,7086]",
+      "dest": "Block [7053,7148]"
+    },
+    {
+      "src": "MethodInvocation [10283,10342]",
+      "dest": "MethodInvocation [10327,10386]"
+    },
+    {
+      "src": "SimpleName: distribution [10242,10254]",
+      "dest": "SimpleName: distribution [10286,10298]"
+    },
+    {
+      "src": "Modifier: final [6767,6772]",
+      "dest": "Modifier: final [6829,6834]"
+    },
+    {
+      "src": "PrimitiveType: double [5034,5040]",
+      "dest": "PrimitiveType: double [5108,5114]"
+    },
+    {
+      "src": "ExpressionStatement [9930,10005]",
+      "dest": "ExpressionStatement [9974,10049]"
+    },
+    {
+      "src": "NumberLiteral: 1 [7577,7578]",
+      "dest": "NumberLiteral: 1 [7621,7622]"
+    },
+    {
+      "src": "SimpleName: getNumericalVariance [7229,7249]",
+      "dest": "SimpleName: getVariance [7282,7293]"
+    },
+    {
+      "src": "SimpleName: p [5219,5220]",
+      "dest": "SimpleName: p [5293,5294]"
+    },
+    {
+      "src": "SimpleName: rng [7619,7622]",
+      "dest": "SimpleName: rng [7663,7666]"
+    },
+    {
+      "src": "PrimitiveType: double [4094,4100]",
+      "dest": "PrimitiveType: double [4168,4174]"
+    },
+    {
+      "src": "SimpleName: assertEquals [9762,9774]",
+      "dest": "SimpleName: assertEquals [9806,9818]"
+    },
+    {
+      "src": "NumberLiteral: 0.2 [2329,2332]",
+      "dest": "NumberLiteral: 0.2 [2403,2406]"
+    },
+    {
+      "src": "SimpleName: Test [4447,4451]",
+      "dest": "SimpleName: Test [4521,4525]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [10296,10341]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [10340,10385]"
+    },
+    {
+      "src": "ExpressionStatement [9257,9332]",
+      "dest": "ExpressionStatement [9301,9376]"
+    },
+    {
+      "src": "NumberLiteral: 0.5000 [9571,9577]",
+      "dest": "NumberLiteral: 0.5000 [9615,9621]"
+    },
+    {
+      "src": "TextElement: Tests if the distribution returns proper cumulative probability values. [4868,4939]",
+      "dest": "TextElement: Tests if the distribution returns proper cumulative probability values. [4942,5013]"
+    },
+    {
+      "src": "SimpleName: getSupportLowerBound [6023,6043]",
+      "dest": "SimpleName: getSupportLowerBound [6079,6099]"
+    },
+    {
+      "src": "VariableDeclarationExpression [4674,4683]",
+      "dest": "VariableDeclarationExpression [4748,4757]"
+    },
+    {
+      "src": "TagElement [3874,3934]",
+      "dest": "TagElement [3948,4008]"
+    },
+    {
+      "src": "MarkerAnnotation [6139,6144]",
+      "dest": "MarkerAnnotation [6195,6200]"
+    },
+    {
+      "src": "NumberLiteral: 3.0 [9209,9212]",
+      "dest": "NumberLiteral: 3.0 [9253,9256]"
+    },
+    {
+      "src": "NumberLiteral: 123456789 [6746,6755]",
+      "dest": "NumberLiteral: 123456789 [6808,6817]"
+    },
+    {
+      "src": "NumberLiteral: 0 [10271,10272]",
+      "dest": "NumberLiteral: 0 [10315,10316]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [9529,9541]",
+      "dest": "METHOD_INVOCATION_RECEIVER [9573,9585]"
+    },
+    {
+      "src": "PrimitiveType: double [9093,9099]",
+      "dest": "PrimitiveType: double [9137,9143]"
+    },
+    {
+      "src": "ClassInstanceCreation [3311,3396]",
+      "dest": "ClassInstanceCreation [3385,3470]"
+    },
+    {
+      "src": "Block [4214,4354]",
+      "dest": "Block [4288,4428]"
+    },
+    {
+      "src": "ImportDeclaration [1161,1227]",
+      "dest": "ImportDeclaration [1235,1301]"
+    },
+    {
+      "src": "PrimitiveType: double [2656,2662]",
+      "dest": "PrimitiveType: double [2730,2736]"
+    },
+    {
+      "src": "ArrayType [2909,2917]",
+      "dest": "ArrayType [2983,2991]"
+    },
+    {
+      "src": "Block [3054,3228]",
+      "dest": "Block [3128,3302]"
+    },
+    {
+      "src": "VariableDeclarationStatement [4492,4580]",
+      "dest": "VariableDeclarationStatement [4566,4654]"
+    },
+    {
+      "src": "NumberLiteral: 16.0 [9191,9195]",
+      "dest": "NumberLiteral: 16.0 [9235,9239]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [9664,9667]",
+      "dest": "NumberLiteral: 0.0 [9708,9711]"
+    },
+    {
+      "src": "SimpleName: testDistribution [6449,6465]",
+      "dest": "SimpleName: testDistribution [6505,6521]"
+    },
+    {
+      "src": "MethodInvocation [9360,9409]",
+      "dest": "MethodInvocation [9404,9453]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [7699,7772]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [7743,7816]"
+    },
+    {
+      "src": "SimpleName: assertEquals [5767,5779]",
+      "dest": "SimpleName: assertEquals [5832,5844]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistribution [2205,2231]",
+      "dest": "SimpleName: EnumeratedRealDistribution [2279,2305]"
+    },
+    {
+      "src": "SimpleType [7465,7471]",
+      "dest": "SimpleType [7509,7515]"
+    },
+    {
+      "src": "SimpleName: testDistribution [2182,2198]",
+      "dest": "SimpleName: testDistribution [2256,2272]"
+    },
+    {
+      "src": "SimpleName: getSupportUpperBound [6238,6258]",
+      "dest": "SimpleName: getSupportUpperBound [6294,6314]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [3379,3382]",
+      "dest": "NumberLiteral: 0.0 [3453,3456]"
+    },
+    {
+      "src": "PrimitiveType: double [4117,4123]",
+      "dest": "PrimitiveType: double [4191,4197]"
+    },
+    {
+      "src": "NumberLiteral: 14.0 [9354,9358]",
+      "dest": "NumberLiteral: 14.0 [9398,9402]"
+    },
+    {
+      "src": "NumberLiteral: 2.0 [2670,2673]",
+      "dest": "NumberLiteral: 2.0 [2744,2747]"
+    },
+    {
+      "src": "SimpleName: e [3492,3493]",
+      "dest": "SimpleName: e [3566,3567]"
+    },
+    {
+      "src": "Dimension [9099,9101]",
+      "dest": "Dimension [9143,9145]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: < [4192,4193]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: < [4266,4267]"
+    },
+    {
+      "src": "QualifiedName: RandomSource.WELL_1024_A [6719,6743]",
+      "dest": "QualifiedName: RandomSource.WELL_1024_A [6781,6805]"
+    },
+    {
+      "src": "SimpleName: fail [2715,2719]",
+      "dest": "SimpleName: fail [2789,2793]"
+    },
+    {
+      "src": "NumberLiteral: 0.5626 [9739,9745]",
+      "dest": "NumberLiteral: 0.5626 [9783,9789]"
+    },
+    {
+      "src": "Javadoc [2367,2488]",
+      "dest": "Javadoc [2441,2562]"
+    },
+    {
+      "src": "ArrayType [9162,9170]",
+      "dest": "ArrayType [9206,9214]"
+    },
+    {
+      "src": "InfixExpression [7269,7285]",
+      "dest": "InfixExpression [7313,7329]"
+    },
+    {
+      "src": "ArrayType [3137,3145]",
+      "dest": "ArrayType [3211,3219]"
+    },
+    {
+      "src": "SimpleName: density [4757,4764]",
+      "dest": "SimpleName: density [4831,4838]"
+    },
+    {
+      "src": "MethodInvocation [6221,6260]",
+      "dest": "MethodInvocation [6277,6316]"
+    },
+    {
+      "src": "SimpleName: Pair [7528,7532]",
+      "dest": "SimpleName: Pair [7572,7576]"
+    },
+    {
+      "src": "MethodInvocation [5571,5606]",
+      "dest": "MethodInvocation [5645,5671]"
+    },
+    {
+      "src": "NumberLiteral: 8.0 [4080,4083]",
+      "dest": "NumberLiteral: 8.0 [4154,4157]"
+    },
+    {
+      "src": "Dimension [3352,3354]",
+      "dest": "Dimension [3426,3428]"
+    },
+    {
+      "src": "PostfixExpression [4704,4707]",
+      "dest": "PostfixExpression [4778,4781]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: < [6968,6969]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: < [7030,7031]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [4035,4038]",
+      "dest": "NumberLiteral: 1.0 [4109,4112]"
+    },
+    {
+      "src": "ImportDeclaration [1228,1290]",
+      "dest": "ImportDeclaration [1302,1364]"
+    },
+    {
+      "src": "Assignment [2840,2929]",
+      "dest": "Assignment [2914,3003]"
+    },
+    {
+      "src": "Dimension [3143,3145]",
+      "dest": "Dimension [3217,3219]"
+    },
+    {
+      "src": "Block [5243,5403]",
+      "dest": "Block [5317,5477]"
+    },
+    {
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [2267,2268]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [2341,2342]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [4540,4543]",
+      "dest": "NumberLiteral: 1.0 [4614,4617]"
+    },
+    {
+      "src": "NumberLiteral: 0.2 [5144,5147]",
+      "dest": "NumberLiteral: 0.2 [5218,5221]"
+    },
+    {
+      "src": "SimpleName: testIssue942 [7354,7366]",
+      "dest": "SimpleName: testIssue942 [7398,7410]"
+    },
+    {
+      "src": "CatchClause [3465,3506]",
+      "dest": "CatchClause [3539,3580]"
+    },
+    {
+      "src": "NumberLiteral: 1e-10 [5608,5613]",
+      "dest": "NumberLiteral: 1e-10 [5673,5678]"
+    },
+    {
+      "src": "SimpleName: Test [2494,2498]",
+      "dest": "SimpleName: Test [2568,2572]"
+    },
+    {
+      "src": "SimpleName: fail [2950,2954]",
+      "dest": "SimpleName: fail [3024,3028]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [9865,9877]",
+      "dest": "METHOD_INVOCATION_RECEIVER [9909,9921]"
+    },
+    {
+      "src": "MethodInvocation [6006,6045]",
+      "dest": "MethodInvocation [6062,6101]"
+    },
+    {
+      "src": "SimpleName: density [4730,4737]",
+      "dest": "SimpleName: density [4804,4811]"
+    },
+    {
+      "src": "MethodInvocation [7212,7251]",
+      "dest": "MethodInvocation [7265,7295]"
+    },
+    {
+      "src": "SimpleType [7597,7618]",
+      "dest": "SimpleType [7641,7662]"
+    },
+    {
+      "src": "Dimension [2259,2261]",
+      "dest": "Dimension [2333,2335]"
+    },
+    {
+      "src": "NumberLiteral: 2.0 [4524,4527]",
+      "dest": "NumberLiteral: 2.0 [4598,4601]"
+    },
+    {
+      "src": "SimpleName: probability [10255,10266]",
+      "dest": "SimpleName: probability [10299,10310]"
+    },
+    {
+      "src": "ArrayType [3602,3610]",
+      "dest": "ArrayType [3676,3684]"
+    },
+    {
+      "src": "NumberLiteral: 18.0 [9523,9527]",
+      "dest": "NumberLiteral: 18.0 [9567,9571]"
+    },
+    {
+      "src": "SimpleType [7570,7576]",
+      "dest": "SimpleType [7614,7620]"
+    },
+    {
+      "src": "ArrayAccess [4318,4328]",
+      "dest": "ArrayAccess [4392,4402]"
+    },
+    {
+      "src": "SimpleName: e [3027,3028]",
+      "dest": "SimpleName: e [3101,3102]"
+    },
+    {
+      "src": "NumberLiteral: 4.0 [4555,4558]",
+      "dest": "NumberLiteral: 4.0 [4629,4632]"
+    },
+    {
+      "src": "ClassInstanceCreation [9041,9246]",
+      "dest": "ClassInstanceCreation [9085,9290]"
+    },
+    {
+      "src": "SimpleName: invalid [2569,2576]",
+      "dest": "SimpleName: invalid [2643,2650]"
+    },
+    {
+      "src": "Javadoc [1782,1842]",
+      "dest": "Javadoc [1856,1916]"
+    },
+    {
+      "src": "PrimitiveType: int [4179,4182]",
+      "dest": "PrimitiveType: int [4253,4256]"
+    },
+    {
+      "src": "SimpleType [3082,3108]",
+      "dest": "SimpleType [3156,3182]"
+    },
+    {
+      "src": "MarkerAnnotation [7332,7337]",
+      "dest": "MarkerAnnotation [7376,7381]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistribution [2542,2568]",
+      "dest": "SimpleName: EnumeratedRealDistribution [2616,2642]"
+    },
+    {
+      "src": "SimpleType [10136,10162]",
+      "dest": "SimpleType [10180,10206]"
+    },
+    {
+      "src": "MethodInvocation [9949,9998]",
+      "dest": "MethodInvocation [9993,10042]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9655,9661]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9699,9705]"
+    },
+    {
+      "src": "SimpleName: testDistribution [6221,6237]",
+      "dest": "SimpleName: testDistribution [6277,6293]"
+    },
+    {
+      "src": "SimpleName: distribution [9781,9793]",
+      "dest": "SimpleName: distribution [9825,9837]"
+    },
+    {
+      "src": "NumberLiteral: 0 [10340,10341]",
+      "dest": "NumberLiteral: 0 [10384,10385]"
+    },
+    {
+      "src": "NumberLiteral: 1 [10336,10337]",
+      "dest": "NumberLiteral: 1 [10380,10381]"
+    },
+    {
+      "src": "TagElement [1673,1723]",
+      "dest": "TagElement [1747,1797]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.math4.util.Pair [1477,1511]",
+      "dest": "QualifiedName: org.apache.commons.math4.util.Pair [1551,1585]"
+    },
+    {
+      "src": "TextElement: Tests if the distribution returns proper density values. [4377,4433]",
+      "dest": "TextElement: Tests if the distribution returns proper density values. [4451,4507]"
+    },
+    {
+      "src": "SimpleName: invalid [2611,2618]",
+      "dest": "SimpleName: invalid [2685,2692]"
+    },
+    {
+      "src": "SimpleType [3006,3026]",
+      "dest": "SimpleType [3080,3100]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4154,4155]",
+      "dest": "NumberLiteral: 0 [4228,4229]"
+    },
+    {
+      "src": "ArrayInitializer [4027,4084]",
+      "dest": "ArrayInitializer [4101,4158]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.rng.UniformRandomProvider [1520,1564]",
+      "dest": "QualifiedName: org.apache.commons.rng.UniformRandomProvider [1594,1638]"
+    },
+    {
+      "src": "ArrayCreation [3109,3131]",
+      "dest": "ArrayCreation [3183,3205]"
+    },
+    {
+      "src": "InfixExpression [9221,9231]",
+      "dest": "InfixExpression [9265,9275]"
+    },
+    {
+      "src": "ExpressionStatement [9341,9416]",
+      "dest": "ExpressionStatement [9385,9460]"
+    },
+    {
+      "src": "VariableDeclarationFragment [4678,4683]",
+      "dest": "VariableDeclarationFragment [4752,4757]"
+    },
+    {
+      "src": "MethodDeclaration [3863,4360]",
+      "dest": "MethodDeclaration [3937,4434]"
+    },
+    {
+      "src": "QualifiedName: Double.NaN [3384,3394]",
+      "dest": "QualifiedName: Double.NaN [3458,3468]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [2924,2927]",
+      "dest": "NumberLiteral: 1.0 [2998,3001]"
+    },
+    {
+      "src": "MethodInvocation [6699,6756]",
+      "dest": "MethodInvocation [6761,6818]"
+    },
+    {
+      "src": "Javadoc [3863,3942]",
+      "dest": "Javadoc [3937,4016]"
+    },
+    {
+      "src": "PrefixExpression [5043,5047]",
+      "dest": "PrefixExpression [5117,5121]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [4535,4538]",
+      "dest": "NumberLiteral: 0.0 [4609,4612]"
+    },
+    {
+      "src": "SimpleName: assertEquals [10224,10236]",
+      "dest": "SimpleName: assertEquals [10268,10280]"
+    },
+    {
+      "src": "AnonymousClassDeclaration [7562,7564]",
+      "dest": "AnonymousClassDeclaration [7606,7608]"
+    },
+    {
+      "src": "SimpleName: i [7060,7061]",
+      "dest": "SimpleName: i [7122,7123]"
+    },
+    {
+      "src": "ArrayInitializer [2261,2293]",
+      "dest": "ArrayInitializer [2335,2367]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [5060,5063]",
+      "dest": "NumberLiteral: 1.0 [5134,5137]"
+    },
+    {
+      "src": "SimpleName: points [5021,5027]",
+      "dest": "SimpleName: points [5095,5101]"
+    },
+    {
+      "src": "SimpleName: Assert [6431,6437]",
+      "dest": "SimpleName: Assert [6487,6493]"
+    },
+    {
+      "src": "Javadoc [1666,1730]",
+      "dest": "Javadoc [1740,1804]"
+    },
+    {
+      "src": "MethodInvocation [5786,5825]",
+      "dest": "MethodInvocation [5851,5881]"
+    },
+    {
+      "src": "SingleVariableDeclaration [3006,3028]",
+      "dest": "SingleVariableDeclaration [3080,3102]"
+    },
+    {
+      "src": "NumberLiteral: 28.0 [9122,9126]",
+      "dest": "NumberLiteral: 28.0 [9166,9170]"
+    },
+    {
+      "src": "NumberLiteral: 1000000 [6598,6605]",
+      "dest": "NumberLiteral: 1000000 [6654,6661]"
+    },
+    {
+      "src": "SimpleName: points [4501,4507]",
+      "dest": "SimpleName: points [4575,4581]"
+    },
+    {
+      "src": "SimpleType [7533,7539]",
+      "dest": "SimpleType [7577,7583]"
+    },
+    {
+      "src": "NumberLiteral: 3.0 [5070,5073]",
+      "dest": "NumberLiteral: 3.0 [5144,5147]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9270,9330]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9314,9374]"
+    },
+    {
+      "src": "SimpleName: sumOfSquares [7036,7048]",
+      "dest": "SimpleName: sumOfSquares [7098,7110]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [5571,5587]",
+      "dest": "METHOD_INVOCATION_RECEIVER [5645,5661]"
+    },
+    {
+      "src": "SimpleName: inverseCumulativeProbability [9878,9906]",
+      "dest": "SimpleName: inverseCumulativeProbability [9922,9950]"
+    },
+    {
+      "src": "SimpleName: i [7020,7021]",
+      "dest": "SimpleName: i [7082,7083]"
+    },
+    {
+      "src": "VariableDeclarationStatement [4094,4165]",
+      "dest": "VariableDeclarationStatement [4168,4239]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [9495,9498]",
+      "dest": "NumberLiteral: 0.0 [9539,9542]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [7702,7736]",
+      "dest": "METHOD_INVOCATION_RECEIVER [7746,7780]"
+    },
+    {
+      "src": "ExpressionStatement [3068,3157]",
+      "dest": "ExpressionStatement [3142,3231]"
+    },
+    {
+      "src": "NumberLiteral: 0.3 [4652,4655]",
+      "dest": "NumberLiteral: 0.3 [4726,4729]"
+    },
+    {
+      "src": "QualifiedName: java.util.List [932,946]",
+      "dest": "QualifiedName: java.util.List [932,946]"
+    },
+    {
+      "src": "QualifiedName: org.junit.Test [1649,1663]",
+      "dest": "QualifiedName: org.junit.Test [1723,1737]"
+    },
+    {
+      "src": "SimpleName: Pair [7452,7456]",
+      "dest": "SimpleName: Pair [7496,7500]"
+    },
+    {
+      "src": "SimpleName: p [5212,5213]",
+      "dest": "SimpleName: p [5286,5287]"
+    },
+    {
+      "src": "SimpleName: getNumericalVariance [5803,5823]",
+      "dest": "SimpleName: getVariance [5868,5879]"
+    },
+    {
+      "src": "SimpleType [7379,7383]",
+      "dest": "SimpleType [7423,7427]"
+    },
+    {
+      "src": "VariableDeclarationFragment [7405,7429]",
+      "dest": "VariableDeclarationFragment [7449,7473]"
+    },
+    {
+      "src": "SimpleName: results [5361,5368]",
+      "dest": "SimpleName: results [5435,5442]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [2268,2271]",
+      "dest": "NumberLiteral: 1.0 [2342,2345]"
+    },
+    {
+      "src": "VariableDeclarationStatement [3997,4085]",
+      "dest": "VariableDeclarationStatement [4071,4159]"
+    },
+    {
+      "src": "QualifiedName: RandomSource.WELL_512_A [7645,7668]",
+      "dest": "QualifiedName: RandomSource.WELL_512_A [7689,7712]"
+    },
+    {
+      "src": "CatchClause [2999,3041]",
+      "dest": "CatchClause [3073,3115]"
+    },
+    {
+      "src": "VariableDeclarationStatement [2542,2584]",
+      "dest": "VariableDeclarationStatement [2616,2658]"
+    },
+    {
+      "src": "Dimension [2891,2893]",
+      "dest": "Dimension [2965,2967]"
+    },
+    {
+      "src": "SimpleName: EnumeratedDistribution [7706,7728]",
+      "dest": "SimpleName: EnumeratedDistribution [7750,7772]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [3355,3358]",
+      "dest": "NumberLiteral: 1.0 [3429,3432]"
+    },
+    {
+      "src": "SimpleName: assertEquals [9846,9858]",
+      "dest": "SimpleName: assertEquals [9890,9902]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [10000,10003]",
+      "dest": "NumberLiteral: 0.0 [10044,10047]"
+    },
+    {
+      "src": "MethodDeclaration [1911,2361]",
+      "dest": "MethodDeclaration [1985,2435]"
+    },
+    {
+      "src": "Dimension [3376,3378]",
+      "dest": "Dimension [3450,3452]"
+    },
+    {
+      "src": "PrimitiveType: void [5940,5944]",
+      "dest": "PrimitiveType: void [5996,6000]"
+    },
+    {
+      "src": "Dimension [4498,4500]",
+      "dest": "Dimension [4572,4574]"
+    },
+    {
+      "src": "ImportDeclaration [949,1017]",
+      "dest": "ImportDeclaration [1023,1091]"
+    },
+    {
+      "src": "MethodDeclaration [5846,6056]",
+      "dest": "MethodDeclaration [5902,6112]"
+    },
+    {
+      "src": "PrefixExpression [4529,4533]",
+      "dest": "PrefixExpression [4603,4607]"
+    },
+    {
+      "src": "SimpleName: inverseCumulativeProbability [9542,9570]",
+      "dest": "SimpleName: inverseCumulativeProbability [9586,9614]"
+    },
+    {
+      "src": "SimpleType [9045,9071]",
+      "dest": "SimpleType [9089,9115]"
+    },
+    {
+      "src": "ParameterizedType [7379,7404]",
+      "dest": "ParameterizedType [7423,7448]"
+    },
+    {
+      "src": "NumberLiteral: 0.7 [5179,5182]",
+      "dest": "NumberLiteral: 0.7 [5253,5256]"
+    },
+    {
+      "src": "VariableDeclarationFragment [5212,5217]",
+      "dest": "VariableDeclarationFragment [5286,5291]"
+    },
+    {
+      "src": "ForStatement [6950,7086]",
+      "dest": "ForStatement [7012,7148]"
+    },
+    {
+      "src": "ArrayType [4492,4500]",
+      "dest": "ArrayType [4566,4574]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [9360,9372]",
+      "dest": "METHOD_INVOCATION_RECEIVER [9404,9416]"
+    },
+    {
+      "src": "TagElement [6073,6126]",
+      "dest": "TagElement [6129,6182]"
+    },
+    {
+      "src": "NumberLiteral: 28.0 [9691,9695]",
+      "dest": "NumberLiteral: 28.0 [9735,9739]"
+    },
+    {
+      "src": "VariableDeclarationFragment [6594,6605]",
+      "dest": "VariableDeclarationFragment [6650,6661]"
+    },
+    {
+      "src": "ArrayAccess [4765,4774]",
+      "dest": "ArrayAccess [4839,4848]"
+    },
+    {
+      "src": "Javadoc [6500,6534]",
+      "dest": "Javadoc [6556,6590]"
+    },
+    {
+      "src": "MethodInvocation [6845,6883]",
+      "dest": "MethodInvocation [6907,6945]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [4530,4533]",
+      "dest": "NumberLiteral: 1.0 [4604,4607]"
+    },
+    {
+      "src": "MarkerAnnotation [4952,4957]",
+      "dest": "MarkerAnnotation [5026,5031]"
+    },
+    {
+      "src": "TagElement [1922,1979]",
+      "dest": "TagElement [1996,2053]"
+    },
+    {
+      "src": "SimpleName: Test [5924,5928]",
+      "dest": "SimpleName: Test [5980,5984]"
+    },
+    {
+      "src": "PrimitiveType: double [3578,3584]",
+      "dest": "PrimitiveType: double [3652,3658]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [3587,3590]",
+      "dest": "NumberLiteral: 1.0 [3661,3664]"
+    },
+    {
+      "src": "MarkerAnnotation [3947,3952]",
+      "dest": "MarkerAnnotation [4021,4026]"
+    },
+    {
+      "src": "ExpressionStatement [7192,7320]",
+      "dest": "ExpressionStatement [7245,7364]"
+    },
+    {
+      "src": "ClassInstanceCreation [2201,2354]",
+      "dest": "ClassInstanceCreation [2275,2428]"
+    },
+    {
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [2283,2284]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [2357,2358]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [9580,9583]",
+      "dest": "NumberLiteral: 0.0 [9624,9627]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [4245,4261]",
+      "dest": "METHOD_INVOCATION_RECEIVER [4319,4335]"
+    },
+    {
+      "src": "MarkerAnnotation [4446,4451]",
+      "dest": "MarkerAnnotation [4520,4525]"
+    },
+    {
+      "src": "SimpleName: Test [6375,6379]",
+      "dest": "SimpleName: Test [6431,6435]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [6221,6237]",
+      "dest": "METHOD_INVOCATION_RECEIVER [6277,6293]"
+    },
+    {
+      "src": "SimpleName: sum [7168,7171]",
+      "dest": "SimpleName: sum [7221,7224]"
+    },
+    {
+      "src": "PrimitiveType: double [3137,3143]",
+      "dest": "PrimitiveType: double [3211,3217]"
+    },
+    {
+      "src": "ArrayType [3370,3378]",
+      "dest": "ArrayType [3444,3452]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4126,4127]",
+      "dest": "NumberLiteral: 0 [4200,4201]"
+    },
+    {
+      "src": "TextElement: Creates the default distribution object used for testing. [1922,1979]",
+      "dest": "TextElement: Creates the default distribution object used for testing. [1996,2053]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [7524,7580]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [7568,7624]"
+    },
+    {
+      "src": "TagElement [2378,2480]",
+      "dest": "TagElement [2452,2554]"
+    },
+    {
+      "src": "MarkerAnnotation [2493,2498]",
+      "dest": "MarkerAnnotation [2567,2572]"
+    },
+    {
+      "src": "SimpleName: points [4006,4012]",
+      "dest": "SimpleName: points [4080,4086]"
+    },
+    {
+      "src": "QualifiedName: Double.POSITIVE_INFINITY [3616,3640]",
+      "dest": "QualifiedName: Double.POSITIVE_INFINITY [3690,3714]"
+    },
+    {
+      "src": "Block [10063,10349]",
+      "dest": "Block [10107,10393]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [2708,2714]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2782,2788]"
+    },
+    {
+      "src": "ArrayInitializer [9102,9140]",
+      "dest": "ArrayInitializer [9146,9184]"
+    },
+    {
+      "src": "PrimitiveType: double [5132,5138]",
+      "dest": "PrimitiveType: double [5206,5212]"
+    },
+    {
+      "src": "MethodInvocation [6668,6757]",
+      "dest": "MethodInvocation [6730,6819]"
+    },
+    {
+      "src": "NumberLiteral: 0.5625 [9907,9913]",
+      "dest": "NumberLiteral: 0.5625 [9951,9957]"
+    },
+    {
+      "src": "ExpressionStatement [7036,7076]",
+      "dest": "ExpressionStatement [7098,7138]"
+    },
+    {
+      "src": "ArrayType [3113,3121]",
+      "dest": "ArrayType [3187,3195]"
+    },
+    {
+      "src": "VariableDeclarationStatement [5012,5100]",
+      "dest": "VariableDeclarationStatement [5086,5174]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [3146,3149]",
+      "dest": "NumberLiteral: 0.0 [3220,3223]"
+    },
+    {
+      "src": "ExpressionStatement [6431,6488]",
+      "dest": "ExpressionStatement [6487,6544]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [6449,6465]",
+      "dest": "METHOD_INVOCATION_RECEIVER [6505,6521]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [9276,9288]",
+      "dest": "METHOD_INVOCATION_RECEIVER [9320,9332]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [6792,6816]",
+      "dest": "METHOD_INVOCATION_RECEIVER [6854,6878]"
+    },
+    {
+      "src": "MethodInvocation [4245,4284]",
+      "dest": "MethodInvocation [4319,4358]"
+    },
+    {
+      "src": "ImportDeclaration [1018,1090]",
+      "dest": "ImportDeclaration [1092,1164]"
+    },
+    {
+      "src": "NumberLiteral: 3.0 [4550,4553]",
+      "dest": "NumberLiteral: 3.0 [4624,4627]"
+    },
+    {
+      "src": "ImportDeclaration [1359,1422]",
+      "dest": "ImportDeclaration [1433,1496]"
+    },
+    {
+      "src": "QualifiedName: RealDistribution.Sampler [6621,6645]",
+      "dest": "QualifiedName: ContinuousDistribution.Sampler [6677,6707]"
+    },
+    {
+      "src": "PrefixExpression [4034,4038]",
+      "dest": "PrefixExpression [4108,4112]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [9613,9625]",
+      "dest": "METHOD_INVOCATION_RECEIVER [9657,9669]"
+    },
+    {
+      "src": "CatchClause [3716,3762]",
+      "dest": "CatchClause [3790,3836]"
+    },
+    {
+      "src": "SimpleName: assertNull [3778,3788]",
+      "dest": "SimpleName: assertNull [3852,3862]"
+    },
+    {
+      "src": "ForStatement [5203,5403]",
+      "dest": "ForStatement [5277,5477]"
+    },
+    {
+      "src": "SimpleName: testProbability [3969,3984]",
+      "dest": "SimpleName: testProbability [4043,4058]"
+    },
+    {
+      "src": "MethodInvocation [7288,7312]",
+      "dest": "MethodInvocation [7332,7356]"
+    },
+    {
+      "src": "Block [3519,3715]",
+      "dest": "Block [3593,3789]"
+    },
+    {
+      "src": "MethodInvocation [3170,3217]",
+      "dest": "MethodInvocation [3244,3291]"
+    },
+    {
+      "src": "Block [2830,2998]",
+      "dest": "Block [2904,3072]"
+    },
+    {
+      "src": "InfixExpression [9185,9195]",
+      "dest": "InfixExpression [9229,9239]"
+    },
+    {
+      "src": "TextElement: Tests if the distribution returns proper lower bound. [5857,5910]",
+      "dest": "TextElement: Tests if the distribution returns proper lower bound. [5913,5966]"
+    },
+    {
+      "src": "PrimitiveType: void [4969,4973]",
+      "dest": "PrimitiveType: void [5043,5047]"
+    },
+    {
+      "src": "NumberLiteral: 0 [6906,6907]",
+      "dest": "NumberLiteral: 0 [6968,6969]"
+    },
+    {
+      "src": "SingleVariableDeclaration [3723,3749]",
+      "dest": "SingleVariableDeclaration [3797,3823]"
+    },
+    {
+      "src": "NumberLiteral: 0.7 [5174,5177]",
+      "dest": "NumberLiteral: 0.7 [5248,5251]"
+    },
+    {
+      "src": "ImportDeclaration [1617,1641]",
+      "dest": "ImportDeclaration [1691,1715]"
+    },
+    {
+      "src": "ParameterizedType [7452,7472]",
+      "dest": "ParameterizedType [7496,7516]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4137,4138]",
+      "dest": "NumberLiteral: 0 [4211,4212]"
+    },
+    {
+      "src": "ExpressionStatement [5546,5615]",
+      "dest": "ExpressionStatement [5620,5680]"
+    },
+    {
+      "src": "MethodDeclaration [4857,5409]",
+      "dest": "MethodDeclaration [4931,5483]"
+    },
+    {
+      "src": "ExpressionStatement [9594,9669]",
+      "dest": "ExpressionStatement [9638,9713]"
+    },
+    {
+      "src": "StringLiteral: \"Expected MathArithmeticException\" [3182,3216]",
+      "dest": "StringLiteral: \"Expected MathArithmeticException\" [3256,3290]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4643,4644]",
+      "dest": "NumberLiteral: 0 [4717,4718]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: / [9177,9178]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: / [9221,9222]"
+    },
+    {
+      "src": "NumberLiteral: 5.0 [5080,5083]",
+      "dest": "NumberLiteral: 5.0 [5154,5157]"
+    },
+    {
+      "src": "ArrayType [5132,5140]",
+      "dest": "ArrayType [5206,5214]"
+    },
+    {
+      "src": "SimpleName: n [7284,7285]",
+      "dest": "SimpleName: n [7328,7329]"
+    },
+    {
+      "src": "SimpleType [7396,7402]",
+      "dest": "SimpleType [7440,7446]"
+    },
+    {
+      "src": "ArrayInitializer [3354,3364]",
+      "dest": "ArrayInitializer [3428,3438]"
+    },
+    {
+      "src": "SimpleName: Assert [5341,5347]",
+      "dest": "SimpleName: Assert [5415,5421]"
+    },
+    {
+      "src": "ASSIGNMENT_OPERATOR: = [2199,2200]",
+      "dest": "ASSIGNMENT_OPERATOR: = [2273,2274]"
+    },
+    {
+      "src": "ExpressionStatement [9762,9837]",
+      "dest": "ExpressionStatement [9806,9881]"
+    },
+    {
+      "src": "POSTFIX_EXPRESSION_OPERATOR: ++ [6987,6989]",
+      "dest": "POSTFIX_EXPRESSION_OPERATOR: ++ [7049,7051]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [2689,2692]",
+      "dest": "NumberLiteral: 0.0 [2763,2766]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [9748,9751]",
+      "dest": "NumberLiteral: 0.0 [9792,9795]"
+    },
+    {
+      "src": "Block [5536,5621]",
+      "dest": "Block [5610,5686]"
+    },
+    {
+      "src": "MethodInvocation [3771,3850]",
+      "dest": "MethodInvocation [3845,3924]"
+    },
+    {
+      "src": "PrimitiveType: double [4228,4234]",
+      "dest": "PrimitiveType: double [4302,4308]"
+    },
+    {
+      "src": "SimpleName: Assert [3771,3777]",
+      "dest": "SimpleName: Assert [3845,3851]"
+    },
+    {
+      "src": "SimpleName: fail [3417,3421]",
+      "dest": "SimpleName: fail [3491,3495]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [7751,7754]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [7795,7798]"
+    },
+    {
+      "src": "Block [5002,5409]",
+      "dest": "Block [5076,5483]"
+    },
+    {
+      "src": "SimpleName: sample [6817,6823]",
+      "dest": "SimpleName: sample [6879,6885]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: / [9225,9226]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: / [9269,9270]"
+    },
+    {
+      "src": "ArrayType [3578,3586]",
+      "dest": "ArrayType [3652,3660]"
+    },
+    {
+      "src": "NumberLiteral: 0.3 [4157,4160]",
+      "dest": "NumberLiteral: 0.3 [4231,4234]"
+    },
+    {
+      "src": "ArrayInitializer [3586,3596]",
+      "dest": "ArrayInitializer [3660,3670]"
+    },
+    {
+      "src": "SimpleName: Test [5702,5706]",
+      "dest": "SimpleName: Test [5767,5771]"
+    },
+    {
+      "src": "SimpleName: add [7444,7447]",
+      "dest": "SimpleName: add [7488,7491]"
+    },
+    {
+      "src": "SimpleName: distribution [9865,9877]",
+      "dest": "SimpleName: distribution [9909,9921]"
+    },
+    {
+      "src": "SimpleName: Assert [5760,5766]",
+      "dest": "SimpleName: Assert [5825,5831]"
+    },
+    {
+      "src": "TextElement: Tests if the distribution returns proper probability values. [3874,3934]",
+      "dest": "TextElement: Tests if the distribution returns proper probability values. [3948,4008]"
+    },
+    {
+      "src": "SimpleName: invalid [2840,2847]",
+      "dest": "SimpleName: invalid [2914,2921]"
+    },
+    {
+      "src": "NumberLiteral: 0 [7501,7502]",
+      "dest": "NumberLiteral: 0 [7545,7546]"
+    },
+    {
+      "src": "NumberLiteral: 0.3 [2334,2337]",
+      "dest": "NumberLiteral: 0.3 [2408,2411]"
+    },
+    {
+      "src": "SimpleName: testDistribution [5278,5294]",
+      "dest": "SimpleName: testDistribution [5352,5368]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistribution [1695,1721]",
+      "dest": "SimpleName: EnumeratedRealDistribution [1769,1795]"
+    },
+    {
+      "src": "PrimitiveType: int [6590,6593]",
+      "dest": "PrimitiveType: int [6646,6649]"
+    },
+    {
+      "src": "SimpleName: Object [7389,7395]",
+      "dest": "SimpleName: Object [7433,7439]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [3182,3216]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3256,3290]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [2344,2347]",
+      "dest": "NumberLiteral: 0.0 [2418,2421]"
+    },
+    {
+      "src": "TryStatement [3050,3274]",
+      "dest": "TryStatement [3124,3348]"
+    },
+    {
+      "src": "PrimitiveType: void [7803,7807]",
+      "dest": "PrimitiveType: void [7847,7851]"
+    },
+    {
+      "src": "InfixExpression [4685,4702]",
+      "dest": "InfixExpression [4759,4776]"
+    },
+    {
+      "src": "SimpleName: invalid [3842,3849]",
+      "dest": "SimpleName: invalid [3916,3923]"
+    },
+    {
+      "src": "MethodInvocation [5278,5327]",
+      "dest": "MethodInvocation [5352,5401]"
+    },
+    {
+      "src": "ASSIGNMENT_OPERATOR: += [7009,7011]",
+      "dest": "ASSIGNMENT_OPERATOR: += [7071,7073]"
+    },
+    {
+      "src": "SimpleName: Pair [7384,7388]",
+      "dest": "SimpleName: Pair [7428,7432]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [9916,9919]",
+      "dest": "NumberLiteral: 0.0 [9960,9963]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [6719,6755]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [6781,6817]"
+    },
+    {
+      "src": "ArrayType [2656,2664]",
+      "dest": "ArrayType [2730,2738]"
+    },
+    {
+      "src": "NumberLiteral: 2.0 [3127,3130]",
+      "dest": "NumberLiteral: 2.0 [3201,3204]"
+    },
+    {
+      "src": "Block [4709,4845]",
+      "dest": "Block [4783,4919]"
+    },
+    {
+      "src": "NumberLiteral: 0 [6047,6048]",
+      "dest": "NumberLiteral: 0 [6103,6104]"
+    },
+    {
+      "src": "MethodInvocation [9762,9836]",
+      "dest": "MethodInvocation [9806,9880]"
+    },
+    {
+      "src": "PrimitiveType: double [10079,10085]",
+      "dest": "PrimitiveType: double [10123,10129]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [6865,6882]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [6927,6944]"
+    },
+    {
+      "src": "PrefixExpression [6745,6755]",
+      "dest": "PrefixExpression [6807,6817]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [4830,4833]",
+      "dest": "NumberLiteral: 0.0 [4904,4907]"
+    },
+    {
+      "src": "ArrayCreation [9158,9245]",
+      "dest": "ArrayCreation [9202,9289]"
+    },
+    {
+      "src": "TryStatement [3283,3506]",
+      "dest": "TryStatement [3357,3580]"
+    },
+    {
+      "src": "PrimitiveType: double [9162,9168]",
+      "dest": "PrimitiveType: double [9206,9212]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [9411,9414]",
+      "dest": "NumberLiteral: 0.0 [9455,9458]"
+    },
+    {
+      "src": "SimpleName: sum [7301,7304]",
+      "dest": "SimpleName: sum [7345,7348]"
+    },
+    {
+      "src": "MethodInvocation [7679,7773]",
+      "dest": "MethodInvocation [7723,7817]"
+    },
+    {
+      "src": "StringLiteral: \"Expected NotANumberException\" [3422,3452]",
+      "dest": "StringLiteral: \"Expected NotANumberException\" [3496,3526]"
+    },
+    {
+      "src": "SimpleName: testDistribution [7115,7131]",
+      "dest": "SimpleName: testDistribution [7177,7193]"
+    },
+    {
+      "src": "SimpleName: createSampler [7737,7750]",
+      "dest": "SimpleName: createSampler [7781,7794]"
+    },
+    {
+      "src": "TextElement: Tests if the distribution returns properly that the support is connected. [6288,6361]",
+      "dest": "TextElement: Tests if the distribution returns properly that the support is connected. [6344,6417]"
+    },
+    {
+      "src": "SimpleName: RandomSource [6699,6711]",
+      "dest": "SimpleName: RandomSource [6761,6773]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.rng.simple.RandomSource [1573,1615]",
+      "dest": "QualifiedName: org.apache.commons.rng.simple.RandomSource [1647,1689]"
+    },
+    {
+      "src": "MethodInvocation [9444,9493]",
+      "dest": "MethodInvocation [9488,9537]"
+    },
+    {
+      "src": "SimpleName: testDensity [4468,4479]",
+      "dest": "SimpleName: testDensity [4542,4553]"
+    },
+    {
+      "src": "SimpleName: testDistribution [7212,7228]",
+      "dest": "SimpleName: testDistribution [7265,7281]"
+    },
+    {
+      "src": "SimpleName: NotFiniteNumberException [3723,3747]",
+      "dest": "SimpleName: NotFiniteNumberException [3797,3821]"
+    },
+    {
+      "src": "SimpleName: e [2804,2805]",
+      "dest": "SimpleName: e [2878,2879]"
+    },
+    {
+      "src": "SimpleName: testSample [6561,6571]",
+      "dest": "SimpleName: testSample [6617,6627]"
+    },
+    {
+      "src": "PrimitiveType: double [4492,4498]",
+      "dest": "PrimitiveType: double [4566,4572]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [3151,3154]",
+      "dest": "NumberLiteral: 0.0 [3225,3228]"
+    },
+    {
+      "src": "ArrayCreation [10095,10126]",
+      "dest": "ArrayCreation [10139,10170]"
+    },
+    {
+      "src": "Block [2032,2361]",
+      "dest": "Block [2106,2435]"
+    },
+    {
+      "src": "Modifier: public [7796,7802]",
+      "dest": "Modifier: public [7840,7846]"
+    },
+    {
+      "src": "VariableDeclarationStatement [7379,7430]",
+      "dest": "VariableDeclarationStatement [7423,7474]"
+    },
+    {
+      "src": "MethodInvocation [7515,7581]",
+      "dest": "MethodInvocation [7559,7625]"
+    },
+    {
+      "src": "ClassInstanceCreation [7549,7564]",
+      "dest": "ClassInstanceCreation [7593,7608]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistribution [10182,10208]",
+      "dest": "SimpleName: EnumeratedRealDistribution [10226,10252]"
+    },
+    {
+      "src": "SimpleName: results [4809,4816]",
+      "dest": "SimpleName: results [4883,4890]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9486,9492]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9530,9536]"
+    },
+    {
+      "src": "SimpleName: probability [4262,4273]",
+      "dest": "SimpleName: probability [4336,4347]"
+    },
+    {
+      "src": "SimpleName: NotANumberException [3472,3491]",
+      "dest": "SimpleName: NotANumberException [3546,3565]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [7192,7198]",
+      "dest": "METHOD_INVOCATION_RECEIVER [7245,7251]"
+    },
+    {
+      "src": "NumberLiteral: 6.0 [5085,5088]",
+      "dest": "NumberLiteral: 6.0 [5159,5162]"
+    },
+    {
+      "src": "QualifiedName: org.junit.Assert.assertEquals [865,894]",
+      "dest": "QualifiedName: org.junit.Assert.assertEquals [865,894]"
+    },
+    {
+      "src": "ArrayType [4094,4102]",
+      "dest": "ArrayType [4168,4176]"
+    },
+    {
+      "src": "VariableDeclarationStatement [8999,9247]",
+      "dest": "VariableDeclarationStatement [9043,9291]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [4765,4774]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [4839,4848]"
+    },
+    {
+      "src": "QualifiedName: samples.length [6868,6882]",
+      "dest": "QualifiedName: samples.length [6930,6944]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [2349,2352]",
+      "dest": "NumberLiteral: 0.0 [2423,2426]"
+    },
+    {
+      "src": "Block [3987,4360]",
+      "dest": "Block [4061,4434]"
+    },
+    {
+      "src": "Modifier: final [7591,7596]",
+      "dest": "Modifier: final [7635,7640]"
+    },
+    {
+      "src": "MethodInvocation [10242,10269]",
+      "dest": "MethodInvocation [10286,10313]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9907,9913]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9951,9957]"
+    },
+    {
+      "src": "TextElement: exceptions for invalid data. [2452,2480]",
+      "dest": "TextElement: exceptions for invalid data. [2526,2554]"
+    },
+    {
+      "src": "PrimitiveType: double [6893,6899]",
+      "dest": "PrimitiveType: double [6955,6961]"
+    },
+    {
+      "src": "VariableDeclarationFragment [6959,6964]",
+      "dest": "VariableDeclarationFragment [7021,7026]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [5189,5192]",
+      "dest": "NumberLiteral: 1.0 [5263,5266]"
+    },
+    {
+      "src": "ArrayType [5109,5117]",
+      "dest": "ArrayType [5183,5191]"
+    },
+    {
+      "src": "SimpleName: assertEquals [5348,5360]",
+      "dest": "SimpleName: assertEquals [5422,5434]"
+    },
+    {
+      "src": "ArrayCreation [2652,2674]",
+      "dest": "ArrayCreation [2726,2748]"
+    },
+    {
+      "src": "Modifier: private [1847,1854]",
+      "dest": "Modifier: private [1921,1928]"
+    },
+    {
+      "src": "TagElement [2391,2425]",
+      "dest": "TagElement [2465,2499]"
+    },
+    {
+      "src": "Modifier: final [6584,6589]",
+      "dest": "Modifier: final [6640,6645]"
+    },
+    {
+      "src": "PrimitiveType: double [4723,4729]",
+      "dest": "PrimitiveType: double [4797,4803]"
+    },
+    {
+      "src": "SimpleName: points [4274,4280]",
+      "dest": "SimpleName: points [4348,4354]"
+    },
+    {
+      "src": "SimpleName: distribution [9529,9541]",
+      "dest": "SimpleName: distribution [9573,9585]"
+    },
+    {
+      "src": "VariableDeclarationStatement [6767,6836]",
+      "dest": "VariableDeclarationStatement [6829,6898]"
+    },
+    {
+      "src": "SimpleName: Assert [7679,7685]",
+      "dest": "SimpleName: Assert [7723,7729]"
+    },
+    {
+      "src": "MethodDeclaration [2367,3857]",
+      "dest": "MethodDeclaration [2441,3931]"
+    },
+    {
+      "src": "PostfixExpression [6986,6989]",
+      "dest": "PostfixExpression [7048,7051]"
+    },
+    {
+      "src": "MethodInvocation [7439,7505]",
+      "dest": "MethodInvocation [7483,7549]"
+    },
+    {
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [6002,6003]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [6058,6059]"
+    },
+    {
+      "src": "NumberLiteral: 2.0 [5065,5068]",
+      "dest": "NumberLiteral: 2.0 [5139,5142]"
+    },
+    {
+      "src": "SimpleName: rng [7751,7754]",
+      "dest": "SimpleName: rng [7795,7798]"
+    },
+    {
+      "src": "SimpleType [7553,7559]",
+      "dest": "SimpleType [7597,7603]"
+    },
+    {
+      "src": "SimpleName: Test [7787,7791]",
+      "dest": "SimpleName: Test [7831,7835]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [7645,7668]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [7689,7712]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4621,4622]",
+      "dest": "NumberLiteral: 0 [4695,4696]"
+    },
+    {
+      "src": "NumberLiteral: 3.0 [2262,2265]",
+      "dest": "NumberLiteral: 3.0 [2336,2339]"
+    },
+    {
+      "src": "VariableDeclarationFragment [6782,6835]",
+      "dest": "VariableDeclarationFragment [6844,6897]"
+    },
+    {
+      "src": "NumberLiteral: 4.0 [9173,9176]",
+      "dest": "NumberLiteral: 4.0 [9217,9220]"
+    },
+    {
+      "src": "NumberLiteral: 2 [7310,7311]",
+      "dest": "NumberLiteral: 2 [7354,7355]"
+    },
+    {
+      "src": "SimpleName: sampler [6827,6834]",
+      "dest": "SimpleName: sampler [6889,6896]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [4318,4342]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [4392,4416]"
+    },
+    {
+      "src": "NumberLiteral: 2.0 [4545,4548]",
+      "dest": "NumberLiteral: 2.0 [4619,4622]"
+    },
+    {
+      "src": "PrimitiveType: void [6391,6395]",
+      "dest": "PrimitiveType: void [6447,6451]"
+    },
+    {
+      "src": "NumberLiteral: 8.0 [5095,5098]",
+      "dest": "NumberLiteral: 8.0 [5169,5172]"
+    },
+    {
+      "src": "MethodInvocation [6449,6486]",
+      "dest": "MethodInvocation [6505,6542]"
+    },
+    {
+      "src": "MethodDeclaration [7786,10011]",
+      "dest": "MethodDeclaration [7830,10055]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [9697,9709]",
+      "dest": "METHOD_INVOCATION_RECEIVER [9741,9753]"
+    },
+    {
+      "src": "MarkerAnnotation [5701,5706]",
+      "dest": "MarkerAnnotation [5766,5771]"
+    },
+    {
+      "src": "NumberLiteral: 7 [6218,6219]",
+      "dest": "NumberLiteral: 7 [6274,6275]"
+    },
+    {
+      "src": "MethodInvocation [4789,4834]",
+      "dest": "MethodInvocation [4863,4908]"
+    },
+    {
+      "src": "Dimension [4100,4102]",
+      "dest": "Dimension [4174,4176]"
+    },
+    {
+      "src": "SimpleName: sample [7756,7762]",
+      "dest": "SimpleName: sample [7800,7806]"
+    },
+    {
+      "src": "SimpleName: p [4183,4184]",
+      "dest": "SimpleName: p [4257,4258]"
+    },
+    {
+      "src": "MethodInvocation [2708,2758]",
+      "dest": "MethodInvocation [2782,2832]"
+    },
+    {
+      "src": "SimpleName: density [4235,4242]",
+      "dest": "SimpleName: density [4309,4316]"
+    },
+    {
+      "src": "NumberLiteral: 31.0 [9775,9779]",
+      "dest": "NumberLiteral: 31.0 [9819,9823]"
+    },
+    {
+      "src": "SimpleName: fail [3177,3181]",
+      "dest": "SimpleName: fail [3251,3255]"
+    },
+    {
+      "src": "ArrayCreation [4113,4164]",
+      "dest": "ArrayCreation [4187,4238]"
+    },
+    {
+      "src": "NumberLiteral: 16.0 [9179,9183]",
+      "dest": "NumberLiteral: 16.0 [9223,9227]"
+    },
+    {
+      "src": "PrimitiveType: double [5257,5263]",
+      "dest": "PrimitiveType: double [5331,5337]"
+    },
+    {
+      "src": "SimpleName: p [4678,4679]",
+      "dest": "SimpleName: p [4752,4753]"
+    },
+    {
+      "src": "Dimension [4123,4125]",
+      "dest": "Dimension [4197,4199]"
+    },
+    {
+      "src": "ArrayCreation [2311,2353]",
+      "dest": "ArrayCreation [2385,2427]"
+    },
+    {
+      "src": "MethodDeclaration [5627,5840]",
+      "dest": "MethodDeclaration [5692,5896]"
+    },
+    {
+      "src": "NumberLiteral: 16.0 [9203,9207]",
+      "dest": "NumberLiteral: 16.0 [9247,9251]"
+    },
+    {
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [5049,5050]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [5123,5124]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistribution [2854,2880]",
+      "dest": "SimpleName: EnumeratedRealDistribution [2928,2954]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: * [7063,7064]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: * [7125,7126]"
+    },
+    {
+      "src": "ArrayInitializer [2893,2903]",
+      "dest": "ArrayInitializer [2967,2977]"
+    },
+    {
+      "src": "VariableDeclarationFragment [4730,4775]",
+      "dest": "VariableDeclarationFragment [4804,4849]"
+    },
+    {
+      "src": "PrimitiveType: double [5012,5018]",
+      "dest": "PrimitiveType: double [5086,5092]"
+    },
+    {
+      "src": "SimpleName: Object [7553,7559]",
+      "dest": "SimpleName: Object [7597,7603]"
+    },
+    {
+      "src": "SimpleType [2205,2231]",
+      "dest": "SimpleType [2279,2305]"
+    },
+    {
+      "src": "SimpleName: Test [5492,5496]",
+      "dest": "SimpleName: Test [5566,5570]"
+    },
+    {
+      "src": "ArrayAccess [7065,7075]",
+      "dest": "ArrayAccess [7127,7137]"
+    },
+    {
+      "src": "Modifier: public [5501,5507]",
+      "dest": "Modifier: public [5575,5581]"
+    },
+    {
+      "src": "SimpleName: assertEquals [9257,9269]",
+      "dest": "SimpleName: assertEquals [9301,9313]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.math4.util.FastMath [1430,1468]",
+      "dest": "QualifiedName: org.apache.commons.math4.util.FastMath [1504,1542]"
+    },
+    {
+      "src": "ExpressionStatement [3771,3851]",
+      "dest": "ExpressionStatement [3845,3925]"
+    },
+    {
+      "src": "Javadoc [6062,6134]",
+      "dest": "Javadoc [6118,6190]"
+    },
+    {
+      "src": "ExpressionStatement [9425,9500]",
+      "dest": "ExpressionStatement [9469,9544]"
+    },
+    {
+      "src": "ArrayInitializer [4522,4579]",
+      "dest": "ArrayInitializer [4596,4653]"
+    },
+    {
+      "src": "NumberLiteral: 0.5 [4638,4641]",
+      "dest": "NumberLiteral: 0.5 [4712,4715]"
+    },
+    {
+      "src": "PrimitiveType: double [4589,4595]",
+      "dest": "PrimitiveType: double [4663,4669]"
+    },
+    {
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [5043,5044]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [5117,5118]"
+    },
+    {
+      "src": "ImportDeclaration [1091,1160]",
+      "dest": "ImportDeclaration [1165,1234]"
+    },
+    {
+      "src": "TryStatement [3515,3762]",
+      "dest": "TryStatement [3589,3836]"
+    },
+    {
+      "src": "MethodInvocation [9510,9584]",
+      "dest": "MethodInvocation [9554,9628]"
+    },
+    {
+      "src": "MethodInvocation [7625,7669]",
+      "dest": "MethodInvocation [7669,7713]"
+    },
+    {
+      "src": "PrefixExpression [4028,4032]",
+      "dest": "PrefixExpression [4102,4106]"
+    },
+    {
+      "src": "Javadoc [6277,6369]",
+      "dest": "Javadoc [6333,6425]"
+    },
+    {
+      "src": "ArrayAccess [4274,4283]",
+      "dest": "ArrayAccess [4348,4357]"
+    },
+    {
+      "src": "MethodInvocation [9613,9662]",
+      "dest": "MethodInvocation [9657,9706]"
+    },
+    {
+      "src": "VariableDeclarationFragment [6924,6940]",
+      "dest": "VariableDeclarationFragment [6986,7002]"
+    },
+    {
+      "src": "SimpleName: samples [7012,7019]",
+      "dest": "SimpleName: samples [7074,7081]"
+    },
+    {
+      "src": "ArrayType [2885,2893]",
+      "dest": "ArrayType [2959,2967]"
+    },
+    {
+      "src": "TextElement: . [1722,1723]",
+      "dest": "TextElement: . [1796,1797]"
+    },
+    {
+      "src": "MethodInvocation [9276,9325]",
+      "dest": "MethodInvocation [9320,9369]"
+    },
+    {
+      "src": "SimpleName: getNumericalMean [7132,7148]",
+      "dest": "SimpleName: getMean [7194,7201]"
+    },
+    {
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [4523,4524]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [4597,4598]"
+    },
+    {
+      "src": "ArrayInitializer [2323,2353]",
+      "dest": "ArrayInitializer [2397,2427]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4646,4647]",
+      "dest": "NumberLiteral: 0 [4720,4721]"
+    },
+    {
+      "src": "MethodDeclaration [10017,10349]",
+      "dest": "MethodDeclaration [10061,10393]"
+    },
+    {
+      "src": "TagElement [1793,1834]",
+      "dest": "TagElement [1867,1908]"
+    },
+    {
+      "src": "NumberLiteral: 0.2 [5154,5157]",
+      "dest": "NumberLiteral: 0.2 [5228,5231]"
+    },
+    {
+      "src": "Dimension [4025,4027]",
+      "dest": "Dimension [4099,4101]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistribution [3315,3341]",
+      "dest": "SimpleName: EnumeratedRealDistribution [3389,3415]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [6431,6437]",
+      "dest": "METHOD_INVOCATION_RECEIVER [6487,6493]"
+    },
+    {
+      "src": "SimpleType [2777,2803]",
+      "dest": "SimpleType [2851,2877]"
+    },
+    {
+      "src": "SimpleType [6621,6645]",
+      "dest": "SimpleType [6677,6707]"
+    },
+    {
+      "src": "SimpleName: testDistribution [6668,6684]",
+      "dest": "SimpleName: testDistribution [6730,6746]"
+    },
+    {
+      "src": "Javadoc [5846,5918]",
+      "dest": "Javadoc [5902,5974]"
+    },
+    {
+      "src": "SimpleName: p [4190,4191]",
+      "dest": "SimpleName: p [4264,4265]"
+    },
+    {
+      "src": "PrimitiveType: double [3346,3352]",
+      "dest": "PrimitiveType: double [3420,3426]"
+    },
+    {
+      "src": "PrimitiveType: double [2680,2686]",
+      "dest": "PrimitiveType: double [2754,2760]"
+    },
+    {
+      "src": "ASSIGNMENT_OPERATOR: = [3541,3542]",
+      "dest": "ASSIGNMENT_OPERATOR: = [3615,3616]"
+    },
+    {
+      "src": "VariableDeclarationFragment [6900,6907]",
+      "dest": "VariableDeclarationFragment [6962,6969]"
+    },
+    {
+      "src": "ArrayCreation [4510,4579]",
+      "dest": "ArrayCreation [4584,4653]"
+    },
+    {
+      "src": "SimpleName: invalid [3533,3540]",
+      "dest": "SimpleName: invalid [3607,3614]"
+    },
+    {
+      "src": "PrimitiveType: void [5718,5722]",
+      "dest": "PrimitiveType: void [5783,5787]"
+    },
+    {
+      "src": "NumberLiteral: 0.0000 [9318,9324]",
+      "dest": "NumberLiteral: 0.0000 [9362,9368]"
+    },
+    {
+      "src": "NumberLiteral: 0.0 [4040,4043]",
+      "dest": "NumberLiteral: 0.0 [4114,4117]"
+    },
+    {
+      "src": "ArrayAccess [7012,7022]",
+      "dest": "ArrayAccess [7074,7084]"
+    },
+    {
+      "src": "SimpleName: p [5369,5370]",
+      "dest": "SimpleName: p [5443,5444]"
+    },
+    {
+      "src": "SimpleName: create [7638,7644]",
+      "dest": "SimpleName: create [7682,7688]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [6006,6022]",
+      "dest": "METHOD_INVOCATION_RECEIVER [6062,6078]"
+    },
+    {
+      "src": "NumberLiteral: 3.0 [9233,9236]",
+      "dest": "NumberLiteral: 3.0 [9277,9280]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [6699,6711]",
+      "dest": "METHOD_INVOCATION_RECEIVER [6761,6773]"
+    },
+    {
+      "src": "Javadoc [4366,4441]",
+      "dest": "Javadoc [4440,4515]"
+    },
+    {
+      "src": "SimpleName: distribution [9276,9288]",
+      "dest": "SimpleName: distribution [9320,9332]"
+    },
+    {
+      "src": "SimpleName: list [7731,7735]",
+      "dest": "SimpleName: list [7775,7779]"
+    },
+    {
+      "src": "NumberLiteral: 0.2 [2324,2327]",
+      "dest": "NumberLiteral: 0.2 [2398,2401]"
+    },
+    {
+      "src": "SimpleName: p [5238,5239]",
+      "dest": "SimpleName: p [5312,5313]"
+    },
+    {
+      "src": "ArrayInitializer [5140,5193]",
+      "dest": "ArrayInitializer [5214,5267]"
+    },
+    {
+      "src": "SimpleName: i [7073,7074]",
+      "dest": "SimpleName: i [7135,7136]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4629,4630]",
+      "dest": "NumberLiteral: 0 [4703,4704]"
+    },
+    {
+      "src": "NumberLiteral: 0 [6939,6940]",
+      "dest": "NumberLiteral: 0 [7001,7002]"
+    },
+    {
+      "src": "PrimitiveType: double [2909,2915]",
+      "dest": "PrimitiveType: double [2983,2989]"
+    },
+    {
+      "src": "NumberLiteral: 2.0 [4029,4032]",
+      "dest": "NumberLiteral: 2.0 [4103,4106]"
+    },
+    {
+      "src": "ArrayInitializer [4125,4164]",
+      "dest": "ArrayInitializer [4199,4238]"
+    },
+    {
+      "src": "NumberLiteral: 0.5 [4143,4146]",
+      "dest": "NumberLiteral: 0.5 [4217,4220]"
+    },
+    {
+      "src": "SimpleName: testDistribution [5786,5802]",
+      "dest": "SimpleName: testDistribution [5851,5867]"
+    },
+    {
+      "src": "NumberLiteral: 0.2 [5159,5162]",
+      "dest": "NumberLiteral: 0.2 [5233,5236]"
+    },
+    {
+      "src": "PrimitiveType: double [2315,2321]",
+      "dest": "PrimitiveType: double [2389,2395]"
+    },
+    {
+      "src": "SimpleName: assertEquals [6205,6217]",
+      "dest": "SimpleName: assertEquals [6261,6273]"
+    },
+    {
+      "src": "SimpleName: p [4704,4705]",
+      "dest": "SimpleName: p [4778,4779]"
+    },
+    {
+      "src": "NumberLiteral: 14.0 [9270,9274]",
+      "dest": "NumberLiteral: 14.0 [9314,9318]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9318,9324]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9362,9368]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: / [9189,9190]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: / [9233,9234]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [7679,7685]",
+      "dest": "METHOD_INVOCATION_RECEIVER [7723,7729]"
+    },
+    {
+      "src": "NumberLiteral: 5.0 [4560,4563]",
+      "dest": "NumberLiteral: 5.0 [4634,4637]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [6449,6486]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [6505,6542]"
+    },
+    {
+      "src": "NumberLiteral: 7.84 [5780,5784]",
+      "dest": "NumberLiteral: 7.84 [5845,5849]"
+    },
+    {
+      "src": "InfixExpression [9233,9243]",
+      "dest": "InfixExpression [9277,9287]"
+    },
+    {
+      "src": "NumberLiteral: 8.0 [4575,4578]",
+      "dest": "NumberLiteral: 8.0 [4649,4652]"
+    },
+    {
+      "src": "VariableDeclarationFragment [4006,4084]",
+      "dest": "VariableDeclarationFragment [4080,4158]"
+    },
+    {
+      "src": "Block [3751,3762]",
+      "dest": "Block [3825,3836]"
+    },
+    {
+      "src": "ExpressionStatement [6845,6884]",
+      "dest": "ExpressionStatement [6907,6946]"
+    },
+    {
+      "src": "MethodInvocation [7115,7150]",
+      "dest": "MethodInvocation [7177,7203]"
+    },
+    {
+      "src": "SimpleName: getNumericalMean [5588,5604]",
+      "dest": "SimpleName: getMean [5662,5669]"
+    },
+    {
+      "src": "TryStatement [2827,3041]",
+      "dest": "TryStatement [2901,3115]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [3668,3703]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3742,3777]"
+    },
+    {
+      "src": "NumberLiteral: 2.0 [4050,4053]",
+      "dest": "NumberLiteral: 2.0 [4124,4127]"
+    },
+    {
+      "src": "SimpleName: Assert [7095,7101]",
+      "dest": "SimpleName: Assert [7157,7163]"
+    },
+    {
+      "src": "PrimitiveType: void [2510,2514]",
+      "dest": "PrimitiveType: void [2584,2588]"
+    },
+    {
+      "src": "Assignment [3301,3396]",
+      "dest": "Assignment [3375,3470]"
+    },
+    {
+      "src": "Modifier: public [1731,1737]",
+      "dest": "Modifier: public [1805,1811]"
+    },
+    {
+      "src": "INFIX_EXPRESSION_OPERATOR: < [5221,5222]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: < [5295,5296]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [7763,7764]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [7807,7808]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [2943,2949]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3017,3023]"
+    },
+    {
+      "src": "SimpleName: i [6959,6960]",
+      "dest": "SimpleName: i [7021,7022]"
+    },
+    {
+      "src": "SimpleName: cumulativeProbability [5295,5316]",
+      "dest": "SimpleName: cumulativeProbability [5369,5390]"
+    },
+    {
+      "src": "SimpleName: inverseCumulativeProbability [9373,9401]",
+      "dest": "SimpleName: inverseCumulativeProbability [9417,9445]"
+    },
+    {
+      "src": "Javadoc [5627,5696]",
+      "dest": "Javadoc [5692,5761]"
+    },
+    {
+      "src": "ArrayInitializer [9171,9245]",
+      "dest": "ArrayInitializer [9215,9289]"
+    },
+    {
+      "src": "SimpleName: density [4821,4828]",
+      "dest": "SimpleName: density [4895,4902]"
+    },
+    {
+      "src": "SimpleType [7494,7500]",
+      "dest": "SimpleType [7538,7544]"
+    },
+    {
+      "src": "NumberLiteral: 2 [10267,10268]",
+      "dest": "NumberLiteral: 2 [10311,10312]"
+    },
+    {
+      "src": "TextElement: Tests if the distribution returns proper variance. [5638,5688]",
+      "dest": "TextElement: Tests if the distribution returns proper variance. [5703,5753]"
+    },
+    {
+      "src": "Dimension [3608,3610]",
+      "dest": "Dimension [3682,3684]"
+    },
+    {
+      "src": "ImportDeclaration [851,895]",
+      "dest": "ImportDeclaration [851,895]"
+    },
+    {
+      "src": "ExpressionStatement [2708,2759]",
+      "dest": "ExpressionStatement [2782,2833]"
+    },
+    {
+      "src": "Dimension [5018,5020]",
+      "dest": "Dimension [5092,5094]"
+    },
+    {
+      "src": "NumberLiteral: 1 [10115,10116]",
+      "dest": "NumberLiteral: 1 [10159,10160]"
+    },
+    {
+      "src": "SimpleName: Assert [3410,3416]",
+      "dest": "SimpleName: Assert [3484,3490]"
+    },
+    {
+      "src": "QualifiedName: points.length [4689,4702]",
+      "dest": "QualifiedName: points.length [4763,4776]"
+    },
+    {
+      "src": "SimpleName: n [7307,7308]",
+      "dest": "SimpleName: n [7351,7352]"
+    },
+    {
+      "src": "SimpleName: distribution [9444,9456]",
+      "dest": "SimpleName: distribution [9488,9500]"
+    },
+    {
+      "src": "ArrayType [3997,4005]",
+      "dest": "ArrayType [4071,4079]"
+    },
+    {
+      "src": "SimpleName: assertEquals [7199,7211]",
+      "dest": "SimpleName: assertEquals [7252,7264]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [9523,9583]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [9567,9627]"
+    },
+    {
+      "src": "SimpleName: testDistribution [5571,5587]",
+      "dest": "SimpleName: testDistribution [5645,5661]"
+    },
+    {
+      "src": "VariableDeclarationExpression [6955,6964]",
+      "dest": "VariableDeclarationExpression [7017,7026]"
+    },
+    {
+      "src": "ArrayType [6773,6781]",
+      "dest": "ArrayType [6835,6843]"
+    },
+    {
+      "src": "ClassInstanceCreation [7702,7736]",
+      "dest": "ClassInstanceCreation [7746,7780]"
+    },
+    {
+      "src": "MethodInvocation [9341,9415]",
+      "dest": "MethodInvocation [9385,9459]"
+    },
+    {
+      "src": "Modifier: public [6384,6390]",
+      "dest": "Modifier: public [6440,6446]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [5184,5187]",
+      "dest": "NumberLiteral: 1.0 [5258,5261]"
+    },
+    {
+      "src": "SimpleName: EnumeratedRealDistributionTest [1744,1774]",
+      "dest": "SimpleName: EnumeratedRealDistributionTest [1818,1848]"
+    },
+    {
+      "src": "SimpleName: assertTrue [6438,6448]",
+      "dest": "SimpleName: assertTrue [6494,6504]"
+    },
+    {
+      "src": "SimpleName: Assert [3656,3662]",
+      "dest": "SimpleName: Assert [3730,3736]"
+    },
+    {
+      "src": "MethodInvocation [9865,9914]",
+      "dest": "MethodInvocation [9909,9958]"
+    },
+    {
+      "src": "NumberLiteral: 0.2 [5149,5152]",
+      "dest": "NumberLiteral: 0.2 [5223,5226]"
+    },
+    {
+      "src": "VariableDeclarationExpression [5208,5217]",
+      "dest": "VariableDeclarationExpression [5282,5291]"
+    },
+    {
+      "src": "Modifier: public [3957,3963]",
+      "dest": "Modifier: public [4031,4037]"
+    },
+    {
+      "src": "SimpleName: Assert [2943,2949]",
+      "dest": "SimpleName: Assert [3017,3023]"
+    },
+    {
+      "src": "SimpleName: Assert [5982,5988]",
+      "dest": "SimpleName: Assert [6038,6044]"
+    },
+    {
+      "src": "InfixExpression [5219,5236]",
+      "dest": "InfixExpression [5293,5310]"
+    },
+    {
+      "src": "TagElement [1688,1722]",
+      "dest": "TagElement [1762,1796]"
+    },
+    {
+      "src": "SimpleName: Assert [4789,4795]",
+      "dest": "SimpleName: Assert [4863,4869]"
+    },
+    {
+      "src": "Assignment [3068,3156]",
+      "dest": "Assignment [3142,3230]"
+    },
+    {
+      "src": "NumberLiteral: 3.0 [2273,2276]",
+      "dest": "NumberLiteral: 3.0 [2347,2350]"
+    },
+    {
+      "src": "InfixExpression [7168,7175]",
+      "dest": "InfixExpression [7221,7228]"
+    },
+    {
+      "src": "SimpleType [7541,7547]",
+      "dest": "SimpleType [7585,7591]"
+    },
+    {
+      "src": "NumberLiteral: 7.0 [4570,4573]",
+      "dest": "NumberLiteral: 7.0 [4644,4647]"
+    },
+    {
+      "src": "VariableDeclarationStatement [7591,7670]",
+      "dest": "VariableDeclarationStatement [7635,7714]"
+    },
+    {
+      "src": "ExpressionStatement [2611,2695]",
+      "dest": "ExpressionStatement [2685,2769]"
+    },
+    {
+      "src": "MarkerAnnotation [5923,5928]",
+      "dest": "MarkerAnnotation [5979,5984]"
+    },
+    {
+      "src": "Modifier: public [5711,5717]",
+      "dest": "Modifier: public [5776,5782]"
+    },
+    {
+      "src": "Dimension [10105,10107]",
+      "dest": "Dimension [10149,10151]"
+    },
+    {
+      "src": "VariableDeclarationFragment [6646,6757]",
+      "dest": "VariableDeclarationFragment [6708,6819]"
+    },
+    {
+      "src": "SimpleName: Assert [7192,7198]",
+      "dest": "SimpleName: Assert [7245,7251]"
+    },
+    {
+      "src": "ClassInstanceCreation [2850,2929]",
+      "dest": "ClassInstanceCreation [2924,3003]"
+    },
+    {
+      "src": "SimpleName: NotPositiveException [3006,3026]",
+      "dest": "SimpleName: NotPositiveException [3080,3100]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [7625,7637]",
+      "dest": "METHOD_INVOCATION_RECEIVER [7669,7681]"
+    },
+    {
+      "src": "ArrayCreation [2881,2903]",
+      "dest": "ArrayCreation [2955,2977]"
+    },
+    {
+      "src": "PrefixExpression [2923,2927]",
+      "dest": "PrefixExpression [2997,3001]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [3771,3777]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3845,3851]"
+    },
+    {
+      "src": "TextElement: Test class for  [1673,1688]",
+      "dest": "TextElement: Test class for  [1747,1762]"
+    },
+    {
+      "src": "VariableDeclarationFragment [2569,2583]",
+      "dest": "VariableDeclarationFragment [2643,2657]"
+    },
+    {
+      "src": "SimpleName: i [6966,6967]",
+      "dest": "SimpleName: i [7028,7029]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [7301,7311]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [7345,7355]"
+    },
+    {
+      "src": "SimpleName: Double [7396,7402]",
+      "dest": "SimpleName: Double [7440,7446]"
+    },
+    {
+      "src": "PrefixExpression [5049,5053]",
+      "dest": "PrefixExpression [5123,5127]"
+    },
+    {
+      "src": "TagElement [6288,6361]",
+      "dest": "TagElement [6344,6417]"
+    },
+    {
+      "src": "SimpleName: Double [7541,7547]",
+      "dest": "SimpleName: Double [7585,7591]"
+    },
+    {
+      "src": "TextElement: Tests if the distribution returns proper upper bound. [6073,6126]",
+      "dest": "TextElement: Tests if the distribution returns proper upper bound. [6129,6182]"
+    },
+    {
+      "src": "SimpleName: testGetNumericalVariance [5723,5747]",
+      "dest": "SimpleName: testGetNumericalVariance [5788,5812]"
+    },
+    {
+      "src": "PrefixExpression [2267,2271]",
+      "dest": "PrefixExpression [2341,2345]"
+    },
+    {
+      "src": "ArrayType [2253,2261]",
+      "dest": "ArrayType [2327,2335]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [2894,2897]",
+      "dest": "NumberLiteral: 1.0 [2968,2971]"
+    },
+    {
+      "src": "SimpleType [8999,9025]",
+      "dest": "SimpleType [9043,9069]"
+    },
+    {
+      "src": "MarkerAnnotation [5491,5496]",
+      "dest": "MarkerAnnotation [5565,5570]"
+    },
+    {
+      "src": "ArrayType [4589,4597]",
+      "dest": "ArrayType [4663,4671]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4682,4683]",
+      "dest": "NumberLiteral: 0 [4756,4757]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4140,4141]",
+      "dest": "NumberLiteral: 0 [4214,4215]"
+    },
+    {
+      "src": "ASSIGNMENT_OPERATOR: = [2848,2849]",
+      "dest": "ASSIGNMENT_OPERATOR: = [2922,2923]"
+    },
+    {
+      "src": "ArrayCreation [3574,3596]",
+      "dest": "ArrayCreation [3648,3670]"
+    },
+    {
+      "src": "MethodInvocation [6198,6264]",
+      "dest": "MethodInvocation [6254,6320]"
+    },
+    {
+      "src": "ArrayType [3346,3354]",
+      "dest": "ArrayType [3420,3428]"
+    },
+    {
+      "src": "SimpleType [3723,3747]",
+      "dest": "SimpleType [3797,3821]"
+    },
+    {
+      "src": "SimpleName: invalid [3068,3075]",
+      "dest": "SimpleName: invalid [3142,3149]"
+    },
+    {
+      "src": "SimpleName: MathArithmeticException [3236,3259]",
+      "dest": "SimpleName: MathArithmeticException [3310,3333]"
+    },
+    {
+      "src": "ASSIGNMENT_OPERATOR: = [2619,2620]",
+      "dest": "ASSIGNMENT_OPERATOR: = [2693,2694]"
+    },
+    {
+      "src": "ExpressionStatement [9846,9921]",
+      "dest": "ExpressionStatement [9890,9965]"
+    },
+    {
+      "src": "ClassInstanceCreation [2621,2694]",
+      "dest": "ClassInstanceCreation [2695,2768]"
+    },
+    {
+      "src": "VariableDeclarationFragment [4183,4188]",
+      "dest": "VariableDeclarationFragment [4257,4262]"
+    },
+    {
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [4034,4035]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [4108,4109]"
+    },
+    {
+      "src": "SimpleName: inverseCumulativeProbability [9962,9990]",
+      "dest": "SimpleName: inverseCumulativeProbability [10006,10034]"
+    },
+    {
+      "src": "SimpleName: isSupportConnected [6466,6484]",
+      "dest": "SimpleName: isSupportConnected [6522,6540]"
+    },
+    {
+      "src": "ForStatement [4669,4845]",
+      "dest": "ForStatement [4743,4919]"
+    },
+    {
+      "src": "QualifiedName: org.apache.commons.math4.exception.NotFiniteNumberException [1298,1357]",
+      "dest": "QualifiedName: org.apache.commons.math4.exception.NotFiniteNumberException [1372,1431]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [4740,4756]",
+      "dest": "METHOD_INVOCATION_RECEIVER [4814,4830]"
+    },
+    {
+      "src": "SimpleName: assertEquals [9930,9942]",
+      "dest": "SimpleName: assertEquals [9974,9986]"
+    },
+    {
+      "src": "ArrayInitializer [2664,2674]",
+      "dest": "ArrayInitializer [2738,2748]"
+    },
+    {
+      "src": "PrimitiveType: double [4514,4520]",
+      "dest": "PrimitiveType: double [4588,4594]"
+    },
+    {
+      "src": "PrimitiveType: double [5109,5115]",
+      "dest": "PrimitiveType: double [5183,5189]"
+    },
+    {
+      "src": "METHOD_INVOCATION_RECEIVER [10242,10254]",
+      "dest": "METHOD_INVOCATION_RECEIVER [10286,10298]"
+    },
+    {
+      "src": "NumberLiteral: 5.0 [4065,4068]",
+      "dest": "NumberLiteral: 5.0 [4139,4142]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4649,4650]",
+      "dest": "NumberLiteral: 0 [4723,4724]"
+    },
+    {
+      "src": "StringLiteral: \"Expected non-initialized DiscreteRealDistribution\" [3789,3840]",
+      "dest": "StringLiteral: \"Expected non-initialized DiscreteRealDistribution\" [3863,3914]"
+    },
+    {
+      "src": "TagElement [5426,5478]",
+      "dest": "TagElement [5500,5552]"
+    },
+    {
+      "src": "METHOD_INVOCATION_ARGUMENTS [5566,5613]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [5640,5678]"
+    },
+    {
+      "src": "SimpleName: density [4330,4337]",
+      "dest": "SimpleName: density [4404,4411]"
+    },
+    {
+      "src": "ArrayInitializer [4620,4659]",
+      "dest": "ArrayInitializer [4694,4733]"
+    },
+    {
+      "src": "MethodInvocation [5341,5392]",
+      "dest": "MethodInvocation [5415,5466]"
+    },
+    {
+      "src": "MethodInvocation [9930,10004]",
+      "dest": "MethodInvocation [9974,10048]"
+    },
+    {
+      "src": "NumberLiteral: 0 [4632,4633]",
+      "dest": "NumberLiteral: 0 [4706,4707]"
+    },
+    {
+      "src": "NumberLiteral: 1.0 [4045,4048]",
+      "dest": "NumberLiteral: 1.0 [4119,4122]"
+    },
+    {
+      "src": "VariableDeclarationFragment [4598,4659]",
+      "dest": "VariableDeclarationFragment [4672,4733]"
+    },
+    {
+      "src": "TryStatement [2593,2818]",
+      "dest": "TryStatement [2667,2892]"
+    },
+    {
+      "src": "NumberLiteral: 18.0 [9607,9611]",
+      "dest": "NumberLiteral: 18.0 [9651,9655]"
+    },
+    {
+      "src": "MarkerAnnotation [6539,6544]",
+      "dest": "MarkerAnnotation [6595,6600]"
     }
   ],
   "actions": [
     {
-      "action": "delete-tree",
-      "tree": "ImportDeclaration [923,991]"
+      "action": "insert-tree",
+      "tree": "ImportDeclaration [949,1022]",
+      "parent": "CompilationUnit [0,10395]",
+      "at": 4
     },
     {
-      "action": "delete-tree",
-      "tree": "ImportDeclaration [992,1054]"
+      "action": "update-node",
+      "tree": "QualifiedName: RealDistribution.Sampler [6621,6645]",
+      "label": "ContinuousDistribution.Sampler"
     },
     {
-      "action": "delete-tree",
-      "tree": "ImportDeclaration [1055,1107]"
+      "action": "update-node",
+      "tree": "SimpleName: getNumericalMean [5588,5604]",
+      "label": "getMean"
+    },
+    {
+      "action": "update-node",
+      "tree": "SimpleName: getNumericalVariance [5803,5823]",
+      "label": "getVariance"
+    },
+    {
+      "action": "update-node",
+      "tree": "SimpleName: getNumericalMean [7132,7148]",
+      "label": "getMean"
+    },
+    {
+      "action": "update-node",
+      "tree": "SimpleName: getNumericalVariance [7229,7249]",
+      "label": "getVariance"
     }
   ]
 }
