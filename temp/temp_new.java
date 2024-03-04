@@ -1,256 +1,492 @@
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
- * contributor license agreements.  See the NOTICE file distributed with
- * this work for additional information regarding copyright ownership.
- * The ASF licenses this file to You under the Apache License, Version 2.0
- * (the "License"); you may not use this file except in compliance with
- * the License.  You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * contributor license agreements. See the NOTICE file distributed with this
+ * work for additional information regarding copyright ownership. The ASF
+ * licenses this file to You under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
-package org.apache.commons.math4.distribution;
+package org.apache.commons.math4.stat.descriptive;
 
-import static org.junit.Assert.assertEquals;
+import java.util.Locale;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.apache.commons.statistics.distribution.ContinuousDistribution;
-import org.apache.commons.math4.distribution.EnumeratedDistribution;
-import org.apache.commons.math4.distribution.EnumeratedRealDistribution;
-import org.apache.commons.math4.exception.DimensionMismatchException;
-import org.apache.commons.math4.exception.MathArithmeticException;
-import org.apache.commons.math4.exception.NotANumberException;
-import org.apache.commons.math4.exception.NotFiniteNumberException;
-import org.apache.commons.math4.exception.NotPositiveException;
-import org.apache.commons.math4.util.FastMath;
-import org.apache.commons.math4.util.Pair;
+import org.apache.commons.math4.TestUtils;
+import org.apache.commons.math4.exception.MathIllegalArgumentException;
+import org.apache.commons.math4.exception.NullArgumentException;
+import org.apache.commons.math4.stat.descriptive.DescriptiveStatistics;
+import static org.apache.commons.math4.stat.descriptive.DescriptiveStatistics.copy;
+import org.apache.commons.math4.stat.descriptive.SummaryStatistics;
+import org.apache.commons.math4.stat.descriptive.UnivariateStatistic;
+import org.apache.commons.math4.stat.descriptive.moment.GeometricMean;
+import org.apache.commons.math4.stat.descriptive.moment.Mean;
+import org.apache.commons.math4.stat.descriptive.moment.Variance;
+import org.apache.commons.math4.stat.descriptive.rank.Max;
+import org.apache.commons.math4.stat.descriptive.rank.Min;
+import org.apache.commons.math4.stat.descriptive.rank.Percentile;
+import org.apache.commons.math4.stat.descriptive.summary.Sum;
+import org.apache.commons.math4.stat.descriptive.summary.SumOfSquares;
+import org.apache.commons.math4.util.ResizableDoubleArray;
+import org.apache.commons.numbers.core.Precision;
 import org.apache.commons.rng.UniformRandomProvider;
 import org.apache.commons.rng.simple.RandomSource;
 import org.junit.Assert;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 /**
- * Test class for {@link EnumeratedRealDistribution}.
- *
+ * Test cases for the {@link DescriptiveStatistics} class.
  */
-public class EnumeratedRealDistributionTest {
+public class DescriptiveStatisticsTest {
+    private static UniformRandomProvider random = RandomSource.create(RandomSource.WELL_1024_A, 2345789432894l);
 
-    /**
-     * The distribution object used for testing.
-     */
-    private final EnumeratedRealDistribution testDistribution;
-
-    /**
-     * Creates the default distribution object used for testing.
-     */
-    public EnumeratedRealDistributionTest() {
-        // Non-sorted singleton array with duplicates should be allowed.
-        // Values with zero-probability do not extend the support.
-        testDistribution = new EnumeratedRealDistribution(
-                new double[]{3.0, -1.0, 3.0, 7.0, -2.0, 8.0},
-                new double[]{0.2, 0.2, 0.3, 0.3, 0.0, 0.0});
+    protected DescriptiveStatistics createDescriptiveStatistics() {
+        return new DescriptiveStatistics();
     }
 
-    /**
-     * Tests if the {@link EnumeratedRealDistribution} constructor throws
-     * exceptions for invalid data.
-     */
     @Test
-    public void testExceptions() {
-        EnumeratedRealDistribution invalid = null;
+    public void testSetterInjection() {
+        DescriptiveStatistics stats = createDescriptiveStatistics();
+        stats.addValue(1);
+        stats.addValue(3);
+        Assert.assertEquals(2, stats.getMean(), 1E-10);
+        // Now lets try some new math
+        stats.setMeanImpl(new deepMean());
+        Assert.assertEquals(42, stats.getMean(), 1E-10);
+    }
+
+    @Test
+    public void testCopy() {
+        DescriptiveStatistics stats = createDescriptiveStatistics();
+        stats.addValue(1);
+        stats.addValue(3);
+        DescriptiveStatistics copy = new DescriptiveStatistics(stats);
+        Assert.assertEquals(2, copy.getMean(), 1E-10);
+        // Now lets try some new math
+        stats.setMeanImpl(new deepMean());
+        copy = stats.copy();
+        Assert.assertEquals(42, copy.getMean(), 1E-10);
+    }
+
+    @Test
+    public void testWindowSize() {
+        DescriptiveStatistics stats = createDescriptiveStatistics();
+        stats.setWindowSize(300);
+        for (int i = 0; i < 100; ++i) {
+            stats.addValue(i + 1);
+        }
+        int refSum = (100 * 101) / 2;
+        Assert.assertEquals(refSum / 100.0, stats.getMean(), 1E-10);
+        Assert.assertEquals(300, stats.getWindowSize());
         try {
-            invalid = new EnumeratedRealDistribution(new double[]{1.0, 2.0}, new double[]{0.0});
-            Assert.fail("Expected DimensionMismatchException");
-        } catch (DimensionMismatchException e) {
+            stats.setWindowSize(-3);
+            Assert.fail("an exception should have been thrown");
+        } catch (MathIllegalArgumentException iae) {
+            // expected
         }
-        try{
-        invalid = new EnumeratedRealDistribution(new double[]{1.0, 2.0}, new double[]{0.0, -1.0});
-            Assert.fail("Expected NotPositiveException");
-        } catch (NotPositiveException e) {
+        Assert.assertEquals(300, stats.getWindowSize());
+        stats.setWindowSize(50);
+        Assert.assertEquals(50, stats.getWindowSize());
+        int refSum2 = refSum - (50 * 51) / 2;
+        Assert.assertEquals(refSum2 / 50.0, stats.getMean(), 1E-10);
+    }
+
+    @Test
+    public void testGetValues() {
+        DescriptiveStatistics stats = createDescriptiveStatistics();
+        for (int i = 100; i > 0; --i) {
+            stats.addValue(i);
         }
+        int refSum = (100 * 101) / 2;
+        Assert.assertEquals(refSum / 100.0, stats.getMean(), 1E-10);
+        double[] v = stats.getValues();
+        for (int i = 0; i < v.length; ++i) {
+            Assert.assertEquals(100.0 - i, v[i], 1.0e-10);
+        }
+        double[] s = stats.getSortedValues();
+        for (int i = 0; i < s.length; ++i) {
+            Assert.assertEquals(i + 1.0, s[i], 1.0e-10);
+        }
+        Assert.assertEquals(12.0, stats.getElement(88), 1.0e-10);
+    }
+
+    @Test
+    public void testQuadraticMean() {
+        final double[] values = { 1.2, 3.4, 5.6, 7.89 };
+        final DescriptiveStatistics stats = new DescriptiveStatistics(values);
+
+        final int len = values.length;
+        double expected = 0;
+        for (int i = 0; i < len; i++) {
+            final double v = values[i];
+            expected += v * v / len;
+        }
+        expected = Math.sqrt(expected);
+
+        Assert.assertEquals(expected, stats.getQuadraticMean(), Math.ulp(expected));
+    }
+
+    @Test
+    public void testToString() {
+        DescriptiveStatistics stats = createDescriptiveStatistics();
+        stats.addValue(1);
+        stats.addValue(2);
+        stats.addValue(3);
+        Locale d = Locale.getDefault();
+        Locale.setDefault(Locale.US);
+        Assert.assertEquals("DescriptiveStatistics:\n" +
+                     "n: 3\n" +
+                     "min: 1.0\n" +
+                     "max: 3.0\n" +
+                     "mean: 2.0\n" +
+                     "std dev: 1.0\n" +
+                     "median: 2.0\n" +
+                     "skewness: 0.0\n" +
+                     "kurtosis: NaN\n",  stats.toString());
+        Locale.setDefault(d);
+    }
+
+    @Test
+    public void testShuffledStatistics() {
+        // the purpose of this test is only to check the get/set methods
+        // we are aware shuffling statistics like this is really not
+        // something sensible to do in production ...
+        DescriptiveStatistics reference = createDescriptiveStatistics();
+        DescriptiveStatistics shuffled  = createDescriptiveStatistics();
+
+        UnivariateStatistic tmp = shuffled.getGeometricMeanImpl();
+        shuffled.setGeometricMeanImpl(shuffled.getMeanImpl());
+        shuffled.setMeanImpl(shuffled.getKurtosisImpl());
+        shuffled.setKurtosisImpl(shuffled.getSkewnessImpl());
+        shuffled.setSkewnessImpl(shuffled.getVarianceImpl());
+        shuffled.setVarianceImpl(shuffled.getMaxImpl());
+        shuffled.setMaxImpl(shuffled.getMinImpl());
+        shuffled.setMinImpl(shuffled.getSumImpl());
+        shuffled.setSumImpl(shuffled.getSumsqImpl());
+        shuffled.setSumsqImpl(tmp);
+
+        for (int i = 100; i > 0; --i) {
+            reference.addValue(i);
+            shuffled.addValue(i);
+        }
+
+        Assert.assertEquals(reference.getMean(),          shuffled.getGeometricMean(), 1.0e-10);
+        Assert.assertEquals(reference.getKurtosis(),      shuffled.getMean(),          1.0e-10);
+        Assert.assertEquals(reference.getSkewness(),      shuffled.getKurtosis(), 1.0e-10);
+        Assert.assertEquals(reference.getVariance(),      shuffled.getSkewness(), 1.0e-10);
+        Assert.assertEquals(reference.getMax(),           shuffled.getVariance(), 1.0e-10);
+        Assert.assertEquals(reference.getMin(),           shuffled.getMax(), 1.0e-10);
+        Assert.assertEquals(reference.getSum(),           shuffled.getMin(), 1.0e-10);
+        Assert.assertEquals(reference.getSumsq(),         shuffled.getSum(), 1.0e-10);
+        Assert.assertEquals(reference.getGeometricMean(), shuffled.getSumsq(), 1.0e-10);
+
+    }
+
+    @Test
+    public void testPercentileSetter() {
+        DescriptiveStatistics stats = createDescriptiveStatistics();
+        stats.addValue(1);
+        stats.addValue(2);
+        stats.addValue(3);
+        Assert.assertEquals(2, stats.getPercentile(50.0), 1E-10);
+
+        // Inject wrapped Percentile impl
+        stats.setPercentileImpl(new goodPercentile());
+        Assert.assertEquals(2, stats.getPercentile(50.0), 1E-10);
+
+        // Try "new math" impl
+        stats.setPercentileImpl(new subPercentile());
+        Assert.assertEquals(10.0, stats.getPercentile(10.0), 1E-10);
+
+        // Try to set bad impl
         try {
-            invalid = new EnumeratedRealDistribution(new double[]{1.0, 2.0}, new double[]{0.0, 0.0});
-            Assert.fail("Expected MathArithmeticException");
-        } catch (MathArithmeticException e) {
-        }
-        try {
-            invalid = new EnumeratedRealDistribution(new double[]{1.0, 2.0}, new double[]{0.0, Double.NaN});
-            Assert.fail("Expected NotANumberException");
-        } catch (NotANumberException e) {
-        }
-        try {
-            invalid = new EnumeratedRealDistribution(new double[]{1.0, 2.0}, new double[]{0.0, Double.POSITIVE_INFINITY});
-            Assert.fail("Expected NotFiniteNumberException");
-        } catch (NotFiniteNumberException e) {
-        }
-        Assert.assertNull("Expected non-initialized DiscreteRealDistribution", invalid);
-    }
-
-    /**
-     * Tests if the distribution returns proper probability values.
-     */
-    @Test
-    public void testProbability() {
-        double[] points = new double[]{-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0};
-        double[] results = new double[]{0, 0.2, 0, 0, 0, 0.5, 0, 0, 0, 0.3, 0};
-        for (int p = 0; p < points.length; p++) {
-            double density = testDistribution.probability(points[p]);
-            Assert.assertEquals(results[p], density, 0.0);
+            stats.setPercentileImpl(new badPercentile());
+            Assert.fail("Expecting MathIllegalArgumentException");
+        } catch (MathIllegalArgumentException ex) {
+            // expected
         }
     }
 
-    /**
-     * Tests if the distribution returns proper density values.
-     */
     @Test
-    public void testDensity() {
-        double[] points = new double[]{-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0};
-        double[] results = new double[]{0, 0.2, 0, 0, 0, 0.5, 0, 0, 0, 0.3, 0};
-        for (int p = 0; p < points.length; p++) {
-            double density = testDistribution.density(points[p]);
-            Assert.assertEquals(results[p], density, 0.0);
+    public void test20090720() {
+        DescriptiveStatistics descriptiveStatistics = new DescriptiveStatistics(100);
+        for (int i = 0; i < 161; i++) {
+            descriptiveStatistics.addValue(1.2);
+        }
+        descriptiveStatistics.clear();
+        descriptiveStatistics.addValue(1.2);
+        Assert.assertEquals(1, descriptiveStatistics.getN());
+    }
+
+    @Test
+    public void testRemoval() {
+
+        final DescriptiveStatistics dstat = createDescriptiveStatistics();
+
+        checkremoval(dstat, 1, 6.0, 0.0, Double.NaN);
+        checkremoval(dstat, 3, 5.0, 3.0, 4.5);
+        checkremoval(dstat, 6, 3.5, 2.5, 3.0);
+        checkremoval(dstat, 9, 3.5, 2.5, 3.0);
+        checkremoval(dstat, DescriptiveStatistics.INFINITE_WINDOW, 3.5, 2.5, 3.0);
+
+    }
+
+    @Test
+    public void testSummaryConsistency() {
+        final DescriptiveStatistics dstats = new DescriptiveStatistics();
+        final SummaryStatistics sstats = new SummaryStatistics();
+        final int windowSize = 5;
+        dstats.setWindowSize(windowSize);
+        final double tol = 1E-12;
+        for (int i = 0; i < 20; i++) {
+            dstats.addValue(i);
+            sstats.clear();
+            double[] values = dstats.getValues();
+            for (int j = 0; j < values.length; j++) {
+                sstats.addValue(values[j]);
+            }
+            TestUtils.assertEquals(dstats.getMean(), sstats.getMean(), tol);
+            TestUtils.assertEquals(new Mean().evaluate(values), dstats.getMean(), tol);
+            TestUtils.assertEquals(dstats.getMax(), sstats.getMax(), tol);
+            TestUtils.assertEquals(new Max().evaluate(values), dstats.getMax(), tol);
+            TestUtils.assertEquals(dstats.getGeometricMean(), sstats.getGeometricMean(), tol);
+            TestUtils.assertEquals(new GeometricMean().evaluate(values), dstats.getGeometricMean(), tol);
+            TestUtils.assertEquals(dstats.getMin(), sstats.getMin(), tol);
+            TestUtils.assertEquals(new Min().evaluate(values), dstats.getMin(), tol);
+            TestUtils.assertEquals(dstats.getStandardDeviation(), sstats.getStandardDeviation(), tol);
+            TestUtils.assertEquals(dstats.getVariance(), sstats.getVariance(), tol);
+            TestUtils.assertEquals(new Variance().evaluate(values), dstats.getVariance(), tol);
+            TestUtils.assertEquals(dstats.getSum(), sstats.getSum(), tol);
+            TestUtils.assertEquals(new Sum().evaluate(values), dstats.getSum(), tol);
+            TestUtils.assertEquals(dstats.getSumsq(), sstats.getSumsq(), tol);
+            TestUtils.assertEquals(new SumOfSquares().evaluate(values), dstats.getSumsq(), tol);
+            TestUtils.assertEquals(dstats.getPopulationVariance(), sstats.getPopulationVariance(), tol);
+            TestUtils.assertEquals(new Variance(false).evaluate(values), dstats.getPopulationVariance(), tol);
+        }
+    }
+
+    @Test
+    public void testMath1129(){
+        final double[] data = new double[] {
+            -0.012086732064244697,
+            -0.24975668704012527,
+            0.5706168483164684,
+            -0.322111769955327,
+            0.24166759508327315,
+            Double.NaN,
+            0.16698443218942854,
+            -0.10427763937565114,
+            -0.15595963093172435,
+            -0.028075857595882995,
+            -0.24137994506058857,
+            0.47543170476574426,
+            -0.07495595384947631,
+            0.37445697625436497,
+            -0.09944199541668033
+        };
+
+        final DescriptiveStatistics ds = new DescriptiveStatistics(data);
+
+        final double t = ds.getPercentile(75);
+        final double o = ds.getPercentile(25);
+
+        final double iqr = t - o;
+        // System.out.println(String.format("25th percentile %s 75th percentile %s", o, t));
+        Assert.assertTrue(iqr >= 0);
+    }
+
+    @Test
+    public void testInit0() {
+        //test window constructor
+        int window = 1 + random.nextInt(Integer.MAX_VALUE-1);
+        DescriptiveStatistics instance = new DescriptiveStatistics(window);
+        Assert.assertEquals(window,
+                            instance.getWindowSize());
+    }
+
+    @Test
+    public void testInitDouble() {
+        //test double[] constructor
+        double[] initialDoubleArray = null;
+        new DescriptiveStatistics(initialDoubleArray);
+            //a null argument corresponds to DescriptiveStatistics(), so test
+            //that no exception is thrown
+        int initialDoubleArraySize = random.nextInt(1024 //some random
+            //memory consumption and test size limitation
+        );
+//        System.out.println(String.format("initialDoubleArraySize: %s",
+//                initialDoubleArraySize));
+        initialDoubleArray = new double[initialDoubleArraySize];
+        for(int i = 0; i < initialDoubleArraySize; i++) {
+            double value = random.nextDouble();
+            initialDoubleArray[i] = value;
+        }
+        new DescriptiveStatistics(initialDoubleArray);
+    }
+
+    @Test
+    public void testInitDoubleWrapper() {
+        //test Double[] constructor
+        Double[] initialDoubleWrapperArray = null;
+        new DescriptiveStatistics(initialDoubleWrapperArray);
+        int initialDoubleWrapperArraySize = random.nextInt(1024 //some random
+            //memory consumption and test size limitation
+        );
+        initialDoubleWrapperArray = generateInitialDoubleArray(initialDoubleWrapperArraySize);
+        new DescriptiveStatistics(initialDoubleWrapperArray);
+    }
+
+    @Test
+    public void testInitCopy() {
+        //test copy constructor
+        int initialDoubleArray = random.nextInt(1024 //some random
+            //memory consumption and test size limitation
+        );
+        DescriptiveStatistics original = new DescriptiveStatistics(initialDoubleArray);
+        DescriptiveStatistics instance = new DescriptiveStatistics(original);
+        Assert.assertEquals(original.getGeometricMean(),
+                            instance.getGeometricMean(),
+                            0);
+        Assert.assertEquals(original.getKurtosis(),
+                            instance.getKurtosis(),
+                            0);
+        Assert.assertEquals(original.getMax(),
+                            instance.getMax(),
+                            0);
+        Assert.assertEquals(original.getMean(),
+                            instance.getMean(),
+                            0);
+        Assert.assertEquals(original.getMin(),
+                            instance.getMin(),
+                            0);
+        Assert.assertEquals(original.getN(),
+                            instance.getN());
+        Assert.assertEquals(original.getSkewness(),
+                            instance.getSkewness(),
+                            0);
+        Assert.assertArrayEquals(original.getValues(),
+                                 instance.getValues(),
+                                 0);
+        Assert.assertEquals(original.getWindowSize(),
+                            instance.getWindowSize());
+            //doesn't implement equals
+    }
+
+    public void checkremoval(DescriptiveStatistics dstat, int wsize,
+                             double mean1, double mean2, double mean3) {
+
+        dstat.setWindowSize(wsize);
+        dstat.clear();
+
+        for (int i = 1 ; i <= 6 ; ++i) {
+            dstat.addValue(i);
+        }
+
+        Assert.assertTrue(Precision.equalsIncludingNaN(mean1, dstat.getMean()));
+        dstat.replaceMostRecentValue(0);
+        Assert.assertTrue(Precision.equalsIncludingNaN(mean2, dstat.getMean()));
+        dstat.removeMostRecentValue();
+        Assert.assertTrue(Precision.equalsIncludingNaN(mean3, dstat.getMean()));
+
+    }
+
+    private Double[] generateInitialDoubleArray(int size) {
+        Double[] retValue = new Double[size];
+        for(int i = 0; i < size; i++) {
+            Double value = random.nextDouble();
+            retValue[i] = value;
+        }
+        return retValue;
+    }
+
+    // Test UnivariateStatistics impls for setter injection tests
+
+    /**
+     * A new way to compute the mean
+     */
+    static class deepMean implements UnivariateStatistic {
+
+        @Override
+        public double evaluate(double[] values, int begin, int length) {
+            return 42;
+        }
+
+        @Override
+        public double evaluate(double[] values) {
+            return 42;
+        }
+        @Override
+        public UnivariateStatistic copy() {
+            return new deepMean();
         }
     }
 
     /**
-     * Tests if the distribution returns proper cumulative probability values.
+     * Test percentile implementation - wraps a Percentile
      */
-    @Test
-    public void testCumulativeProbability() {
-        double[] points = new double[]{-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0};
-        double[] results = new double[]{0, 0.2, 0.2, 0.2, 0.2, 0.7, 0.7, 0.7, 0.7, 1.0, 1.0};
-        for (int p = 0; p < points.length; p++) {
-            double probability = testDistribution.cumulativeProbability(points[p]);
-            Assert.assertEquals(results[p], probability, 1e-10);
+    static class goodPercentile implements UnivariateStatistic {
+        private final Percentile percentile = new Percentile();
+        public void setQuantile(double quantile) {
+            percentile.setQuantile(quantile);
+        }
+        @Override
+        public double evaluate(double[] values, int begin, int length) {
+            return percentile.evaluate(values, begin, length);
+        }
+        @Override
+        public double evaluate(double[] values) {
+            return percentile.evaluate(values);
+        }
+        @Override
+        public UnivariateStatistic copy() {
+            goodPercentile result = new goodPercentile();
+            result.setQuantile(percentile.getQuantile());
+            return result;
         }
     }
 
     /**
-     * Tests if the distribution returns proper mean value.
+     * Test percentile subclass - another "new math" impl
+     * Always returns currently set quantile
      */
-    @Test
-    public void testGetNumericalMean() {
-        Assert.assertEquals(3.4, testDistribution.getMean(), 1e-10);
-    }
-
-    /**
-     * Tests if the distribution returns proper variance.
-     */
-    @Test
-    public void testGetNumericalVariance() {
-        Assert.assertEquals(7.84, testDistribution.getVariance(), 1e-10);
-    }
-
-    /**
-     * Tests if the distribution returns proper lower bound.
-     */
-    @Test
-    public void testGetSupportLowerBound() {
-        Assert.assertEquals(-1, testDistribution.getSupportLowerBound(), 0);
-    }
-
-    /**
-     * Tests if the distribution returns proper upper bound.
-     */
-    @Test
-    public void testGetSupportUpperBound() {
-        Assert.assertEquals(7, testDistribution.getSupportUpperBound(), 0);
-    }
-
-    /**
-     * Tests if the distribution returns properly that the support is connected.
-     */
-    @Test
-    public void testIsSupportConnected() {
-        Assert.assertTrue(testDistribution.isSupportConnected());
-    }
-
-    /**
-     * Tests sampling.
-     */
-    @Test
-    public void testSample() {
-        final int n = 1000000;
-        final ContinuousDistribution.Sampler sampler =
-            testDistribution.createSampler(RandomSource.create(RandomSource.WELL_1024_A, -123456789));
-        final double[] samples = AbstractRealDistribution.sample(n, sampler);
-        Assert.assertEquals(n, samples.length);
-        double sum = 0;
-        double sumOfSquares = 0;
-        for (int i = 0; i < samples.length; i++) {
-            sum += samples[i];
-            sumOfSquares += samples[i] * samples[i];
+    static class subPercentile extends Percentile {
+        @Override
+        public double evaluate(double[] values, int begin, int length) {
+            return getQuantile();
         }
-        Assert.assertEquals(testDistribution.getMean(),
-                sum / n, 1e-2);
-        Assert.assertEquals(testDistribution.getVariance(),
-                sumOfSquares / n - FastMath.pow(sum / n, 2), 1e-2);
+        @Override
+        public double evaluate(double[] values) {
+            return getQuantile();
+        }
+        private static final long serialVersionUID = 8040701391045914979L;
+        @Override
+        public Percentile copy() {
+            subPercentile result = new subPercentile();
+            return result;
+        }
     }
 
-    @Test
-    public void testIssue942() {
-        List<Pair<Object,Double>> list = new ArrayList<>();
-        list.add(new Pair<Object, Double>(new Object() {}, new Double(0)));
-        list.add(new Pair<Object, Double>(new Object() {}, new Double(1)));
-        final UniformRandomProvider rng = RandomSource.create(RandomSource.WELL_512_A);
-        Assert.assertEquals(1, new EnumeratedDistribution<>(list).createSampler(rng).sample(1).length);
+    /**
+     * "Bad" test percentile implementation - no setQuantile
+     */
+    static class badPercentile implements UnivariateStatistic {
+        private final Percentile percentile = new Percentile();
+        @Override
+        public double evaluate(double[] values, int begin, int length) {
+            return percentile.evaluate(values, begin, length);
+        }
+        @Override
+        public double evaluate(double[] values) {
+            return percentile.evaluate(values);
+        }
+        @Override
+        public UnivariateStatistic copy() {
+            return new badPercentile();
+        }
     }
 
-    @Test
-    public void testIssue1065() {
-        // Test Distribution for inverseCumulativeProbability
-        //
-        //         ^
-        //         |
-        // 1.000   +--------------------------------o===============
-        //         |                               3|
-        //         |                                |
-        //         |                             1o=
-        // 0.750   +-------------------------> o==  .
-        //         |                          3|  . .
-        //         |                   0       |  . .
-        // 0.5625  +---------------> o==o======   . .
-        //         |                 |  .      .  . .
-        //         |                 |  .      .  . .
-        //         |                5|  .      .  . .
-        //         |                 |  .      .  . .
-        //         |             o===   .      .  . .
-        //         |             |   .  .      .  . .
-        //         |            4|   .  .      .  . .
-        //         |             |   .  .      .  . .
-        // 0.000   +=============----+--+------+--+-+--------------->
-        //                      14  18 21     28 31 33
-        //
-        // sum  = 4+5+0+3+1+3 = 16
-
-        EnumeratedRealDistribution distribution = new EnumeratedRealDistribution(
-                new double[] { 14.0, 18.0, 21.0, 28.0, 31.0, 33.0 },
-                new double[] { 4.0 / 16.0, 5.0 / 16.0, 0.0 / 16.0, 3.0 / 16.0, 1.0 / 16.0, 3.0 / 16.0 });
-
-        assertEquals(14.0, distribution.inverseCumulativeProbability(0.0000), 0.0);
-        assertEquals(14.0, distribution.inverseCumulativeProbability(0.2500), 0.0);
-        assertEquals(33.0, distribution.inverseCumulativeProbability(1.0000), 0.0);
-
-        assertEquals(18.0, distribution.inverseCumulativeProbability(0.5000), 0.0);
-        assertEquals(18.0, distribution.inverseCumulativeProbability(0.5624), 0.0);
-        assertEquals(28.0, distribution.inverseCumulativeProbability(0.5626), 0.0);
-        assertEquals(31.0, distribution.inverseCumulativeProbability(0.7600), 0.0);
-        assertEquals(18.0, distribution.inverseCumulativeProbability(0.5625), 0.0);
-        assertEquals(28.0, distribution.inverseCumulativeProbability(0.7500), 0.0);
-    }
-
-    @Test
-    public void testCreateFromDoubles() {
-        final double[] data = new double[] {0, 1, 1, 2, 2, 2};
-        EnumeratedRealDistribution distribution = new EnumeratedRealDistribution(data);
-        assertEquals(0.5, distribution.probability(2), 0);
-        assertEquals(0.5, distribution.cumulativeProbability(1), 0);
-    }
 }
