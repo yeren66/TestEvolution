@@ -1,4741 +1,1645 @@
 {
   "matches": [
     {
-      "src": "INFIX_EXPRESSION_OPERATOR: > [3606,3607]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: > [3584,3585]"
+      "src": "MethodInvocation [2147,2200]",
+      "dest": "MethodInvocation [2147,2200]"
     },
     {
-      "src": "MethodDeclaration [5564,5712]",
-      "dest": "MethodDeclaration [5542,5690]"
+      "src": "Dimension [1413,1415]",
+      "dest": "Dimension [1413,1415]"
     },
     {
-      "src": "SimpleName: sin [3199,3202]",
-      "dest": "SimpleName: sin [3177,3180]"
+      "src": "ExpressionStatement [1635,1690]",
+      "dest": "ExpressionStatement [1635,1690]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [4102,4123]",
-      "dest": "METHOD_INVOCATION_RECEIVER [4080,4101]"
+      "src": "SingleVariableDeclaration [3680,3711]",
+      "dest": "SingleVariableDeclaration [3680,3711]"
     },
     {
-      "src": "MethodDeclaration [3623,3998]",
-      "dest": "MethodDeclaration [3601,3976]"
+      "src": "NumberLiteral: 0 [2040,2041]",
+      "dest": "NumberLiteral: 0 [2040,2041]"
     },
     {
-      "src": "SimpleName: x [4962,4963]",
-      "dest": "SimpleName: x [4940,4941]"
+      "src": "METHOD_INVOCATION_RECEIVER [1635,1641]",
+      "dest": "METHOD_INVOCATION_RECEIVER [1635,1641]"
     },
     {
-      "src": "NumberLiteral: 0 [5276,5277]",
-      "dest": "NumberLiteral: 0 [5254,5255]"
+      "src": "SingleVariableDeclaration [2452,2483]",
+      "dest": "SingleVariableDeclaration [2452,2483]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [5813,5834]",
-      "dest": "METHOD_INVOCATION_RECEIVER [5791,5812]"
+      "src": "SimpleName: Mean [1452,1456]",
+      "dest": "SimpleName: Mean [1452,1456]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [7686,7707]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7664,7685]"
+      "src": "SimpleName: Assert [3608,3614]",
+      "dest": "SimpleName: Assert [3608,3614]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [4358,4367]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [4336,4345]"
+      "src": "SimpleName: testStatistic [3775,3788]",
+      "dest": "SimpleName: testStatistic [3775,3788]"
     },
     {
-      "src": "SimpleName: result [3817,3823]",
-      "dest": "SimpleName: result [3795,3801]"
+      "src": "METHOD_INVOCATION_RECEIVER [2853,2859]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2853,2859]"
     },
     {
-      "src": "NumberLiteral: 0.5 [7332,7335]",
-      "dest": "NumberLiteral: 0.5 [7310,7313]"
+      "src": "SimpleName: ex [3983,3985]",
+      "dest": "SimpleName: ex [3983,3985]"
     },
     {
-      "src": "InfixExpression [3585,3609]",
-      "dest": "InfixExpression [3563,3587]"
+      "src": "METHOD_INVOCATION_RECEIVER [2010,2023]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2010,2023]"
     },
     {
-      "src": "InfixExpression [4199,4218]",
-      "dest": "InfixExpression [4177,4196]"
+      "src": "NumberLiteral: 0 [1975,1976]",
+      "dest": "NumberLiteral: 0 [1975,1976]"
     },
     {
-      "src": "Assignment [7352,7401]",
-      "dest": "Assignment [7330,7379]"
+      "src": "PrefixExpression [2816,2818]",
+      "dest": "PrefixExpression [2816,2818]"
     },
     {
-      "src": "TagElement [6461,6528]",
-      "dest": "TagElement [6439,6506]"
+      "src": "SimpleName: testStatistic [2314,2327]",
+      "dest": "SimpleName: testStatistic [2314,2327]"
     },
     {
-      "src": "NumberLiteral: 1.0 [5870,5873]",
-      "dest": "NumberLiteral: 1.0 [5848,5851]"
+      "src": "PrimitiveType: double [1282,1288]",
+      "dest": "PrimitiveType: double [1282,1288]"
     },
     {
-      "src": "SimpleName: NullArgumentException [1516,1537]",
-      "dest": "SimpleName: NullArgumentException [1504,1525]"
+      "src": "SimpleName: fail [2623,2627]",
+      "dest": "SimpleName: fail [2623,2627]"
     },
     {
-      "src": "ArrayAccess [3484,3493]",
-      "dest": "ArrayAccess [3462,3471]"
+      "src": "ExpressionStatement [1991,2047]",
+      "dest": "ExpressionStatement [1991,2047]"
     },
     {
-      "src": "SimpleName: MathIllegalArgumentException [2150,2178]",
-      "dest": "SimpleName: MathIllegalArgumentException [2138,2166]"
+      "src": "TryStatement [3757,4022]",
+      "dest": "TryStatement [3757,4022]"
     },
     {
-      "src": "SimpleName: Test [2596,2600]",
-      "dest": "SimpleName: Test [2579,2583]"
+      "src": "NumberLiteral: 0 [1683,1684]",
+      "dest": "NumberLiteral: 0 [1683,1684]"
     },
     {
-      "src": "NumberLiteral: 1.0 [2728,2731]",
-      "dest": "NumberLiteral: 1.0 [2711,2714]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [2333,2348]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2333,2348]"
     },
     {
-      "src": "ExpressionStatement [5114,5148]",
-      "dest": "ExpressionStatement [5092,5126]"
+      "src": "Block [2721,2756]",
+      "dest": "Block [2721,2756]"
     },
     {
-      "src": "Block [5803,5886]",
-      "dest": "Block [5781,5864]"
+      "src": "NumberLiteral: 1.1 [1336,1339]",
+      "dest": "NumberLiteral: 1.1 [1336,1339]"
     },
     {
-      "src": "NumberLiteral: 1.0 [3399,3402]",
-      "dest": "NumberLiteral: 1.0 [3377,3380]"
+      "src": "MarkerAnnotation [1490,1495]",
+      "dest": "MarkerAnnotation [1490,1495]"
     },
     {
-      "src": "NumberLiteral: 1000 [4990,4994]",
-      "dest": "NumberLiteral: 1000 [4968,4972]"
+      "src": "ExpressionStatement [3251,3298]",
+      "dest": "ExpressionStatement [3251,3298]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7175,7188]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7153,7166]"
+      "src": "INFIX_EXPRESSION_OPERATOR: - [1606,1607]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: - [1606,1607]"
     },
     {
-      "src": "SimpleName: Assert [2773,2779]",
-      "dest": "SimpleName: Assert [2756,2762]"
+      "src": "SimpleName: testNegativeWeightsArray [3805,3829]",
+      "dest": "SimpleName: testNegativeWeightsArray [3805,3829]"
     },
     {
-      "src": "SimpleName: assertTrue [3188,3198]",
-      "dest": "SimpleName: assertTrue [3166,3176]"
+      "src": "MethodInvocation [3251,3297]",
+      "dest": "MethodInvocation [3251,3297]"
     },
     {
-      "src": "Modifier: public [5940,5946]",
-      "dest": "Modifier: public [5918,5924]"
+      "src": "SimpleName: Assert [2147,2153]",
+      "dest": "SimpleName: Assert [2147,2153]"
     },
     {
-      "src": "SimpleName: sin [5318,5321]",
-      "dest": "SimpleName: sin [5296,5299]"
+      "src": "NumberLiteral: 1 [3557,3558]",
+      "dest": "NumberLiteral: 1 [3557,3558]"
     },
     {
-      "src": "SimpleName: expected [2841,2849]",
-      "dest": "SimpleName: expected [2819,2827]"
+      "src": "SimpleName: MathIllegalArgumentException [2688,2716]",
+      "dest": "SimpleName: MathIllegalArgumentException [2688,2716]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [3585,3588]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3563,3566]"
+      "src": "NumberLiteral: 2 [2109,2110]",
+      "dest": "NumberLiteral: 2 [2109,2110]"
     },
     {
-      "src": "SimpleName: assertEquals [7311,7323]",
-      "dest": "SimpleName: assertEquals [7289,7301]"
+      "src": "Modifier: protected [1397,1406]",
+      "dest": "Modifier: protected [1397,1406]"
     },
     {
-      "src": "SimpleName: initial [4211,4218]",
-      "dest": "SimpleName: initial [4189,4196]"
+      "src": "NumberLiteral: 0.2 [1325,1328]",
+      "dest": "NumberLiteral: 0.2 [1325,1328]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [8011,8032]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7989,8010]"
+      "src": "Block [1617,1704]",
+      "dest": "Block [1617,1704]"
     },
     {
-      "src": "MarkerAnnotation [6535,6540]",
-      "dest": "MarkerAnnotation [6513,6518]"
+      "src": "SimpleName: j [1564,1565]",
+      "dest": "SimpleName: j [1564,1565]"
     },
     {
-      "src": "SimpleName: Test [6068,6072]",
-      "dest": "SimpleName: Test [6046,6050]"
+      "src": "NumberLiteral: 1.0 [1257,1260]",
+      "dest": "NumberLiteral: 1.0 [1257,1260]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7756,7773]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7734,7751]"
+      "src": "SimpleName: Assert [1635,1641]",
+      "dest": "SimpleName: Assert [1635,1641]"
     },
     {
-      "src": "SimpleName: sin [4348,4351]",
-      "dest": "SimpleName: sin [4326,4329]"
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [2816,2817]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [2816,2817]"
     },
     {
-      "src": "NumberLiteral: 0 [3163,3164]",
-      "dest": "NumberLiteral: 0 [3141,3142]"
+      "src": "NumberLiteral: 5 [1190,1191]",
+      "dest": "NumberLiteral: 5 [1190,1191]"
     },
     {
-      "src": "Block [6808,8105]",
-      "dest": "Block [6786,8083]"
+      "src": "FieldDeclaration [1397,1437]",
+      "dest": "FieldDeclaration [1397,1437]"
     },
     {
-      "src": "NumberLiteral: 0.7 [7290,7293]",
-      "dest": "NumberLiteral: 0.7 [7268,7271]"
+      "src": "ClassInstanceCreation [1473,1483]",
+      "dest": "ClassInstanceCreation [1473,1483]"
     },
     {
-      "src": "InfixExpression [4958,4963]",
-      "dest": "InfixExpression [4936,4941]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [3096,3136]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3096,3136]"
     },
     {
-      "src": "ASSIGNMENT_OPERATOR: = [8009,8010]",
-      "dest": "ASSIGNMENT_OPERATOR: = [7987,7988]"
+      "src": "Dimension [1159,1161]",
+      "dest": "Dimension [1159,1161]"
     },
     {
-      "src": "MarkerAnnotation [4004,4009]",
-      "dest": "MarkerAnnotation [3982,3987]"
+      "src": "MethodInvocation [1991,2046]",
+      "dest": "MethodInvocation [1991,2046]"
     },
     {
-      "src": "SimpleName: sin [1981,1984]",
-      "dest": "SimpleName: sin [1969,1972]"
+      "src": "ArrayType [1407,1415]",
+      "dest": "ArrayType [1407,1415]"
     },
     {
-      "src": "PrimitiveType: double [4586,4592]",
-      "dest": "PrimitiveType: double [4564,4570]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [3346,3386]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3346,3386]"
     },
     {
-      "src": "SimpleName: initial [3679,3686]",
-      "dest": "SimpleName: initial [3657,3664]"
+      "src": "VariableDeclarationFragment [1217,1266]",
+      "dest": "VariableDeclarationFragment [1217,1266]"
     },
     {
-      "src": "SimpleName: expected [1649,1657]",
-      "dest": "SimpleName: expected [1637,1645]"
+      "src": "SimpleName: ex [2481,2483]",
+      "dest": "SimpleName: ex [2481,2483]"
     },
     {
-      "src": "PrimitiveType: double [4573,4579]",
-      "dest": "PrimitiveType: double [4551,4557]"
+      "src": "METHOD_INVOCATION_RECEIVER [1653,1666]",
+      "dest": "METHOD_INVOCATION_RECEIVER [1653,1666]"
     },
     {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [4146,4147]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [4124,4125]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [2093,2113]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2093,2113]"
     },
     {
-      "src": "ImportDeclaration [1347,1371]",
-      "dest": "ImportDeclaration [1335,1359]"
+      "src": "StringLiteral: \"Expecting MathIllegalArgumentException\" [2628,2668]",
+      "dest": "StringLiteral: \"Expecting MathIllegalArgumentException\" [2628,2668]"
     },
     {
-      "src": "NumberLiteral: 0 [6760,6761]",
-      "dest": "NumberLiteral: 0 [6738,6739]"
+      "src": "FieldDeclaration [1143,1193]",
+      "dest": "FieldDeclaration [1143,1193]"
     },
     {
-      "src": "InfixExpression [1836,1850]",
-      "dest": "InfixExpression [1824,1838]"
+      "src": "PrimitiveType: double [1153,1159]",
+      "dest": "PrimitiveType: double [1153,1159]"
     },
     {
-      "src": "NumberLiteral: 2.0 [6234,6237]",
-      "dest": "NumberLiteral: 2.0 [6212,6215]"
+      "src": "Block [2300,2444]",
+      "dest": "Block [2300,2444]"
     },
     {
-      "src": "NumberLiteral: 1.0 [6021,6024]",
-      "dest": "NumberLiteral: 1.0 [5999,6002]"
+      "src": "PrimitiveType: double [1407,1413]",
+      "dest": "PrimitiveType: double [1407,1413]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [3847,3853]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3825,3831]"
+      "src": "ExpressionStatement [2853,2907]",
+      "dest": "ExpressionStatement [2853,2907]"
     },
     {
-      "src": "MethodInvocation [7845,7883]",
-      "dest": "MethodInvocation [7823,7861]"
+      "src": "Block [2533,2680]",
+      "dest": "Block [2533,2680]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7324,7341]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7302,7319]"
+      "src": "Block [1569,1714]",
+      "dest": "Block [1569,1714]"
     },
     {
-      "src": "VariableDeclarationFragment [3298,3311]",
-      "dest": "VariableDeclarationFragment [3276,3289]"
+      "src": "SimpleName: j [1550,1551]",
+      "dest": "SimpleName: j [1550,1551]"
     },
     {
-      "src": "ASSIGNMENT_OPERATOR: = [7791,7792]",
-      "dest": "ASSIGNMENT_OPERATOR: = [7769,7770]"
+      "src": "SimpleType [2452,2480]",
+      "dest": "SimpleType [2452,2480]"
     },
     {
-      "src": "SimpleName: assertEquals [6993,7005]",
-      "dest": "SimpleName: assertEquals [6971,6983]"
+      "src": "SimpleName: i [1612,1613]",
+      "dest": "SimpleName: i [1612,1613]"
     },
     {
-      "src": "Block [6588,6769]",
-      "dest": "Block [6566,6747]"
+      "src": "Block [3761,3946]",
+      "dest": "Block [3761,3946]"
     },
     {
-      "src": "INFIX_EXPRESSION_OPERATOR: > [5397,5398]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: > [5375,5376]"
+      "src": "PrimitiveType: void [1507,1511]",
+      "dest": "PrimitiveType: void [1507,1511]"
     },
     {
-      "src": "NumberLiteral: 1 [6669,6670]",
-      "dest": "NumberLiteral: 1 [6647,6648]"
+      "src": "VariableDeclarationExpression [1546,1555]",
+      "dest": "VariableDeclarationExpression [1546,1555]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [2557,2581]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [2540,2564]"
+      "src": "SingleVariableDeclaration [3406,3437]",
+      "dest": "SingleVariableDeclaration [3406,3437]"
     },
     {
-      "src": "NumberLiteral: 0 [5399,5400]",
-      "dest": "NumberLiteral: 0 [5377,5378]"
+      "src": "METHOD_INVOCATION_RECEIVER [3501,3514]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3501,3514]"
     },
     {
-      "src": "SimpleName: assertTrue [6693,6703]",
-      "dest": "SimpleName: assertTrue [6671,6681]"
+      "src": "ExpressionStatement [3020,3056]",
+      "dest": "ExpressionStatement [3020,3056]"
     },
     {
-      "src": "StringLiteral: \"root=\" [1836,1843]",
-      "dest": "StringLiteral: \"root=\" [1824,1831]"
+      "src": "QualifiedName: org.apache.commons.math3.stat.descriptive [811,852]",
+      "dest": "QualifiedName: org.apache.commons.math4.stat.descriptive [811,852]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [8060,8066]",
-      "dest": "METHOD_INVOCATION_RECEIVER [8038,8044]"
+      "src": "SimpleName: testStatistic [3251,3264]",
+      "dest": "SimpleName: testStatistic [3251,3264]"
     },
     {
-      "src": "QualifiedName: AccurateMath.PI [2793,2808]",
-      "dest": "QualifiedName: JdkMath.PI [2776,2786]"
+      "src": "SimpleName: testWeightsArray [3536,3552]",
+      "dest": "SimpleName: testWeightsArray [3536,3552]"
     },
     {
-      "src": "NumberLiteral: 1.0 [5865,5868]",
-      "dest": "NumberLiteral: 1.0 [5843,5846]"
+      "src": "SimpleName: ex [3709,3711]",
+      "dest": "SimpleName: ex [3709,3711]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [1836,1850]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [1824,1838]"
+      "src": "SimpleName: testArray [3270,3279]",
+      "dest": "SimpleName: testArray [3270,3279]"
     },
     {
-      "src": "SimpleName: solve [8033,8038]",
-      "dest": "SimpleName: solve [8011,8016]"
+      "src": "NumberLiteral: 0.2 [1242,1245]",
+      "dest": "NumberLiteral: 0.2 [1242,1245]"
     },
     {
-      "src": "NumberLiteral: 0.8 [7717,7720]",
-      "dest": "NumberLiteral: 0.8 [7695,7698]"
+      "src": "SimpleName: Test [1871,1875]",
+      "dest": "SimpleName: Test [1871,1875]"
     },
     {
-      "src": "ArrayType [3321,3329]",
-      "dest": "ArrayType [3299,3307]"
+      "src": "Modifier: protected [1442,1451]",
+      "dest": "Modifier: protected [1442,1451]"
     },
     {
-      "src": "ASSIGNMENT_OPERATOR: = [7684,7685]",
-      "dest": "ASSIGNMENT_OPERATOR: = [7662,7663]"
+      "src": "NumberLiteral: 0 [3831,3832]",
+      "dest": "NumberLiteral: 0 [3831,3832]"
     },
     {
-      "src": "SimpleType [5733,5761]",
-      "dest": "SimpleType [5711,5739]"
+      "src": "SimpleName: fail [2154,2158]",
+      "dest": "SimpleName: fail [2154,2158]"
     },
     {
-      "src": "SimpleName: sin [5376,5379]",
-      "dest": "SimpleName: sin [5354,5357]"
+      "src": "Block [2060,2211]",
+      "dest": "Block [2060,2211]"
     },
     {
-      "src": "PrimitiveType: void [5947,5951]",
-      "dest": "PrimitiveType: void [5925,5929]"
+      "src": "SimpleName: fail [3889,3893]",
+      "dest": "SimpleName: fail [3889,3893]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [7304,7310]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7282,7288]"
+      "src": "SimpleName: MathIllegalArgumentException [3954,3982]",
+      "dest": "SimpleName: MathIllegalArgumentException [3954,3982]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7605,7618]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7583,7596]"
+      "src": "MethodInvocation [1810,1856]",
+      "dest": "MethodInvocation [1810,1856]"
     },
     {
-      "src": "SingleVariableDeclaration [4923,4931]",
-      "dest": "SingleVariableDeclaration [4901,4909]"
+      "src": "SingleVariableDeclaration [2688,2719]",
+      "dest": "SingleVariableDeclaration [2688,2719]"
     },
     {
-      "src": "SimpleName: assertEquals [7099,7111]",
-      "dest": "SimpleName: assertEquals [7077,7089]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [1672,1687]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [1672,1687]"
     },
     {
-      "src": "MemberValuePair [2406,2442]",
-      "dest": "MemberValuePair [2389,2425]"
+      "src": "SimpleType [1477,1481]",
+      "dest": "SimpleType [1477,1481]"
     },
     {
-      "src": "SimpleName: f [6837,6838]",
-      "dest": "SimpleName: f [6815,6816]"
+      "src": "PrimitiveType: double [1208,1214]",
+      "dest": "PrimitiveType: double [1208,1214]"
     },
     {
-      "src": "NumberLiteral: 2.0 [3114,3117]",
-      "dest": "NumberLiteral: 2.0 [3092,3095]"
+      "src": "METHOD_INVOCATION_RECEIVER [3608,3614]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3608,3614]"
     },
     {
-      "src": "TypeLiteral [2415,2442]",
-      "dest": "TypeLiteral [2398,2425]"
+      "src": "METHOD_INVOCATION_RECEIVER [2380,2386]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2380,2386]"
     },
     {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [3383,3384]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [3361,3362]"
+      "src": "NumberLiteral: 1 [2578,2579]",
+      "dest": "NumberLiteral: 1 [2578,2579]"
     },
     {
-      "src": "SimpleName: result [3484,3490]",
-      "dest": "SimpleName: result [3462,3468]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [3520,3558]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3520,3558]"
     },
     {
-      "src": "SimpleName: root [1751,1755]",
-      "dest": "SimpleName: root [1739,1743]"
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [1330,1331]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [1330,1331]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7649,7666]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7627,7644]"
+      "src": "ExpressionStatement [3334,3388]",
+      "dest": "ExpressionStatement [3334,3388]"
     },
     {
-      "src": "ExpressionStatement [7629,7668]",
-      "dest": "ExpressionStatement [7607,7646]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [1940,1980]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [1940,1980]"
     },
     {
-      "src": "SimpleName: Assert [7199,7205]",
-      "dest": "SimpleName: Assert [7177,7183]"
+      "src": "QualifiedName: org.junit.Test [1022,1036]",
+      "dest": "QualifiedName: org.junit.Test [1022,1036]"
     },
     {
-      "src": "INFIX_EXPRESSION_OPERATOR: > [4257,4258]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: > [4235,4236]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [2392,2432]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2392,2432]"
     },
     {
-      "src": "Dimension [4800,4802]",
-      "dest": "Dimension [4778,4780]"
+      "src": "SimpleName: test [3034,3038]",
+      "dest": "SimpleName: test [3034,3038]"
     },
     {
-      "src": "SimpleName: result [4803,4809]",
-      "dest": "SimpleName: result [4781,4787]"
+      "src": "NumberLiteral: 0.3 [1320,1323]",
+      "dest": "NumberLiteral: 0.3 [1320,1323]"
     },
     {
-      "src": "NumberLiteral: 0.85 [7824,7828]",
-      "dest": "NumberLiteral: 0.85 [7802,7806]"
+      "src": "SimpleName: nullArray [1375,1384]",
+      "dest": "SimpleName: nullArray [1375,1384]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [7845,7851]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7823,7829]"
+      "src": "TagElement [1046,1083]",
+      "dest": "TagElement [1046,1083]"
     },
     {
-      "src": "ImportDeclaration [996,1057]",
-      "dest": "ImportDeclaration [996,1057]"
+      "src": "MethodInvocation [1940,1980]",
+      "dest": "MethodInvocation [1940,1980]"
     },
     {
-      "src": "VariableDeclarationFragment [4093,4171]",
-      "dest": "VariableDeclarationFragment [4071,4149]"
+      "src": "SimpleName: ex [2717,2719]",
+      "dest": "SimpleName: ex [2717,2719]"
     },
     {
-      "src": "MemberValuePair [6073,6116]",
-      "dest": "MemberValuePair [6051,6094]"
+      "src": "BooleanLiteral: true [1851,1855]",
+      "dest": "BooleanLiteral: true [1851,1855]"
     },
     {
-      "src": "MethodDeclaration [4738,5154]",
-      "dest": "MethodDeclaration [4716,5132]"
+      "src": "SimpleName: testStatistic [1741,1754]",
+      "dest": "SimpleName: testStatistic [1741,1754]"
     },
     {
-      "src": "MethodInvocation [3720,3789]",
-      "dest": "MethodInvocation [3698,3767]"
+      "src": "FieldDeclaration [1442,1484]",
+      "dest": "FieldDeclaration [1442,1484]"
     },
     {
-      "src": "SimpleName: bracket [5835,5842]",
-      "dest": "SimpleName: bracket [5813,5820]"
+      "src": "ExpressionStatement [3882,3936]",
+      "dest": "ExpressionStatement [3882,3936]"
     },
     {
-      "src": "SimpleName: bracket [5680,5687]",
-      "dest": "SimpleName: bracket [5658,5665]"
+      "src": "SimpleType [2925,2953]",
+      "dest": "SimpleType [2925,2953]"
     },
     {
-      "src": "ExpressionStatement [1953,2001]",
-      "dest": "ExpressionStatement [1941,1989]"
+      "src": "ParenthesizedExpression [1603,1610]",
+      "dest": "ParenthesizedExpression [1603,1610]"
     },
     {
-      "src": "NumberLiteral: 4.0 [2326,2329]",
-      "dest": "NumberLiteral: 4.0 [2314,2317]"
+      "src": "METHOD_INVOCATION_RECEIVER [2547,2560]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2547,2560]"
     },
     {
-      "src": "SimpleName: value [3917,3922]",
-      "dest": "SimpleName: value [3895,3900]"
+      "src": "TryStatement [3483,3748]",
+      "dest": "TryStatement [3483,3748]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [5293,5299]",
-      "dest": "METHOD_INVOCATION_RECEIVER [5271,5277]"
+      "src": "METHOD_INVOCATION_RECEIVER [1723,1729]",
+      "dest": "METHOD_INVOCATION_RECEIVER [1723,1729]"
     },
     {
-      "src": "ExpressionStatement [7459,7511]",
-      "dest": "ExpressionStatement [7437,7489]"
+      "src": "ImportDeclaration [928,989]",
+      "dest": "ImportDeclaration [928,989]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3209,3218]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3187,3196]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [2802,2818]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2802,2818]"
     },
     {
-      "src": "NumberLiteral: 2.0 [4147,4150]",
-      "dest": "NumberLiteral: 2.0 [4125,4128]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [3270,3296]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3270,3296]"
     },
     {
-      "src": "VariableDeclarationStatement [2650,2675]",
-      "dest": "VariableDeclarationStatement [2633,2658]"
+      "src": "SimpleName: Mean [1477,1481]",
+      "dest": "SimpleName: Mean [1477,1481]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7496,7509]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7474,7487]"
+      "src": "ArrayType [1282,1290]",
+      "dest": "ArrayType [1282,1290]"
     },
     {
-      "src": "Modifier: public [6311,6317]",
-      "dest": "Modifier: public [6289,6295]"
+      "src": "CatchClause [2445,2520]",
+      "dest": "CatchClause [2445,2520]"
     },
     {
-      "src": "SimpleName: f [7496,7497]",
-      "dest": "SimpleName: f [7474,7475]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [1959,1979]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [1959,1979]"
     },
     {
-      "src": "InfixExpression [3966,3990]",
-      "dest": "InfixExpression [3944,3968]"
+      "src": "CompilationUnit [0,4030]",
+      "dest": "CompilationUnit [0,4030]"
     },
     {
-      "src": "NumberLiteral: 1 [3983,3984]",
-      "dest": "NumberLiteral: 1 [3961,3962]"
+      "src": "NumberLiteral: 1 [1178,1179]",
+      "dest": "NumberLiteral: 1 [1178,1179]"
     },
     {
-      "src": "VariableDeclarationStatement [2277,2331]",
-      "dest": "VariableDeclarationStatement [2265,2319]"
+      "src": "SimpleName: testTestNegative [1892,1908]",
+      "dest": "SimpleName: testTestNegative [1892,1908]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [1758,1779]",
-      "dest": "METHOD_INVOCATION_RECEIVER [1746,1767]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [2566,2582]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2566,2582]"
     },
     {
-      "src": "PrefixExpression [6651,6655]",
-      "dest": "PrefixExpression [6629,6633]"
+      "src": "CatchClause [3673,3748]",
+      "dest": "CatchClause [3673,3748]"
     },
     {
-      "src": "InfixExpression [3199,3223]",
-      "dest": "InfixExpression [3177,3201]"
+      "src": "ArrayInitializer [1433,1436]",
+      "dest": "ArrayInitializer [1433,1436]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [1587,1608]",
-      "dest": "METHOD_INVOCATION_RECEIVER [1575,1596]"
+      "src": "SimpleName: assertTrue [1730,1740]",
+      "dest": "SimpleName: assertTrue [1730,1740]"
     },
     {
-      "src": "SimpleName: result [6747,6753]",
-      "dest": "SimpleName: result [6725,6731]"
+      "src": "NumberLiteral: 6 [1561,1562]",
+      "dest": "NumberLiteral: 6 [1561,1562]"
     },
     {
-      "src": "ExpressionStatement [6926,6977]",
-      "dest": "ExpressionStatement [6904,6955]"
+      "src": "SimpleName: i [1592,1593]",
+      "dest": "SimpleName: i [1592,1593]"
     },
     {
-      "src": "NumberLiteral: 100 [5875,5878]",
-      "dest": "NumberLiteral: 100 [5853,5856]"
+      "src": "SimpleName: testStatistic [1940,1953]",
+      "dest": "SimpleName: testStatistic [1940,1953]"
     },
     {
-      "src": "SimpleName: assertEquals [7961,7973]",
-      "dest": "SimpleName: assertEquals [7939,7951]"
+      "src": "ImportDeclaration [990,1014]",
+      "dest": "ImportDeclaration [990,1014]"
     },
     {
-      "src": "InfixExpression [5089,5103]",
-      "dest": "InfixExpression [5067,5081]"
+      "src": "NumberLiteral: 6 [3834,3835]",
+      "dest": "NumberLiteral: 6 [3834,3835]"
     },
     {
-      "src": "InfixExpression [3146,3170]",
-      "dest": "InfixExpression [3124,3148]"
+      "src": "PrefixExpression [1319,1323]",
+      "dest": "PrefixExpression [1319,1323]"
     },
     {
-      "src": "SimpleName: solve [1975,1980]",
-      "dest": "SimpleName: solve [1963,1968]"
+      "src": "NumberLiteral: 1.0 [1341,1344]",
+      "dest": "NumberLiteral: 1.0 [1341,1344]"
     },
     {
-      "src": "SimpleName: Assert [4229,4235]",
-      "dest": "SimpleName: Assert [4207,4213]"
+      "src": "Block [2252,2287]",
+      "dest": "Block [2252,2287]"
     },
     {
-      "src": "MethodDeclaration [2985,3231]",
-      "dest": "MethodDeclaration [2963,3209]"
+      "src": "PrimitiveType: double [1366,1372]",
+      "dest": "PrimitiveType: double [1366,1372]"
     },
     {
-      "src": "ExpressionStatement [6394,6445]",
-      "dest": "ExpressionStatement [6372,6423]"
+      "src": "SimpleName: Assert [1792,1798]",
+      "dest": "SimpleName: Assert [1792,1798]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [5071,5077]",
-      "dest": "METHOD_INVOCATION_RECEIVER [5049,5055]"
+      "src": "SimpleName: test [1954,1958]",
+      "dest": "SimpleName: test [1954,1958]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [6686,6692]",
-      "dest": "METHOD_INVOCATION_RECEIVER [6664,6670]"
+      "src": "Block [2958,2993]",
+      "dest": "Block [2958,2993]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3585,3609]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3563,3587]"
+      "src": "SimpleType [3680,3708]",
+      "dest": "SimpleType [3680,3708]"
     },
     {
-      "src": "NumberLiteral: 4.0 [1991,1994]",
-      "dest": "NumberLiteral: 4.0 [1979,1982]"
+      "src": "SingleVariableDeclaration [3156,3187]",
+      "dest": "SingleVariableDeclaration [3156,3187]"
     },
     {
-      "src": "SimpleName: ex [2179,2181]",
-      "dest": "SimpleName: ex [2167,2169]"
+      "src": "MethodDeclaration [1490,1864]",
+      "dest": "MethodDeclaration [1490,1864]"
     },
     {
-      "src": "MemberValuePair [6262,6305]",
-      "dest": "MemberValuePair [6240,6283]"
+      "src": "SimpleName: Assert [3334,3340]",
+      "dest": "SimpleName: Assert [3334,3340]"
     },
     {
-      "src": "SimpleName: assertEquals [7206,7218]",
-      "dest": "SimpleName: assertEquals [7184,7196]"
+      "src": "SimpleName: testTestPositive [1512,1528]",
+      "dest": "SimpleName: testTestPositive [1512,1528]"
     },
     {
-      "src": "SimpleName: x [4593,4594]",
-      "dest": "SimpleName: x [4571,4572]"
+      "src": "NumberLiteral: 0 [1175,1176]",
+      "dest": "NumberLiteral: 0 [1175,1176]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [3895,3901]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3873,3879]"
+      "src": "SimpleType [3156,3184]",
+      "dest": "SimpleType [3156,3184]"
     },
     {
-      "src": "ImportDeclaration [1058,1136]",
-      "dest": "ImportDeclaration [1058,1136]"
+      "src": "Modifier: protected [1356,1365]",
+      "dest": "Modifier: protected [1356,1365]"
     },
     {
-      "src": "NumberLiteral: 1.5 [6229,6232]",
-      "dest": "NumberLiteral: 1.5 [6207,6210]"
+      "src": "SimpleName: test [1755,1759]",
+      "dest": "SimpleName: test [1755,1759]"
     },
     {
-      "src": "ExpressionStatement [3895,3939]",
-      "dest": "ExpressionStatement [3873,3917]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [3620,3660]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3620,3660]"
     },
     {
-      "src": "MethodInvocation [4348,4368]",
-      "dest": "MethodInvocation [4326,4346]"
+      "src": "MethodInvocation [2853,2906]",
+      "dest": "MethodInvocation [2853,2906]"
     },
     {
-      "src": "ExpressionStatement [7245,7295]",
-      "dest": "ExpressionStatement [7223,7273]"
+      "src": "SimpleName: MathIllegalArgumentException [2925,2953]",
+      "dest": "SimpleName: MathIllegalArgumentException [2925,2953]"
     },
     {
-      "src": "SimpleName: result [7677,7683]",
-      "dest": "SimpleName: result [7655,7661]"
+      "src": "Block [1531,1864]",
+      "dest": "Block [1531,1864]"
     },
     {
-      "src": "MarkerAnnotation [4738,4743]",
-      "dest": "MarkerAnnotation [4716,4721]"
+      "src": "SimpleName: test [1824,1828]",
+      "dest": "SimpleName: test [1824,1828]"
     },
     {
-      "src": "NumberLiteral: 1 [4958,4959]",
-      "dest": "NumberLiteral: 1 [4936,4937]"
+      "src": "NumberLiteral: 1.1 [1252,1255]",
+      "dest": "NumberLiteral: 1.1 [1252,1255]"
     },
     {
-      "src": "MethodInvocation [1817,1851]",
-      "dest": "MethodInvocation [1805,1839]"
+      "src": "ExpressionStatement [3501,3560]",
+      "dest": "ExpressionStatement [3501,3560]"
     },
     {
-      "src": "NumberLiteral: 0 [4318,4319]",
-      "dest": "NumberLiteral: 0 [4296,4297]"
+      "src": "SimpleName: singletonArray [1959,1973]",
+      "dest": "SimpleName: singletonArray [1959,1973]"
     },
     {
-      "src": "SimpleName: value [3589,3594]",
-      "dest": "SimpleName: value [3567,3572]"
+      "src": "InfixExpression [1604,1609]",
+      "dest": "InfixExpression [1604,1609]"
     },
     {
-      "src": "SimpleName: bracket [5525,5532]",
-      "dest": "SimpleName: bracket [5503,5510]"
+      "src": "MethodInvocation [3501,3559]",
+      "dest": "MethodInvocation [3501,3559]"
     },
     {
-      "src": "SimpleName: assertEquals [7527,7539]",
-      "dest": "SimpleName: assertEquals [7505,7517]"
+      "src": "METHOD_INVOCATION_RECEIVER [3775,3788]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3775,3788]"
     },
     {
-      "src": "SimpleName: sin [3082,3085]",
-      "dest": "SimpleName: sin [3060,3063]"
+      "src": "SimpleName: assertTrue [1799,1809]",
+      "dest": "SimpleName: assertTrue [1799,1809]"
     },
     {
-      "src": "SimpleName: assertTrue [3473,3483]",
-      "dest": "SimpleName: assertTrue [3451,3461]"
+      "src": "TryStatement [3002,3224]",
+      "dest": "TryStatement [3002,3224]"
     },
     {
-      "src": "MethodInvocation [2773,2822]",
-      "dest": "MethodInvocation [2756,2800]"
+      "src": "SimpleName: j [1608,1609]",
+      "dest": "SimpleName: j [1608,1609]"
     },
     {
-      "src": "SimpleName: result [3156,3162]",
-      "dest": "SimpleName: result [3134,3140]"
+      "src": "SimpleName: singletonArray [2093,2107]",
+      "dest": "SimpleName: singletonArray [2093,2107]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [2316,2329]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [2304,2317]"
+      "src": "METHOD_INVOCATION_RECEIVER [3020,3033]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3020,3033]"
     },
     {
-      "src": "MethodInvocation [5813,5879]",
-      "dest": "MethodInvocation [5791,5857]"
+      "src": "NumberLiteral: 1.3 [1247,1250]",
+      "dest": "NumberLiteral: 1.3 [1247,1250]"
     },
     {
-      "src": "MethodInvocation [7629,7667]",
-      "dest": "MethodInvocation [7607,7645]"
+      "src": "Block [3713,3748]",
+      "dest": "Block [3713,3748]"
     },
     {
-      "src": "NumberLiteral: 1E-6 [7769,7773]",
-      "dest": "NumberLiteral: 1E-6 [7747,7751]"
+      "src": "SimpleName: ex [2248,2250]",
+      "dest": "SimpleName: ex [2248,2250]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [6935,6956]",
-      "dest": "METHOD_INVOCATION_RECEIVER [6913,6934]"
+      "src": "SimpleName: assertFalse [1998,2009]",
+      "dest": "SimpleName: assertFalse [1998,2009]"
     },
     {
-      "src": "PrimitiveType: void [2247,2251]",
-      "dest": "PrimitiveType: void [2235,2239]"
+      "src": "QualifiedName: org.apache.commons.math3.stat.descriptive.moment.Mean [935,988]",
+      "dest": "QualifiedName: org.apache.commons.math4.stat.descriptive.moment.Mean [935,988]"
     },
     {
-      "src": "Assignment [8002,8050]",
-      "dest": "Assignment [7980,8028]"
+      "src": "NumberLiteral: 1 [2581,2582]",
+      "dest": "NumberLiteral: 1 [2581,2582]"
     },
     {
-      "src": "MethodInvocation [3339,3408]",
-      "dest": "MethodInvocation [3317,3386]"
+      "src": "METHOD_INVOCATION_RECEIVER [1810,1823]",
+      "dest": "METHOD_INVOCATION_RECEIVER [1810,1823]"
     },
     {
-      "src": "TypeLiteral [1516,1543]",
-      "dest": "TypeLiteral [1504,1531]"
+      "src": "METHOD_INVOCATION_RECEIVER [1940,1953]",
+      "dest": "METHOD_INVOCATION_RECEIVER [1940,1953]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [5386,5395]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [5364,5373]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [2010,2045]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2010,2045]"
     },
     {
-      "src": "QualifiedName: org.apache.commons.math4.legacy.analysis.UnivariateFunction [935,994]",
-      "dest": "QualifiedName: org.apache.commons.math4.legacy.analysis.UnivariateFunction [935,994]"
+      "src": "SimpleName: testArray [2029,2038]",
+      "dest": "SimpleName: testArray [2029,2038]"
     },
     {
-      "src": "TypeLiteral [4401,4428]",
-      "dest": "TypeLiteral [4379,4406]"
+      "src": "SimpleName: MathIllegalArgumentException [2219,2247]",
+      "dest": "SimpleName: MathIllegalArgumentException [2219,2247]"
     },
     {
-      "src": "NumberLiteral: 1.5 [5539,5542]",
-      "dest": "NumberLiteral: 1.5 [5517,5520]"
+      "src": "SimpleName: testArray [1162,1171]",
+      "dest": "SimpleName: testArray [1162,1171]"
     },
     {
-      "src": "NumberLiteral: 0 [3930,3931]",
-      "dest": "NumberLiteral: 0 [3908,3909]"
+      "src": "PrimitiveType: int [1546,1549]",
+      "dest": "PrimitiveType: int [1546,1549]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7821,7834]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7799,7812]"
+      "src": "Modifier: public [1880,1886]",
+      "dest": "Modifier: public [1880,1886]"
     },
     {
-      "src": "SimpleName: Sin [1489,1492]",
-      "dest": "SimpleName: Sin [1477,1480]"
+      "src": "ExpressionStatement [1723,1783]",
+      "dest": "ExpressionStatement [1723,1783]"
     },
     {
-      "src": "QualifiedName: org.apache.commons.math4.legacy.core.jdkmath.AccurateMath [1288,1345]",
-      "dest": "QualifiedName: org.apache.commons.math4.core.jdkmath.JdkMath [1288,1333]"
+      "src": "MethodInvocation [3084,3137]",
+      "dest": "MethodInvocation [3084,3137]"
     },
     {
-      "src": "NumberLiteral: 0 [3608,3609]",
-      "dest": "NumberLiteral: 0 [3586,3587]"
+      "src": "SimpleName: MathIllegalArgumentException [3156,3184]",
+      "dest": "SimpleName: MathIllegalArgumentException [3156,3184]"
     },
     {
-      "src": "MethodInvocation [3948,3991]",
-      "dest": "MethodInvocation [3926,3969]"
+      "src": "SimpleName: fail [3341,3345]",
+      "dest": "SimpleName: fail [3341,3345]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3976,3985]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3954,3963]"
+      "src": "METHOD_INVOCATION_RECEIVER [2074,2087]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2074,2087]"
     },
     {
-      "src": "SimpleName: f [7389,7390]",
-      "dest": "SimpleName: f [7367,7368]"
+      "src": "NumberLiteral: 0 [1845,1846]",
+      "dest": "NumberLiteral: 0 [1845,1846]"
     },
     {
-      "src": "NormalAnnotation [1501,1544]",
-      "dest": "NormalAnnotation [1489,1532]"
+      "src": "Block [3439,3474]",
+      "dest": "Block [3439,3474]"
     },
     {
-      "src": "SimpleName: result [6879,6885]",
-      "dest": "SimpleName: result [6857,6863]"
+      "src": "ExpressionStatement [2147,2201]",
+      "dest": "ExpressionStatement [2147,2201]"
     },
     {
-      "src": "TypeLiteral [5907,5934]",
-      "dest": "TypeLiteral [5885,5912]"
+      "src": "ExpressionStatement [2783,2820]",
+      "dest": "ExpressionStatement [2783,2820]"
     },
     {
-      "src": "SimpleName: initial [4060,4067]",
-      "dest": "SimpleName: initial [4038,4045]"
+      "src": "VariableDeclarationFragment [1375,1391]",
+      "dest": "VariableDeclarationFragment [1375,1391]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3436,3455]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3414,3433]"
+      "src": "SimpleType [2688,2716]",
+      "dest": "SimpleType [2688,2716]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3750,3788]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3728,3766]"
+      "src": "PrimitiveType: int [1588,1591]",
+      "dest": "PrimitiveType: int [1588,1591]"
     },
     {
-      "src": "NumberLiteral: 0.3 [7179,7182]",
-      "dest": "NumberLiteral: 0.3 [7157,7160]"
+      "src": "MethodInvocation [2783,2819]",
+      "dest": "MethodInvocation [2783,2819]"
     },
     {
-      "src": "SimpleName: sin [3966,3969]",
-      "dest": "SimpleName: sin [3944,3947]"
+      "src": "NumberLiteral: 0 [1554,1555]",
+      "dest": "NumberLiteral: 0 [1554,1555]"
     },
     {
-      "src": "SimpleName: testSolveNoRoot [2902,2917]",
-      "dest": "SimpleName: testSolveNoRoot [2880,2895]"
+      "src": "SingleVariableDeclaration [2925,2956]",
+      "dest": "SingleVariableDeclaration [2925,2956]"
     },
     {
-      "src": "SimpleName: expected [1507,1515]",
-      "dest": "SimpleName: expected [1495,1503]"
+      "src": "ExpressionStatement [3775,3837]",
+      "dest": "ExpressionStatement [3775,3837]"
     },
     {
-      "src": "VariableDeclarationFragment [2691,2763]",
-      "dest": "VariableDeclarationFragment [2674,2746]"
+      "src": "SimpleName: testArray [3794,3803]",
+      "dest": "SimpleName: testArray [3794,3803]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [3720,3741]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3698,3719]"
+      "src": "MethodInvocation [1653,1688]",
+      "dest": "MethodInvocation [1653,1688]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [1817,1827]",
-      "dest": "METHOD_INVOCATION_RECEIVER [1805,1815]"
+      "src": "InfixExpression [1557,1562]",
+      "dest": "InfixExpression [1557,1562]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [4842,5060]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [4820,5038]"
+      "src": "SimpleName: singletonArray [3520,3534]",
+      "dest": "SimpleName: singletonArray [3520,3534]"
     },
     {
-      "src": "NullLiteral [5533,5537]",
-      "dest": "NullLiteral [5511,5515]"
+      "src": "SingleVariableDeclaration [2219,2250]",
+      "dest": "SingleVariableDeclaration [2219,2250]"
     },
     {
-      "src": "NumberLiteral: 1 [6661,6662]",
-      "dest": "NumberLiteral: 1 [6639,6640]"
+      "src": "SimpleType [3406,3434]",
+      "dest": "SimpleType [3406,3434]"
     },
     {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [7072,7073]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [7050,7051]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [3794,3835]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3794,3835]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3369,3407]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3347,3385]"
+      "src": "SimpleName: Assert [1921,1927]",
+      "dest": "SimpleName: Assert [1921,1927]"
     },
     {
-      "src": "ExpressionStatement [3567,3611]",
-      "dest": "ExpressionStatement [3545,3589]"
+      "src": "NumberLiteral: 3 [1184,1185]",
+      "dest": "NumberLiteral: 3 [1184,1185]"
     },
     {
-      "src": "NumberLiteral: 0 [6711,6712]",
-      "dest": "NumberLiteral: 0 [6689,6690]"
+      "src": "METHOD_INVOCATION_RECEIVER [1991,1997]",
+      "dest": "METHOD_INVOCATION_RECEIVER [1991,1997]"
     },
     {
-      "src": "MethodDeclaration [6775,8105]",
-      "dest": "MethodDeclaration [6753,8083]"
+      "src": "ArrayInitializer [1318,1350]",
+      "dest": "ArrayInitializer [1318,1350]"
     },
     {
-      "src": "SimpleName: bracket [4834,4841]",
-      "dest": "SimpleName: bracket [4812,4819]"
+      "src": "SimpleName: testStatistic [2547,2560]",
+      "dest": "SimpleName: testStatistic [2547,2560]"
     },
     {
-      "src": "VariableDeclarationStatement [6818,6863]",
-      "dest": "VariableDeclarationStatement [6796,6841]"
+      "src": "PrefixExpression [2577,2579]",
+      "dest": "PrefixExpression [2577,2579]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7069,7081]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7047,7059]"
+      "src": "SimpleName: testStatistic [1653,1666]",
+      "dest": "SimpleName: testStatistic [1653,1666]"
     },
     {
-      "src": "INFIX_EXPRESSION_OPERATOR: <= [5099,5101]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: <= [5077,5079]"
+      "src": "INFIX_EXPRESSION_OPERATOR: < [1601,1602]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: < [1601,1602]"
     },
     {
-      "src": "SimpleName: result [3711,3717]",
-      "dest": "SimpleName: result [3689,3695]"
+      "src": "SimpleName: fail [2860,2864]",
+      "dest": "SimpleName: fail [2860,2864]"
     },
     {
-      "src": "ArrayAccess [3817,3826]",
-      "dest": "ArrayAccess [3795,3804]"
+      "src": "QualifiedName: org.junit.Assert [997,1013]",
+      "dest": "QualifiedName: org.junit.Assert [997,1013]"
     },
     {
-      "src": "ExpressionStatement [5986,6055]",
-      "dest": "ExpressionStatement [5964,6033]"
+      "src": "PostfixExpression [1564,1567]",
+      "dest": "PostfixExpression [1564,1567]"
     },
     {
-      "src": "SimpleName: f [7930,7931]",
-      "dest": "SimpleName: f [7908,7909]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [3039,3054]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3039,3054]"
     },
     {
-      "src": "NumberLiteral: 2.0 [4152,4155]",
-      "dest": "NumberLiteral: 2.0 [4130,4133]"
+      "src": "StringLiteral: \"Expecting MathIllegalArgumentException\" [2392,2432]",
+      "dest": "StringLiteral: \"Expecting MathIllegalArgumentException\" [2392,2432]"
     },
     {
-      "src": "TypeLiteral [5579,5613]",
-      "dest": "TypeLiteral [5557,5591]"
+      "src": "Dimension [1288,1290]",
+      "dest": "Dimension [1288,1290]"
     },
     {
-      "src": "PrimitiveType: double [4923,4929]",
-      "dest": "PrimitiveType: double [4901,4907]"
+      "src": "CatchClause [2918,2993]",
+      "dest": "CatchClause [2918,2993]"
     },
     {
-      "src": "NumberLiteral: 1e-6 [1802,1806]",
-      "dest": "NumberLiteral: 1e-6 [1790,1794]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [1760,1780]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [1760,1780]"
     },
     {
-      "src": "MethodInvocation [6686,6719]",
-      "dest": "MethodInvocation [6664,6697]"
+      "src": "ArrayInitializer [1174,1192]",
+      "dest": "ArrayInitializer [1174,1192]"
     },
     {
-      "src": "NormalAnnotation [6067,6117]",
-      "dest": "NormalAnnotation [6045,6095]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [2029,2044]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2029,2044]"
     },
     {
-      "src": "NumberLiteral: 0.2 [7392,7395]",
-      "dest": "NumberLiteral: 0.2 [7370,7373]"
+      "src": "METHOD_INVOCATION_RECEIVER [1921,1927]",
+      "dest": "METHOD_INVOCATION_RECEIVER [1921,1927]"
     },
     {
-      "src": "QualifiedName: AccurateMath.PI [2360,2375]",
-      "dest": "QualifiedName: JdkMath.PI [2348,2358]"
+      "src": "SimpleName: assertFalse [1928,1939]",
+      "dest": "SimpleName: assertFalse [1928,1939]"
     },
     {
-      "src": "Assignment [7677,7726]",
-      "dest": "Assignment [7655,7704]"
+      "src": "SimpleName: testStatistic [1457,1470]",
+      "dest": "SimpleName: testStatistic [1457,1470]"
     },
     {
-      "src": "MarkerAnnotation [1864,1869]",
-      "dest": "MarkerAnnotation [1852,1857]"
+      "src": "SimpleName: Assert [1991,1997]",
+      "dest": "SimpleName: Assert [1991,1997]"
     },
     {
-      "src": "ArrayType [4794,4802]",
-      "dest": "ArrayType [4772,4780]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [2159,2199]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2159,2199]"
     },
     {
-      "src": "NumberLiteral: 0.2 [6967,6970]",
-      "dest": "NumberLiteral: 0.2 [6945,6948]"
+      "src": "StringLiteral: \"Expecting MathIllegalArgumentException\" [3346,3386]",
+      "dest": "StringLiteral: \"Expecting MathIllegalArgumentException\" [3346,3386]"
     },
     {
-      "src": "NumberLiteral: 0.5 [7439,7442]",
-      "dest": "NumberLiteral: 0.5 [7417,7420]"
+      "src": "InfixExpression [1599,1610]",
+      "dest": "InfixExpression [1599,1610]"
     },
     {
-      "src": "SimpleName: assertTrue [5365,5375]",
-      "dest": "SimpleName: assertTrue [5343,5353]"
+      "src": "CatchClause [2681,2756]",
+      "dest": "CatchClause [2681,2756]"
     },
     {
-      "src": "MarkerAnnotation [2595,2600]",
-      "dest": "MarkerAnnotation [2578,2583]"
+      "src": "METHOD_INVOCATION_RECEIVER [3334,3340]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3334,3340]"
     },
     {
-      "src": "SimpleType [6818,6836]",
-      "dest": "SimpleType [6796,6814]"
+      "src": "SimpleName: AbstractUnivariateStatisticTest [1104,1135]",
+      "dest": "SimpleName: AbstractUnivariateStatisticTest [1104,1135]"
     },
     {
-      "src": "ExpressionStatement [3181,3225]",
-      "dest": "ExpressionStatement [3159,3203]"
+      "src": "POSTFIX_EXPRESSION_OPERATOR: ++ [1565,1567]",
+      "dest": "POSTFIX_EXPRESSION_OPERATOR: ++ [1565,1567]"
     },
     {
-      "src": "SimpleName: result [3043,3049]",
-      "dest": "SimpleName: result [3021,3027]"
+      "src": "SimpleName: Assert [2616,2622]",
+      "dest": "SimpleName: Assert [2616,2622]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [2793,2821]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [2776,2799]"
+      "src": "Block [3487,3672]",
+      "dest": "Block [3487,3672]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [7254,7275]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7232,7253]"
+      "src": "TryStatement [2765,2993]",
+      "dest": "TryStatement [2765,2993]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [5114,5120]",
-      "dest": "METHOD_INVOCATION_RECEIVER [5092,5098]"
+      "src": "SimpleName: j [1557,1558]",
+      "dest": "SimpleName: j [1557,1558]"
     },
     {
-      "src": "SimpleName: sin [4132,4135]",
-      "dest": "SimpleName: sin [4110,4113]"
+      "src": "ArrayType [1366,1374]",
+      "dest": "ArrayType [1366,1374]"
     },
     {
-      "src": "SimpleName: assertTrue [4188,4198]",
-      "dest": "SimpleName: assertTrue [4166,4176]"
+      "src": "ArrayType [1208,1216]",
+      "dest": "ArrayType [1208,1216]"
     },
     {
-      "src": "NumberLiteral: 0.0 [3103,3106]",
-      "dest": "NumberLiteral: 0.0 [3081,3084]"
+      "src": "SimpleName: test [2561,2565]",
+      "dest": "SimpleName: test [2561,2565]"
     },
     {
-      "src": "ExpressionStatement [7784,7836]",
-      "dest": "ExpressionStatement [7762,7814]"
+      "src": "MarkerAnnotation [1870,1875]",
+      "dest": "MarkerAnnotation [1870,1875]"
     },
     {
-      "src": "MethodInvocation [5986,6054]",
-      "dest": "MethodInvocation [5964,6032]"
+      "src": "SimpleName: test [2328,2332]",
+      "dest": "SimpleName: test [2328,2332]"
     },
     {
-      "src": "NumberLiteral: 100 [3404,3407]",
-      "dest": "NumberLiteral: 100 [3382,3385]"
+      "src": "SimpleName: test [3789,3793]",
+      "dest": "SimpleName: test [3789,3793]"
     },
     {
-      "src": "SimpleName: result [3923,3929]",
-      "dest": "SimpleName: result [3901,3907]"
+      "src": "MethodInvocation [3608,3661]",
+      "dest": "MethodInvocation [3608,3661]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [2930,2951]",
-      "dest": "METHOD_INVOCATION_RECEIVER [2908,2929]"
+      "src": "NumberLiteral: 0 [2043,2044]",
+      "dest": "NumberLiteral: 0 [2043,2044]"
     },
     {
-      "src": "SimpleName: sin [6424,6427]",
-      "dest": "SimpleName: sin [6402,6405]"
+      "src": "SimpleName: testArray [2566,2575]",
+      "dest": "SimpleName: testArray [2566,2575]"
     },
     {
-      "src": "MethodInvocation [7361,7401]",
-      "dest": "MethodInvocation [7339,7379]"
+      "src": "MethodDeclaration [1870,4028]",
+      "dest": "MethodDeclaration [1870,4028]"
     },
     {
-      "src": "SimpleName: Test [5565,5569]",
-      "dest": "SimpleName: Test [5543,5547]"
+      "src": "SimpleName: testStatistic [2783,2796]",
+      "dest": "SimpleName: testStatistic [2783,2796]"
     },
     {
-      "src": "SimpleName: result [5386,5392]",
-      "dest": "SimpleName: result [5364,5370]"
+      "src": "MethodInvocation [3882,3935]",
+      "dest": "MethodInvocation [3882,3935]"
     },
     {
-      "src": "ImportDeclaration [1137,1208]",
-      "dest": "ImportDeclaration [1137,1208]"
+      "src": "PrimitiveType: void [1887,1891]",
+      "dest": "PrimitiveType: void [1887,1891]"
     },
     {
-      "src": "SimpleName: testBracketLoopConditionForB [6557,6585]",
-      "dest": "SimpleName: testBracketLoopConditionForB [6535,6563]"
+      "src": "SimpleName: test [1667,1671]",
+      "dest": "SimpleName: test [1667,1671]"
     },
     {
-      "src": "SimpleName: initial [3374,3381]",
-      "dest": "SimpleName: initial [3352,3359]"
+      "src": "SimpleName: Assert [2380,2386]",
+      "dest": "SimpleName: Assert [2380,2386]"
     },
     {
-      "src": "PrefixExpression [3108,3112]",
-      "dest": "PrefixExpression [3086,3090]"
+      "src": "NumberLiteral: 1 [2112,2113]",
+      "dest": "NumberLiteral: 1 [2112,2113]"
     },
     {
-      "src": "SimpleName: bracket [6008,6015]",
-      "dest": "SimpleName: bracket [5986,5993]"
+      "src": "VariableDeclarationExpression [1588,1597]",
+      "dest": "VariableDeclarationExpression [1588,1597]"
     },
     {
-      "src": "MethodDeclaration [4386,4732]",
-      "dest": "MethodDeclaration [4364,4710]"
+      "src": "Dimension [1214,1216]",
+      "dest": "Dimension [1214,1216]"
     },
     {
-      "src": "SimpleName: UnivariateFunction [4846,4864]",
-      "dest": "SimpleName: UnivariateFunction [4824,4842]"
+      "src": "NumberLiteral: 0 [2813,2814]",
+      "dest": "NumberLiteral: 0 [2813,2814]"
     },
     {
-      "src": "SimpleName: Assert [3948,3954]",
-      "dest": "SimpleName: Assert [3926,3932]"
+      "src": "MethodInvocation [2616,2669]",
+      "dest": "MethodInvocation [2616,2669]"
     },
     {
-      "src": "SimpleName: value [5322,5327]",
-      "dest": "SimpleName: value [5300,5305]"
+      "src": "ForStatement [1583,1704]",
+      "dest": "ForStatement [1583,1704]"
     },
     {
-      "src": "SimpleName: accuracy [2573,2581]",
-      "dest": "SimpleName: accuracy [2556,2564]"
+      "src": "ImportDeclaration [856,927]",
+      "dest": "ImportDeclaration [856,927]"
     },
     {
-      "src": "SimpleName: sin [3146,3149]",
-      "dest": "SimpleName: sin [3124,3127]"
+      "src": "TYPE_DECLARATION_KIND: class [1098,1103]",
+      "dest": "TYPE_DECLARATION_KIND: class [1098,1103]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [5376,5379]",
-      "dest": "METHOD_INVOCATION_RECEIVER [5354,5357]"
+      "src": "SimpleName: test [3265,3269]",
+      "dest": "SimpleName: test [3265,3269]"
     },
     {
-      "src": "SimpleName: Test [5893,5897]",
-      "dest": "SimpleName: Test [5871,5875]"
+      "src": "METHOD_INVOCATION_RECEIVER [1792,1798]",
+      "dest": "METHOD_INVOCATION_RECEIVER [1792,1798]"
     },
     {
-      "src": "SimpleName: x [2377,2378]",
-      "dest": "SimpleName: x [2360,2361]"
+      "src": "ExpressionStatement [2314,2350]",
+      "dest": "ExpressionStatement [2314,2350]"
     },
     {
-      "src": "SimpleName: UnivariateSolverUtils [7361,7382]",
-      "dest": "SimpleName: UnivariateSolverUtils [7339,7360]"
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [1319,1320]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [1319,1320]"
     },
     {
-      "src": "MethodInvocation [7411,7449]",
-      "dest": "MethodInvocation [7389,7427]"
+      "src": "PackageDeclaration [803,853]",
+      "dest": "PackageDeclaration [803,853]"
     },
     {
-      "src": "InfixExpression [3913,3937]",
-      "dest": "InfixExpression [3891,3915]"
+      "src": "METHOD_INVOCATION_RECEIVER [2314,2327]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2314,2327]"
     },
     {
-      "src": "SimpleName: result [7893,7899]",
-      "dest": "SimpleName: result [7871,7877]"
+      "src": "NumberLiteral: 0 [1848,1849]",
+      "dest": "NumberLiteral: 0 [1848,1849]"
     },
     {
-      "src": "SimpleName: assertEquals [2780,2792]",
-      "dest": "SimpleName: assertEquals [2763,2775]"
+      "src": "ExpressionStatement [2074,2115]",
+      "dest": "ExpressionStatement [2074,2115]"
     },
     {
-      "src": "AnonymousClassDeclaration [4530,4651]",
-      "dest": "AnonymousClassDeclaration [4508,4629]"
+      "src": "TryStatement [2296,2520]",
+      "dest": "TryStatement [2296,2520]"
     },
     {
-      "src": "Block [2920,2979]",
-      "dest": "Block [2898,2957]"
+      "src": "ExpressionStatement [3608,3662]",
+      "dest": "ExpressionStatement [3608,3662]"
     },
     {
-      "src": "QualifiedName: Double.POSITIVE_INFINITY [5022,5046]",
-      "dest": "QualifiedName: Double.POSITIVE_INFINITY [5000,5024]"
+      "src": "SimpleName: testArray [1672,1681]",
+      "dest": "SimpleName: testArray [1672,1681]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [3146,3149]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3124,3127]"
+      "src": "ExpressionStatement [2616,2670]",
+      "dest": "ExpressionStatement [2616,2670]"
     },
     {
-      "src": "SimpleName: x [4625,4626]",
-      "dest": "SimpleName: x [4603,4604]"
+      "src": "Javadoc [1039,1090]",
+      "dest": "Javadoc [1039,1090]"
     },
     {
-      "src": "NumberLiteral: 2.0 [5279,5282]",
-      "dest": "NumberLiteral: 2.0 [5257,5260]"
+      "src": "PrefixExpression [1330,1334]",
+      "dest": "PrefixExpression [1330,1334]"
     },
     {
-      "src": "Modifier: public [1404,1410]",
-      "dest": "Modifier: public [1392,1398]"
+      "src": "ExpressionStatement [2547,2584]",
+      "dest": "ExpressionStatement [2547,2584]"
     },
     {
-      "src": "ExpressionStatement [7520,7559]",
-      "dest": "ExpressionStatement [7498,7537]"
+      "src": "NumberLiteral: 7 [1604,1605]",
+      "dest": "NumberLiteral: 7 [1604,1605]"
     },
     {
-      "src": "PrimitiveType: void [1556,1560]",
-      "dest": "PrimitiveType: void [1544,1548]"
+      "src": "MethodInvocation [3334,3387]",
+      "dest": "MethodInvocation [3334,3387]"
     },
     {
-      "src": "Block [3024,3231]",
-      "dest": "Block [3002,3209]"
+      "src": "CatchClause [3947,4022]",
+      "dest": "CatchClause [3947,4022]"
     },
     {
-      "src": "MethodInvocation [4475,4725]",
-      "dest": "MethodInvocation [4453,4703]"
+      "src": "NumberLiteral: 0.3 [1237,1240]",
+      "dest": "NumberLiteral: 0.3 [1237,1240]"
     },
     {
-      "src": "VariableDeclarationFragment [1751,1807]",
-      "dest": "VariableDeclarationFragment [1739,1795]"
+      "src": "VariableDeclarationFragment [1550,1555]",
+      "dest": "VariableDeclarationFragment [1550,1555]"
     },
     {
-      "src": "SimpleName: assertTrue [3902,3912]",
-      "dest": "SimpleName: assertTrue [3880,3890]"
+      "src": "VariableDeclarationFragment [1416,1436]",
+      "dest": "VariableDeclarationFragment [1416,1436]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [5843,5878]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [5821,5856]"
+      "src": "MethodInvocation [1921,1981]",
+      "dest": "MethodInvocation [1921,1981]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [3913,3916]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3891,3894]"
+      "src": "SimpleName: ex [3185,3187]",
+      "dest": "SimpleName: ex [3185,3187]"
     },
     {
-      "src": "ExpressionStatement [4181,4220]",
-      "dest": "ExpressionStatement [4159,4198]"
+      "src": "PREFIX_EXPRESSION_OPERATOR: - [2577,2578]",
+      "dest": "PREFIX_EXPRESSION_OPERATOR: - [2577,2578]"
     },
     {
-      "src": "SimpleName: result [7649,7655]",
-      "dest": "SimpleName: result [7627,7633]"
+      "src": "MethodInvocation [1792,1857]",
+      "dest": "MethodInvocation [1792,1857]"
     },
     {
-      "src": "SimpleName: Test [3238,3242]",
-      "dest": "SimpleName: Test [3216,3220]"
+      "src": "POSTFIX_EXPRESSION_OPERATOR: ++ [1613,1615]",
+      "dest": "POSTFIX_EXPRESSION_OPERATOR: ++ [1613,1615]"
     },
     {
-      "src": "SimpleName: sin [3532,3535]",
-      "dest": "SimpleName: sin [3510,3513]"
+      "src": "NumberLiteral: 4 [1187,1188]",
+      "dest": "NumberLiteral: 4 [1187,1188]"
     },
     {
-      "src": "MethodDeclaration [2835,2979]",
-      "dest": "MethodDeclaration [2813,2957]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [2865,2905]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2865,2905]"
     },
     {
-      "src": "ExpressionStatement [3948,3992]",
-      "dest": "ExpressionStatement [3926,3970]"
+      "src": "ArrayInitializer [1236,1266]",
+      "dest": "ArrayInitializer [1236,1266]"
     },
     {
-      "src": "ASSIGNMENT_OPERATOR: = [7252,7253]",
-      "dest": "ASSIGNMENT_OPERATOR: = [7230,7231]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [1741,1781]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [1741,1781]"
     },
     {
-      "src": "SimpleName: Assert [7954,7960]",
-      "dest": "SimpleName: Assert [7932,7938]"
+      "src": "SimpleName: testStatistic [2074,2087]",
+      "dest": "SimpleName: testStatistic [2074,2087]"
     },
     {
-      "src": "SimpleName: result [4305,4311]",
-      "dest": "SimpleName: result [4283,4289]"
+      "src": "SimpleName: testStatistic [1810,1823]",
+      "dest": "SimpleName: testStatistic [1810,1823]"
     },
     {
-      "src": "Block [2485,2589]",
-      "dest": "Block [2468,2572]"
+      "src": "NumberLiteral: 0 [1978,1979]",
+      "dest": "NumberLiteral: 0 [1978,1979]"
     },
     {
-      "src": "NumberLiteral: 100 [3785,3788]",
-      "dest": "NumberLiteral: 100 [3763,3766]"
+      "src": "CatchClause [3399,3474]",
+      "dest": "CatchClause [3399,3474]"
     },
     {
-      "src": "SimpleName: assertEquals [2347,2359]",
-      "dest": "SimpleName: assertEquals [2335,2347]"
+      "src": "NumberLiteral: 0 [3050,3051]",
+      "dest": "NumberLiteral: 0 [3050,3051]"
     },
     {
-      "src": "ArrayType [3702,3710]",
-      "dest": "ArrayType [3680,3688]"
+      "src": "SimpleName: nullArray [3039,3048]",
+      "dest": "SimpleName: nullArray [3039,3048]"
     },
     {
-      "src": "InfixExpression [3484,3503]",
-      "dest": "InfixExpression [3462,3481]"
+      "src": "SimpleName: MathIllegalArgumentException [3406,3434]",
+      "dest": "SimpleName: MathIllegalArgumentException [3406,3434]"
     },
     {
-      "src": "SimpleName: initial [3448,3455]",
-      "dest": "SimpleName: initial [3426,3433]"
+      "src": "CatchClause [2212,2287]",
+      "dest": "CatchClause [2212,2287]"
     },
     {
-      "src": "MethodInvocation [5358,5401]",
-      "dest": "MethodInvocation [5336,5379]"
+      "src": "MethodInvocation [3775,3836]",
+      "dest": "MethodInvocation [3775,3836]"
     },
     {
-      "src": "SimpleName: Assert [6986,6992]",
-      "dest": "SimpleName: Assert [6964,6970]"
+      "src": "SimpleName: singletonArray [1829,1843]",
+      "dest": "SimpleName: singletonArray [1829,1843]"
     },
     {
-      "src": "SimpleName: UnivariateSolverUtilsTest [1417,1442]",
-      "dest": "SimpleName: UnivariateSolverUtilsTest [1405,1430]"
+      "src": "SimpleName: Assert [3882,3888]",
+      "dest": "SimpleName: Assert [3882,3888]"
     },
     {
-      "src": "NumberLiteral: 4.0 [2749,2752]",
-      "dest": "NumberLiteral: 4.0 [2732,2735]"
+      "src": "CatchClause [3149,3224]",
+      "dest": "CatchClause [3149,3224]"
     },
     {
-      "src": "SimpleName: result [6607,6613]",
-      "dest": "SimpleName: result [6585,6591]"
+      "src": "METHOD_INVOCATION_RECEIVER [3882,3888]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3882,3888]"
     },
     {
-      "src": "PrimitiveType: void [5780,5784]",
-      "dest": "PrimitiveType: void [5758,5762]"
+      "src": "SimpleType [1452,1456]",
+      "dest": "SimpleType [1452,1456]"
     },
     {
-      "src": "SimpleName: sin [6016,6019]",
-      "dest": "SimpleName: sin [5994,5997]"
+      "src": "ForStatement [1541,1714]",
+      "dest": "ForStatement [1541,1714]"
     },
     {
-      "src": "SimpleName: solve [7599,7604]",
-      "dest": "SimpleName: solve [7577,7582]"
+      "src": "Dimension [1372,1374]",
+      "dest": "Dimension [1372,1374]"
     },
     {
-      "src": "SimpleName: result [5089,5095]",
-      "dest": "SimpleName: result [5067,5073]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [3894,3934]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [3894,3934]"
     },
     {
-      "src": "NumberLiteral: 0 [4312,4313]",
-      "dest": "NumberLiteral: 0 [4290,4291]"
+      "src": "ImportDeclaration [1015,1037]",
+      "dest": "ImportDeclaration [1015,1037]"
     },
     {
-      "src": "INFIX_EXPRESSION_OPERATOR: > [4369,4370]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: > [4347,4348]"
+      "src": "SimpleName: testWeightsArray [1217,1233]",
+      "dest": "SimpleName: testWeightsArray [1217,1233]"
     },
     {
-      "src": "SimpleName: Test [4005,4009]",
-      "dest": "SimpleName: Test [3983,3987]"
+      "src": "Block [1911,4028]",
+      "dest": "Block [1911,4028]"
     },
     {
-      "src": "SimpleName: expected [6262,6270]",
-      "dest": "SimpleName: expected [6240,6248]"
+      "src": "SimpleName: i [1686,1687]",
+      "dest": "SimpleName: i [1686,1687]"
     },
     {
-      "src": "TypeDeclaration [1396,8107]",
-      "dest": "TypeDeclaration [1384,8085]"
+      "src": "PostfixExpression [1612,1615]",
+      "dest": "PostfixExpression [1612,1615]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [3799,3805]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3777,3783]"
+      "src": "TryStatement [2056,2287]",
+      "dest": "TryStatement [2056,2287]"
     },
     {
-      "src": "NumberLiteral: 10 [5058,5060]",
-      "dest": "NumberLiteral: 10 [5036,5038]"
+      "src": "StringLiteral: \"Expecting MathIllegalArgumentException\" [2865,2905]",
+      "dest": "StringLiteral: \"Expecting MathIllegalArgumentException\" [2865,2905]"
     },
     {
-      "src": "SimpleName: x [4930,4931]",
-      "dest": "SimpleName: x [4908,4909]"
+      "src": "SimpleName: ex [3435,3437]",
+      "dest": "SimpleName: ex [3435,3437]"
     },
     {
-      "src": "SimpleName: value [4917,4922]",
-      "dest": "SimpleName: value [4895,4900]"
+      "src": "METHOD_INVOCATION_RECEIVER [2783,2796]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2783,2796]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [4247,4266]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [4225,4244]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [1653,1688]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [1653,1688]"
     },
     {
-      "src": "MethodInvocation [5236,5283]",
-      "dest": "MethodInvocation [5214,5261]"
+      "src": "SimpleName: test [3515,3519]",
+      "dest": "SimpleName: test [3515,3519]"
     },
     {
-      "src": "SimpleName: testBracketEndpointRoot [5182,5205]",
-      "dest": "SimpleName: testBracketEndpointRoot [5160,5183]"
+      "src": "MethodInvocation [2010,2045]",
+      "dest": "MethodInvocation [2010,2045]"
     },
     {
-      "src": "Block [5976,6061]",
-      "dest": "Block [5954,6039]"
+      "src": "TryStatement [2529,2756]",
+      "dest": "TryStatement [2529,2756]"
     },
     {
-      "src": "NormalAnnotation [5718,5768]",
-      "dest": "NormalAnnotation [5696,5746]"
+      "src": "SimpleName: testStatistic [2010,2023]",
+      "dest": "SimpleName: testStatistic [2010,2023]"
     },
     {
-      "src": "NumberLiteral: 0.2 [6972,6975]",
-      "dest": "NumberLiteral: 0.2 [6950,6953]"
+      "src": "NumberLiteral: 0 [3554,3555]",
+      "dest": "NumberLiteral: 0 [3554,3555]"
     },
     {
-      "src": "SimpleName: solve [6957,6962]",
-      "dest": "SimpleName: solve [6935,6940]"
+      "src": "NumberLiteral: 1 [2817,2818]",
+      "dest": "NumberLiteral: 1 [2817,2818]"
     },
     {
-      "src": "SimpleName: Assert [7092,7098]",
-      "dest": "SimpleName: Assert [7070,7076]"
+      "src": "SimpleType [3954,3982]",
+      "dest": "SimpleType [3954,3982]"
     },
     {
-      "src": "Block [3281,3617]",
-      "dest": "Block [3259,3595]"
+      "src": "Block [3237,3398]",
+      "dest": "Block [3237,3398]"
     },
     {
-      "src": "INFIX_EXPRESSION_OPERATOR: - [4623,4624]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: - [4601,4602]"
+      "src": "SimpleName: singletonArray [1760,1774]",
+      "dest": "SimpleName: singletonArray [1760,1774]"
     },
     {
-      "src": "NumberLiteral: 1.5 [5271,5274]",
-      "dest": "NumberLiteral: 1.5 [5249,5252]"
+      "src": "MethodInvocation [2380,2433]",
+      "dest": "MethodInvocation [2380,2433]"
     },
     {
-      "src": "MethodInvocation [6194,6243]",
-      "dest": "MethodInvocation [6172,6221]"
+      "src": "Block [2769,2917]",
+      "dest": "Block [2769,2917]"
     },
     {
-      "src": "SimpleName: result [3436,3442]",
-      "dest": "SimpleName: result [3414,3420]"
+      "src": "SimpleName: testArray [2333,2342]",
+      "dest": "SimpleName: testArray [2333,2342]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7930,7943]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7908,7921]"
+      "src": "SimpleName: test [2024,2028]",
+      "dest": "SimpleName: test [2024,2028]"
     },
     {
-      "src": "ASSIGNMENT_OPERATOR: = [7575,7576]",
-      "dest": "ASSIGNMENT_OPERATOR: = [7553,7554]"
+      "src": "VariableDeclarationFragment [1291,1350]",
+      "dest": "VariableDeclarationFragment [1291,1350]"
     },
     {
-      "src": "PrefixExpression [7072,7076]",
-      "dest": "PrefixExpression [7050,7054]"
+      "src": "NumberLiteral: 2 [1181,1182]",
+      "dest": "NumberLiteral: 2 [1181,1182]"
     },
     {
-      "src": "SimpleName: sin [4295,4298]",
-      "dest": "SimpleName: sin [4273,4276]"
+      "src": "ExpressionStatement [2380,2434]",
+      "dest": "ExpressionStatement [2380,2434]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [5132,5146]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [5110,5124]"
+      "src": "SimpleName: testStatistic [3020,3033]",
+      "dest": "SimpleName: testStatistic [3020,3033]"
     },
     {
-      "src": "MethodInvocation [5114,5147]",
-      "dest": "MethodInvocation [5092,5125]"
+      "src": "SimpleName: Assert [2853,2859]",
+      "dest": "SimpleName: Assert [2853,2859]"
     },
     {
-      "src": "NumberLiteral: 0 [7227,7228]",
-      "dest": "NumberLiteral: 0 [7205,7206]"
+      "src": "SimpleType [2219,2247]",
+      "dest": "SimpleType [2219,2247]"
     },
     {
-      "src": "Dimension [6604,6606]",
-      "dest": "Dimension [6582,6584]"
+      "src": "SimpleName: assertTrue [1642,1652]",
+      "dest": "SimpleName: assertTrue [1642,1652]"
     },
     {
-      "src": "SimpleName: MathIllegalArgumentException [6271,6299]",
-      "dest": "SimpleName: MathIllegalArgumentException [6249,6277]"
+      "src": "SimpleName: MathIllegalArgumentException [2452,2480]",
+      "dest": "SimpleName: MathIllegalArgumentException [2452,2480]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [2340,2346]",
-      "dest": "METHOD_INVOCATION_RECEIVER [2328,2334]"
+      "src": "FieldDeclaration [1272,1351]",
+      "dest": "FieldDeclaration [1272,1351]"
     },
     {
-      "src": "Assignment [7245,7294]",
-      "dest": "Assignment [7223,7272]"
+      "src": "MethodInvocation [3020,3055]",
+      "dest": "MethodInvocation [3020,3055]"
     },
     {
-      "src": "VariableDeclarationStatement [6872,6886]",
-      "dest": "VariableDeclarationStatement [6850,6864]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [2628,2668]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [2628,2668]"
     },
     {
-      "src": "NumberLiteral: 1.0e-5 [6037,6043]",
-      "dest": "NumberLiteral: 1.0e-5 [6015,6021]"
+      "src": "FieldDeclaration [1198,1267]",
+      "dest": "FieldDeclaration [1198,1267]"
     },
     {
-      "src": "PrimitiveType: double [2684,2690]",
-      "dest": "PrimitiveType: double [2667,2673]"
+      "src": "SimpleName: MathIllegalArgumentException [3680,3708]",
+      "dest": "SimpleName: MathIllegalArgumentException [3680,3708]"
     },
     {
-      "src": "NumberLiteral: 0.0 [1996,1999]",
-      "dest": "NumberLiteral: 0.0 [1984,1987]"
+      "src": "MethodInvocation [1635,1689]",
+      "dest": "MethodInvocation [1635,1689]"
     },
     {
-      "src": "PrimitiveType: double [3291,3297]",
-      "dest": "PrimitiveType: double [3269,3275]"
+      "src": "NumberLiteral: 7 [2347,2348]",
+      "dest": "NumberLiteral: 7 [2347,2348]"
     },
     {
-      "src": "SimpleName: assertTrue [3574,3584]",
-      "dest": "SimpleName: assertTrue [3552,3562]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [1829,1855]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [1829,1855]"
     },
     {
-      "src": "SimpleName: assertTrue [4337,4347]",
-      "dest": "SimpleName: assertTrue [4315,4325]"
+      "src": "Modifier: protected [1272,1281]",
+      "dest": "Modifier: protected [1272,1281]"
     },
     {
-      "src": "SimpleName: Assert [3128,3134]",
-      "dest": "SimpleName: Assert [3106,3112]"
+      "src": "MethodInvocation [1741,1781]",
+      "dest": "MethodInvocation [1741,1781]"
     },
     {
-      "src": "ExpressionStatement [3847,3886]",
-      "dest": "ExpressionStatement [3825,3864]"
+      "src": "SimpleName: fail [2387,2391]",
+      "dest": "SimpleName: fail [2387,2391]"
     },
     {
-      "src": "SimpleName: Assert [4181,4187]",
-      "dest": "SimpleName: Assert [4159,4165]"
+      "src": "SimpleName: test [2797,2801]",
+      "dest": "SimpleName: test [2797,2801]"
     },
     {
-      "src": "SimpleType [2150,2178]",
-      "dest": "SimpleType [2138,2166]"
+      "src": "SimpleName: fail [3615,3619]",
+      "dest": "SimpleName: fail [3615,3619]"
     },
     {
-      "src": "NumberLiteral: 0.95 [7505,7509]",
-      "dest": "NumberLiteral: 0.95 [7483,7487]"
+      "src": "NumberLiteral: 1 [3295,3296]",
+      "dest": "NumberLiteral: 1 [3295,3296]"
     },
     {
-      "src": "TypeLiteral [6082,6116]",
-      "dest": "TypeLiteral [6060,6094]"
+      "src": "TextElement: Tests for AbstractUnivariateStatistic [1046,1083]",
+      "dest": "TextElement: Tests for AbstractUnivariateStatistic [1046,1083]"
     },
     {
-      "src": "PrimitiveType: double [4910,4916]",
-      "dest": "PrimitiveType: double [4888,4894]"
+      "src": "SimpleName: testStatistic [3501,3514]",
+      "dest": "SimpleName: testStatistic [3501,3514]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [5089,5103]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [5067,5081]"
+      "src": "METHOD_INVOCATION_RECEIVER [1741,1754]",
+      "dest": "METHOD_INVOCATION_RECEIVER [1741,1754]"
     },
     {
-      "src": "NumberLiteral: 1 [5139,5140]",
-      "dest": "NumberLiteral: 1 [5117,5118]"
+      "src": "METHOD_INVOCATION_RECEIVER [3084,3090]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3084,3090]"
     },
     {
-      "src": "QualifiedName: System.out [1817,1827]",
-      "dest": "QualifiedName: System.out [1805,1815]"
+      "src": "METHOD_INVOCATION_RECEIVER [2147,2153]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2147,2153]"
     },
     {
-      "src": "SimpleName: result [3542,3548]",
-      "dest": "SimpleName: result [3520,3526]"
+      "src": "VariableDeclarationFragment [1592,1597]",
+      "dest": "VariableDeclarationFragment [1592,1597]"
     },
     {
-      "src": "SimpleName: result [8080,8086]",
-      "dest": "SimpleName: result [8058,8064]"
+      "src": "ExpressionStatement [3084,3138]",
+      "dest": "ExpressionStatement [3084,3138]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [6016,6053]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [5994,6031]"
+      "src": "SingleVariableDeclaration [3954,3985]",
+      "dest": "SingleVariableDeclaration [3954,3985]"
     },
     {
-      "src": "SimpleName: assertEquals [5300,5312]",
-      "dest": "SimpleName: assertEquals [5278,5290]"
+      "src": "NumberLiteral: 1 [1779,1780]",
+      "dest": "NumberLiteral: 1 [1779,1780]"
     },
     {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [3108,3109]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [3086,3087]"
+      "src": "StringLiteral: \"Expecting MathIllegalArgumentException\" [3620,3660]",
+      "dest": "StringLiteral: \"Expecting MathIllegalArgumentException\" [3620,3660]"
     },
     {
-      "src": "SimpleName: Test [6257,6261]",
-      "dest": "SimpleName: Test [6235,6239]"
+      "src": "TypeDeclaration [1039,4030]",
+      "dest": "TypeDeclaration [1039,4030]"
     },
     {
-      "src": "MethodDeclaration [5892,6061]",
-      "dest": "MethodDeclaration [5870,6039]"
+      "src": "MethodInvocation [2074,2114]",
+      "dest": "MethodInvocation [2074,2114]"
     },
     {
-      "src": "ExpressionStatement [7736,7775]",
-      "dest": "ExpressionStatement [7714,7753]"
+      "src": "NullLiteral [1387,1391]",
+      "dest": "NullLiteral [1387,1391]"
     },
     {
-      "src": "ExpressionStatement [4229,4268]",
-      "dest": "ExpressionStatement [4207,4246]"
+      "src": "METHOD_INVOCATION_ARGUMENTS [1810,1856]",
+      "dest": "METHOD_INVOCATION_ARGUMENTS [1810,1856]"
     },
     {
-      "src": "Block [5493,5558]",
-      "dest": "Block [5471,5536]"
+      "src": "MethodInvocation [2547,2583]",
+      "dest": "MethodInvocation [2547,2583]"
     },
     {
-      "src": "SimpleName: expected [6073,6081]",
-      "dest": "SimpleName: expected [6051,6059]"
+      "src": "SimpleName: Assert [1723,1729]",
+      "dest": "SimpleName: Assert [1723,1729]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [4505,4724]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [4483,4702]"
+      "src": "SimpleName: test [2088,2092]",
+      "dest": "SimpleName: test [2088,2092]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [7520,7526]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7498,7504]"
+      "src": "TryStatement [3233,3474]",
+      "dest": "TryStatement [3233,3474]"
     },
     {
-      "src": "PrimitiveType: void [4021,4025]",
-      "dest": "PrimitiveType: void [3999,4003]"
+      "src": "VariableDeclarationFragment [1457,1483]",
+      "dest": "VariableDeclarationFragment [1457,1483]"
     },
     {
-      "src": "NumberLiteral: 2.0 [5053,5056]",
-      "dest": "NumberLiteral: 2.0 [5031,5034]"
+      "src": "NumberLiteral: 0 [2344,2345]",
+      "dest": "NumberLiteral: 0 [2344,2345]"
     },
     {
-      "src": "SimpleName: assertTrue [5121,5131]",
-      "dest": "SimpleName: assertTrue [5099,5109]"
+      "src": "ExpressionStatement [1921,1982]",
+      "dest": "ExpressionStatement [1921,1982]"
     },
     {
-      "src": "NumberLiteral: 1.25 [7614,7618]",
-      "dest": "NumberLiteral: 1.25 [7592,7596]"
+      "src": "SimpleName: Assert [3084,3090]",
+      "dest": "SimpleName: Assert [3084,3090]"
     },
     {
-      "src": "SimpleName: result [3865,3871]",
-      "dest": "SimpleName: result [3843,3849]"
+      "src": "SimpleName: singletonArray [1416,1430]",
+      "dest": "SimpleName: singletonArray [1416,1430]"
     },
     {
-      "src": "SimpleName: assertTrue [3521,3531]",
-      "dest": "SimpleName: assertTrue [3499,3509]"
+      "src": "NumberLiteral: 1 [1596,1597]",
+      "dest": "NumberLiteral: 1 [1596,1597]"
     },
     {
-      "src": "ArrayAccess [3976,3985]",
-      "dest": "ArrayAccess [3954,3963]"
+      "src": "ExpressionStatement [1792,1858]",
+      "dest": "ExpressionStatement [1792,1858]"
     },
     {
-      "src": "SimpleName: assertEquals [7852,7864]",
-      "dest": "SimpleName: assertEquals [7830,7842]"
+      "src": "SimpleName: testArray [2802,2811]",
+      "dest": "SimpleName: testArray [2802,2811]"
     },
     {
-      "src": "VariableDeclarationFragment [6607,6676]",
-      "dest": "VariableDeclarationFragment [6585,6654]"
+      "src": "StringLiteral: \"Expecting MathIllegalArgumentException\" [3894,3934]",
+      "dest": "StringLiteral: \"Expecting MathIllegalArgumentException\" [3894,3934]"
     },
     {
-      "src": "MethodDeclaration [2595,2829]",
-      "dest": "MethodDeclaration [2578,2807]"
+      "src": "Block [3189,3224]",
+      "dest": "Block [3189,3224]"
     },
     {
-      "src": "ExpressionStatement [4475,4726]",
-      "dest": "ExpressionStatement [4453,4704]"
+      "src": "VariableDeclarationFragment [1162,1192]",
+      "dest": "VariableDeclarationFragment [1162,1192]"
     },
     {
-      "src": "METHOD_INVOCATION_ARGUMENTS [4295,4319]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [4273,4297]"
+      "src": "StringLiteral: \"Expecting MathIllegalArgumentException\" [2159,2199]",
+      "dest": "StringLiteral: \"Expecting MathIllegalArgumentException\" [2159,2199]"
     },
     {
-      "src": "MethodInvocation [3895,3938]",
-      "dest": "MethodInvocation [3873,3916]"
+      "src": "Block [3987,4022]",
+      "dest": "Block [3987,4022]"
     },
     {
-      "src": "PrefixExpression [4070,4074]",
-      "dest": "PrefixExpression [4048,4052]"
+      "src": "NumberLiteral: 1.8 [1346,1349]",
+      "dest": "NumberLiteral: 1.8 [1346,1349]"
     },
     {
-      "src": "ClassInstanceCreation [1485,1494]",
-      "dest": "ClassInstanceCreation [1473,1482]"
+      "src": "FieldDeclaration [1356,1392]",
+      "dest": "FieldDeclaration [1356,1392]"
     },
     {
-      "src": "SimpleName: Assert [7304,7310]",
-      "dest": "SimpleName: Assert [7282,7288]"
+      "src": "NumberLiteral: 0 [1434,1435]",
+      "dest": "NumberLiteral: 0 [1434,1435]"
     },
     {
-      "src": "METHOD_INVOCATION_RECEIVER [6194,6215]",
-      "dest": "METHOD_INVOCATION_RECEIVER [6172,6193]"
+      "src": "StringLiteral: \"Expecting MathIllegalArgumentException\" [3096,3136]",
+      "dest": "StringLiteral: \"Expecting MathIllegalArgumentException\" [3096,3136]"
     },
     {
-      "src": "SimpleName: result [7324,7330]",
-      "dest": "SimpleName: result [7302,7308]"
+      "src": "MethodInvocation [1723,1782]",
+      "dest": "MethodInvocation [1723,1782]"
     },
     {
-      "src": "SimpleName: UnivariateSolverUtils [7686,7707]",
-      "dest": "SimpleName: UnivariateSolverUtils [7664,7685]"
+      "src": "NumberLiteral: 0 [1776,1777]",
+      "dest": "NumberLiteral: 0 [1776,1777]"
     },
     {
-      "src": "NormalAnnotation [5892,5935]",
-      "dest": "NormalAnnotation [5870,5913]"
+      "src": "INFIX_EXPRESSION_OPERATOR: < [1559,1560]",
+      "dest": "INFIX_EXPRESSION_OPERATOR: < [1559,1560]"
     },
     {
-      "src": "SimpleName: root [1846,1850]",
-      "dest": "SimpleName: root [1834,1838]"
+      "src": "SimpleName: testNegativeWeightsArray [1291,1315]",
+      "dest": "SimpleName: testNegativeWeightsArray [1291,1315]"
     },
     {
-      "src": "Block [2640,2829]",
-      "dest": "Block [2623,2807]"
+      "src": "Block [2485,2520]",
+      "dest": "Block [2485,2520]"
     },
     {
-      "src": "SimpleName: result [7138,7144]",
-      "dest": "SimpleName: result [7116,7122]"
+      "src": "Modifier: public [1500,1506]",
+      "dest": "Modifier: public [1500,1506]"
     },
     {
-      "src": "NumberLiteral: 0 [5698,5699]",
-      "dest": "NumberLiteral: 0 [5676,5677]"
+      "src": "SimpleName: i [1599,1600]",
+      "dest": "SimpleName: i [1599,1600]"
     },
     {
-      "src": "MethodInvocation [3913,3933]",
-      "dest": "MethodInvocation [3891,3911]"
+      "src": "QualifiedName: org.apache.commons.math3.exception.MathIllegalArgumentException [863,926]",
+      "dest": "QualifiedName: org.apache.commons.math4.exception.MathIllegalArgumentException [863,926]"
     },
     {
-      "src": "NormalAnnotation [5414,5457]",
-      "dest": "NormalAnnotation [5392,5435]"
+      "src": "NumberLiteral: 1.3 [1331,1334]",
+      "dest": "NumberLiteral: 1.3 [1331,1334]"
     },
     {
-      "src": "VariableDeclarationStatement [4084,4172]",
-      "dest": "VariableDeclarationStatement [4062,4150]"
+      "src": "NumberLiteral: 0 [3292,3293]",
+      "dest": "NumberLiteral: 0 [3292,3293]"
     },
     {
-      "src": "Block [4043,4380]",
-      "dest": "Block [4021,4358]"
+      "src": "METHOD_INVOCATION_RECEIVER [3251,3264]",
+      "dest": "METHOD_INVOCATION_RECEIVER [3251,3264]"
     },
     {
-      "src": "NumberLiteral: 3.0 [6032,6035]",
-      "dest": "NumberLiteral: 3.0 [6010,6013]"
+      "src": "NumberLiteral: 1.8 [1262,1265]",
+      "dest": "NumberLiteral: 1.8 [1262,1265]"
     },
     {
-      "src": "SimpleName: result [6704,6710]",
-      "dest": "SimpleName: result [6682,6688]"
+      "src": "ArrayType [1153,1161]",
+      "dest": "ArrayType [1153,1161]"
     },
     {
-      "src": "PrefixExpression [6026,6030]",
-      "dest": "PrefixExpression [6004,6008]"
+      "src": "Modifier: protected [1198,1207]",
+      "dest": "Modifier: protected [1198,1207]"
     },
     {
-      "src": "SimpleName: bracket [6416,6423]",
-      "dest": "SimpleName: bracket [6394,6401]"
+      "src": "SimpleName: Test [1491,1495]",
+      "dest": "SimpleName: Test [1491,1495]"
     },
     {
-      "src": "SimpleName: f [7282,7283]",
-      "dest": "SimpleName: f [7260,7261]"
+      "src": "Modifier: public [1091,1097]",
+      "dest": "Modifier: public [1091,1097]"
     },
     {
-      "src": "NumberLiteral: 1.5 [2968,2971]",
-      "dest": "NumberLiteral: 1.5 [2946,2949]"
+      "src": "Block [3006,3148]",
+      "dest": "Block [3006,3148]"
     },
     {
-      "src": "VariableDeclarationStatement [3672,3693]",
-      "dest": "VariableDeclarationStatement [3650,3671]"
+      "src": "SimpleName: nullArray [3281,3290]",
+      "dest": "SimpleName: nullArray [3281,3290]"
     },
     {
-      "src": "SimpleName: solve [2551,2556]",
-      "dest": "SimpleName: solve [2534,2539]"
+      "src": "NumberLiteral: 1 [3053,3054]",
+      "dest": "NumberLiteral: 1 [3053,3054]"
     },
     {
-      "src": "MethodInvocation [6394,6444]",
-      "dest": "MethodInvocation [6372,6422]"
+      "src": "Modifier: protected [1143,1152]",
+      "dest": "Modifier: protected [1143,1152]"
     },
     {
-      "src": "SimpleName: assertTrue [5078,5088]",
-      "dest": "SimpleName: assertTrue [5056,5066]"
+      "src": "METHOD_INVOCATION_RECEIVER [2616,2622]",
+      "dest": "METHOD_INVOCATION_RECEIVER [2616,2622]"
     },
     {
-      "src": "ClassInstanceCreation [4842,4988]",
-      "dest": "ClassInstanceCreation [4820,4966]"
+      "src": "SimpleName: fail [3091,3095]",
+      "dest": "SimpleName: fail [3091,3095]"
     },
     {
-      "src": "Block [5648,5712]",
-      "dest": "Block [5626,5690]"
+      "src": "SimpleName: ex [2954,2956]",
+      "dest": "SimpleName: ex [2954,2956]"
     },
     {
-      "src": "SimpleName: NullArgumentException [5429,5450]",
-      "dest": "SimpleName: NullArgumentException [5407,5428]"
-    },
-    {
-      "src": "SimpleName: testNullFunction [5474,5490]",
-      "dest": "SimpleName: testNullFunction [5452,5468]"
-    },
-    {
-      "src": "NumberLiteral: 1E-6 [7230,7234]",
-      "dest": "NumberLiteral: 1E-6 [7208,7212]"
-    },
-    {
-      "src": "SimpleName: sin [1479,1482]",
-      "dest": "SimpleName: sin [1467,1470]"
-    },
-    {
-      "src": "MethodDeclaration [6256,6451]",
-      "dest": "MethodDeclaration [6234,6429]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [7982,7985]",
-      "dest": "NumberLiteral: 1.0 [7960,7963]"
-    },
-    {
-      "src": "NumberLiteral: 1E-8 [7017,7021]",
-      "dest": "NumberLiteral: 1E-8 [6995,6999]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: < [3446,3447]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: < [3424,3425]"
-    },
-    {
-      "src": "NumberLiteral: 0.45 [7184,7188]",
-      "dest": "NumberLiteral: 0.45 [7162,7166]"
-    },
-    {
-      "src": "ArrayType [6598,6606]",
-      "dest": "ArrayType [6576,6584]"
-    },
-    {
-      "src": "NumberLiteral: 1 [6754,6755]",
-      "dest": "NumberLiteral: 1 [6732,6733]"
-    },
-    {
-      "src": "MarkerAnnotation [2230,2235]",
-      "dest": "MarkerAnnotation [2218,2223]"
-    },
-    {
-      "src": "QualifiedName: org.apache.commons.math4.legacy.exception.NullArgumentException [1216,1279]",
-      "dest": "QualifiedName: org.apache.commons.math4.legacy.exception.NullArgumentException [1216,1279]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [2529,2550]",
-      "dest": "METHOD_INVOCATION_RECEIVER [2512,2533]"
-    },
-    {
-      "src": "MethodInvocation [2695,2763]",
-      "dest": "MethodInvocation [2678,2746]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: > [3987,3988]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: > [3965,3966]"
-    },
-    {
-      "src": "SimpleName: result [4199,4205]",
-      "dest": "SimpleName: result [4177,4183]"
-    },
-    {
-      "src": "PrimitiveType: double [4794,4800]",
-      "dest": "PrimitiveType: double [4772,4778]"
-    },
-    {
-      "src": "SimpleName: Test [6776,6780]",
-      "dest": "SimpleName: Test [6754,6758]"
-    },
-    {
-      "src": "NormalAnnotation [1643,1693]",
-      "dest": "NormalAnnotation [1631,1681]"
-    },
-    {
-      "src": "MethodInvocation [3052,3118]",
-      "dest": "MethodInvocation [3030,3096]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [3052,3073]",
-      "dest": "SimpleName: UnivariateSolverUtils [3030,3051]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [7793,7814]",
-      "dest": "SimpleName: UnivariateSolverUtils [7771,7792]"
-    },
-    {
-      "src": "SimpleName: sin [5266,5269]",
-      "dest": "SimpleName: sin [5244,5247]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: < [3167,3168]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: < [3145,3146]"
-    },
-    {
-      "src": "SimpleName: sin [6646,6649]",
-      "dest": "SimpleName: sin [6624,6627]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [7793,7814]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7771,7792]"
-    },
-    {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [5864,5865]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [5842,5843]"
-    },
-    {
-      "src": "InfixExpression [6704,6718]",
-      "dest": "InfixExpression [6682,6696]"
-    },
-    {
-      "src": "SimpleName: solve [7169,7174]",
-      "dest": "SimpleName: solve [7147,7152]"
-    },
-    {
-      "src": "SimpleName: QuinticFunction [6845,6860]",
-      "dest": "SimpleName: QuinticFunction [6823,6838]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [6394,6415]",
-      "dest": "METHOD_INVOCATION_RECEIVER [6372,6393]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [4132,4170]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [4110,4148]"
-    },
-    {
-      "src": "NumberLiteral: 0 [4206,4207]",
-      "dest": "NumberLiteral: 0 [4184,4185]"
-    },
-    {
-      "src": "SimpleName: testMisc [6797,6805]",
-      "dest": "SimpleName: testMisc [6775,6783]"
-    },
-    {
-      "src": "Javadoc [1396,1403]",
-      "dest": "Javadoc [1384,1391]"
-    },
-    {
-      "src": "SimpleName: solve [2952,2957]",
-      "dest": "SimpleName: solve [2930,2935]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [2360,2386]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [2348,2369]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3595,3604]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3573,3582]"
-    },
-    {
-      "src": "Dimension [4090,4092]",
-      "dest": "Dimension [4068,4070]"
-    },
-    {
-      "src": "SimpleName: solve [7063,7068]",
-      "dest": "SimpleName: solve [7041,7046]"
-    },
-    {
-      "src": "Assignment [7784,7835]",
-      "dest": "Assignment [7762,7813]"
-    },
-    {
-      "src": "NumberLiteral: 1 [3491,3492]",
-      "dest": "NumberLiteral: 1 [3469,3470]"
-    },
-    {
-      "src": "SimpleName: Assert [3181,3187]",
-      "dest": "SimpleName: Assert [3159,3165]"
-    },
-    {
-      "src": "SimpleName: Assert [3418,3424]",
-      "dest": "SimpleName: Assert [3396,3402]"
-    },
-    {
-      "src": "SimpleName: testSolveBadEndpoints [1710,1731]",
-      "dest": "SimpleName: testSolveBadEndpoints [1698,1719]"
-    },
-    {
-      "src": "Modifier: public [4748,4754]",
-      "dest": "Modifier: public [4726,4732]"
-    },
-    {
-      "src": "MethodInvocation [3199,3219]",
-      "dest": "MethodInvocation [3177,3197]"
-    },
-    {
-      "src": "MethodInvocation [5071,5104]",
-      "dest": "MethodInvocation [5049,5082]"
-    },
-    {
-      "src": "SimpleName: testSolveAccuracySin [2617,2637]",
-      "dest": "SimpleName: testSolveAccuracySin [2600,2620]"
-    },
-    {
-      "src": "MethodDeclaration [2230,2394]",
-      "dest": "MethodDeclaration [2218,2377]"
-    },
-    {
-      "src": "SimpleName: Test [5161,5165]",
-      "dest": "SimpleName: Test [5139,5143]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [5813,5834]",
-      "dest": "SimpleName: UnivariateSolverUtils [5791,5812]"
-    },
-    {
-      "src": "MethodInvocation [6616,6676]",
-      "dest": "MethodInvocation [6594,6654]"
-    },
-    {
-      "src": "NumberLiteral: 2.0 [6027,6030]",
-      "dest": "NumberLiteral: 2.0 [6005,6008]"
-    },
-    {
-      "src": "MethodInvocation [3567,3610]",
-      "dest": "MethodInvocation [3545,3588]"
-    },
-    {
-      "src": "PrimitiveType: void [1881,1885]",
-      "dest": "PrimitiveType: void [1869,1873]"
-    },
-    {
-      "src": "Modifier: public [3247,3253]",
-      "dest": "Modifier: public [3225,3231]"
-    },
-    {
-      "src": "SimpleName: Test [2401,2405]",
-      "dest": "SimpleName: Test [2384,2388]"
-    },
-    {
-      "src": "SimpleName: MathIllegalArgumentException [2850,2878]",
-      "dest": "SimpleName: MathIllegalArgumentException [2828,2856]"
-    },
-    {
-      "src": "Block [5208,5408]",
-      "dest": "Block [5186,5386]"
-    },
-    {
-      "src": "ArrayAccess [3436,3445]",
-      "dest": "ArrayAccess [3414,3423]"
-    },
-    {
-      "src": "Modifier: public [1874,1880]",
-      "dest": "Modifier: public [1862,1868]"
-    },
-    {
-      "src": "Dimension [3327,3329]",
-      "dest": "Dimension [3305,3307]"
-    },
-    {
-      "src": "SimpleName: x [2691,2692]",
-      "dest": "SimpleName: x [2674,2675]"
-    },
-    {
-      "src": "SimpleName: sin [2723,2726]",
-      "dest": "SimpleName: sin [2706,2709]"
-    },
-    {
-      "src": "PrimitiveType: void [5469,5473]",
-      "dest": "PrimitiveType: void [5447,5451]"
-    },
-    {
-      "src": "VariableDeclarationFragment [3330,3408]",
-      "dest": "VariableDeclarationFragment [3308,3386]"
-    },
-    {
-      "src": "ExpressionStatement [1817,1852]",
-      "dest": "ExpressionStatement [1805,1840]"
-    },
-    {
-      "src": "SimpleName: Test [1502,1506]",
-      "dest": "SimpleName: Test [1490,1494]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [6986,6992]",
-      "dest": "METHOD_INVOCATION_RECEIVER [6964,6970]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [7902,7923]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7880,7901]"
-    },
-    {
-      "src": "VariableDeclarationFragment [2502,2519]",
-      "dest": "VariableDeclarationFragment [2485,2502]"
-    },
-    {
-      "src": "Dimension [5224,5226]",
-      "dest": "Dimension [5202,5204]"
-    },
-    {
-      "src": "PrimitiveType: void [2612,2616]",
-      "dest": "PrimitiveType: void [2595,2599]"
-    },
-    {
-      "src": "Block [1909,2224]",
-      "dest": "Block [1897,2212]"
-    },
-    {
-      "src": "ExpressionStatement [5503,5552]",
-      "dest": "ExpressionStatement [5481,5530]"
-    },
-    {
-      "src": "SingleVariableDeclaration [4586,4594]",
-      "dest": "SingleVariableDeclaration [4564,4572]"
-    },
-    {
-      "src": "SimpleName: UnivariateFunction [6818,6836]",
-      "dest": "SimpleName: UnivariateFunction [6796,6814]"
-    },
-    {
-      "src": "NumberLiteral: 1E-6 [7987,7991]",
-      "dest": "NumberLiteral: 1E-6 [7965,7969]"
-    },
-    {
-      "src": "TextElement: check the search continues when a = lowerBound and b < upperBound.  [6461,6528]",
-      "dest": "TextElement: check the search continues when a = lowerBound and b < upperBound.  [6439,6506]"
-    },
-    {
-      "src": "Dimension [3708,3710]",
-      "dest": "Dimension [3686,3688]"
-    },
-    {
-      "src": "ReturnStatement [4614,4627]",
-      "dest": "ReturnStatement [4592,4605]"
-    },
-    {
-      "src": "SimpleName: bracket [6216,6223]",
-      "dest": "SimpleName: bracket [6194,6201]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [2963,2966]",
-      "dest": "NumberLiteral: 1.0 [2941,2944]"
-    },
-    {
-      "src": "MethodInvocation [3181,3224]",
-      "dest": "MethodInvocation [3159,3202]"
-    },
-    {
-      "src": "SimpleName: Assert [5071,5077]",
-      "dest": "SimpleName: Assert [5049,5055]"
-    },
-    {
-      "src": "Block [4933,4978]",
-      "dest": "Block [4911,4956]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [5236,5257]",
-      "dest": "SimpleName: UnivariateSolverUtils [5214,5235]"
-    },
-    {
-      "src": "SimpleName: initial [3496,3503]",
-      "dest": "SimpleName: initial [3474,3481]"
-    },
-    {
-      "src": "MethodInvocation [7954,7992]",
-      "dest": "MethodInvocation [7932,7970]"
-    },
-    {
-      "src": "SimpleName: sin [5843,5846]",
-      "dest": "SimpleName: sin [5821,5824]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [6616,6637]",
-      "dest": "SimpleName: UnivariateSolverUtils [6594,6615]"
-    },
-    {
-      "src": "FieldDeclaration [1450,1495]",
-      "dest": "FieldDeclaration [1438,1483]"
-    },
-    {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [7178,7179]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [7156,7157]"
-    },
-    {
-      "src": "ExpressionStatement [7568,7620]",
-      "dest": "ExpressionStatement [7546,7598]"
-    },
-    {
-      "src": "NumberLiteral: 0.0 [1621,1624]",
-      "dest": "NumberLiteral: 0.0 [1609,1612]"
-    },
-    {
-      "src": "SimpleName: expected [5898,5906]",
-      "dest": "SimpleName: expected [5876,5884]"
-    },
-    {
-      "src": "SimpleName: sin [5688,5691]",
-      "dest": "SimpleName: sin [5666,5669]"
-    },
-    {
-      "src": "VariableDeclarationFragment [4060,4074]",
-      "dest": "VariableDeclarationFragment [4038,4052]"
-    },
-    {
-      "src": "SimpleName: testSolveNull [1561,1574]",
-      "dest": "SimpleName: testSolveNull [1549,1562]"
-    },
-    {
-      "src": "MethodInvocation [3514,3557]",
-      "dest": "MethodInvocation [3492,3535]"
-    },
-    {
-      "src": "VariableDeclarationFragment [3711,3789]",
-      "dest": "VariableDeclarationFragment [3689,3767]"
-    },
-    {
-      "src": "SimpleName: result [7112,7118]",
-      "dest": "SimpleName: result [7090,7096]"
-    },
-    {
-      "src": "CatchClause [2143,2218]",
-      "dest": "CatchClause [2131,2206]"
-    },
-    {
-      "src": "SimpleName: NoBracketingException [4401,4422]",
-      "dest": "SimpleName: NoBracketingException [4379,4400]"
-    },
-    {
-      "src": "SimpleName: UnivariateFunction [1460,1478]",
-      "dest": "SimpleName: UnivariateFunction [1448,1466]"
-    },
-    {
-      "src": "TypeLiteral [6271,6305]",
-      "dest": "TypeLiteral [6249,6283]"
-    },
-    {
-      "src": "Block [4596,4641]",
-      "dest": "Block [4574,4619]"
-    },
-    {
-      "src": "ASSIGNMENT_OPERATOR: = [7145,7146]",
-      "dest": "ASSIGNMENT_OPERATOR: = [7123,7124]"
-    },
-    {
-      "src": "SimpleName: Assert [6686,6692]",
-      "dest": "SimpleName: Assert [6664,6670]"
-    },
-    {
-      "src": "NumberLiteral: 0.0 [1986,1989]",
-      "dest": "NumberLiteral: 0.0 [1974,1977]"
-    },
-    {
-      "src": "SimpleType [1460,1478]",
-      "dest": "SimpleType [1448,1466]"
-    },
-    {
-      "src": "SimpleName: f [8039,8040]",
-      "dest": "SimpleName: f [8017,8018]"
-    },
-    {
-      "src": "PrimitiveType: void [5626,5630]",
-      "dest": "PrimitiveType: void [5604,5608]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [6646,6675]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [6624,6653]"
-    },
-    {
-      "src": "NumberLiteral: 100 [6050,6053]",
-      "dest": "NumberLiteral: 100 [6028,6031]"
-    },
-    {
-      "src": "MethodInvocation [4229,4267]",
-      "dest": "MethodInvocation [4207,4245]"
-    },
-    {
-      "src": "MemberValuePair [5570,5613]",
-      "dest": "MemberValuePair [5548,5591]"
-    },
-    {
-      "src": "ExpressionStatement [2529,2583]",
-      "dest": "ExpressionStatement [2512,2566]"
-    },
-    {
-      "src": "ExpressionStatement [7411,7450]",
-      "dest": "ExpressionStatement [7389,7428]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [7361,7382]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7339,7360]"
-    },
-    {
-      "src": "SimpleName: assertEquals [7636,7648]",
-      "dest": "SimpleName: assertEquals [7614,7626]"
-    },
-    {
-      "src": "PackageDeclaration [804,861]",
-      "dest": "PackageDeclaration [804,861]"
-    },
-    {
-      "src": "InfixExpression [5132,5146]",
-      "dest": "InfixExpression [5110,5124]"
-    },
-    {
-      "src": "SimpleName: result [7352,7358]",
-      "dest": "SimpleName: result [7330,7336]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [5986,6007]",
-      "dest": "METHOD_INVOCATION_RECEIVER [5964,5985]"
-    },
-    {
-      "src": "InfixExpression [3865,3884]",
-      "dest": "InfixExpression [3843,3862]"
-    },
-    {
-      "src": "MethodDeclaration [5160,5408]",
-      "dest": "MethodDeclaration [5138,5386]"
-    },
-    {
-      "src": "MethodDeclaration [1864,2224]",
-      "dest": "MethodDeclaration [1852,2212]"
-    },
-    {
-      "src": "NumberLiteral: 5 [8048,8049]",
-      "dest": "NumberLiteral: 5 [8026,8027]"
-    },
-    {
-      "src": "PrefixExpression [3764,3768]",
-      "dest": "PrefixExpression [3742,3746]"
-    },
-    {
-      "src": "Block [2267,2394]",
-      "dest": "Block [2255,2377]"
-    },
-    {
-      "src": "SimpleName: testBadMaximumIterations [6323,6347]",
-      "dest": "SimpleName: testBadMaximumIterations [6301,6325]"
-    },
-    {
-      "src": "QualifiedName: org.apache.commons.math4.legacy.analysis.QuinticFunction [870,926]",
-      "dest": "QualifiedName: org.apache.commons.math4.legacy.analysis.QuinticFunction [870,926]"
-    },
-    {
-      "src": "ExpressionStatement [8002,8051]",
-      "dest": "ExpressionStatement [7980,8029]"
-    },
-    {
-      "src": "ExpressionStatement [6194,6244]",
-      "dest": "ExpressionStatement [6172,6222]"
-    },
-    {
-      "src": "NumberLiteral: 100 [6672,6675]",
-      "dest": "NumberLiteral: 100 [6650,6653]"
-    },
-    {
-      "src": "SimpleName: NoBracketingException [5907,5928]",
-      "dest": "SimpleName: NoBracketingException [5885,5906]"
-    },
-    {
-      "src": "SimpleName: sin [2958,2961]",
-      "dest": "SimpleName: sin [2936,2939]"
-    },
-    {
-      "src": "SimpleName: testBadAdditive [5785,5800]",
-      "dest": "SimpleName: testBadAdditive [5763,5778]"
-    },
-    {
-      "src": "SimpleName: expected [5724,5732]",
-      "dest": "SimpleName: expected [5702,5710]"
-    },
-    {
-      "src": "NumberLiteral: 2.0 [6437,6440]",
-      "dest": "NumberLiteral: 2.0 [6415,6418]"
-    },
-    {
-      "src": "NumberLiteral: 1.0e-4 [2380,2386]",
-      "dest": "NumberLiteral: 1.0e-4 [2363,2369]"
-    },
-    {
-      "src": "SimpleName: result [3976,3982]",
-      "dest": "SimpleName: result [3954,3960]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [6747,6761]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [6725,6739]"
-    },
-    {
-      "src": "Modifier: public [4434,4440]",
-      "dest": "Modifier: public [4412,4418]"
-    },
-    {
-      "src": "InfixExpression [5376,5400]",
-      "dest": "InfixExpression [5354,5378]"
-    },
-    {
-      "src": "MethodDeclaration [4004,4380]",
-      "dest": "MethodDeclaration [3982,4358]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [4475,4496]",
-      "dest": "METHOD_INVOCATION_RECEIVER [4453,4474]"
-    },
-    {
-      "src": "MethodInvocation [7092,7128]",
-      "dest": "MethodInvocation [7070,7106]"
-    },
-    {
-      "src": "NumberLiteral: 1 [6658,6659]",
-      "dest": "NumberLiteral: 1 [6636,6637]"
-    },
-    {
-      "src": "NumberLiteral: 0.5 [7548,7551]",
-      "dest": "NumberLiteral: 0.5 [7526,7529]"
-    },
-    {
-      "src": "ArrayAccess [4305,4314]",
-      "dest": "ArrayAccess [4283,4292]"
-    },
-    {
-      "src": "ExpressionStatement [5813,5880]",
-      "dest": "ExpressionStatement [5791,5858]"
-    },
-    {
-      "src": "SimpleName: Assert [7845,7851]",
-      "dest": "SimpleName: Assert [7823,7829]"
-    },
-    {
-      "src": "CompilationUnit [0,8107]",
-      "dest": "CompilationUnit [0,8085]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [8088,8091]",
-      "dest": "NumberLiteral: 1.0 [8066,8069]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: < [3934,3935]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: < [3912,3913]"
-    },
-    {
-      "src": "TypeLiteral [1658,1692]",
-      "dest": "TypeLiteral [1646,1680]"
-    },
-    {
-      "src": "MethodInvocation [3799,3837]",
-      "dest": "MethodInvocation [3777,3815]"
-    },
-    {
-      "src": "ExpressionStatement [2340,2388]",
-      "dest": "ExpressionStatement [2328,2371]"
-    },
-    {
-      "src": "SimpleName: result [6926,6932]",
-      "dest": "SimpleName: result [6904,6910]"
-    },
-    {
-      "src": "PrefixExpression [5864,5868]",
-      "dest": "PrefixExpression [5842,5846]"
-    },
-    {
-      "src": "QualifiedName: org.apache.commons.math4.legacy.exception.MathIllegalArgumentException [1065,1135]",
-      "dest": "QualifiedName: org.apache.commons.math4.legacy.exception.MathIllegalArgumentException [1065,1135]"
-    },
-    {
-      "src": "MethodInvocation [7793,7835]",
-      "dest": "MethodInvocation [7771,7813]"
-    },
-    {
-      "src": "TypeLiteral [2850,2884]",
-      "dest": "TypeLiteral [2828,2862]"
-    },
-    {
-      "src": "Modifier: public [5773,5779]",
-      "dest": "Modifier: public [5751,5757]"
-    },
-    {
-      "src": "SimpleName: Assert [8060,8066]",
-      "dest": "SimpleName: Assert [8038,8044]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [7657,7660]",
-      "dest": "NumberLiteral: 1.0 [7635,7638]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [3199,3202]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3177,3180]"
-    },
-    {
-      "src": "SimpleName: result [7245,7251]",
-      "dest": "SimpleName: result [7223,7229]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [3418,3424]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3396,3402]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [3567,3573]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3545,3551]"
-    },
-    {
-      "src": "ArrayType [3034,3042]",
-      "dest": "ArrayType [3012,3020]"
-    },
-    {
-      "src": "ExpressionStatement [4330,4374]",
-      "dest": "ExpressionStatement [4308,4352]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [7764,7767]",
-      "dest": "NumberLiteral: 1.0 [7742,7745]"
-    },
-    {
-      "src": "PrimitiveType: double [6598,6604]",
-      "dest": "PrimitiveType: double [6576,6582]"
-    },
-    {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [1796,1797]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [1784,1785]"
-    },
-    {
-      "src": "NumberLiteral: 1.45 [7939,7943]",
-      "dest": "NumberLiteral: 1.45 [7917,7921]"
-    },
-    {
-      "src": "SimpleName: value [4580,4585]",
-      "dest": "SimpleName: value [4558,4563]"
-    },
-    {
-      "src": "SimpleName: result [7431,7437]",
-      "dest": "SimpleName: result [7409,7415]"
-    },
-    {
-      "src": "ExpressionStatement [5071,5105]",
-      "dest": "ExpressionStatement [5049,5083]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [7411,7417]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7389,7395]"
-    },
-    {
-      "src": "QualifiedName: org.apache.commons.math4.legacy.analysis.solvers [812,860]",
-      "dest": "QualifiedName: org.apache.commons.math4.legacy.analysis.solvers [812,860]"
-    },
-    {
-      "src": "SimpleName: testSolveAccuracyNull [2460,2481]",
-      "dest": "SimpleName: testSolveAccuracyNull [2443,2464]"
-    },
-    {
-      "src": "VariableDeclarationStatement [4053,4075]",
-      "dest": "VariableDeclarationStatement [4031,4053]"
-    },
-    {
-      "src": "NumberLiteral: 0 [7120,7121]",
-      "dest": "NumberLiteral: 0 [7098,7099]"
-    },
-    {
-      "src": "NumberLiteral: 0.55 [7933,7937]",
-      "dest": "NumberLiteral: 0.55 [7911,7915]"
-    },
-    {
-      "src": "InfixExpression [3436,3455]",
-      "dest": "InfixExpression [3414,3433]"
-    },
-    {
-      "src": "MethodInvocation [4102,4171]",
-      "dest": "MethodInvocation [4080,4149]"
-    },
-    {
-      "src": "MethodDeclaration [4881,4978]",
-      "dest": "MethodDeclaration [4859,4956]"
-    },
-    {
-      "src": "NumberLiteral: 1E-6 [7662,7666]",
-      "dest": "NumberLiteral: 1E-6 [7640,7644]"
-    },
-    {
-      "src": "SimpleName: result [7219,7225]",
-      "dest": "SimpleName: result [7197,7203]"
-    },
-    {
-      "src": "QualifiedName: org.apache.commons.math4.legacy.exception.NoBracketingException [1144,1207]",
-      "dest": "QualifiedName: org.apache.commons.math4.legacy.exception.NoBracketingException [1144,1207]"
-    },
-    {
-      "src": "SimpleName: Test [2836,2840]",
-      "dest": "SimpleName: Test [2814,2818]"
-    },
-    {
-      "src": "MethodInvocation [2288,2330]",
-      "dest": "MethodInvocation [2276,2318]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3484,3503]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3462,3481]"
-    },
-    {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [6651,6652]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [6629,6630]"
-    },
-    {
-      "src": "PrimitiveType: void [3254,3258]",
-      "dest": "PrimitiveType: void [3232,3236]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7714,7725]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7692,7703]"
-    },
-    {
-      "src": "SimpleType [6271,6299]",
-      "dest": "SimpleType [6249,6277]"
-    },
-    {
-      "src": "ExpressionStatement [3128,3172]",
-      "dest": "ExpressionStatement [3106,3150]"
-    },
-    {
-      "src": "NumberLiteral: 1 [3872,3873]",
-      "dest": "NumberLiteral: 1 [3850,3851]"
-    },
-    {
-      "src": "SimpleName: NullArgumentException [2415,2436]",
-      "dest": "SimpleName: NullArgumentException [2398,2419]"
-    },
-    {
-      "src": "ArrayAccess [5132,5141]",
-      "dest": "ArrayAccess [5110,5119]"
-    },
-    {
-      "src": "NumberLiteral: 0.1 [7073,7076]",
-      "dest": "NumberLiteral: 0.1 [7051,7054]"
-    },
-    {
-      "src": "NumberLiteral: 1 [3216,3217]",
-      "dest": "NumberLiteral: 1 [3194,3195]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: < [3827,3828]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: < [3805,3806]"
-    },
-    {
-      "src": "MethodInvocation [2930,2972]",
-      "dest": "MethodInvocation [2908,2950]"
-    },
-    {
-      "src": "ASSIGNMENT_OPERATOR: = [7039,7040]",
-      "dest": "ASSIGNMENT_OPERATOR: = [7017,7018]"
-    },
-    {
-      "src": "SimpleName: solve [2717,2722]",
-      "dest": "SimpleName: solve [2700,2705]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3532,3556]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3510,3534]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [3128,3134]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3106,3112]"
-    },
-    {
-      "src": "ArrayAccess [5386,5395]",
-      "dest": "ArrayAccess [5364,5373]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [7468,7489]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7446,7467]"
-    },
-    {
-      "src": "SimpleName: Test [3624,3628]",
-      "dest": "SimpleName: Test [3602,3606]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [5313,5347]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [5291,5325]"
-    },
-    {
-      "src": "VariableDeclarationFragment [4803,5061]",
-      "dest": "VariableDeclarationFragment [4781,5039]"
-    },
-    {
-      "src": "PrimitiveType: double [4084,4090]",
-      "dest": "PrimitiveType: double [4062,4068]"
-    },
-    {
-      "src": "VariableDeclarationStatement [3321,3409]",
-      "dest": "VariableDeclarationStatement [3299,3387]"
-    },
-    {
-      "src": "NumberLiteral: 1 [3602,3603]",
-      "dest": "NumberLiteral: 1 [3580,3581]"
-    },
-    {
-      "src": "NumberLiteral: 0 [6717,6718]",
-      "dest": "NumberLiteral: 0 [6695,6696]"
-    },
-    {
-      "src": "SimpleName: Test [1644,1648]",
-      "dest": "SimpleName: Test [1632,1636]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3865,3884]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3843,3862]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [6239,6242]",
-      "dest": "NumberLiteral: 1.0 [6217,6220]"
-    },
-    {
-      "src": "Block [4465,4732]",
-      "dest": "Block [4443,4710]"
-    },
-    {
-      "src": "Assignment [7459,7510]",
-      "dest": "Assignment [7437,7488]"
-    },
-    {
-      "src": "SimpleName: result [4358,4364]",
-      "dest": "SimpleName: result [4336,4342]"
-    },
-    {
-      "src": "TypeLiteral [5733,5767]",
-      "dest": "TypeLiteral [5711,5745]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [4199,4218]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [4177,4196]"
-    },
-    {
-      "src": "MethodInvocation [8060,8098]",
-      "dest": "MethodInvocation [8038,8076]"
-    },
-    {
-      "src": "SimpleType [4401,4422]",
-      "dest": "SimpleType [4379,4400]"
-    },
-    {
-      "src": "ExpressionStatement [7352,7402]",
-      "dest": "ExpressionStatement [7330,7380]"
-    },
-    {
-      "src": "SimpleName: testBracketSin [3007,3021]",
-      "dest": "SimpleName: testBracketSin [2985,2999]"
-    },
-    {
-      "src": "SimpleName: testBracketLow [3645,3659]",
-      "dest": "SimpleName: testBracketLow [3623,3637]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [7629,7635]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7607,7613]"
-    },
-    {
-      "src": "SimpleName: bracket [3361,3368]",
-      "dest": "SimpleName: bracket [3339,3346]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [1615,1629]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [1603,1617]"
-    },
-    {
-      "src": "ImportDeclaration [1209,1280]",
-      "dest": "ImportDeclaration [1209,1280]"
-    },
-    {
-      "src": "ExpressionStatement [7199,7236]",
-      "dest": "ExpressionStatement [7177,7214]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [3052,3073]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3030,3051]"
-    },
-    {
-      "src": "VariableDeclarationStatement [4794,5062]",
-      "dest": "VariableDeclarationStatement [4772,5040]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [3339,3360]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3317,3338]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [5986,6007]",
-      "dest": "SimpleName: UnivariateSolverUtils [5964,5985]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: >= [6757,6759]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: >= [6735,6737]"
-    },
-    {
-      "src": "VariableDeclarationStatement [6598,6677]",
-      "dest": "VariableDeclarationStatement [6576,6655]"
-    },
-    {
-      "src": "PrimitiveType: void [2455,2459]",
-      "dest": "PrimitiveType: void [2438,2442]"
-    },
-    {
-      "src": "ExpressionStatement [6686,6720]",
-      "dest": "ExpressionStatement [6664,6698]"
-    },
-    {
-      "src": "Block [4784,5154]",
-      "dest": "Block [4762,5132]"
-    },
-    {
-      "src": "PrefixExpression [5853,5857]",
-      "dest": "PrefixExpression [5831,5835]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [5848,5851]",
-      "dest": "NumberLiteral: 1.0 [5826,5829]"
-    },
-    {
-      "src": "SimpleType [6082,6110]",
-      "dest": "SimpleType [6060,6088]"
-    },
-    {
-      "src": "SimpleName: value [4299,4304]",
-      "dest": "SimpleName: value [4277,4282]"
-    },
-    {
-      "src": "NumberLiteral: 2.0 [3384,3387]",
-      "dest": "NumberLiteral: 2.0 [3362,3365]"
-    },
-    {
-      "src": "Modifier: public [2995,3001]",
-      "dest": "Modifier: public [2973,2979]"
-    },
-    {
-      "src": "SimpleName: f [7175,7176]",
-      "dest": "SimpleName: f [7153,7154]"
-    },
-    {
-      "src": "SimpleName: result [7006,7012]",
-      "dest": "SimpleName: result [6984,6990]"
-    },
-    {
-      "src": "MethodInvocation [2340,2387]",
-      "dest": "MethodInvocation [2328,2370]"
-    },
-    {
-      "src": "SimpleName: bracket [3074,3081]",
-      "dest": "SimpleName: bracket [3052,3059]"
-    },
-    {
-      "src": "SimpleName: solve [7815,7820]",
-      "dest": "SimpleName: solve [7793,7798]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [7902,7923]",
-      "dest": "SimpleName: UnivariateSolverUtils [7880,7901]"
-    },
-    {
-      "src": "SimpleName: Assert [3799,3805]",
-      "dest": "SimpleName: Assert [3777,3783]"
-    },
-    {
-      "src": "PrimitiveType: double [4053,4059]",
-      "dest": "PrimitiveType: double [4031,4037]"
-    },
-    {
-      "src": "SimpleName: sin [3585,3588]",
-      "dest": "SimpleName: sin [3563,3566]"
-    },
-    {
-      "src": "NullLiteral [2557,2561]",
-      "dest": "NullLiteral [2540,2544]"
-    },
-    {
-      "src": "Assignment [6926,6976]",
-      "dest": "Assignment [6904,6954]"
-    },
-    {
-      "src": "NumberLiteral: 0 [3989,3990]",
-      "dest": "NumberLiteral: 0 [3967,3968]"
-    },
-    {
-      "src": "MarkerAnnotation [3623,3628]",
-      "dest": "MarkerAnnotation [3601,3606]"
-    },
-    {
-      "src": "SimpleType [5579,5607]",
-      "dest": "SimpleType [5557,5585]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [6045,6048]",
-      "dest": "NumberLiteral: 1.0 [6023,6026]"
-    },
-    {
-      "src": "SimpleName: expected [4392,4400]",
-      "dest": "SimpleName: expected [4370,4378]"
-    },
-    {
-      "src": "MethodInvocation [5503,5551]",
-      "dest": "MethodInvocation [5481,5529]"
-    },
-    {
-      "src": "PrimitiveType: double [2650,2656]",
-      "dest": "PrimitiveType: double [2633,2639]"
-    },
-    {
-      "src": "SimpleName: result [7459,7465]",
-      "dest": "SimpleName: result [7437,7443]"
-    },
-    {
-      "src": "VariableDeclarationStatement [5218,5284]",
-      "dest": "VariableDeclarationStatement [5196,5262]"
-    },
-    {
-      "src": "QualifiedName: org.junit.Test [1379,1393]",
-      "dest": "QualifiedName: org.junit.Test [1367,1381]"
-    },
-    {
-      "src": "SimpleName: value [3970,3975]",
-      "dest": "SimpleName: value [3948,3953]"
-    },
-    {
-      "src": "SimpleName: solve [1780,1785]",
-      "dest": "SimpleName: solve [1768,1773]"
-    },
-    {
-      "src": "ExpressionStatement [1587,1631]",
-      "dest": "ExpressionStatement [1575,1619]"
-    },
-    {
-      "src": "NumberLiteral: 1.0e-6 [2513,2519]",
-      "dest": "NumberLiteral: 1.0e-6 [2496,2502]"
-    },
-    {
-      "src": "NormalAnnotation [5564,5614]",
-      "dest": "NormalAnnotation [5542,5592]"
-    },
-    {
-      "src": "SimpleName: Test [2986,2990]",
-      "dest": "SimpleName: Test [2964,2968]"
-    },
-    {
-      "src": "MethodInvocation [7686,7726]",
-      "dest": "MethodInvocation [7664,7704]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [5688,5704]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [5666,5682]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [4348,4372]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [4326,4350]"
-    },
-    {
-      "src": "SimpleName: result [5132,5138]",
-      "dest": "SimpleName: result [5110,5116]"
-    },
-    {
-      "src": "PrimitiveType: double [5218,5224]",
-      "dest": "PrimitiveType: double [5196,5202]"
-    },
-    {
-      "src": "SimpleName: result [7865,7871]",
-      "dest": "SimpleName: result [7843,7849]"
-    },
-    {
-      "src": "Modifier: public [5462,5468]",
-      "dest": "Modifier: public [5440,5446]"
-    },
-    {
-      "src": "VariableDeclarationFragment [1479,1494]",
-      "dest": "VariableDeclarationFragment [1467,1482]"
-    },
-    {
-      "src": "MethodInvocation [6729,6762]",
-      "dest": "MethodInvocation [6707,6740]"
-    },
-    {
-      "src": "TypeLiteral [5429,5456]",
-      "dest": "TypeLiteral [5407,5434]"
-    },
-    {
-      "src": "NumberLiteral: 0.3 [7078,7081]",
-      "dest": "NumberLiteral: 0.3 [7056,7059]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [8039,8049]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [8017,8027]"
-    },
-    {
-      "src": "InfixExpression [4621,4626]",
-      "dest": "InfixExpression [4599,4604]"
-    },
-    {
-      "src": "PrimitiveType: double [3034,3040]",
-      "dest": "PrimitiveType: double [3012,3018]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [3780,3783]",
-      "dest": "NumberLiteral: 1.0 [3758,3761]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [5048,5051]",
-      "dest": "NumberLiteral: 1.0 [5026,5029]"
-    },
-    {
-      "src": "SimpleName: Assert [5358,5364]",
-      "dest": "SimpleName: Assert [5336,5342]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [4812,4833]",
-      "dest": "SimpleName: UnivariateSolverUtils [4790,4811]"
-    },
-    {
-      "src": "Modifier: public [4903,4909]",
-      "dest": "Modifier: public [4881,4887]"
-    },
-    {
-      "src": "PrimitiveType: double [6872,6878]",
-      "dest": "PrimitiveType: double [6850,6856]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [7468,7489]",
-      "dest": "SimpleName: UnivariateSolverUtils [7446,7467]"
-    },
-    {
-      "src": "PrefixExpression [6966,6970]",
-      "dest": "PrefixExpression [6944,6948]"
-    },
-    {
-      "src": "SimpleName: UnivariateFunction [4509,4527]",
-      "dest": "SimpleName: UnivariateFunction [4487,4505]"
-    },
-    {
-      "src": "MarkerAnnotation [2985,2990]",
-      "dest": "MarkerAnnotation [2963,2968]"
-    },
-    {
-      "src": "SimpleName: result [3330,3336]",
-      "dest": "SimpleName: result [3308,3314]"
-    },
-    {
-      "src": "NumberLiteral: 0 [3549,3550]",
-      "dest": "NumberLiteral: 0 [3527,3528]"
-    },
-    {
-      "src": "NumberLiteral: 1000 [4653,4657]",
-      "dest": "NumberLiteral: 1000 [4631,4635]"
-    },
-    {
-      "src": "NumberLiteral: 0 [3222,3223]",
-      "dest": "NumberLiteral: 0 [3200,3201]"
-    },
-    {
-      "src": "ArrayAccess [6704,6713]",
-      "dest": "ArrayAccess [6682,6691]"
-    },
-    {
-      "src": "SimpleName: testSolveBadAccuracy [1886,1906]",
-      "dest": "SimpleName: testSolveBadAccuracy [1874,1894]"
-    },
-    {
-      "src": "SimpleName: testBracketHigh [4026,4041]",
-      "dest": "SimpleName: testBracketHigh [4004,4019]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [1981,1999]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [1969,1987]"
-    },
-    {
-      "src": "SimpleName: Assert [4330,4336]",
-      "dest": "SimpleName: Assert [4308,4314]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [2695,2716]",
-      "dest": "METHOD_INVOCATION_RECEIVER [2678,2699]"
-    },
-    {
-      "src": "NumberLiteral: 1 [4365,4366]",
-      "dest": "NumberLiteral: 1 [4343,4344]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [8080,8097]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [8058,8075]"
-    },
-    {
-      "src": "SimpleName: Assert [7629,7635]",
-      "dest": "SimpleName: Assert [7607,7613]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [4812,4833]",
-      "dest": "METHOD_INVOCATION_RECEIVER [4790,4811]"
-    },
-    {
-      "src": "ArrayAccess [5328,5337]",
-      "dest": "ArrayAccess [5306,5315]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [5358,5364]",
-      "dest": "METHOD_INVOCATION_RECEIVER [5336,5342]"
-    },
-    {
-      "src": "VariableDeclarationStatement [2495,2520]",
-      "dest": "VariableDeclarationStatement [2478,2503]"
-    },
-    {
-      "src": "MethodInvocation [4330,4373]",
-      "dest": "MethodInvocation [4308,4351]"
-    },
-    {
-      "src": "ExpressionStatement [7954,7993]",
-      "dest": "ExpressionStatement [7932,7971]"
-    },
-    {
-      "src": "NumberLiteral: 2.0 [5854,5857]",
-      "dest": "NumberLiteral: 2.0 [5832,5835]"
-    },
-    {
-      "src": "MethodDeclaration [3237,3617]",
-      "dest": "MethodDeclaration [3215,3595]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [6616,6637]",
-      "dest": "METHOD_INVOCATION_RECEIVER [6594,6615]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [5658,5679]",
-      "dest": "SimpleName: UnivariateSolverUtils [5636,5657]"
-    },
-    {
-      "src": "SimpleName: initial [3877,3884]",
-      "dest": "SimpleName: initial [3855,3862]"
-    },
-    {
-      "src": "SimpleName: sin [6224,6227]",
-      "dest": "SimpleName: sin [6202,6205]"
-    },
-    {
-      "src": "Block [6153,6250]",
-      "dest": "Block [6131,6228]"
-    },
-    {
-      "src": "NumberLiteral: 0 [4371,4372]",
-      "dest": "NumberLiteral: 0 [4349,4350]"
-    },
-    {
-      "src": "NumberLiteral: 0 [3936,3937]",
-      "dest": "NumberLiteral: 0 [3914,3915]"
-    },
-    {
-      "src": "SimpleName: solve [7383,7388]",
-      "dest": "SimpleName: solve [7361,7366]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [1953,1974]",
-      "dest": "SimpleName: UnivariateSolverUtils [1941,1962]"
-    },
-    {
-      "src": "SimpleName: Test [2231,2235]",
-      "dest": "SimpleName: Test [2219,2223]"
-    },
-    {
-      "src": "NumberLiteral: 100 [4167,4170]",
-      "dest": "NumberLiteral: 100 [4145,4148]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [4181,4187]",
-      "dest": "METHOD_INVOCATION_RECEIVER [4159,4165]"
-    },
-    {
-      "src": "SimpleName: solve [2310,2315]",
-      "dest": "SimpleName: solve [2298,2303]"
-    },
-    {
-      "src": "MethodInvocation [6935,6976]",
-      "dest": "MethodInvocation [6913,6954]"
-    },
-    {
-      "src": "SimpleName: assertEquals [7418,7430]",
-      "dest": "SimpleName: assertEquals [7396,7408]"
-    },
-    {
-      "src": "NumberLiteral: 0.05 [7499,7503]",
-      "dest": "NumberLiteral: 0.05 [7477,7481]"
-    },
-    {
-      "src": "NumberLiteral: 1E-6 [8093,8097]",
-      "dest": "NumberLiteral: 1E-6 [8071,8075]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7282,7293]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7260,7271]"
-    },
-    {
-      "src": "SimpleName: testSolveSin [2252,2264]",
-      "dest": "SimpleName: testSolveSin [2240,2252]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [4305,4314]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [4283,4292]"
-    },
-    {
-      "src": "Block [1734,1858]",
-      "dest": "Block [1722,1846]"
-    },
-    {
-      "src": "Modifier: public [2448,2454]",
-      "dest": "Modifier: public [2431,2437]"
-    },
-    {
-      "src": "MethodInvocation [3128,3171]",
-      "dest": "MethodInvocation [3106,3149]"
-    },
-    {
-      "src": "Modifier: public [4014,4020]",
-      "dest": "Modifier: public [3992,3998]"
-    },
-    {
-      "src": "Assignment [7138,7189]",
-      "dest": "Assignment [7116,7167]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7389,7400]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7367,7378]"
-    },
-    {
-      "src": "ImportDeclaration [928,995]",
-      "dest": "ImportDeclaration [928,995]"
-    },
-    {
-      "src": "SimpleName: Assert [5114,5120]",
-      "dest": "SimpleName: Assert [5092,5098]"
-    },
-    {
-      "src": "SimpleName: testBracketCentered [3259,3278]",
-      "dest": "SimpleName: testBracketCentered [3237,3256]"
-    },
-    {
-      "src": "NumberLiteral: 0.1 [3308,3311]",
-      "dest": "NumberLiteral: 0.1 [3286,3289]"
-    },
-    {
-      "src": "SimpleName: expected [5570,5578]",
-      "dest": "SimpleName: expected [5548,5556]"
-    },
-    {
-      "src": "MethodInvocation [6986,7022]",
-      "dest": "MethodInvocation [6964,7000]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: > [4209,4210]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: > [4187,4188]"
-    },
-    {
-      "src": "SimpleName: println [1828,1835]",
-      "dest": "SimpleName: println [1816,1823]"
-    },
-    {
-      "src": "NumberLiteral: 0 [5544,5545]",
-      "dest": "NumberLiteral: 0 [5522,5523]"
-    },
-    {
-      "src": "SimpleName: Assert [3466,3472]",
-      "dest": "SimpleName: Assert [3444,3450]"
-    },
-    {
-      "src": "ExpressionStatement [7677,7727]",
-      "dest": "ExpressionStatement [7655,7705]"
-    },
-    {
-      "src": "MethodInvocation [5293,5348]",
-      "dest": "MethodInvocation [5271,5326]"
-    },
-    {
-      "src": "MethodInvocation [2529,2582]",
-      "dest": "MethodInvocation [2512,2565]"
-    },
-    {
-      "src": "SimpleName: Assert [6729,6735]",
-      "dest": "SimpleName: Assert [6707,6713]"
-    },
-    {
-      "src": "SimpleType [5429,5450]",
-      "dest": "SimpleType [5407,5428]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3082,3117]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3060,3095]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3966,3990]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3944,3968]"
-    },
-    {
-      "src": "SimpleName: sin [2316,2319]",
-      "dest": "SimpleName: sin [2304,2307]"
-    },
-    {
-      "src": "SimpleName: assertTrue [3135,3145]",
-      "dest": "SimpleName: assertTrue [3113,3123]"
-    },
-    {
-      "src": "MethodInvocation [1758,1807]",
-      "dest": "MethodInvocation [1746,1795]"
-    },
-    {
-      "src": "PrefixExpression [1796,1800]",
-      "dest": "PrefixExpression [1784,1788]"
-    },
-    {
-      "src": "ExpressionStatement [7893,7945]",
-      "dest": "ExpressionStatement [7871,7923]"
-    },
-    {
-      "src": "SimpleType [1516,1537]",
-      "dest": "SimpleType [1504,1525]"
-    },
-    {
-      "src": "SimpleName: solve [7276,7281]",
-      "dest": "SimpleName: solve [7254,7259]"
-    },
-    {
-      "src": "PrimitiveType: void [3640,3644]",
-      "dest": "PrimitiveType: void [3618,3622]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [2723,2762]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [2706,2745]"
-    },
-    {
-      "src": "Assignment [7032,7082]",
-      "dest": "Assignment [7010,7060]"
-    },
-    {
-      "src": "PrimitiveType: void [6552,6556]",
-      "dest": "PrimitiveType: void [6530,6534]"
-    },
-    {
-      "src": "InfixExpression [4247,4266]",
-      "dest": "InfixExpression [4225,4244]"
-    },
-    {
-      "src": "MethodDeclaration [5414,5558]",
-      "dest": "MethodDeclaration [5392,5536]"
-    },
-    {
-      "src": "SimpleName: assertTrue [4284,4294]",
-      "dest": "SimpleName: assertTrue [4262,4272]"
-    },
-    {
-      "src": "NumberLiteral: 1.0e-15 [5340,5347]",
-      "dest": "NumberLiteral: 1.0e-15 [5318,5325]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [6963,6975]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [6941,6953]"
-    },
-    {
-      "src": "Block [6350,6451]",
-      "dest": "Block [6328,6429]"
-    },
-    {
-      "src": "SimpleName: bracket [4124,4131]",
-      "dest": "SimpleName: bracket [4102,4109]"
-    },
-    {
-      "src": "MethodInvocation [3146,3166]",
-      "dest": "MethodInvocation [3124,3144]"
-    },
-    {
-      "src": "SimpleName: Assert [3514,3520]",
-      "dest": "SimpleName: Assert [3492,3498]"
-    },
-    {
-      "src": "SimpleName: assertEquals [7743,7755]",
-      "dest": "SimpleName: assertEquals [7721,7733]"
-    },
-    {
-      "src": "MethodInvocation [1953,2000]",
-      "dest": "MethodInvocation [1941,1988]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [3948,3954]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3926,3932]"
-    },
-    {
-      "src": "SimpleName: testBadInitial [5631,5645]",
-      "dest": "SimpleName: testBadInitial [5609,5623]"
-    },
-    {
-      "src": "ArrayAccess [4247,4256]",
-      "dest": "ArrayAccess [4225,4234]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [5328,5337]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [5306,5315]"
-    },
-    {
-      "src": "QualifiedName: Double.NEGATIVE_INFINITY [4996,5020]",
-      "dest": "QualifiedName: Double.NEGATIVE_INFINITY [4974,4998]"
-    },
-    {
-      "src": "MethodInvocation [7147,7189]",
-      "dest": "MethodInvocation [7125,7167]"
-    },
-    {
-      "src": "Javadoc [6457,6530]",
-      "dest": "Javadoc [6435,6508]"
-    },
-    {
-      "src": "ArrayAccess [3156,3165]",
-      "dest": "ArrayAccess [3134,3143]"
-    },
-    {
-      "src": "NumberLiteral: 2.0 [3765,3768]",
-      "dest": "NumberLiteral: 2.0 [3743,3746]"
-    },
-    {
-      "src": "MethodDeclaration [1501,1637]",
-      "dest": "MethodDeclaration [1489,1625]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [7736,7742]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7714,7720]"
-    },
-    {
-      "src": "VariableDeclarationFragment [5227,5283]",
-      "dest": "VariableDeclarationFragment [5205,5261]"
-    },
-    {
-      "src": "ExpressionStatement [5293,5349]",
-      "dest": "ExpressionStatement [5271,5327]"
-    },
-    {
-      "src": "PrimitiveType: void [6318,6322]",
-      "dest": "PrimitiveType: void [6296,6300]"
-    },
-    {
-      "src": "MarkerAnnotation [4881,4890]",
-      "dest": "MarkerAnnotation [4859,4868]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: > [3220,3221]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: > [3198,3199]"
-    },
-    {
-      "src": "ClassInstanceCreation [6841,6862]",
-      "dest": "ClassInstanceCreation [6819,6840]"
-    },
-    {
-      "src": "NumberLiteral: 2.0 [5547,5550]",
-      "dest": "NumberLiteral: 2.0 [5525,5528]"
-    },
-    {
-      "src": "SimpleName: Assert [7411,7417]",
-      "dest": "SimpleName: Assert [7389,7395]"
-    },
-    {
-      "src": "PrefixExpression [6657,6659]",
-      "dest": "PrefixExpression [6635,6637]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [2958,2971]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [2936,2949]"
-    },
-    {
-      "src": "ExpressionStatement [3466,3505]",
-      "dest": "ExpressionStatement [3444,3483]"
-    },
-    {
-      "src": "NumberLiteral: 0.9 [6652,6655]",
-      "dest": "NumberLiteral: 0.9 [6630,6633]"
-    },
-    {
-      "src": "MethodInvocation [4277,4320]",
-      "dest": "MethodInvocation [4255,4298]"
-    },
-    {
-      "src": "MethodInvocation [7254,7294]",
-      "dest": "MethodInvocation [7232,7272]"
-    },
-    {
-      "src": "SimpleName: Assert [4277,4283]",
-      "dest": "SimpleName: Assert [4255,4261]"
-    },
-    {
-      "src": "NumberLiteral: 0.5 [4071,4074]",
-      "dest": "NumberLiteral: 0.5 [4049,4052]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [4711,4714]",
-      "dest": "NumberLiteral: 1.0 [4689,4692]"
-    },
-    {
-      "src": "SimpleName: assertTrue [3955,3965]",
-      "dest": "SimpleName: assertTrue [3933,3943]"
-    },
-    {
-      "src": "Modifier: public [1549,1555]",
-      "dest": "Modifier: public [1537,1543]"
-    },
-    {
-      "src": "SimpleName: f [7821,7822]",
-      "dest": "SimpleName: f [7799,7800]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [4162,4165]",
-      "dest": "NumberLiteral: 1.0 [4140,4143]"
-    },
-    {
-      "src": "PrefixExpression [7178,7182]",
-      "dest": "PrefixExpression [7156,7160]"
-    },
-    {
-      "src": "MethodInvocation [4181,4219]",
-      "dest": "MethodInvocation [4159,4197]"
-    },
-    {
-      "src": "PrimitiveType: double [2277,2283]",
-      "dest": "PrimitiveType: double [2265,2271]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: - [4960,4961]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: - [4938,4939]"
-    },
-    {
-      "src": "ExpressionStatement [6729,6763]",
-      "dest": "ExpressionStatement [6707,6741]"
-    },
-    {
-      "src": "SimpleName: accuracy [2657,2665]",
-      "dest": "SimpleName: accuracy [2640,2648]"
-    },
-    {
-      "src": "ASSIGNMENT_OPERATOR: = [6933,6934]",
-      "dest": "ASSIGNMENT_OPERATOR: = [6911,6912]"
-    },
-    {
-      "src": "MethodDeclaration [1643,1858]",
-      "dest": "MethodDeclaration [1631,1846]"
-    },
-    {
-      "src": "InfixExpression [3532,3556]",
-      "dest": "InfixExpression [3510,3534]"
-    },
-    {
-      "src": "NumberLiteral: 0 [5096,5097]",
-      "dest": "NumberLiteral: 0 [5074,5075]"
-    },
-    {
-      "src": "NumberLiteral: 1E-6 [7553,7557]",
-      "dest": "NumberLiteral: 1E-6 [7531,7535]"
-    },
-    {
-      "src": "Modifier: public [6785,6791]",
-      "dest": "Modifier: public [6763,6769]"
-    },
-    {
-      "src": "PrimitiveType: void [4755,4759]",
-      "dest": "PrimitiveType: void [4733,4737]"
-    },
-    {
-      "src": "PrimitiveType: void [6129,6133]",
-      "dest": "PrimitiveType: void [6107,6111]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [5658,5679]",
-      "dest": "METHOD_INVOCATION_RECEIVER [5636,5657]"
-    },
-    {
-      "src": "AnonymousClassDeclaration [4867,4988]",
-      "dest": "AnonymousClassDeclaration [4845,4966]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3156,3165]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3134,3143]"
-    },
-    {
-      "src": "Assignment [7568,7619]",
-      "dest": "Assignment [7546,7597]"
-    },
-    {
-      "src": "VariableDeclarationStatement [3034,3119]",
-      "dest": "VariableDeclarationStatement [3012,3097]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [7577,7598]",
-      "dest": "SimpleName: UnivariateSolverUtils [7555,7576]"
-    },
-    {
-      "src": "InfixExpression [3817,3836]",
-      "dest": "InfixExpression [3795,3814]"
-    },
-    {
-      "src": "MethodInvocation [4295,4315]",
-      "dest": "MethodInvocation [4273,4293]"
-    },
-    {
-      "src": "MarkerAnnotation [6775,6780]",
-      "dest": "MarkerAnnotation [6753,6758]"
-    },
-    {
-      "src": "SimpleName: Test [5415,5419]",
-      "dest": "SimpleName: Test [5393,5397]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [2288,2309]",
-      "dest": "METHOD_INVOCATION_RECEIVER [2276,2297]"
-    },
-    {
-      "src": "SimpleType [4846,4864]",
-      "dest": "SimpleType [4824,4842]"
-    },
-    {
-      "src": "SimpleName: assertTrue [6736,6746]",
-      "dest": "SimpleName: assertTrue [6714,6724]"
-    },
-    {
-      "src": "NormalAnnotation [2835,2885]",
-      "dest": "NormalAnnotation [2813,2863]"
-    },
-    {
-      "src": "MethodInvocation [3418,3456]",
-      "dest": "MethodInvocation [3396,3434]"
-    },
-    {
-      "src": "NumberLiteral: 2.0 [3109,3112]",
-      "dest": "NumberLiteral: 2.0 [3087,3090]"
-    },
-    {
-      "src": "MethodInvocation [3847,3885]",
-      "dest": "MethodInvocation [3825,3863]"
-    },
-    {
-      "src": "SimpleType [1658,1686]",
-      "dest": "SimpleType [1646,1674]"
-    },
-    {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [6657,6658]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [6635,6636]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: + [1844,1845]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: + [1832,1833]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [6194,6215]",
-      "dest": "SimpleName: UnivariateSolverUtils [6172,6193]"
-    },
-    {
-      "src": "MemberValuePair [2841,2884]",
-      "dest": "MemberValuePair [2819,2862]"
-    },
-    {
-      "src": "SimpleName: Test [4739,4743]",
-      "dest": "SimpleName: Test [4717,4721]"
-    },
-    {
-      "src": "ArrayAccess [3923,3932]",
-      "dest": "ArrayAccess [3901,3910]"
-    },
-    {
-      "src": "SimpleName: solve [7708,7713]",
-      "dest": "SimpleName: solve [7686,7691]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [3181,3187]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3159,3165]"
-    },
-    {
-      "src": "SimpleName: f [7714,7715]",
-      "dest": "SimpleName: f [7692,7693]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7974,7991]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7952,7969]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [6424,6443]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [6402,6421]"
-    },
-    {
-      "src": "MarkerAnnotation [4544,4553]",
-      "dest": "MarkerAnnotation [4522,4531]"
-    },
-    {
-      "src": "NumberLiteral: 1.0e-6 [2668,2674]",
-      "dest": "NumberLiteral: 1.0e-6 [2651,2657]"
-    },
-    {
-      "src": "ArrayType [4084,4092]",
-      "dest": "ArrayType [4062,4070]"
-    },
-    {
-      "src": "QualifiedName: Double.POSITIVE_INFINITY [4685,4709]",
-      "dest": "QualifiedName: Double.POSITIVE_INFINITY [4663,4687]"
-    },
-    {
-      "src": "PrimitiveType: void [1705,1709]",
-      "dest": "PrimitiveType: void [1693,1697]"
-    },
-    {
-      "src": "NumberLiteral: 4.0 [2568,2571]",
-      "dest": "NumberLiteral: 4.0 [2551,2554]"
-    },
-    {
-      "src": "ImportDeclaration [863,927]",
-      "dest": "ImportDeclaration [863,927]"
-    },
-    {
-      "src": "SimpleName: result [8002,8008]",
-      "dest": "SimpleName: result [7980,7986]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: < [4316,4317]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: < [4294,4295]"
-    },
-    {
-      "src": "SimpleName: testBracketExponential [4760,4782]",
-      "dest": "SimpleName: testBracketExponential [4738,4760]"
-    },
-    {
-      "src": "NumberLiteral: 1 [4254,4255]",
-      "dest": "NumberLiteral: 1 [4232,4233]"
-    },
-    {
-      "src": "SimpleName: accuracy [2813,2821]",
-      "dest": "SimpleName: accuracy [2791,2799]"
-    },
-    {
-      "src": "ExpressionStatement [3514,3558]",
-      "dest": "ExpressionStatement [3492,3536]"
-    },
-    {
-      "src": "TYPE_DECLARATION_KIND: class [1411,1416]",
-      "dest": "TYPE_DECLARATION_KIND: class [1399,1404]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [4330,4336]",
-      "dest": "METHOD_INVOCATION_RECEIVER [4308,4314]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3146,3170]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3124,3148]"
-    },
-    {
-      "src": "MemberValuePair [5898,5934]",
-      "dest": "MemberValuePair [5876,5912]"
-    },
-    {
-      "src": "VariableDeclarationFragment [2284,2330]",
-      "dest": "VariableDeclarationFragment [2272,2318]"
-    },
-    {
-      "src": "NumberLiteral: 0.6 [7397,7400]",
-      "dest": "NumberLiteral: 0.6 [7375,7378]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [7577,7598]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7555,7576]"
-    },
-    {
-      "src": "MethodInvocation [4812,5061]",
-      "dest": "MethodInvocation [4790,5039]"
-    },
-    {
-      "src": "NumberLiteral: 1 [5102,5103]",
-      "dest": "NumberLiteral: 1 [5080,5081]"
-    },
-    {
-      "src": "NormalAnnotation [4386,4429]",
-      "dest": "NormalAnnotation [4364,4407]"
-    },
-    {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [6026,6027]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [6004,6005]"
-    },
-    {
-      "src": "SimpleName: sin [3913,3916]",
-      "dest": "SimpleName: sin [3891,3894]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [8011,8032]",
-      "dest": "SimpleName: UnivariateSolverUtils [7989,8010]"
-    },
-    {
-      "src": "NumberLiteral: 0.3 [7285,7288]",
-      "dest": "NumberLiteral: 0.3 [7263,7266]"
-    },
-    {
-      "src": "SimpleName: result [4093,4099]",
-      "dest": "SimpleName: result [4071,4077]"
-    },
-    {
-      "src": "SimpleName: result [5227,5233]",
-      "dest": "SimpleName: result [5205,5211]"
-    },
-    {
-      "src": "ImportDeclaration [1281,1346]",
-      "dest": "ImportDeclaration [1281,1334]"
-    },
-    {
-      "src": "ExpressionStatement [7092,7129]",
-      "dest": "ExpressionStatement [7070,7107]"
-    },
-    {
-      "src": "SimpleName: f [7605,7606]",
-      "dest": "SimpleName: f [7583,7584]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: < [3875,3876]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: < [3853,3854]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [6224,6242]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [6202,6220]"
-    },
-    {
-      "src": "SimpleName: result [7568,7574]",
-      "dest": "SimpleName: result [7546,7552]"
-    },
-    {
-      "src": "SimpleName: f [6963,6964]",
-      "dest": "SimpleName: f [6941,6942]"
-    },
-    {
-      "src": "SimpleName: testBracketLinear [4446,4463]",
-      "dest": "SimpleName: testBracketLinear [4424,4441]"
-    },
-    {
-      "src": "SimpleName: Test [5719,5723]",
-      "dest": "SimpleName: Test [5697,5701]"
-    },
-    {
-      "src": "Modifier: public [2605,2611]",
-      "dest": "Modifier: public [2588,2594]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [6729,6735]",
-      "dest": "METHOD_INVOCATION_RECEIVER [6707,6713]"
-    },
-    {
-      "src": "SimpleName: initial [3298,3305]",
-      "dest": "SimpleName: initial [3276,3283]"
-    },
-    {
-      "src": "SimpleName: MathIllegalArgumentException [5579,5607]",
-      "dest": "SimpleName: MathIllegalArgumentException [5557,5585]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [2288,2309]",
-      "dest": "SimpleName: UnivariateSolverUtils [2276,2297]"
-    },
-    {
-      "src": "Modifier: public [2890,2896]",
-      "dest": "Modifier: public [2868,2874]"
-    },
-    {
-      "src": "NumberLiteral: 0 [5335,5336]",
-      "dest": "NumberLiteral: 0 [5313,5314]"
-    },
-    {
-      "src": "SimpleName: bracket [5258,5265]",
-      "dest": "SimpleName: bracket [5236,5243]"
-    },
-    {
-      "src": "SimpleType [6845,6860]",
-      "dest": "SimpleType [6823,6838]"
-    },
-    {
-      "src": "ExpressionStatement [3418,3457]",
-      "dest": "ExpressionStatement [3396,3435]"
-    },
-    {
-      "src": "NumberLiteral: 4.0 [1626,1629]",
-      "dest": "NumberLiteral: 4.0 [1614,1617]"
-    },
-    {
-      "src": "VariableDeclarationStatement [3291,3312]",
-      "dest": "VariableDeclarationStatement [3269,3290]"
-    },
-    {
-      "src": "MethodDeclaration [2400,2589]",
-      "dest": "MethodDeclaration [2383,2572]"
-    },
-    {
-      "src": "MethodInvocation [5658,5705]",
-      "dest": "MethodInvocation [5636,5683]"
-    },
-    {
-      "src": "SimpleName: Assert [3847,3853]",
-      "dest": "SimpleName: Assert [3825,3831]"
-    },
-    {
-      "src": "MethodInvocation [7304,7342]",
-      "dest": "MethodInvocation [7282,7320]"
-    },
-    {
-      "src": "SimpleName: assertEquals [8067,8079]",
-      "dest": "SimpleName: assertEquals [8045,8057]"
-    },
-    {
-      "src": "NormalAnnotation [6256,6306]",
-      "dest": "NormalAnnotation [6234,6284]"
-    },
-    {
-      "src": "Modifier: public [4566,4572]",
-      "dest": "Modifier: public [4544,4550]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [2930,2951]",
-      "dest": "SimpleName: UnivariateSolverUtils [2908,2929]"
-    },
-    {
-      "src": "ReturnStatement [4951,4964]",
-      "dest": "ReturnStatement [4929,4942]"
-    },
-    {
-      "src": "Block [2183,2218]",
-      "dest": "Block [2171,2206]"
-    },
-    {
-      "src": "ArrayType [5218,5226]",
-      "dest": "ArrayType [5196,5204]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [4716,4719]",
-      "dest": "NumberLiteral: 1.0 [4694,4697]"
-    },
-    {
-      "src": "SimpleName: Assert [2340,2346]",
-      "dest": "SimpleName: Assert [2328,2334]"
-    },
-    {
-      "src": "SimpleName: Test [4387,4391]",
-      "dest": "SimpleName: Test [4365,4369]"
-    },
-    {
-      "src": "MethodInvocation [7577,7619]",
-      "dest": "MethodInvocation [7555,7597]"
-    },
-    {
-      "src": "SimpleType [4509,4527]",
-      "dest": "SimpleType [4487,4505]"
-    },
-    {
-      "src": "SimpleName: x [2810,2811]",
-      "dest": "SimpleName: x [2788,2789]"
-    },
-    {
-      "src": "SimpleName: bracket [3742,3749]",
-      "dest": "SimpleName: bracket [3720,3727]"
-    },
-    {
-      "src": "ASSIGNMENT_OPERATOR: = [7466,7467]",
-      "dest": "ASSIGNMENT_OPERATOR: = [7444,7445]"
-    },
-    {
-      "src": "MemberValuePair [1507,1543]",
-      "dest": "MemberValuePair [1495,1531]"
-    },
-    {
-      "src": "MethodInvocation [7736,7774]",
-      "dest": "MethodInvocation [7714,7752]"
-    },
-    {
-      "src": "NumberLiteral: 0 [6434,6435]",
-      "dest": "NumberLiteral: 0 [6412,6413]"
-    },
-    {
-      "src": "Block [1577,1637]",
-      "dest": "Block [1565,1625]"
-    },
-    {
-      "src": "NumberLiteral: 1E-6 [7337,7341]",
-      "dest": "NumberLiteral: 1E-6 [7315,7319]"
-    },
-    {
-      "src": "Modifier: public [3633,3639]",
-      "dest": "Modifier: public [3611,3617]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [1587,1608]",
-      "dest": "SimpleName: UnivariateSolverUtils [1575,1596]"
-    },
-    {
-      "src": "SimpleName: solve [1609,1614]",
-      "dest": "SimpleName: solve [1597,1602]"
-    },
-    {
-      "src": "PrimitiveType: double [1744,1750]",
-      "dest": "PrimitiveType: double [1732,1738]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [5236,5257]",
-      "dest": "METHOD_INVOCATION_RECEIVER [5214,5235]"
-    },
-    {
-      "src": "NumberLiteral: 4.0 [1791,1794]",
-      "dest": "NumberLiteral: 4.0 [1779,1782]"
-    },
-    {
-      "src": "SimpleName: bracket [6638,6645]",
-      "dest": "SimpleName: bracket [6616,6623]"
-    },
-    {
-      "src": "Modifier: protected [1450,1459]",
-      "dest": "Modifier: protected [1438,1447]"
-    },
-    {
-      "src": "SimpleType [2415,2436]",
-      "dest": "SimpleType [2398,2419]"
-    },
-    {
-      "src": "SimpleName: Assert [3895,3901]",
-      "dest": "SimpleName: Assert [3873,3879]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [7092,7098]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7070,7076]"
-    },
-    {
-      "src": "NumberLiteral: 100 [4721,4724]",
-      "dest": "NumberLiteral: 100 [4699,4702]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [7199,7205]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7177,7183]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [3466,3472]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3444,3450]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [7254,7275]",
-      "dest": "SimpleName: UnivariateSolverUtils [7232,7253]"
-    },
-    {
-      "src": "NumberLiteral: 0.1 [6664,6667]",
-      "dest": "NumberLiteral: 0.1 [6642,6645]"
-    },
-    {
-      "src": "SimpleName: value [3150,3155]",
-      "dest": "SimpleName: value [3128,3133]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7112,7127]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7090,7105]"
-    },
-    {
-      "src": "SimpleName: Assert [7736,7742]",
-      "dest": "SimpleName: Assert [7714,7720]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [2321,2324]",
-      "dest": "NumberLiteral: 1.0 [2309,2312]"
-    },
-    {
-      "src": "NumberLiteral: 1 [5393,5394]",
-      "dest": "NumberLiteral: 1 [5371,5372]"
-    },
-    {
-      "src": "SimpleName: assertTrue [3806,3816]",
-      "dest": "SimpleName: assertTrue [3784,3794]"
-    },
-    {
-      "src": "NumberLiteral: 1E-8 [7123,7127]",
-      "dest": "NumberLiteral: 1E-8 [7101,7105]"
-    },
-    {
-      "src": "MethodInvocation [7520,7558]",
-      "dest": "MethodInvocation [7498,7536]"
-    },
-    {
-      "src": "SimpleName: result [7784,7790]",
-      "dest": "SimpleName: result [7762,7768]"
-    },
-    {
-      "src": "PrimitiveType: void [5177,5181]",
-      "dest": "PrimitiveType: void [5155,5159]"
-    },
-    {
-      "src": "SimpleName: value [3536,3541]",
-      "dest": "SimpleName: value [3514,3519]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [5503,5524]",
-      "dest": "METHOD_INVOCATION_RECEIVER [5481,5502]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: < [3553,3554]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: < [3531,3532]"
-    },
-    {
-      "src": "SimpleName: assertTrue [3854,3864]",
-      "dest": "SimpleName: assertTrue [3832,3842]"
-    },
-    {
-      "src": "MethodInvocation [3966,3986]",
-      "dest": "MethodInvocation [3944,3964]"
-    },
-    {
-      "src": "MemberValuePair [4392,4428]",
-      "dest": "MemberValuePair [4370,4406]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7431,7448]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7409,7426]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [5503,5524]",
-      "dest": "SimpleName: UnivariateSolverUtils [5481,5502]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7865,7882]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7843,7860]"
-    },
-    {
-      "src": "QualifiedName: org.junit.Assert [1354,1370]",
-      "dest": "QualifiedName: org.junit.Assert [1342,1358]"
-    },
-    {
-      "src": "ExpressionStatement [4277,4321]",
-      "dest": "ExpressionStatement [4255,4299]"
-    },
-    {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [5853,5854]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [5831,5832]"
-    },
-    {
-      "src": "SimpleName: result [7974,7980]",
-      "dest": "SimpleName: result [7952,7958]"
-    },
-    {
-      "src": "SimpleName: value [4352,4357]",
-      "dest": "SimpleName: value [4330,4335]"
-    },
-    {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [3764,3765]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [3742,3743]"
-    },
-    {
-      "src": "VariableDeclarationStatement [3702,3790]",
-      "dest": "VariableDeclarationStatement [3680,3768]"
-    },
-    {
-      "src": "VariableDeclarationFragment [2657,2674]",
-      "dest": "VariableDeclarationFragment [2640,2657]"
-    },
-    {
-      "src": "MarkerAnnotation [5160,5165]",
-      "dest": "MarkerAnnotation [5138,5143]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [2695,2716]",
-      "dest": "SimpleName: UnivariateSolverUtils [2678,2699]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [4102,4123]",
-      "dest": "SimpleName: UnivariateSolverUtils [4080,4101]"
-    },
-    {
-      "src": "NumberLiteral: 0.85 [8042,8046]",
-      "dest": "NumberLiteral: 0.85 [8020,8024]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [4475,4496]",
-      "dest": "SimpleName: UnivariateSolverUtils [4453,4474]"
-    },
-    {
-      "src": "NumberLiteral: 0 [7014,7015]",
-      "dest": "NumberLiteral: 0 [6992,6993]"
-    },
-    {
-      "src": "SimpleName: MathIllegalArgumentException [1658,1686]",
-      "dest": "SimpleName: MathIllegalArgumentException [1646,1674]"
-    },
-    {
-      "src": "ExpressionStatement [7304,7343]",
-      "dest": "ExpressionStatement [7282,7321]"
-    },
-    {
-      "src": "Modifier: public [6545,6551]",
-      "dest": "Modifier: public [6523,6529]"
-    },
-    {
-      "src": "NumberLiteral: 2.5 [5693,5696]",
-      "dest": "NumberLiteral: 2.5 [5671,5674]"
-    },
-    {
-      "src": "SimpleName: expected [5420,5428]",
-      "dest": "SimpleName: expected [5398,5406]"
-    },
-    {
-      "src": "ArrayAccess [3542,3551]",
-      "dest": "ArrayAccess [3520,3529]"
-    },
-    {
-      "src": "SimpleName: testBadEndpoints [6134,6150]",
-      "dest": "SimpleName: testBadEndpoints [6112,6128]"
-    },
-    {
-      "src": "NumberLiteral: 1E-6 [7878,7882]",
-      "dest": "NumberLiteral: 1E-6 [7856,7860]"
-    },
-    {
-      "src": "ArrayAccess [4358,4367]",
-      "dest": "ArrayAccess [4336,4345]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7540,7557]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7518,7535]"
-    },
-    {
-      "src": "NumberLiteral: 2.0 [3770,3773]",
-      "dest": "NumberLiteral: 2.0 [3748,3751]"
-    },
-    {
-      "src": "NullLiteral [1615,1619]",
-      "dest": "NullLiteral [1603,1607]"
-    },
-    {
-      "src": "MethodInvocation [5318,5338]",
-      "dest": "MethodInvocation [5296,5316]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7006,7021]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [6984,6999]"
-    },
-    {
-      "src": "SimpleName: value [3203,3208]",
-      "dest": "SimpleName: value [3181,3186]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [1758,1779]",
-      "dest": "SimpleName: UnivariateSolverUtils [1746,1767]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: > [3494,3495]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: > [3472,3473]"
-    },
-    {
-      "src": "ExpressionStatement [2773,2823]",
-      "dest": "ExpressionStatement [2756,2801]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [2529,2550]",
-      "dest": "SimpleName: UnivariateSolverUtils [2512,2533]"
-    },
-    {
-      "src": "Block [1923,2142]",
-      "dest": "Block [1911,2130]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [7219,7234]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [7197,7212]"
-    },
-    {
-      "src": "SimpleName: result [3209,3215]",
-      "dest": "SimpleName: result [3187,3193]"
-    },
-    {
-      "src": "NumberLiteral: 0 [3443,3444]",
-      "dest": "NumberLiteral: 0 [3421,3422]"
-    },
-    {
-      "src": "PrefixExpression [4146,4150]",
-      "dest": "PrefixExpression [4124,4128]"
-    },
-    {
-      "src": "Modifier: public [5619,5625]",
-      "dest": "Modifier: public [5597,5603]"
-    },
-    {
-      "src": "InfixExpression [4348,4372]",
-      "dest": "InfixExpression [4326,4350]"
-    },
-    {
-      "src": "SimpleName: initial [4137,4144]",
-      "dest": "SimpleName: initial [4115,4122]"
-    },
-    {
-      "src": "MethodInvocation [7902,7944]",
-      "dest": "MethodInvocation [7880,7922]"
-    },
-    {
-      "src": "QualifiedName: org.apache.commons.math4.legacy.analysis.function.Sin [1003,1056]",
-      "dest": "QualifiedName: org.apache.commons.math4.legacy.analysis.function.Sin [1003,1056]"
-    },
-    {
-      "src": "MethodInvocation [7041,7082]",
-      "dest": "MethodInvocation [7019,7060]"
-    },
-    {
-      "src": "MemberValuePair [5420,5456]",
-      "dest": "MemberValuePair [5398,5434]"
-    },
-    {
-      "src": "VariableDeclarationFragment [6879,6885]",
-      "dest": "VariableDeclarationFragment [6857,6863]"
-    },
-    {
-      "src": "ClassInstanceCreation [4505,4651]",
-      "dest": "ClassInstanceCreation [4483,4629]"
-    },
-    {
-      "src": "MethodDeclaration [5718,5886]",
-      "dest": "MethodDeclaration [5696,5864]"
-    },
-    {
-      "src": "MemberValuePair [1649,1692]",
-      "dest": "MemberValuePair [1637,1680]"
-    },
-    {
-      "src": "ExpressionStatement [7845,7884]",
-      "dest": "ExpressionStatement [7823,7862]"
-    },
-    {
-      "src": "NumberLiteral: 0.0 [2563,2566]",
-      "dest": "NumberLiteral: 0.0 [2546,2549]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [2773,2779]",
-      "dest": "METHOD_INVOCATION_RECEIVER [2756,2762]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [4295,4298]",
-      "dest": "METHOD_INVOCATION_RECEIVER [4273,4276]"
-    },
-    {
-      "src": "Assignment [7893,7944]",
-      "dest": "Assignment [7871,7922]"
-    },
-    {
-      "src": "QualifiedName: Double.NEGATIVE_INFINITY [4659,4683]",
-      "dest": "QualifiedName: Double.NEGATIVE_INFINITY [4637,4661]"
-    },
-    {
-      "src": "SimpleName: result [7540,7546]",
-      "dest": "SimpleName: result [7518,7524]"
-    },
-    {
-      "src": "SimpleName: value [5380,5385]",
-      "dest": "SimpleName: value [5358,5363]"
-    },
-    {
-      "src": "SimpleName: Assert [5293,5299]",
-      "dest": "SimpleName: Assert [5271,5277]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [5533,5550]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [5511,5528]"
-    },
-    {
-      "src": "SimpleName: x [2284,2285]",
-      "dest": "SimpleName: x [2272,2273]"
-    },
-    {
-      "src": "SimpleName: sin [3750,3753]",
-      "dest": "SimpleName: sin [3728,3731]"
-    },
-    {
-      "src": "NumberLiteral: 2.0 [5701,5704]",
-      "dest": "NumberLiteral: 2.0 [5679,5682]"
-    },
-    {
-      "src": "SimpleName: Assert [3567,3573]",
-      "dest": "SimpleName: Assert [3545,3551]"
-    },
-    {
-      "src": "ExpressionStatement [7032,7083]",
-      "dest": "ExpressionStatement [7010,7061]"
-    },
-    {
-      "src": "ExpressionStatement [7138,7190]",
-      "dest": "ExpressionStatement [7116,7168]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [7147,7168]",
-      "dest": "SimpleName: UnivariateSolverUtils [7125,7146]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [5318,5321]",
-      "dest": "METHOD_INVOCATION_RECEIVER [5296,5299]"
-    },
-    {
-      "src": "SimpleName: Assert [7520,7526]",
-      "dest": "SimpleName: Assert [7498,7504]"
-    },
-    {
-      "src": "SimpleName: expected [2406,2414]",
-      "dest": "SimpleName: expected [2389,2397]"
-    },
-    {
-      "src": "SimpleName: initial [3829,3836]",
-      "dest": "SimpleName: initial [3807,3814]"
-    },
-    {
-      "src": "NumberLiteral: 1.0 [7873,7876]",
-      "dest": "NumberLiteral: 1.0 [7851,7854]"
-    },
-    {
-      "src": "ASSIGNMENT_OPERATOR: = [7900,7901]",
-      "dest": "ASSIGNMENT_OPERATOR: = [7878,7879]"
-    },
-    {
-      "src": "SimpleName: result [7756,7762]",
-      "dest": "SimpleName: result [7734,7740]"
-    },
-    {
-      "src": "SimpleName: Override [4545,4553]",
-      "dest": "SimpleName: Override [4523,4531]"
-    },
-    {
-      "src": "Block [3662,3998]",
-      "dest": "Block [3640,3976]"
-    },
-    {
-      "src": "SimpleName: sin [1786,1789]",
-      "dest": "SimpleName: sin [1774,1777]"
-    },
-    {
-      "src": "NumberLiteral: 1.75 [7830,7834]",
-      "dest": "NumberLiteral: 1.75 [7808,7812]"
-    },
-    {
-      "src": "VariableDeclarationFragment [3679,3692]",
-      "dest": "VariableDeclarationFragment [3657,3670]"
-    },
-    {
-      "src": "ExpressionStatement [6986,7023]",
-      "dest": "ExpressionStatement [6964,7001]"
-    },
-    {
-      "src": "SimpleName: initial [4259,4266]",
-      "dest": "SimpleName: initial [4237,4244]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [3514,3520]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3492,3498]"
-    },
-    {
-      "src": "SimpleName: assertTrue [4236,4246]",
-      "dest": "SimpleName: assertTrue [4214,4224]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [7041,7062]",
-      "dest": "SimpleName: UnivariateSolverUtils [7019,7040]"
-    },
-    {
-      "src": "PrimitiveType: double [3321,3327]",
-      "dest": "PrimitiveType: double [3299,3305]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3199,3223]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3177,3201]"
-    },
-    {
-      "src": "MethodInvocation [5376,5396]",
-      "dest": "MethodInvocation [5354,5374]"
-    },
-    {
-      "src": "MarkerAnnotation [3237,3242]",
-      "dest": "MarkerAnnotation [3215,3220]"
-    },
-    {
-      "src": "ArrayAccess [3595,3604]",
-      "dest": "ArrayAccess [3573,3582]"
-    },
-    {
-      "src": "PrimitiveType: void [2897,2901]",
-      "dest": "PrimitiveType: void [2875,2879]"
-    },
-    {
-      "src": "PrimitiveType: void [6792,6796]",
-      "dest": "PrimitiveType: void [6770,6774]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [7954,7960]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7932,7938]"
-    },
-    {
-      "src": "NumberLiteral: 1.2 [7722,7725]",
-      "dest": "NumberLiteral: 1.2 [7700,7703]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3923,3932]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3901,3910]"
-    },
-    {
-      "src": "ArrayAccess [5089,5098]",
-      "dest": "ArrayAccess [5067,5076]"
-    },
-    {
-      "src": "SimpleName: MathIllegalArgumentException [5733,5761]",
-      "dest": "SimpleName: MathIllegalArgumentException [5711,5739]"
-    },
-    {
-      "src": "ExpressionStatement [5658,5706]",
-      "dest": "ExpressionStatement [5636,5684]"
-    },
-    {
-      "src": "ArrayAccess [4199,4208]",
-      "dest": "ArrayAccess [4177,4186]"
-    },
-    {
-      "src": "MethodInvocation [3466,3504]",
-      "dest": "MethodInvocation [3444,3482]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [3966,3969]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3944,3947]"
-    },
-    {
-      "src": "SimpleName: testIterationExceeded [5952,5973]",
-      "dest": "SimpleName: testIterationExceeded [5930,5951]"
-    },
-    {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [4070,4071]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [4048,4049]"
-    },
-    {
-      "src": "NumberLiteral: 0 [3824,3825]",
-      "dest": "NumberLiteral: 0 [3802,3803]"
-    },
-    {
-      "src": "NumberLiteral: 1.5 [6429,6432]",
-      "dest": "NumberLiteral: 1.5 [6407,6410]"
-    },
-    {
-      "src": "MethodInvocation [8011,8050]",
-      "dest": "MethodInvocation [7989,8028]"
-    },
-    {
-      "src": "PREFIX_EXPRESSION_OPERATOR: - [6966,6967]",
-      "dest": "PREFIX_EXPRESSION_OPERATOR: - [6944,6945]"
-    },
-    {
-      "src": "ExpressionStatement [8060,8099]",
-      "dest": "ExpressionStatement [8038,8077]"
-    },
-    {
-      "src": "SimpleType [2850,2878]",
-      "dest": "SimpleType [2828,2856]"
-    },
-    {
-      "src": "NumberLiteral: 0 [6442,6443]",
-      "dest": "NumberLiteral: 0 [6420,6421]"
-    },
-    {
-      "src": "NumberLiteral: 1 [4621,4622]",
-      "dest": "NumberLiteral: 1 [4599,4600]"
-    },
-    {
-      "src": "SimpleName: solve [7924,7929]",
-      "dest": "SimpleName: solve [7902,7907]"
-    },
-    {
-      "src": "VariableDeclarationStatement [1744,1808]",
-      "dest": "VariableDeclarationStatement [1732,1796]"
-    },
-    {
-      "src": "SimpleName: result [5328,5334]",
-      "dest": "SimpleName: result [5306,5312]"
-    },
-    {
-      "src": "Modifier: public [2240,2246]",
-      "dest": "Modifier: public [2228,2234]"
-    },
-    {
-      "src": "MethodDeclaration [4544,4641]",
-      "dest": "MethodDeclaration [4522,4619]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [1786,1806]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [1774,1794]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [4229,4235]",
-      "dest": "METHOD_INVOCATION_RECEIVER [4207,4213]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: <= [6714,6716]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: <= [6692,6694]"
-    },
-    {
-      "src": "NumberLiteral: 0.0 [5313,5316]",
-      "dest": "NumberLiteral: 0.0 [5291,5294]"
-    },
-    {
-      "src": "ExpressionStatement [5358,5402]",
-      "dest": "ExpressionStatement [5336,5380]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [6935,6956]",
-      "dest": "SimpleName: UnivariateSolverUtils [6913,6934]"
-    },
-    {
-      "src": "SimpleName: result [3595,3601]",
-      "dest": "SimpleName: result [3573,3579]"
-    },
-    {
-      "src": "SingleVariableDeclaration [2150,2181]",
-      "dest": "SingleVariableDeclaration [2138,2169]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [5376,5400]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [5354,5378]"
-    },
-    {
-      "src": "Modifier: public [6122,6128]",
-      "dest": "Modifier: public [6100,6106]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3913,3937]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3891,3915]"
-    },
-    {
-      "src": "Dimension [3040,3042]",
-      "dest": "Dimension [3018,3020]"
-    },
-    {
-      "src": "SimpleName: solve [7490,7495]",
-      "dest": "SimpleName: solve [7468,7473]"
-    },
-    {
-      "src": "INFIX_EXPRESSION_OPERATOR: >= [5142,5144]",
-      "dest": "INFIX_EXPRESSION_OPERATOR: >= [5120,5122]"
-    },
-    {
-      "src": "PrimitiveType: double [3672,3678]",
-      "dest": "PrimitiveType: double [3650,3656]"
-    },
-    {
-      "src": "PrimitiveType: void [4441,4445]",
-      "dest": "PrimitiveType: void [4419,4423]"
-    },
-    {
-      "src": "PrefixExpression [3383,3387]",
-      "dest": "PrefixExpression [3361,3365]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [1953,1974]",
-      "dest": "METHOD_INVOCATION_RECEIVER [1941,1962]"
-    },
-    {
-      "src": "SimpleType [5907,5928]",
-      "dest": "SimpleType [5885,5906]"
-    },
-    {
-      "src": "PrimitiveType: double [2495,2501]",
-      "dest": "PrimitiveType: double [2478,2484]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [3532,3535]",
-      "dest": "METHOD_INVOCATION_RECEIVER [3510,3513]"
-    },
-    {
-      "src": "PrimitiveType: void [3002,3006]",
-      "dest": "PrimitiveType: void [2980,2984]"
-    },
-    {
-      "src": "SimpleName: bracket [4497,4504]",
-      "dest": "SimpleName: bracket [4475,4482]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3542,3551]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3520,3529]"
-    },
-    {
-      "src": "MethodInvocation [3585,3605]",
-      "dest": "MethodInvocation [3563,3583]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [4277,4283]",
-      "dest": "METHOD_INVOCATION_RECEIVER [4255,4261]"
-    },
-    {
-      "src": "SimpleName: MathIllegalArgumentException [6082,6110]",
-      "dest": "SimpleName: MathIllegalArgumentException [6060,6088]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [3339,3360]",
-      "dest": "SimpleName: UnivariateSolverUtils [3317,3338]"
-    },
-    {
-      "src": "ExpressionStatement [2930,2973]",
-      "dest": "ExpressionStatement [2908,2951]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [6394,6415]",
-      "dest": "SimpleName: UnivariateSolverUtils [6372,6393]"
-    },
-    {
-      "src": "SimpleName: Override [4882,4890]",
-      "dest": "SimpleName: Override [4860,4868]"
-    },
-    {
-      "src": "Modifier: public [5170,5176]",
-      "dest": "Modifier: public [5148,5154]"
-    },
-    {
-      "src": "SimpleName: accuracy [2502,2510]",
-      "dest": "SimpleName: accuracy [2485,2493]"
-    },
-    {
-      "src": "Modifier: public [1698,1704]",
-      "dest": "Modifier: public [1686,1692]"
-    },
-    {
-      "src": "NumberLiteral: 1 [5145,5146]",
-      "dest": "NumberLiteral: 1 [5123,5124]"
-    },
-    {
-      "src": "NumberLiteral: 3.0 [5859,5862]",
-      "dest": "NumberLiteral: 3.0 [5837,5840]"
-    },
-    {
-      "src": "MethodInvocation [7468,7510]",
-      "dest": "MethodInvocation [7446,7488]"
-    },
-    {
-      "src": "NumberLiteral: 1E-6 [7444,7448]",
-      "dest": "NumberLiteral: 1E-6 [7422,7426]"
-    },
-    {
-      "src": "NumberLiteral: 0 [3555,3556]",
-      "dest": "NumberLiteral: 0 [3533,3534]"
-    },
-    {
-      "src": "NumberLiteral: 0.85 [7608,7612]",
-      "dest": "NumberLiteral: 0.85 [7586,7590]"
-    },
-    {
-      "src": "SimpleName: accuracy [2754,2762]",
-      "dest": "SimpleName: accuracy [2737,2745]"
-    },
-    {
-      "src": "NumberLiteral: 0.5 [3689,3692]",
-      "dest": "NumberLiteral: 0.5 [3667,3670]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [3817,3836]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [3795,3814]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [7147,7168]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7125,7146]"
-    },
-    {
-      "src": "MethodInvocation [3532,3552]",
-      "dest": "MethodInvocation [3510,3530]"
-    },
-    {
-      "src": "NumberLiteral: 0.2 [4157,4160]",
-      "dest": "NumberLiteral: 0.2 [4135,4138]"
-    },
-    {
-      "src": "MethodDeclaration [6457,6769]",
-      "dest": "MethodDeclaration [6435,6747]"
-    },
-    {
-      "src": "NormalAnnotation [2400,2443]",
-      "dest": "NormalAnnotation [2383,2426]"
-    },
-    {
-      "src": "ArrayAccess [3209,3218]",
-      "dest": "ArrayAccess [3187,3196]"
-    },
-    {
-      "src": "SimpleName: result [4247,4253]",
-      "dest": "SimpleName: result [4225,4231]"
-    },
-    {
-      "src": "VariableDeclarationFragment [3043,3118]",
-      "dest": "VariableDeclarationFragment [3021,3096]"
-    },
-    {
-      "src": "NumberLiteral: 0 [3169,3170]",
-      "dest": "NumberLiteral: 0 [3147,3148]"
-    },
-    {
-      "src": "NumberLiteral: 2.0 [3389,3392]",
-      "dest": "NumberLiteral: 2.0 [3367,3370]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [6704,6718]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [6682,6696]"
-    },
-    {
-      "src": "SimpleType [1489,1492]",
-      "dest": "SimpleType [1477,1480]"
-    },
-    {
-      "src": "NumberLiteral: 0.2 [3394,3397]",
-      "dest": "NumberLiteral: 0.2 [3372,3375]"
-    },
-    {
-      "src": "MethodInvocation [7199,7235]",
-      "dest": "MethodInvocation [7177,7213]"
-    },
-    {
-      "src": "SimpleName: result [7032,7038]",
-      "dest": "SimpleName: result [7010,7016]"
-    },
-    {
-      "src": "SimpleName: Test [1865,1869]",
-      "dest": "SimpleName: Test [1853,1857]"
-    },
-    {
-      "src": "NumberLiteral: 0.1 [1797,1800]",
-      "dest": "NumberLiteral: 0.1 [1785,1788]"
-    },
-    {
-      "src": "ExpressionStatement [3799,3838]",
-      "dest": "ExpressionStatement [3777,3816]"
-    },
-    {
-      "src": "ImportDeclaration [1372,1394]",
-      "dest": "ImportDeclaration [1360,1382]"
-    },
-    {
-      "src": "ArrayAccess [3865,3874]",
-      "dest": "ArrayAccess [3843,3852]"
-    },
-    {
-      "src": "TryStatement [1919,2218]",
-      "dest": "TryStatement [1907,2206]"
-    },
-    {
-      "src": "ArrayAccess [6747,6756]",
-      "dest": "ArrayAccess [6725,6734]"
-    },
-    {
-      "src": "SimpleName: assertTrue [3425,3435]",
-      "dest": "SimpleName: assertTrue [3403,3413]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [4348,4351]",
-      "dest": "METHOD_INVOCATION_RECEIVER [4326,4329]"
-    },
-    {
-      "src": "METHOD_INVOCATION_ARGUMENTS [5266,5282]",
-      "dest": "METHOD_INVOCATION_ARGUMENTS [5244,5260]"
-    },
-    {
-      "src": "MemberValuePair [5724,5767]",
-      "dest": "MemberValuePair [5702,5745]"
-    },
-    {
-      "src": "SimpleName: f [7069,7070]",
-      "dest": "SimpleName: f [7047,7048]"
-    },
-    {
-      "src": "NumberLiteral: 0.2 [3775,3778]",
-      "dest": "NumberLiteral: 0.2 [3753,3756]"
-    },
-    {
-      "src": "InfixExpression [4295,4319]",
-      "dest": "InfixExpression [4273,4297]"
-    },
-    {
-      "src": "MethodInvocation [1587,1630]",
-      "dest": "MethodInvocation [1575,1618]"
-    },
-    {
-      "src": "VariableDeclarationStatement [2684,2764]",
-      "dest": "VariableDeclarationStatement [2667,2747]"
-    },
-    {
-      "src": "ASSIGNMENT_OPERATOR: = [7359,7360]",
-      "dest": "ASSIGNMENT_OPERATOR: = [7337,7338]"
-    },
-    {
-      "src": "SimpleName: UnivariateSolverUtils [3720,3741]",
-      "dest": "SimpleName: UnivariateSolverUtils [3698,3719]"
-    },
-    {
-      "src": "VariableDeclarationFragment [6837,6862]",
-      "dest": "VariableDeclarationFragment [6815,6840]"
-    },
-    {
-      "src": "InfixExpression [6747,6761]",
-      "dest": "InfixExpression [6725,6739]"
-    },
-    {
-      "src": "SimpleName: initial [3755,3762]",
-      "dest": "SimpleName: initial [3733,3740]"
-    },
-    {
-      "src": "METHOD_INVOCATION_RECEIVER [7041,7062]",
-      "dest": "METHOD_INVOCATION_RECEIVER [7019,7040]"
-    },
-    {
-      "src": "PrimitiveType: double [3702,3708]",
-      "dest": "PrimitiveType: double [3680,3686]"
-    },
-    {
-      "src": "SimpleName: sin [3369,3372]",
-      "dest": "SimpleName: sin [3347,3350]"
-    },
-    {
-      "src": "SimpleName: Test [6536,6540]",
-      "dest": "SimpleName: Test [6514,6518]"
-    },
-    {
-      "src": "MethodDeclaration [6067,6250]",
-      "dest": "MethodDeclaration [6045,6228]"
+      "src": "MethodInvocation [2314,2349]",
+      "dest": "MethodInvocation [2314,2349]"
     }
   ],
   "actions": [
     {
       "action": "update-node",
-      "tree": "QualifiedName: org.apache.commons.math4.legacy.core.jdkmath.AccurateMath [1288,1345]",
-      "label": "org.apache.commons.math4.core.jdkmath.JdkMath"
+      "tree": "QualifiedName: org.apache.commons.math3.stat.descriptive [811,852]",
+      "label": "org.apache.commons.math4.stat.descriptive"
     },
     {
       "action": "update-node",
-      "tree": "QualifiedName: AccurateMath.PI [2360,2375]",
-      "label": "JdkMath.PI"
+      "tree": "QualifiedName: org.apache.commons.math3.exception.MathIllegalArgumentException [863,926]",
+      "label": "org.apache.commons.math4.exception.MathIllegalArgumentException"
     },
     {
       "action": "update-node",
-      "tree": "QualifiedName: AccurateMath.PI [2793,2808]",
-      "label": "JdkMath.PI"
+      "tree": "QualifiedName: org.apache.commons.math3.stat.descriptive.moment.Mean [935,988]",
+      "label": "org.apache.commons.math4.stat.descriptive.moment.Mean"
     }
   ]
 }

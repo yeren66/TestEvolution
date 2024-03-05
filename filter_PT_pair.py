@@ -23,10 +23,17 @@ def run_git_command(command):
         logging.error(f"Error running command {' '.join(command)}: {e}")
         return None
 
-def read_json(file):
+def read_json_low(file):
     with open(file, 'r') as f:
         data = json.load(f)
     return data
+
+def read_json(file_path):
+    PT_pairs = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            PT_pairs.append(json.loads(line.strip()))
+    return PT_pairs
 
 def extract_start_end_line(text):
     pattern = r"\[(\d+),(\d+)\]"
@@ -263,14 +270,16 @@ def strategy_5(json_block, product_change_actions, test_change_actions, refactor
     
 
 if __name__ == "__main__":
-    input_dir = "/Users/mac/Desktop/TestEvolution/common-math_output"
-    project_path = "/Users/mac/Desktop/commons-math"
+    # input_dir = "/Users/mac/Desktop/TestEvolution/common-math_output" # mac
+    input_dir = "/home/yeren/TestEvolution/commons-math_output"
+    # project_path = "/Users/mac/Desktop/commons-math" # mac
+    project_path = "/home/yeren/java-project/commons-math"
     current_path = os.getcwd()
     old_path = os.path.join(temp_folder, "temp_old.java")
     new_path = os.path.join(temp_folder, "temp_new.java")
     target_path = os.path.join(temp_folder, "temp_target.json")
     refactoring_path = os.path.join(temp_folder, "temp_refactoring.json")
-    data = read_json(input_dir + "/samples.json")
+    data = read_json(input_dir + "/samples.jsonl")
     for json_block in tqdm(data):
         os.chdir(current_path)
         tag = json_block["tag"]
@@ -300,7 +309,7 @@ if __name__ == "__main__":
             # print(f"Error running command {' '.join(command)}: {e}")
             logging.error(f"Error running command {' '.join(command)}: {e}")
             continue
-        product_change_actions = read_json(target_path)["actions"]
+        product_change_actions = read_json_low(target_path)["actions"]
         with open(old_path, "w") as file:
             file.write(test_old_content)
         with open(new_path, "w") as file:
@@ -313,7 +322,7 @@ if __name__ == "__main__":
             # print(f"Error running command {' '.join(command)}: {e}")
             logging.error(f"Error running command {' '.join(command)}: {e}")
             continue
-        test_change_actions = read_json(target_path)["actions"]
+        test_change_actions = read_json_low(target_path)["actions"]
         
         command = f"./RefactoringMiner-3.0.4/bin/RefactoringMiner -c {project_path} {test_commit} -json {refactoring_path}"
         try:
@@ -323,7 +332,7 @@ if __name__ == "__main__":
             # print(f"Error running command {' '.join(command)}: {e}")
             logging.error(f"Error running command {' '.join(command)}: {e}")
             continue
-        refactorings = read_json(refactoring_path)["commits"][0]["refactorings"]
+        refactorings = read_json_low(refactoring_path)["commits"][0]["refactorings"]
 
         if tag == "negative":
             strategy_1(json_block, product_change_actions, test_change_actions, project_path)
