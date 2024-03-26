@@ -44,6 +44,7 @@
  * 25-Apr-2016 : Update testClone() (DG);
  *
  */
+package org.apache.commons.math4.stat.descriptive;
 
 package org.jfree.chart.renderer;
 

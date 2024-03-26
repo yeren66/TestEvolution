@@ -70,7 +70,6 @@ def test_product_code_filter(change_file_path, related_product_file_path):
 #             return True
 #     return False
 
-
 def save_PT_pair_low(json_block, output_file_path):
     if os.path.exists(output_file_path):
         with open(output_file_path, 'r') as file:
