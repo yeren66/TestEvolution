@@ -1,98 +1,78 @@
 import json
-import subprocess
-import os
 import difflib
+import os
+import find_commit_hash_in_range
 
-output_path = "manual_watch"
-output_path_2 = "manual_watch_n"
-if not os.path.exists(output_path):
-    os.makedirs(output_path)
-if not os.path.exists(output_path_2):
-    os.makedirs(output_path_2)
+project_name = "jfreechart"
 
-positive_sample_path = "common-math_output2/positive_samples.json"
-negative_sample_path = "common-math_output2/negative_samples.json"
-with open(positive_sample_path, "r") as file:
-    positive_samples = json.load(file)
-with open(negative_sample_path, "r") as file:
-    negative_samples = json.load(file)
+# 路径可能需要根据你的json文件位置进行修改
+json_file_path = f'{project_name}_output/filter.json'
 
-# project_path = "/Users/mac/Desktop/commons-math"
-# os.chdir(project_path)
+# java -jar gumtree.jar textdiff temp/temp_old.java temp/temp_new.java -f JSON -o temp/temp.json
 
-index = 0
-# for index in range(len(positive_samples)):
-#     product_commit = positive_samples[index]["product_commit"]
-#     test_commit = positive_samples[index]["test_commit"]
-#     product_file_path = positive_samples[index]["product_file_path"]
-#     test_file_path = positive_samples[index]["test_file_path"]
-#     product_old_content = positive_samples[index]["product_old_content"]
-#     product_new_content = positive_samples[index]["product_new_content"]
-#     test_old_content = positive_samples[index]["test_old_content"]
-#     test_new_content = positive_samples[index]["test_new_content"]
 
-#     def run_git_command(command):
-#         """运行 Git 命令并返回输出"""
-#         try:
-#             result = subprocess.run(command, capture_output=True, text=True, check=True)
-#             return result.stdout.strip()
-#         except subprocess.CalledProcessError as e:
-#             print(f"Error running command {' '.join(command)}: {e}")
-#             return None
-        
-#     # product_change = run_git_command(["git", "show", f"{product_commit}:{product_file_path}"])
-#     # test_change = run_git_command(["git", "diff", f"{test_commit}^ {test_commit} -- {test_file_path}"])
-        
-#     try:
-#         diff = difflib.unified_diff(product_old_content.splitlines(), product_new_content.splitlines(), lineterm='')
-#         product_change = '\n'.join(list(diff))
+# 读取JSON文件
+with open(json_file_path, 'r') as file:
+    data = json.load(file)
 
-#         diff = difflib.unified_diff(test_old_content.splitlines(), test_new_content.splitlines(), lineterm='')
-#         test_change = '\n'.join(list(diff))
+index_negative = 0
+index_positive = 0
+null_number = 0
+project_path = f"/home/yeren/java-project/{project_name}"
+output_dir = f"/home/yeren/TestEvolution/{project_name}_output"
+currrent_path = os.getcwd()
 
-#         with open(os.path.join(output_path, str(index) + "_product_change.diff"), "w") as file:
-#             file.write(product_change)
-#         with open(os.path.join(output_path, str(index) + "_test_change.diff"), "w") as file:
-#             file.write(test_change)
-#     except Exception as e:
-#         print(e)
-#         print(f"Error running command: {product_commit} {test_commit} {product_file_path} {test_file_path}")
-#         continue
+# 创建文件夹
+os.makedirs(os.path.join(output_dir, 'positive_output'), exist_ok=True)
+os.makedirs(os.path.join(output_dir, 'negative_output'), exist_ok=True)
 
-for index in range(len(negative_samples)):
-    product_commit = negative_samples[index]["product_commit"]
-    test_commit = negative_samples[index]["test_commit"]
-    product_file_path = negative_samples[index]["product_file_path"]
-    test_file_path = negative_samples[index]["test_file_path"]
-    product_old_content = negative_samples[index]["product_old_content"]
-    product_new_content = negative_samples[index]["product_new_content"]
-    test_old_content = negative_samples[index]["test_old_content"]
-    test_new_content = negative_samples[index]["test_new_content"]
-
-    def run_git_command(command):
-        """运行 Git 命令并返回输出"""
-        try:
-            result = subprocess.run(command, capture_output=True, text=True, check=True)
-            return result.stdout.strip()
-        except subprocess.CalledProcessError as e:
-            print(f"Error running command {' '.join(command)}: {e}")
-            return None
-        
-    # product_change = run_git_command(["git", "show", f"{product_commit}:{product_file_path}"])
-    # test_change = run_git_command(["git", "diff", f"{test_commit}^ {test_commit} -- {test_file_path}"])
-        
+# 处理每个元素
+for index, item in enumerate(data):
+    tag = item['tag']
+    product_commit = item['product_commit']
+    test_commit = item['test_commit']
+    os.chdir(project_path)
+    product_time = find_commit_hash_in_range.get_commit_date(product_commit)
+    test_time = find_commit_hash_in_range.get_commit_date(test_commit)
+    os.chdir(currrent_path)
+    date_format = "%Y-%m-%d_%H:%M"
+    product_time_str = product_time.strftime(date_format)
+    test_time_str = test_time.strftime(date_format)
+    product_path = item['product_file_path']
+    test_path = item['test_file_path']
     try:
-        diff = difflib.unified_diff(product_old_content.splitlines(), product_new_content.splitlines(), lineterm='')
-        product_change = '\n'.join(list(diff))
-
-        diff = difflib.unified_diff(test_old_content.splitlines(), test_new_content.splitlines(), lineterm='')
-        test_change = '\n'.join(list(diff))
-
-        with open(os.path.join(output_path_2, str(index) + "_product_change.diff"), "w") as file:
-            file.write(product_change)
-        with open(os.path.join(output_path_2, str(index) + "_test_change.diff"), "w") as file:
-            file.write(test_change)
-    except Exception as e:
-        print(e)
-        print(f"Error running command: {product_commit} {test_commit} {product_file_path} {test_file_path}")
+        product_old_content = item['product_old_content'].splitlines()
+        product_new_content = item['product_new_content'].splitlines()
+        test_old_content = item['test_old_content'].splitlines()
+        test_new_content = item['test_new_content'].splitlines()
+    except:
+        null_number += 1
+        # print(f"null content in tag {tag}")
         continue
+
+    # 生成差异
+    product_diff = list(difflib.unified_diff(product_old_content, product_new_content, lineterm=''))
+    test_diff = list(difflib.unified_diff(test_old_content, test_new_content, lineterm=''))
+
+    # 保存差异文件
+    product_path_handle = '_'.join(product_path[:-5].split('/'))
+    test_path_handle = '_'.join(test_path[:-5].split('/'))
+    if tag == 'positive':
+        output_folder = os.path.join(output_dir, 'positive_output') 
+        index_positive += 1 
+        with open(f'{output_folder}/{index_positive}_product_{product_time_str}.diff', 'w') as file:
+            file.write(f'{product_commit}\n{product_path}\n' + '\n'.join(product_diff))
+        with open(f'{output_folder}/{index_positive}_test_{test_time_str}.diff', 'w') as file:
+            file.write(f'{test_commit}\n{test_path}\n' + '\n'.join(test_diff))
+    else:
+        output_folder = os.path.join(output_dir, 'negative_output')
+        index_negative += 1
+        with open(f'{output_folder}/{index_negative}_product_{product_time_str}.diff', 'w') as file:
+            file.write(f'{product_commit}\n{product_path}\n' + '\n'.join(product_diff))
+        with open(f'{output_folder}/{index_negative}_test_{test_time_str}.diff', 'w') as file:
+            file.write(f'{test_commit}\n{test_path}\n' + '\n'.join(test_diff))
+
+
+print(f"positive number: {index_positive}")
+print(f"negative number: {index_negative}")
+print(f"number of null content: {null_number}")

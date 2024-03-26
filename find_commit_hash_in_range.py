@@ -16,6 +16,8 @@ def run_git_command(command):
 
 def get_commit_date(commit_hash):
     """获取指定 commit 的提交日期"""
+    if commit_hash == "":
+        return None
     command = ["git", "show", "-s", "--format=%ci", commit_hash]
     commit_date_str = run_git_command(command)
     if commit_date_str:
@@ -25,13 +27,16 @@ def get_commit_date(commit_hash):
 
 def find_commits_after_date(start_date, end_date=None):
     """查找在指定日期之后（和可选的结束日期之前）的所有 commits"""
-    date_format = "%Y-%m-%d %H:%M"
+    date_format = "%Y-%m-%d %H:%M:%S %z"
     since_date_str = start_date.strftime(date_format)
-    command = ["git", "log", "--after", since_date_str, "--format=%H"]
+    command = ["git", "log", "--since", since_date_str, "--format=%H"]
     if end_date:
         until_date_str = end_date.strftime(date_format)
-        command.extend(["--before", until_date_str])
-    return run_git_command(command).split('\n')
+        command.extend(["--until", until_date_str])
+    ret = run_git_command(command)
+    if ret == '':
+        return []
+    return ret.split('\n')
 
 def find_commits(commit_hash, hours_after, hours_until=None):
     start_date = get_commit_date(commit_hash)
@@ -65,11 +70,13 @@ if __name__ == "__main__":
     # hours_until = int(sys.argv[3]) if len(sys.argv) == 4 else None
     # main(commit_hash, hours_after, hours_until)
 
-    path = "/Users/mac/Desktop/Java"
+    # path = "/Users/mac/Desktop/Java"
+    path = "/home/yeren/java-project/nrtsearch"
     os.chdir(path)
 
     # commit_hash = '05ca93eace893a75e886a19739778a67bd3a18bc'
-    commit_hash = '14b3f45f9f32df108de5d0eace624f23d6bbe1bf'
+    commit_hash = '6212a2c5f822a575b3da6baaf26b3d282801c759'
     hours_after = 0
-    hours_until = 1200
-    find_commits(commit_hash, hours_after, hours_until)
+    hours_until = 120
+    a = find_commits(commit_hash, hours_after, hours_until)
+    print(a)

@@ -23,3 +23,12 @@ git show [commit hash] -- [file_path]，获取当前版本有关该路径文件�
 
 Java项目存在一些缺陷，为此使用了commons-math项目，就目前观察的输出结果而言，
 index为7，13，20是明显的正样本，而index为8，9，10是看不出相关性的样本
+
+nrtsearch: 
+positive_output中存在的负样本（前100个）：11、12、41、45（待定）、48、58、78、99
+
+apollo:
+positive_output中存在的负样本（前100个）：17、27、57、59、63、69、75、76、77、87、92
+
+jfreechart:
+positive_output中存在的负样本：6、10、11、12、13、14

@@ -1,106 +1,97 @@
-import requests
+import subprocess
+import os
 import json
 import re
-from tqdm import tqdm
+from datetime import datetime
 
-headers = {'User-Agent':'Mozilla/5.0',
-        'Authorization': 'token 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',
-        'Content-Type':'application/json',
-        'Accept':'application/json'
-        }
+def save_git_log_to_file(repo_path):
+    # 保存当前目录路径
+    original_path = os.getcwd()
 
-def save_to_file(content, filename="result.json"):
-    with open(filename, "w") as f:
-        f.write(json.dumps(content, indent=4))
-
-def get_java_repositories_with_stars(page=1):
-    url = "https://api.github.com/search/repositories"
-    params = {
-        "q": "language:java stars:>10",
-        "sort": "stars",
-        "order": "desc",
-        "page": page,
-        "per_page": "100"
-    }
-    response = requests.get(url, params=params, headers=headers)
-    if response.status_code == 200:
-        return response.json()["items"]
-    else:
-        print("Error: Failed to fetch repositories")
-        return []
-    
-def get_commit_count_with_regex(url):
     try:
-        # 发送 GET 请求到 URL
-        response = requests.get(url)
-        # 检查响应是否成功
-        if response.status_code == 200:
-            # 使用正则表达式查找提交计数
-            match = re.search(r'"commitCount":"([\d,]+)"', response.text)
-            if match:
-                # Extract the commit count and remove commas
-                commit_count = match.group(1).replace(',', '')
-                commit_count_number = int(commit_count)
-            else:
-                commit_count_number = "Commit count not found in the file."
-            return commit_count_number
-        else:
-            return f"无法从 URL 获取响应，状态码: {response.status_code}"
-    except Exception as e:
-        return f"发生错误: {e}"
+        # 切换到Java项目的目录
+        os.chdir(repo_path)
 
-def size_filter(repo):
-    if repo["size"] > 1000 and repo["size"] < 1000000:
-        return True
-    return False
+        # 使用subprocess调用git log命令
+        process = subprocess.Popen(["git", "log"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-def commit_count_filter(repo):
-    url = repo['html_url']
-    commit_count = get_commit_count_with_regex(url)
-    if type(commit_count) == int and commit_count >= 500:
-        return True
-    return False
+        # 读取输出
+        stdout, stderr = process.communicate()
 
-def has_pom_file_filter(repo):
-    url = repo["contents_url"].replace("{+path}", "")
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
-        files = response.json()
-        for file in files:
-            if file["name"] == "pom.xml":
-                return True
-    return False
+        # 如果出错，打印错误信息
+        if process.returncode != 0:
+            os.chdir(original_path)
+            print(f"Error: {stderr.decode('utf-8')}")
+            return
 
-# def filter_pom_file(url):
-#     response = requests.get(url, headers=headers)
-#     txt = ""
-#     if response.status_code == 200:
-#         txt = response.text
-#     pattern = r'junit'
-#     match = re.search(pattern, txt)
-#     if match:
-#         return True
-#     return False
+    finally:
+        # 无论如何都回到原来的目录
+        os.chdir(original_path)
 
+    return stdout.decode('utf-8')
 
+def parse_git_log(log_text):
+
+    commits = []
+    # 使用正则表达式分割提交
+    for commit_block in re.split(r'\ncommit ', log_text.strip()):
+        if not commit_block.strip():
+            continue
+        lines = commit_block.split('\n')
+        commit_hash = lines[0].strip()
+        merge_line = None
+        author_line = None
+        date_line = None
+        message_lines = []
+
+        # 处理每行，提取必要信息
+        for i, line in enumerate(lines[1:]):
+            if line.startswith('Merge:'):
+                merge_line = line.strip()
+            elif line.startswith('Author:'):
+                author_line = line.strip()
+            elif line.startswith('Date:'):
+                date_line = line.strip()
+            elif i > 0:  # 消息开始于日期行之后
+                message_lines.append(line.strip())
+
+        # 提取作者和日期
+        if author_line and date_line:
+            author_match = re.search(r'Author: (.*)', author_line)
+            date_match = re.search(r'Date:   (.*)', date_line)
+            author = author_match.group(1) if author_match else None
+            date_str = date_match.group(1).strip() if date_match else None
+
+            # 转换日期字符串为日期对象
+            try:
+                date = datetime.strptime(date_str, '%a %b %d %H:%M:%S %Y %z')
+            except ValueError as e:
+                print(f"Error parsing date: {date_str} - {e}")
+                continue
+
+            # 构建commit字典
+            commit = {
+                'commit': commit_hash,
+                'merge': merge_line,
+                'author': author,
+                'date': date.isoformat(),
+                'message': '\n'.join(message_lines)
+            }
+
+            commits.append(commit)
+
+    json_output = json.dumps(commits, indent=4)
+
+    return json_output
+
+def handle_git_log(repo_path):
+    log_text = save_git_log_to_file(repo_path)
+    json_output = parse_git_log(log_text)
+    return json_output
 
 if __name__ == "__main__":
-    repositories = []
-    for page in tqdm(range(1, 50)):
-        repositories.extend(get_java_repositories_with_stars(page))
-    filtered_repositories = list(filter(commit_count_filter, repositories))
-    filtered_repositories = list(filter(has_pom_file_filter, filtered_repositories))
-    print("Total repositories:", len(repositories))
-    print("Filtered repositories:", len(filtered_repositories))
-    # save_to_file(filtered_repositories)
-    # result = []
-    # for repo in tqdm(filtered_repositories):
-    #     try:
-    #         url = has_pom_file(repo)
-    #         if url:
-    #             # if filter_pom_file(url):
-    #             result.append(repo['html_url'])
-    #     except:
-    #         continue
-    # save_to_file(result, "result1.json")
-    save_to_file(filtered_repositories, "result1.json")
+    repo_path = "/home/yeren/java-project/commons-math"
+    json_output = handle_git_log(repo_path)
+    output_json_path = 'parsed_git_log111.json'
+    with open(output_json_path, 'w') as json_file:
+        json_file.write(json_output)

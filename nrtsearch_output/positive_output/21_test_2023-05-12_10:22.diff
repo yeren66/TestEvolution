@@ -1,0 +1,38 @@
+e750b96154aff11d3d17a50a29aa2bc88a89b965
+src/test/java/com/yelp/nrtsearch/server/luceneserver/search/collectors/additional/TermsCollectorManagerTest.java
+--- 
++++ 
+@@ -18,6 +18,7 @@
+ import static org.junit.Assert.assertEquals;
+ import static org.junit.Assert.fail;
+ 
++import com.yelp.nrtsearch.server.collectors.BucketOrder;
+ import com.yelp.nrtsearch.server.grpc.FieldDefRequest;
+ import com.yelp.nrtsearch.server.grpc.TermsCollector;
+ import com.yelp.nrtsearch.server.luceneserver.IndexState;
+@@ -51,7 +52,11 @@
+           TermsCollector.newBuilder().setField("not_exist").setSize(10).build();
+       try {
+         TermsCollectorManager.buildManager(
+-            "test_collector", termsCollector, context, Collections.emptyMap());
++            "test_collector",
++            termsCollector,
++            context,
++            Collections.emptyMap(),
++            BucketOrder.DEFAULT_ORDER);
+         fail();
+       } catch (IllegalArgumentException e) {
+         assertEquals("Unknown field: not_exist", e.getMessage());
+@@ -76,7 +81,11 @@
+           TermsCollector.newBuilder().setField("no_doc_values").setSize(10).build();
+       try {
+         TermsCollectorManager.buildManager(
+-            "test_collector", termsCollector, context, Collections.emptyMap());
++            "test_collector",
++            termsCollector,
++            context,
++            Collections.emptyMap(),
++            BucketOrder.DEFAULT_ORDER);
+         fail();
+       } catch (IllegalArgumentException e) {
+         assertEquals(

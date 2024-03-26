@@ -1,0 +1,52 @@
+c09c2b3a42227c3fe60ca9f8ca6fe5ee7c72a69a
+src/main/java/com/yelp/nrtsearch/server/luceneserver/index/ImmutableIndexState.java
+--- 
++++ 
+@@ -393,7 +393,7 @@
+ 
+     // only create if the index has not been committed
+     for (ShardState shard : shards.values()) {
+-      shard.setDoCreate(!currentStateInfo.getCommitted());
++      shard.setDoCreate(!currentStateInfo.getCommitted() && dataPath == null);
+     }
+ 
+     // start all local shards
+@@ -484,11 +484,6 @@
+   }
+ 
+   @Override
+-  public void addField(FieldDef fd, JsonObject jsonObject) {
+-    throw new UnsupportedOperationException();
+-  }
+-
+-  @Override
+   public FieldDef getField(String fieldName) {
+     FieldDef fd = getMetaFields().get(fieldName);
+     if (fd != null) {
+@@ -567,11 +562,6 @@
+   @Override
+   public FacetsConfig getFacetsConfig() {
+     return fieldAndFacetState.getFacetsConfig();
+-  }
+-
+-  @Override
+-  public ShardState addShard(int shardOrd, boolean doCreate) {
+-    throw new UnsupportedOperationException();
+   }
+ 
+   @Override
+@@ -828,12 +818,12 @@
+ 
+   @Override
+   public void addSuggest(String name, JsonObject o) {
+-    throw new UnsupportedOperationException("Suggesters only supported by LEGACY state backend");
++    throw new UnsupportedOperationException();
+   }
+ 
+   @Override
+   public Map<String, Lookup> getSuggesters() {
+-    throw new UnsupportedOperationException("Suggesters only supported by LEGACY state backend");
++    throw new UnsupportedOperationException();
+   }
+ 
+   @Override

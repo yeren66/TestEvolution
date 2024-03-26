@@ -1,2 +1,9 @@
 {
 "commits": [
+{
+	"repository": "https://github.com/jfree/jfreechart.git",
+	"sha1": "8841a7e256b32cf2ef31efece9c5110df657e043",
+	"url": "https://github.com/jfree/jfreechart/commit/8841a7e256b32cf2ef31efece9c5110df657e043",
+	"refactorings": []
+}]
+}

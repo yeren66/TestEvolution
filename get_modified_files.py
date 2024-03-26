@@ -24,8 +24,11 @@ def get_changed_files(commit_hash):
 
 def get_file_content(commit_hash, file_path):
     """保存指定 commit 中文件的内容到目录中"""
-    old_file_content = run_git_command(["git", "show", f"{commit_hash}^:{file_path}"])
-    new_file_content = run_git_command(["git", "show", f"{commit_hash}:{file_path}"])
+    try:
+        old_file_content = run_git_command(["git", "show", f"{commit_hash}^:{file_path}"])
+        new_file_content = run_git_command(["git", "show", f"{commit_hash}:{file_path}"])
+    except:
+        return None
     if old_file_content is None and new_file_content is None:
         return None
     

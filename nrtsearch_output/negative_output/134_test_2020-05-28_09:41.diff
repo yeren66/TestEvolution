@@ -1,0 +1,15 @@
+1fd65e2aa980b19e94c2976d37b602a66fe66ef9
+src/test/java/com/yelp/nrtsearch/server/grpc/LuceneServerTest.java
+--- 
++++ 
+@@ -76,7 +76,9 @@
+         String testIndex = "test_index";
+         LuceneServerConfiguration luceneServerConfiguration = LuceneServerTestConfigurationFactory.getConfig(Mode.STANDALONE);
+         GlobalState globalState = new GlobalState(luceneServerConfiguration);
+-        return new GrpcServer(collectorRegistry, grpcCleanup, folder, false, globalState, luceneServerConfiguration.getIndexDir(), testIndex, globalState.getPort(), null);
++        return new GrpcServer(
++                collectorRegistry, grpcCleanup, folder, false, globalState, luceneServerConfiguration.getIndexDir(), testIndex, globalState.getPort(), null, Collections.emptyList()
++        );
+     }
+ 
+     @Test

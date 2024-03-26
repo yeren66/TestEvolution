@@ -1,0 +1,69 @@
+{
+  "matches": [
+    {
+      "src": "ImportDeclaration [202,251]",
+      "dest": "ImportDeclaration [202,259]"
+    },
+    {
+      "src": "ImportDeclaration [253,311]",
+      "dest": "ImportDeclaration [261,319]"
+    },
+    {
+      "src": "CompilationUnit [0,375]",
+      "dest": "CompilationUnit [0,464]"
+    },
+    {
+      "src": "QualifiedName: com.ctrip.framework.apollo.common.exception.BadRequestException [72,135]",
+      "dest": "QualifiedName: com.ctrip.framework.apollo.common.exception.BadRequestException [72,135]"
+    },
+    {
+      "src": "QualifiedName: com.ctrip.framework.apollo.common.entity.AppNamespace [9,62]",
+      "dest": "QualifiedName: com.ctrip.framework.apollo.common.entity.AppNamespace [9,62]"
+    },
+    {
+      "src": "ImportDeclaration [313,374]",
+      "dest": "ImportDeclaration [321,382]"
+    },
+    {
+      "src": "ImportDeclaration [2,63]",
+      "dest": "ImportDeclaration [2,63]"
+    },
+    {
+      "src": "QualifiedName: com.ctrip.framework.apollo.core.enums.ConfigFileFormat [145,199]",
+      "dest": "QualifiedName: com.ctrip.framework.apollo.core.enums.ConfigFileFormat [145,199]"
+    },
+    {
+      "src": "QualifiedName: com.ctrip.framework.apollo.portal.api.AdminServiceAPI [320,373]",
+      "dest": "QualifiedName: com.ctrip.framework.apollo.portal.api.AdminServiceAPI [328,381]"
+    },
+    {
+      "src": "QualifiedName: com.ctrip.framework.apollo.portal.AbstractUnitTest [260,310]",
+      "dest": "QualifiedName: com.ctrip.framework.apollo.portal.AbstractUnitTest [268,318]"
+    },
+    {
+      "src": "ImportDeclaration [138,200]",
+      "dest": "ImportDeclaration [138,200]"
+    },
+    {
+      "src": "QualifiedName: com.ctrip.framework.apollo.core.enums.Env [209,250]",
+      "dest": "QualifiedName: com.ctrip.framework.apollo.portal.environment.Env [209,258]"
+    },
+    {
+      "src": "ImportDeclaration [65,136]",
+      "dest": "ImportDeclaration [65,136]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "ImportDeclaration [384,464]",
+      "parent": "CompilationUnit [0,464]",
+      "at": 6
+    },
+    {
+      "action": "update-node",
+      "tree": "QualifiedName: com.ctrip.framework.apollo.core.enums.Env [209,250]",
+      "label": "com.ctrip.framework.apollo.portal.environment.Env"
+    }
+  ]
+}
